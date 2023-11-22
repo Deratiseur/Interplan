@@ -1,0 +1,16 @@
+@9001 = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@11 = ~Poudre de fée~
+@12 = ~Cette fiole de terre cuite contient de la fine poudre de fée.
+Ce précieux composant doit pouvoir être utilisé pour de nombreuses manipulations magiques.
+Il est aussi possible de le lancer, auquel cas en se fracassant il provoquera sur la zone l'effet du sort "poussière féerique".~
+@33 = ~L'interplan, Articles magiques~
+@34 = ~Agenor Parcilofann~
+@35 = ~L'interplan~
+@36 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
+@37 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@40 = ~Vashir al'Maedissir~
+@41 = ~Bouteille du génie~
+@42 = ~Cette bouteille est la maison (ou la prison ?) d'un génie. Qui sait ce que cette créature de grande puissance peut vous offrir si vous ouvrez le bouchon qui la retient ?
+
+Capacité spéciale : Invoque le génie de la bouteille une fois par jour.~

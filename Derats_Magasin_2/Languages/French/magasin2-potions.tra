@@ -1,0 +1,58 @@
+@701 = ~Potion de furie guerrière~ // prix 1000
+@702 = ~Cette potion fait entrer le consommateur dans une rage guerrière similaire à celle d'un berserk. Il gagne de multiples immunités et une attaque supplémentaire par round. Par contre il y a deux effets néfastes accompagnant la consommation de cette potion : un malus de -2 à la classe d'armure du à une frénésie combative incontrôlée, et 1% de chance à chaque attaque faite de sombrer dans un état de furie incontrôlable, le buveur s'en prenant alors sans distinction à n'importe quelle créature ou personne simplement proche de lui. Les effets de cette potion durent 5 tours.~
+
+@703 = ~Potion de désenchantement~ // prix 650
+@704 = ~Cette potion contient une langue de désenchanteur. Quiconque la boit voit tous les effets magiques et malédictions l'affectant dissipés, sans limite de niveau.~
+
+@705 = ~Potion de bonne fortune~ // prix 750
+@706 = ~Cette potion rend le buveur particulièrement chanceux. Il gagne pour 5 tours +2 à la chance, et a 50% de chance que la potion dure 5 tours de plus, avec alors +1 à la chance.~
+
+@707 = ~Eau positive~ // prix 1200
+@708 = ~Cette bouteille renferme de l'eau pure puisée sur le plan positif. Une fois consommée, elle guéri le buveur de 50 points de vie et lui donne 10 points de vie supplémentaires ainsi que la protection contre le plan négatif et la mort pendant 10 tours.~
+
+@709 = ~Tord-boyaux du sage~ // prix 600
+@7010 = ~Cet alcool fort préparé avec des épices et céréales originaires de contrées lointaines confère à celui les effets du sort "Vision instinctive d'Achitoza" (+3 au toucher en mêlée, +2 aux dégâts et +1 à la classe d'armure et aux chances de coup critique) pendant 5 tours.~
+
+@7011 = ~Pyramide sacrée~ // prix 800
+@7012 = ~Ce puissant charme, fabriqué principalement à Principalité, concentre assez de puissance pour contenir 3 sorts. Pour l'utiliser, il faut le faire fondre entre les 2 mains (il s'effrite rapidement), après quoi l'utilisateur bénéficie de Faveur divine, Armure de la foi et Puissance sacrée pour une durée de 2 tours.~
+
+@7013 = ~Bois enchanté~ // prix 600
+@7014 = ~Ce charme permet de faire appel à la puissance de la nature. Pour activer son pouvoir il faut le casser en deux, après quoi il permet de convoquer des insectes, ou des animaux, ou une dryade pour une durée de 2 tours.~
+
+@7015 = ~Potion de libération des sens~ // prix 500
+@7016 = ~Cette potion libère tous les sens le buveur, et les protège contre toute obstruction pendant 10 Tours. Cécité, surdité, silence et paralysie sont dissipés, et le buveur gagne action libre  et protection contre la cécité, la surdité et le silence.~
+
+@7017 = ~Potion d'invisibilité majeure~ //prix 600
+@7018 = ~Cette potion confère une invisibilité similaire au sort de mage de quatrième niveau. Le destinataire peut attaquer ou en jeter un sort tout en restant invisible. Les attaques contre le personnage invisible sont sanctionnées d'une pénalité de -4 aux jets d'attaque, tandis que les jets de sauvegarde du personnage invisible bénéficient d'un bonus de + 4. Remarque : après une attaque, le mage n'est plus totalement invisible. L'ennemi peut alors le viser.
+Les effets de cette potion perdurent pendant 4 tours.~
+
+@7019 = ~Mémoire en bouteille~ //prix 500
+@7020 = ~Cet élixir magique permet au consommateur s'il est mage de se remémorer un sort de niveau 3 à 5. Il n'a aucun effet sur un non-initié aux arcanes.~
+
+@7021 = ~Mousse verte~ //prix 1200
+@7022 = ~Cette mousse toxique (à utiliser avec des gants) peut être appliquée sur une arme de mêlée pour qu'elle empoisonne la cible frappée. Le poison inoculé est semblable à celui de l'assassin : 1 point de dégât infligé par seconde pendant 1 round, étendu jusqu’à 4 rounds en cas de jet de sauvegarde raté contre la mort. Il a de quoi faire 10 applications dans le pot.~
+
+@7023 = ~Miroir de duplication~ //prix 1000
+@7024 = ~Ce petit charme contient un puissant enchantement capable de dupliquer l'utilisateur. Pour l'utiliser, il faut le casser en deux, après quoi un Simulacre de l'utilisateur apparaît, pour une durée de 2 tours.~
+
+@7025 = ~Potion de vision totale~ // prix 800
+@7026 = ~Cette potion améliore grandement la vue du buveur, en lui permettant de voir toutes les choses cachées ou fictives. Il bénéficie de la vision véritable pendant 2 tours.~
+
+@7027 = ~Mémoire concentrée~ //prix 2000
+@7028 = ~Cet élixir magique permet au consommateur s'il est mage de se remémorer un sort de niveau 6 à 9. Il n'a aucun effet sur un non-initié aux arcanes.~
+
+@7029 = ~Huile féerique~ //prix 1000
+@7030 = ~Appliquer cette huile miroitante sur le corps de l'utilisateur prend un round entier, après quoi il gagne pour 2 tours la protection contre les armes non-magique ainsi qu'un bonus de +2 aux jets de sauvegarde et à la Classe d'Armure.~
+
+@7031 = ~Condensé d'ombre~ //prix 700
+@7032 = ~Pour utiliser ce flacon, il faut que l’utilisateur l'ouvre au dessus de sa tête et se verse le contenu dessus. Il est alors recourt d'une chape d'ombre qui lui donne un bonus de camouflage de +2 à la Classe d'armure et +30% à la discrétion. De plus, s'il est frappé au corps à corps, l'assaillant doit réussir un jet de sauvegarde contre les sorts ou être aveuglé pour 5 rounds. La potion dure 2 tours.~
+
+@7033 = ~Nectar de Pierre concentrée~
+@7034 = ~Ce flacon contient de la pierre liquide concentrée, qui une fois pulvérisée sur quelqu'un se solidifie et le protège comme un sort de peau de pierre. Le flacon contient assez de liquide pour cinq pulvérisations.
+
+PARAMETRES :
+
+Sort de Peau de pierre sur la personne aspergée, 1D4+2 peaux pour 2 heures.~
+
+@7035 = ~Potion de réflexion~ //prix 1500
+@7036 = ~Cette potion permet au buveur de renvoyer à l'expéditeur tous les sorts qui le ciblerait. Les sorts à effet de zone ne sont pas affectés, seul le sont ceux qui ciblent spécialement le buveur de la potion. Un total de 10 niveaux de sorts peut être renvoyé.~

@@ -1,0 +1,21 @@
+@1 = ~Bonjour. Bienvenue à L'interplan. Que puis-je faire pour vous ?~
+@12 = ~Bonjour. Nous aimerions voir vos marchandises, s'il vous plaît.~ //MARCHAND
+@13 = ~Bonjour. Pourquoi ce nom, l'Interplan ?~ //3
+@14 = ~Que fait un nain dans une robe de magicien ?~ //4
+@15 = ~Rien; nous ne faisons que regarder.~ //2
+
+@2 = ~Comme vous voulez. N'hésitez pas à me parler si quelque chose vous intéresse.~
+
+@3 = ~C'est un nom comme un autre. Il incite aux voyages. Voyagez, visitez d'autres plans, et vous découvrirez des splendeurs qu'Abel-Toril seul n'offre pas.~
+
+@4 = ~Quelle impolitesse. Mais je ne vous en veux pas, je comprend. Ma situation a beaucoup fait jaser, et fera des surpris encore longtemps. Et bien disons simplement que je défie les lois éternelles à cause d'un événement passé et lointain qui ne regarde que moi. Avez vous d'autres demandes ?~
+
+@5 = ~Bonjour, cher clients. Vous serez peut être heureux d'apprendre que je viens de recevoir un nouveau stock d'objets à vendre. Désirez vous y jeter un œil ?~
+@51 = ~Oui, s'il vous plaît~
+@52 = ~Non merci, pour l'instant nous désirons revoir les articles que nous connaissons déjà.~
+@53 = ~Non merci. Nous ne faisons que passer.~ //2
+
+@6 = ~Bonjour, Bienvenue à L'interplan. Je n'ai toujours pas rangé mon nouvel arrivage, par manque de temps autant que de place. Alors, désirez vous voir le stock classique et bien rangé ou le nouvellement arrivé et encore en vrac ?~
+@61 = ~Vos nouveaux objets, s'il vous plaît.~
+@62 = ~L'ancien stock, s'il vous plaît.~
+@63 = ~Aucun des deux, nous ne faisons que passer.~

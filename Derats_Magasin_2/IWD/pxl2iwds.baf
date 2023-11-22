@@ -1,0 +1,9 @@
+IF
+	Detect(LastSummonerOf(Myself))
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		FaceObject(LastSummonerOf(Myself))
+		StartDialogNoSet(LastSummonerOf(Myself))
+END
+

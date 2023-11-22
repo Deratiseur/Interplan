@@ -1,0 +1,7 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPDUSTY2",Myself)
+		DestroySelf()
+END

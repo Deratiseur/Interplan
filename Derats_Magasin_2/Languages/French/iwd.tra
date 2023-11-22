@@ -1,0 +1,14 @@
+@1 = ~Bonjour, cher client. Je me présente. Vashir al'Maedissir, pour vous servir.~~Bonjour, chère cliente. Je me présente. Vahir al'Maedissir, pour vous servir.~ //1 & 2
+@2 = ~Client ? Ne suis-je pas votre nouveau maître ?~~Cliente ? Ne suis-je pas votre nouvelle maîtresse ?~ // 4
+@3 = ~Bonjour, Vashir. Alors, pour mon premier voeu...~ //4
+@4 = ~Ha non... Oui, je sais, mes confrère emprisonnés dans d'autres bouteilles, fioles, coffres et autres se font un devoir d'exaucer les vœux des mortels. Mais pas tous, voyez vous. Pour ma part, je préfère le commerce. C'est plus gratifiant d'amasser des trésors et de l'or plutôt que de les offrir. Enfin, c'est ce que me disait le Calife, et je respecte sa sagesse souveraine.~ //->5
+@5 = ~Du coup, ça ne fait pas de vous mon maître, mais un de mes nombreux clients. Mais croyez moi, vous y gagnez. Mes articles sont de toute beauté, et en ne vous offrant pas trois vœux, je ne vous impose pas cette stupide limite de "trois" convocations.~~Du coup, ça ne fait pas de vous ma maîtresse, mais une de mes nombreux clients. Mais croyez moi, vous y gagnez. Mes articles sont de toute beauté, et en ne vous offrant pas trois vœux, je ne vous impose pas cette stupide limite de "trois" convocations.~ //6 & 8 & 9
+@6 = ~Alors, je pourrais vous invoquer autant que je voudrais ?~ //7
+@7 = ~Oui, tant que vous n'en abusez pas. Parce-que que vous savez, même si sortir de cette fiole ce n'est PAS difficile, c'est quand même épuisant si c'est trop souvent répété. Je vous offre donc de répondre à votre appel une fois par jour. Heu... et c'est non négociable, en fait.~ //8 & 9
+@8 = ~Très bien, j'ai compris. Dans ce cas, montrez moi ce que vous avez à vendre.~ //10
+@9 = ~D'accord. Rentrez donc dans votre fiole, je vous rappellerais quand j'aurais quelques pièce à dépenser.~ // exit
+@10 = ~Voilà qui est bien parlé. Regardez...~ // shop
+@11 = ~Bonjour Vashir. Montrez moi ce que vous avez à vendre, s'il vous plaît.~ //10
+@13 = ~Et bien, faite donc attention la prochaine fois.~ //exit
+@14 = ~Bonjour, cher client. Voulez vous voir mes articles ?~  ~Bonjour, chère cliente. Voulez vous voir mes articles ?~ //11 & 15
+@15 = ~Non, en fait, je me suis trompé d'objet rapide.~~Non, en fait, je me suis trompée d'objet rapide.~ //13
