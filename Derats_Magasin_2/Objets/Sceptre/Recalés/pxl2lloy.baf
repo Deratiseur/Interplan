@@ -1,0 +1,26 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		SetGlobalTimer("replic","LOCALS",12)
+END
+
+IF
+	Global("pxl2lloy","LOCALS",0)
+	!GlobalTimerNotExpired("replic","LOCALS")
+	See(NearestEnemyOf(Myself))
+	OR(7)
+		Race(LastSeenBy(Myself),HUMAN)
+		Race(LastSeenBy(Myself),ELF)
+		Race(LastSeenBy(Myself),HALF_ELF)
+		Race(LastSeenBy(Myself),DWARF)
+		Race(LastSeenBy(Myself),HALFLING)
+		Race(LastSeenBy(Myself),GNOME)
+		Race(LastSeenBy(Myself),HALFORC)
+		Race(LastSeenBy(Myself),ELF)
+	HPPercentGT(LastSeenBy(Myself),95)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30361)
+		SetGlobal("pxl2lloy","LOCALS",1)
+END

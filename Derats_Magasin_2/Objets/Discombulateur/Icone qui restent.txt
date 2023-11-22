@@ -1,0 +1,16 @@
+IMISC1A  Vin orange + lumière	OK Nectar divin
+IMISC7D  invulnérabilité jaune	OK Soin Miracle
+IMISC76  Blanc cassé et violet	Ok Potion d'accélération
+IPOTN47  Noir					Ok Breuvage noir de Tokkètel
+IPOTN48  Beige foncé moche (iwd)OK Fiole de poison tenace
+IPOTN49  Blanc laiteux			OK Potion de duplication
+IPOTN50  Orange foncé			OK Potion de feu continuel
+IPOTN53  Potion de droug machin	OK Potion de changement de forme
+IPOTN54  Bouteil de potion vide	
+
+pxl2ddua ronde blanc cassé		OK Potion de dualité
+pxl2dnex Noir à liseré rouge	OK liqueur des fées
+pxl2dsoi Bleu foncé moche		OK Potion de non existence
+pxl2tit  Violette en rond		Ok potion de force de titan
+pxl2dsoi Bleu soin boule en bas	Ok potion de soin importants
+pxl2dso2 Bleu soin en pyramide	Ok potion de soin suprême

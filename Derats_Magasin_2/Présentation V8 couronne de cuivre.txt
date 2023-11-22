@@ -1,0 +1,24 @@
+Bon, ça faisait 2 ans que je bossais sur la v8 de l'Interplan. Putain 2 ans !! Mais ça y est, après un gros coup de motivation forcée, elle est enfin là.
+Au menu :
+Corrections de beaucoup, beaucoup de bugs. Avec le temps que j'y ai passé, j’espère vraiment qu'il n'en reste pas ou peu. 
+Ajout d'une partie "forgeron" pour BG2, BGT et EET (exit IWDEE et les fosses noires II) : un chaudron qui vous permet de combiner des potions. (merci à FreddyGwendo)
+Exit les 65 sorts de la V7. il y en a maintenant 109 (+12 "cachés"), tous repensés, retouchés et rééquilibrés.
+Ajout d'une trentaine de nouveaux objets et révision des plus classiques. J’espère que ses objets sont assez originaux pour vous faire travailler les zygomatiques. (certains peuvent même vous faire revoir votre façon de jouer ^^)
+Exit le paquet de Cartes Illustrés et ses 42 personnages p&p. Voilà Le Sceptre de Convocation Inconventionnelle et ses 180 personnages tirés de si nombreux supports que vous en reconnaîtrez sûrement certains ^^
+Amélioration du Discombulateur merveilleux. Vous trouviez qu'il n’était pas si merveilleux que ça ? Il contient maintenant encore plus de potions inédites et GAMEBREAKERS.
+Amélioration du Coffre Chercheur. Encore plus d'objets pour casser le "Quick save/reload", la plupart repensés et équilibrés, et un des objet dedans peut faire d'un perso un UBER-DIEU après une rencontre spéciale.
+Amélioration du Tome du Chaos : moins de choses en vrac, plus de chose utiles.
+Amélioration de La Chandelle du monstre : Quaramon peut monter jusqu'au niveau 28.
+Amélioration du sort Rupture fantastique de Bakanëo : il prend maintenant en compte 7 autres mods. 
+Il y aussi une quête (et je vous souhaite sincèrement bon courage pour la finir ^^), des easters eggs, des rencontres spéciales peu ou très cachées, et des surprises.
+Conclusion : L'interplan V8 n'est plus qu'un simple magasin. C'est devenu un module complet. Et comme c'est mon nouveau joujou, cette v8 étant finie, je vais pouvoir m'atteler à la v9, pour encore plus de contenu non-magasin.
+
+
+Je tenais cependant à poussez un gros soupir et vous dire une chose que j'ai eu le temps de prendre en considération :
+[Spoiler]
+Pour vous, joueurs de BG2, j'ai crée des modules. J'ai traduit des modules. J’y ai consacré du temps. Beaucoup de temps. Et j'ai été en retour très déçu de constater à de multiples reprises que j'avais sacrifié tout ce temps (important, cette dernière décade étant celle qui a vu grandir mes enfants) pour rien...
+
+Oui, je sais, les joueurs qui utilisent des mods remercient rarement les créateurs. C'est l'essence même de l'humain du 20ème siècle : vivre pour soi, vouloir tout et le plus vite possible, s’habituer à prendre sans rien donner en retour.
+
+Mais ce qui me chagrine est au delà de ça..... Pour être remercié par les utilisateurs de mes création, il faudrait d'abord qu'il y en ait. L'astuce, c'est que j'ai regardé tous les weidu.log postés par les joueurs présentant un problème postés sur ce forum depuis des années pour voir si un de mes modules pouvait être la cause de ce problème. Au début. Et puis finalement simplement pour voir si un de mes modules était présent dans la liste. Car le constant est là : il n'y a quasiment jamais d'en tête "Derats" dans les listes de modules postées. (Et ne me dites pas que peu de gens utilisent des modules : j'ai vu des weidu.log avec plein de modules de kits mais pas le dukp. J'ai vu des Weidu.log avec 2-3 modules de sorts mais pas l'interplan)
+[/Spoiler]

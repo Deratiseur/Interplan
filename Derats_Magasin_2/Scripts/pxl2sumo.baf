@@ -1,0 +1,6 @@
+IF
+	Allegiance(LastSummonerOf(Myself),ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

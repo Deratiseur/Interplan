@@ -1,0 +1,30 @@
+Standardiser tous les sort de prête à mage sauf ceux décale d'un niveau
+Donner à tous les mages les sorts standardisés. 
+Lantry sorts en double déjà guérison de masse lvl 4 et neutralisation du poison sur Hiravias
+Iravias et Nynaeve al'Meara même sort soin de masse lvl 4 deux noms différents
+Albus Dumbledore Sort action libre personnalisé même que sort générique en pxl2p → et sûrement d'autres.
+
+Ajouter un perso de Courier of darkness
+Faire de tyrael un "vrai" ange.
+
+
+Vu sur fuam : elle avait 5 sort de guérison, mais aucun "connu". Cliquer sur "add all" sur tous les persos qui ont des pouvoirs/sorts.
+
+
+vérifier pxl2gond, recupéré à l'arrache dans l'override car oublié (erreur à l'installation)
+
+Trouver une icône de dents de vampire (pour Requiem, vlad bidule, barnabé, canigou, etc)
+
+Conjuration de loup non installé sur installation de création -> rajouter à certains mages (Zandalor, etc)
+
+Avant toutes chose : reprendre dans NI tous les sorts de l'interplan et voir quel perso les utilise -> patcher.
+
+Pour tous les moines, chose non faite par le jeu, modifier la CA : -2 de base, -1 par 2 niveaux.
+
+Certains personnages n'ont pas les couleurs qui leur va (pas possible à la création, remis à plus tard et pas fait) -> tous revérifier.
+
+Pour tous les persos, voir si possible super recolloration sur EE. prévoir une version EE des personnages.
+
+Voir si sur EE certaines nouvelles animations.
+
+Si recoloration sur EE plus cool et rendu plus fidèle de beaucoup (leguman, pontalon + haut, etc...) fait le sceptre EE seulement.

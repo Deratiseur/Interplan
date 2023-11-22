@@ -1,0 +1,171 @@
+IF
+	Global("pxomante","LOCALS",2)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv1",Myself)
+END
+IF
+	Global("pxomante","LOCALS",3)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv2",Myself)
+END
+IF
+	Global("pxomante","LOCALS",4)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv3",Myself)
+END
+IF
+	Global("pxomante","LOCALS",5)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv4",Myself)
+END
+IF
+	Global("pxomante","LOCALS",6)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv5",Myself)
+END
+IF
+	Global("pxomante","LOCALS",7)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv6",Myself)
+END
+IF
+	Global("pxomante","LOCALS",8)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv7",Myself)
+END
+IF
+	Global("pxomante","LOCALS",9)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv8",Myself)
+END
+IF
+	Global("pxomante","LOCALS",10)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv9",Myself)
+END
+IF
+	Global("pxomante","LOCALS",11)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv10",Myself)
+END
+IF
+	Global("pxomante","LOCALS",12)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv11",Myself)
+END
+IF
+	Global("pxomante","LOCALS",13)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv12",Myself)
+END
+IF
+	Global("pxomante","LOCALS",14)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv13",Myself)
+END
+IF
+	Global("pxomante","LOCALS",15)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv14",Myself)
+END
+IF
+	Global("pxomante","LOCALS",16)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv15",Myself)
+END
+IF
+	Global("pxomante","LOCALS",17)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv16",Myself)
+END
+IF
+	Global("pxomante","LOCALS",18)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv17",Myself)
+END
+IF
+	Global("pxomante","LOCALS",19)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv18",Myself)
+END
+IF
+	Global("pxomante","LOCALS",20)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Wait(6)
+		ApplySpellRES("pxoinv19",Myself)
+END

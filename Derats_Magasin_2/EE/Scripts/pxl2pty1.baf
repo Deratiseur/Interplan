@@ -1,0 +1,184 @@
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_PARALYZATION)  // SPIN990.SPL (Paralysie)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+	HPGT(Myself,65)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_CHARM_PERSON)  // SPIN980.SPL (Charme-personne)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(SecondNearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
+	HPGT(Myself,55)
+THEN
+	RESPONSE #100
+		FaceObject(SecondNearestEnemyOf(Myself))
+		ForceSpell(SecondNearestEnemyOf(Myself),INNATE_BEHOLDER_FEAR)  // SPIN981.SPL (Peur)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	AttackedBy([ANYONE],DEFAULT)
+	HPGT(Myself,45)
+THEN
+	RESPONSE #100
+		FaceObject(LastAttackerOf(Myself))
+		ForceSpell(LastAttackerOf(Myself),INNATE_BEHOLDER_CAUSE_SERIOUS_WOUNDS)  // SPIN986.SPL (Blessures graves)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	General(LastSeenBy(Myself),UNDEAD)
+	HPGT(Myself,45)
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ForceSpell(LastSeenBy(Myself),INNATE_BEHOLDER_CAUSE_SERIOUS_WOUNDS)  // SPIN986.SPL (Blessures graves)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(ThirdNearestEnemyOf(Myself))
+	HPGT(Myself,25)
+THEN
+	RESPONSE #100
+		FaceObject(ThirdNearestEnemyOf(Myself))
+		ForceSpell(ThirdNearestEnemyOf(Myself),INNATE_BEHOLDER_FLESH_TO_STONE)  // SPIN984.SPL (Transmutation de la Chair en Pierre)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_ANTIMAGIC_RAY)  // SPIN992.SPL (Rayon antimagie)
+		SetGlobal("BeholderBehavior","LOCALS",1)
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_PARALYZATION)  // SPIN990.SPL (Paralysie)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+	HPGT(Myself,15)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_DOMINATION)  // SPIN985.SPL (Domination)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(SecondNearestEnemyOf(Myself))
+	!StateCheck(SecondNearestEnemyOf(Myself),STATE_SLOWED)
+	HPGT(Myself,35)
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ForceSpell(LastSeenBy(Myself),INNATE_BEHOLDER_SLOW)  // SPIN983.SPL (Lenteur)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_SLOWED)
+	HPGT(Myself,35)
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ForceSpell(LastSeenBy(Myself),INNATE_BEHOLDER_SLOW)  // SPIN983.SPL (Lenteur)
+		Continue()
+END
+
+IF
+	Gender(LastSeenBy(Myself),SUMMONED)
+	Global("summon","LOCALS",0)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_PARALYZATION)  // SPIN990.SPL (Paralysie)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)  // SPWI605.SPL (Sort de mort)
+		SetGlobal("summon","LOCALS",1)
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(ThirdNearestEnemyOf(Myself))
+	HPGT(Myself,5)
+THEN
+	RESPONSE #100
+		FaceObject(ThirdNearestEnemyOf(Myself))
+		ForceSpell(ThirdNearestEnemyOf(Myself),INNATE_BEHOLDER_CAUSE_SERIOUS_WOUNDS)  // SPIN986.SPL (Blessures graves)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	AttackedBy([ANYONE],DEFAULT)
+	!General(LastAttackerOf(Myself),UNDEAD)
+THEN
+	RESPONSE #100
+		FaceObject(LastAttackerOf(Myself))
+		ForceSpell(LastAttackerOf(Myself),INNATE_BEHOLDER_DEATH_RAY)  // SPIN991.SPL (Rayon de mort)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	!General(LastSeenBy(Myself),UNDEAD)
+THEN
+	RESPONSE #100
+		FaceObject(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),INNATE_BEHOLDER_DEATH_RAY)  // SPIN991.SPL (Rayon de mort)
+		Continue()
+END
+
+IF
+	Global("BeholderBehavior","LOCALS",1)
+	OR(2)
+	See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ForceSpell(LastSeenBy(Myself),INNATE_BEHOLDER_ANTIMAGIC_RAY)  // SPIN992.SPL (Rayon antimagie)
+		SetGlobal("BeholderBehavior","LOCALS",0)
+END

@@ -1,0 +1,82 @@
+@1000 = ~Bonjour.~
+@1001 = ~Un lapin qui parle ? J'aurais tout vu.~
+@1002 = ~Bonjour à toi, petit lapin.~
+@1003 = ~Je ne suis pas un lapin, je suis une lapine. Et je peux parler car je suis le familier d'Aegenor.~
+@1004 = ~Familier ? Ce n'est pas possible, Agenor ne peut pas être mage.~
+@1005 = ~Et pourquoi ne pourrait-il pas je vous prie ?~
+@1006 = ~C'est bien connu, les nains ne peuvent pas être magiciens....~
+@1007 = ~Que votre esprit est étriqué... Nous sommes dans un monde de magie, ou tout est possible. Agenor est un mage, je suis son familier, c'est étrange et exceptionnel, mais surement pas impossible. Bah, ça m'ennuie de parler à des gens si obtus. Allez parler de ça au maitre, je suis sure qu'il sera ravi de vous raconter son histoire.~
+
+@10011 = ~*Chuchote* J'essayé d'vendre des potions à Agenor, mais l'en a pas voulu. P'têt qu'vous'en voulez ?~
+@10012 = ~*chuchote* Ouais, fais voir ce que tu as.~
+@10013 = ~Pourquoi pas. Montrez moi ça.~
+@10014 = ~*Chuchote* V'là.~ //Magasin
+@10015 = ~Chuch'otez ! V'là, ch'ui grillé pour la contr'bande !~ //Sort
+
+@10021 = ~*Cet homme semble inquiet. Il farfouille fébrilement parmi les articles d'Agenor*~
+@10022 = ~Bonjour~
+@10023 = ~Bonjour ! *se retournant et remarquant votre accoutrement". Hé, vous êtes un aventurier, non ?~~Bonjour ! *se retournant et remarquant votre accoutrement". Hé, vous êtes une aventurière, non ?~
+@10024 = ~Oui, c'est ce que je qui Qui le demande ?~
+@10025 = ~Non, je suis juste Gardes civil.~
+@10026 = ~Ha ? Tant pis alors. J'aurais pourtant cru...~ //EXIT
+@10027 = ~Ha, j'oubliais. Je me nomme Jean-Michel Rondubout. Actuellement en plein safari photo dans votre monde. ~
+@10028 = ~Safari photo ?~
+@10029 = ~Notre monde ?~
+@100210 = ~Oui. Je vais vous expliquer, à vous de me croire ou non. Je viens d'un autre monde, appelé "Terre", dans un futur qui est très éloigné du votre. Nous maîtrisons de nombreuses technologies, y compris les voyages dans le temps et l'espace, et nous pouvons ainsi visiter tous les mondes connus. Je suis donc venus sur ce monde car j'en ai longuement entendu parler, pour faire des photos avec mon Instamatic Reality.~
+@100211 = ~Des photos ?~
+@100212 = ~Vous avez raison, je ne vous crois pas.~
+@100213 = ~Des photos, ce sont.... Ha, passons. En fait j'ai un problème, et c'est pourquoi j'ai besoin de vous.~
+@100214 = ~Je m'en doutais. Peu importe, de toute façon ce que j'ai à vous proposer vous intéressera sûrement.~
+@100215 = ~Je vous écoute ?~
+@100216 = ~Qu'est-ce-qui vous fait croire que je vais vous aider ?~
+@100217 = ~J'ai perdu mon Télétranspondeur. L'outil qui me permet de visiter les mondes et de choisir l'époque. Je ne peux donc pas rentrer chez moi. Et si je reste ici trop longtemps, la Patrouille de Contrôle des Voyages Chronospatios va me tomber dessus pour me poser des questions, c'est sur. Et comme qui dirait mes photos sont illégales, l'Instamatic Reality est un objet prohibé. J'aurais donc besoin que vous utilisiez vos connaissances de ce monde, plus grandes sûrement que les miennes, pour retrouver mon Télétranspondeur ou me renvoyer chez moi.~
+@100218 = ~Et qu'est ce que j'y gagne ?~
+@100219 = ~Comment suis-je censé faire ça ?~
+@100220 = ~Je pourrais vous donner tout le paquet de photos que j'ai faite pendant mon séjour. De toute façon mon Instamatic Reality pourra les réimprimer quand je serais rentré. Je vous garanti que leur fonction en vous décevra pas.~
+@100221 = ~Soit. Comment pourrais je vous renvoyer chez vous ?~
+@100222 = ~Je ne sais pas, c'est justement pour ça que je vous demande de trouver un moyen~
+@100223 = ~D’accord, je vais chercher. Où dois-je vous retrouver quand j'aurais trouvé ?~
+@100224 = ~Venez me retrouver dans L'auberge du Midrest. Je vous y attendrais, mais pas plus d'une semaine. Il faut que je bouge sinon la patrouille me retrouvera trop facilement.~
+@100225 = ~D'accord, on se retrouve là bas.~
+
+
+@10031 = ~Mouais bof, je préfère les merveilleuseries de Lumens. Au moins ses sucreries sont pas chères et bien pratiques, et il a des sorts de niveau 11, lui !~
+@10032 = ~Lumens ? Merveilleuseries ?~
+@10033 = ~Ouais, c'est le gnome à l'autre bout de la promenade. Enfin, s'il est là.~
+
+
+@10041 = ~*Renfrogné* Il est nul ce magasin, y'a rien pour moi.~
+@10042 = ~Vous plaisantez ? Il y a du matos pour tous les usages et pour tout le monde !~
+@10043 = ~Ouais, ben y'a pas une seule hache à deux mains. Et pour les barbares y'a une armure. C'est les faibles qui  portent ça. Pas moi. Bon je retourne voir Todd, lui au moins il a du matos !~
+
+
+@10051 = ~*Ce garçon semble nerveux* Bon sang, qu'est-ce-qu'il attend ?~
+@10052 = ~Qui attend quoi ?~
+@10053 = ~Agenor. Qu'est-ce-qu'il attend pour restocker des potions de Charisme ?~
+@10054 = ~Des potions de charisme ? C'est ça qui vous rend si nerveux ?~
+@10055 = ~Oui. J'en ai besoin. Comment je lève les filles, sinon ?~
+@10056 = ~Je ne sais pas... essayez avec la gentillesse et l’écoute, peut être ?~
+
+@10061 = ~Bonjour monsieur.~~Bonjour madame.~
+@10062= ~Qu'est ce qui t’amène ici, petite ?~
+@10063 = ~Je cherche un remède pour ma maman. Elle est très malade et elle ne peut plus sortir du lit. Elle m'a dis de ne pas sortir, mais je suis sortie quand même, parce que je l'aime, ma maman, et je ne veut pas qu'elle meurt.~
+@10064 = ~Où est ta maman ? Je peux peut-être faire quelques chose pour elle.~
+@10065= ~Je ne peux pas te le dire. Maman m'a toujours dis de ne pas faire rentrer un étranger.~
+@10066 = ~Mais je ne suis pas un étranger ! Je suis <charname>.~
+@10067 = ~Je ne te connais pas. Alors non, je ne dirais pas où est ma maman.~
+@10068 = ~Bon alors, quel genre de remède tu cherche ?~
+@10069= ~Il me faut quelque chose "puissant". Le prêtre est allé voir ma maman, et il a dit qu'elle était trop malade, qu'il fallait un sort très "puissant" qu'il ne pouvait pas lancer.~
+@100611 = ~Je vois. Alors attend ici,  je vais voir ce que je peux trouver. D'accord ?~
+@100612 = ~D'accord j’attendrais ici. Mais dépêche toi s'il te plaît ma maman est très malade.~
+@100613 = ~Et tu as trouvé ce que tu cherches ici ?~
+@100614 = ~Non. Et puis tout est cher ici. Il faut que je trouve quelque chose qui guéri tout, et pour pas cher, parce que je n'ai que quelques pièces *elle sort une dizaine de pièce de bronze de sa poche*.~
+@100615 = ~Prendre ses pièce~
+@100616 = ~Mais... qu'est-ce-que... Méchant, rend moi mes pièces *se met à pleurer*.~
+@100617 = ~Écoute, je vais voir si je peux trouver quelque chose, d'accord ?~
+@100618 = ~D'accord, je t'attendrais ici. Mais dépêche toi s'il te plaît ma maman est très malade.~
+@100619 = ~Je crois que j'ai ce qu'il te faut. Là, cette potion doit pouvoir tout guérir. Tu la veux ?~
+@100620 = ~Bah, ce n'est pas ici que tu vas trouver un remède. Il y a un temple juste à coté, c'est là que tu devrais aller.~
+@100621= ~Je suis déjà allé au temple. Le prêtre est allé voir ma maman, et il a dit qu'elle était trop malade,  qu'il fallait un sort très puissant qu'il ne pouvait pas lancer.~
+@100622 = ~Ha, d'accord. Bon je vais si je peux trouver quelque chose, d'accord ?~
+@100623 = ~D'accord, je t'attendrais ici Mais dépêche toi s'il te plaît ma maman est très malade.~
+@100624 = ~Dans ce cas, je crois que j'ai ce qu'il te faut. Là, cette potion doit pouvoir tout guérir. Tu la veux ?~

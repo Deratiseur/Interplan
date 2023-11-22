@@ -1,0 +1,57 @@
+IF
+	See(ThirdNearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("pxl2hubr",Myself)
+END
+
+IF
+	StateCheck(Myself,BERSERKSTAGE1)
+THEN
+	RESPONSE #100
+		IncrementGlobal("pxl2hubrchant","LOCALS",1)
+END
+
+IF
+	GlobalGT("pxl2hubrchant","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30181)
+		ReallyForceSpellRES("pxl2hubr",Myself)
+END
+
+IF
+	Global("pxl2hubrchant","LOCALS",2)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30182)
+		ReallyForceSpellRES("pxl2hubr",Myself)
+		Wait(5)
+END
+
+IF
+	Global("pxl2hubrchant","LOCALS",3)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30183)
+		ReallyForceSpellRES("pxl2hubr",Myself)
+		Wait(5)
+END
+
+IF
+	Global("pxl2hubrchant","LOCALS",4)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30184)
+		ReallyForceSpellRES("pxl2hubr",Myself)
+		Wait(5)
+END
+
+IF
+	Global("pxl2hubrchant","LOCALS",5)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30185)
+		ReallyForceSpellRES("pxl2hubr",Myself)
+		Wait(5)
+END

@@ -1,0 +1,122 @@
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Enemy()
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+    See(Player1)
+    HasItem("pxl2vrid", Player1) 
+    !Range(Player1, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player1)
+END
+
+IF
+    See(Player1)
+    HasItem("pxl2vrid", Player1) 
+    Range(Player1, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player1)
+END
+
+IF
+    See(Player2)
+    HasItem("pxl2vrid", Player2) 
+    !Range(Player2, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player2)
+END
+
+IF
+    See(Player2)
+    HasItem("pxl2vrid", Player2) 
+    Range(Player2, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player2)
+END
+
+IF
+    See(Player3)
+    HasItem("pxl2vrid", Player3) 
+    !Range(Player3, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player3)
+END
+
+IF
+    See(Player3)
+    HasItem("pxl2vrid", Player3) 
+    Range(Player3, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player3)
+END
+
+IF
+    See(Player4)
+    HasItem("pxl2vrid", Player4) 
+    !Range(Player4, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player4)
+END
+
+IF
+    See(Player4)
+    HasItem("pxl2vrid", Player4) 
+    Range(Player4, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player4)
+END
+
+IF
+    See(Player5)
+    HasItem("pxl2vrid", Player5) 
+    !Range(Player5, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player5)
+END
+
+IF
+    See(Player5)
+    HasItem("pxl2vrid", Player5) 
+    Range(Player5, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player5)
+END
+
+IF
+    See(Player6)
+    HasItem("pxl2vrid", Player6) 
+    !Range(Player6, 4)
+THEN
+    RESPONSE #100
+        MoveToObject(Player6)
+END
+
+IF
+    See(Player6)
+    HasItem("pxl2vrid", Player6) 
+    Range(Player6, 4)
+THEN
+    RESPONSE #100
+        StartDialogNoSet(Player6)
+END
