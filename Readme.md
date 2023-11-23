@@ -11,4 +11,5 @@
 -------------
 
 Un magasin d'objets, parchemins et potions, 110 nouveaux sorts de mage inclus.
+
 V7.99 : version Wip de la future v8, tout fonctionne mais ce n'est pas garanti sans quelques bugs.
