@@ -14,7 +14,7 @@ Un triple module :
 
 - Magasin : 97 objets dont la majorité originaux du genre à vous surprendre.
 
-- Sorts : 110 nouveaux sorts, 81 disponbles pour l'ensorceleur.
+- Sorts : 110 nouveaux sorts, 81 disponibles pour l'ensorceleur.
 
 - Forgeron : un chaudron pour combiner des potions suivant 45 recettes.
 
