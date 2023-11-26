@@ -1,5 +1,0 @@
-Dialogue de Agenor : rajouter un truc à "recompense" pour que agenor disparaisse pendant une semaine.
-
-Dialogue agenor : rajouter un truc à "menace" pour mettre le joueur à la porte et ajouter variable agenor ne commerce plus.
-
-Agenor ; rajouter un script "si GlobalTimerEpired("Pxl2Quest1T","GLOBAL"") et si Agenorelfe = 0 alors utiliser potion pxl2elf2 et mettre Agenorelfe à 1.
