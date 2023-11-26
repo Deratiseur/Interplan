@@ -1,6 +1,0 @@
-Petites considérations sur L'interplan (serait un sujet si L'inteplan était un sous-forum)
-
-L'interplan propose vraiment beaucoup d'objets réservés à une classe, une race ou même un kit. Ceci est pour rester en accord avec les textes de descriptions et le rp, mais cela fait que lorsqu’un pj visite le magasin, beaucoup d'objets lui sont inaccessibles et affichés en rouge : en fait : chaque visiteur ne peut utiliser que la moitié des objets du magasin.
-Alors : devrais-je essayer de créer plus d'objet génériques (c'est compliqué tout en restant original) ou on s'en fiche, c'est bien comme ça ?
-
-Ceinture pour les berserker + bracelrt pour kensai + anneau pour Maitre lame + Tome pour insuqiteur c'est pas trop ?
