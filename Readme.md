@@ -22,4 +22,4 @@ Un triple module :
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
 
-V7.99 : version Wip de la future v8, tout fonctionne mais ce n'est pas garanti sans quelques bugs.
+V7.99 : version Wip de la future v8, tout fonctionne mais il y a encore quelques bugs que je corrige progressivement avant enfin la mise en ligne de la v8.
