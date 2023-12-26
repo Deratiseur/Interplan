@@ -18,6 +18,6 @@ Un triple module :
 
 - Sorts : 108 nouveaux sorts, 92 disponibles pour l'ensorceleur.
 
-- Forgeron : un chaudron pour combiner des potions suivant 45 recettes. (pas dans IWDEE)
+- Forgeron : 45 recettes pour combiner des potions. (pas dans IWDEE)
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
