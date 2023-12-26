@@ -1,6 +1,0 @@
-IF
-	OnCreation()
-THEN
-	RESPONSE #100
-		ReallyForceSpellRes("pxl2grgv",Myself)
-END

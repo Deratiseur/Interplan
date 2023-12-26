@@ -1,9 +1,0 @@
-IF
-	HPPercentLT(Myself,50)
-	Global("pxl2hill","LOCALS",0)
-THEN
-	RESPONSE #100
-		ReallyForceSpellRes("pxl2hill",Myself)
-		DestroyItem("IMOENHP1")
-		SetGlobal("pxl2hill","LOCALS",1)
-END

@@ -1,6 +1,0 @@
-IF
-	Die()
-THEN
-	RESPONSE #100
-		ReallyForceSpellDeadRes("pxl2arg4",Myself)
-END

@@ -1,7 +1,0 @@
-IF
-	HasItemEquipedReal("pxl2dsrv",Myself)
-	SpellCastOnMe(Myself,BLADE_DEFENSIVE_SPIN)
-THEN
-	RESPONSE #100
-		ReallyForceSpellRES("pxl2dsrv",Myself)
-END
