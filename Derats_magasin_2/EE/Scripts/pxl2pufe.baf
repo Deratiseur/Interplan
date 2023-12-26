@@ -1,0 +1,20 @@
+
+IF
+	HasItemEquiped("pxl2pufe",Myself)
+	Global("pxl2poly","LOCALS",0)
+	!CheckStat(Myself,0,POLYMORPHED)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("pxl2puf",Myself)
+		SetGlobal("pxl2poly","LOCALS",1)
+END
+
+IF
+	HasItemEquiped("pxl2pufe",Myself)
+	Global("pxl2poly","LOCALS",1)
+	CheckStat(Myself,0,POLYMORPHED)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("pxl2puf0",Myself)
+		SetGlobal("pxl2poly","LOCALS",0)
+END
