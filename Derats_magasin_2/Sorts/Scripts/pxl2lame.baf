@@ -1,0 +1,7 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("PXL2LA2V",Myself)
+		DestroySelf()
+END

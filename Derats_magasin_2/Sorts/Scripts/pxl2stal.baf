@@ -1,0 +1,31 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+	SetGlobalTimer("pxl2stak","GLOBAL",180)
+	CreateVisualEffectObject("pxl2stal",Myself)
+END
+
+IF
+	GlobalTimerExpired("pxl2stak","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("spgflsh1",Myself)
+		DestroySelf()
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDeadRES("pxl2sta1",Myself)
+END
+
+IF
+	Global("pxl2sta1","LOCALS",2)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		ChangeEnemyAlly(Myself,CONTROLLED)
+		SetGlobal("pxl2sta1","LOCALS",0)
+END
