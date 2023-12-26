@@ -1,0 +1,1780 @@
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN08",Myself,1)  // Potion de soins
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateVisualEffectObject("tilt",Myself)
+		CreateItem("pxl2dsoi",1,0,0)  // Potion de soins importants
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN08",Myself,5)  // Potion de soins
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateVisualEffectObject("tilt",Myself)
+		CreateItem("pxl2dsoi",5,0,0)  // Potion de soins importants
+END
+
+IF
+	NumItems("pxl2ampl",Myself,15)  // Amplificateur
+	NumItems("POTN08",Myself,15)  // Potion de soins
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dsoi",15,0,0)  // Potion de soins importants
+END
+
+IF
+	NumItems("pxl2ampl",Myself,24)  // Amplificateur
+	NumItems("POTN08",Myself,24)  // Potion de soins
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dsoi",24,0,0)  // Potion de soins importants
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN08",Myself,1)  // Potion de soins
+	NumItems("pxl2dsoi",Myself,1)  // Potion de soins importants
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN52",1,0,0)  // Potion de grands soins
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN08",Myself,5)  // Potion de soins
+	NumItems("pxl2dsoi",Myself,5)  // Potion de soins importants
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN52",5,0,0)  // Potion de grands soins
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,15)  // Amplificateur
+		NumItems("POTN08",Myself,15)  // Potion de soins
+	NumItems("pxl2dsoi",Myself,15)  // Potion de soins importants
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN52",15,0,0)  // Potion de grands soins
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,24)  // Amplificateur
+		NumItems("POTN08",Myself,24)  // Potion de soins
+	NumItems("pxl2dsoi",Myself,24)  // Potion de soins importants
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN52",24,0,0)  // Potion de grands soins
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN08",Myself,1)  // Potion de soins
+	NumItems("POTN52",Myself,1)  // Potion de grands soins
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN52")  // Potion de grands soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN55",1,0,0)  // Potion de soin majeur
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN08",Myself,5)  // Potion de soins
+	NumItems("POTN52",Myself,5)  // Potion de grands soins
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN52")  // Potion de grands soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN55",5,0,0)  // Potion de soin majeur
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,15)  // Amplificateur
+		NumItems("POTN08",Myself,15)  // Potion de soins
+	NumItems("POTN52",Myself,15)  // Potion de grands soins
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN52")  // Potion de grands soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN55",15,0,0)  // Potion de soin majeur
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,24)  // Amplificateur
+		NumItems("POTN08",Myself,24)  // Potion de soins
+	NumItems("POTN52",Myself,24)  // Potion de grands soins
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN52")  // Potion de grands soins
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN55",24,0,0)  // Potion de soin majeur
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN08",Myself,1)  // Potion de soins
+	NumItems("POTN55",Myself,1)  // Potion de soin majeur
+	NumItems("POTN17",Myself,1)  // Elixir de santé
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",1,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN08",Myself,5)  // Potion de soins
+	NumItems("POTN55",Myself,5)  // Potion de soin majeur
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",5,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,15)  // Amplificateur
+		NumItems("POTN08",Myself,15)  // Potion de soins
+	NumItems("POTN55",Myself,15)  // Potion de soin majeur
+	NumItems("POTN17",Myself,15)  // Elixir de santé
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",15,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,24)  // Amplificateur
+		NumItems("POTN08",Myself,24)  // Potion de soins
+	NumItems("POTN55",Myself,24)  // Potion de soin majeur
+	NumItems("POTN17",Myself,24)  // Elixir de santé
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",24,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("POTN08",Myself,5)  // Potion de soins
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",5,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("POTN08",Myself,1)  // Potion de soins
+		NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("POTN17",Myself,1)  // Elixir de santé
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",1,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("POTN08",Myself,5)  // Potion de soins
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",5,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("POTN08",Myself,15)  // Potion de soins
+		NumItems("pxl2amp2",Myself,15)  // Amplificateur puissant
+	NumItems("POTN17",Myself,15)  // Elixir de santé
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",15,0,0)  // Larmes de Morgana
+END
+
+IF
+	OR(2)
+		NumItems("POTN08",Myself,24)  // Potion de soins
+		NumItems("pxl2amp2",Myself,24)  // Amplificateur puissant
+	NumItems("POTN17",Myself,24)  // Elixir de santé
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN08")  // Potion de soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",24,0,0)  // Larmes de Morgana
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,1)  // Potion de soins importants
+	NumItems("POTN52",Myself,1)  // Potion de grands soins
+	NumItems("POTN17",Myself,1)  // Elixir de santé
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",1,0,0)  // Larmes de Morgana
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,5)  // Potion de soins importants
+	NumItems("POTN52",Myself,5)  // Potion de grands soins
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",5,0,0)  // Larmes de Morgana
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,15)  // Potion de soins importants
+	NumItems("POTN52",Myself,15)  // Potion de grands soins
+	NumItems("POTN17",Myself,15)  // Elixir de santé
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",15,0,0)  // Larmes de Morgana
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,24)  // Potion de soins importants
+	NumItems("POTN52",Myself,24)  // Potion de grands soins
+	NumItems("POTN17",Myself,24)  // Elixir de santé
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dlar",24,0,0)  // Larmes de Morgana
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,1)  // Potion de soins importants
+	OR(2)
+		NumItems("POTN55",Myself,1)  // Potion de soin majeur
+		NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN55")  // Potion de soin majeur
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dso2",1,0,0)  // Potion de soins suprême
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,5)  // Potion de soins importants
+	OR(2)
+		NumItems("POTN55",Myself,5)  // Potion de soin majeur
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN55")  // Potion de soin majeur
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dso2",5,0,0)  // Potion de soins suprême
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,15)  // Potion de soins importants
+	OR(2)
+		NumItems("POTN55",Myself,15)  // Potion de soin majeur
+		NumItems("pxl2amp2",Myself,15)  // Amplificateur puissant
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN55")  // Potion de soin majeur
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dso2",15,0,0)  // Potion de soins suprême
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,24)  // Potion de soins importants
+	OR(2)
+		NumItems("POTN55",Myself,24)  // Potion de soin majeur
+		NumItems("pxl2amp2",Myself,24)  // Amplificateur puissant
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("POTN55")  // Potion de soin majeur
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dso2",24,0,0)  // Potion de soins suprême
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,1)  // Potion de soins importants
+	NumItems("pxl2dso2",Myself,1)  // Potion de soins suprême
+	NumItems("POTN17",Myself,1)  // Elixir de santé
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("pxl2dso2")  // Potion de soins suprême
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",1,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,5)  // Potion de soins importants
+	NumItems("pxl2dso2",Myself,5)  // Potion de soins suprême
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("pxl2dso2")  // Potion de soins suprême
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",5,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,15)  // Potion de soins importants
+	NumItems("pxl2dso2",Myself,15)  // Potion de soins suprême
+	NumItems("POTN17",Myself,15)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("pxl2dso2")  // Potion de soins suprême
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",15,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("pxl2dsoi",Myself,24)  // Potion de soins importants
+	NumItems("pxl2dso2",Myself,24)  // Potion de soins suprême
+	NumItems("POTN17",Myself,24)  // Elixir de santé
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("pxl2dsoi")  // Potion de soins importants
+		DestroyItem("pxl2dso2")  // Potion de soins suprême
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",24,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN52",Myself,1)  // Potion de grands soins
+	OR(2)
+		NumItems("pxpalarm",Myself,1)  // Larmes de Morgana version TODD
+		NumItems("pxl2dlar",Myself,1)  // Larmes de Morgana
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("pxl2dlar")  // Larmes de Morgana
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",1,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN52",Myself,5)  // Potion de grands soins
+	OR(2)
+		NumItems("pxpalarm",Myself,5)  // Larmes de Morgana version TODD
+		NumItems("pxl2dlar",Myself,5)  // Larmes de Morgana
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("pxl2dlar")  // Larmes de Morgana
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",5,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN52",Myself,15)  // Potion de grands soins
+	OR(2)
+		NumItems("pxpalarm",Myself,15)  // Larmes de Morgana version TODD
+		NumItems("pxl2dlar",Myself,15)  // Larmes de Morgana
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("pxl2dlar")  // Larmes de Morgana
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",15,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN52",Myself,24)  // Potion de grands soins
+	OR(2)
+		NumItems("pxpalarm",Myself,24)  // Larmes de Morgana version TODD
+		NumItems("pxl2dlar",Myself,24)  // Larmes de Morgana
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("POTN52")  // Potion de grands soins
+		DestroyItem("pxl2dlar")  // Larmes de Morgana
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",24,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN55",Myself,1)  // Potion de soin majeur
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("POTN17",Myself,1)  // Elixir de santé
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",1,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN55",Myself,5)  // Potion de soin majeur
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN17",Myself,5)  // Elixir de santé
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",5,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN55",Myself,15)  // Potion de soin majeur
+	NumItems("pxl2amp2",Myself,15)  // Amplificateur puissant
+	NumItems("POTN17",Myself,15)  // Elixir de santé
+	PartyGoldGT(1499)
+THEN
+	RESPONSE #100
+		TakePartyGold(1500)
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",15,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("POTN55",Myself,24)  // Potion de soin majeur
+	NumItems("pxl2amp2",Myself,24)  // Amplificateur puissant
+	NumItems("POTN17",Myself,24)  // Elixir de santé
+	PartyGoldGT(2399)
+THEN
+	RESPONSE #100
+		TakePartyGold(2400)
+		DestroyItem("POTN55")  // Potion de soin majeur
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN17")  // Elixir de santé
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpasoin",24,0,0)  // Soin miracle
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN44",Myself,1)  // Potion de force
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df19",1,0,0)  // Potion de  force de géant des collines*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN44",Myself,5)  // Potion de force
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df19",5,0,0)  // Potion de  force de géant des collines*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN44",Myself,1)  // Potion de force
+	OR(2)
+		NumItems("POTN03",Myself,1)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,1)  // Potion de  force de géant des collines*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df20",1,0,0)  // Potion de  force de géant de pierre*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN44",Myself,5)  // Potion de force
+	OR(2)
+		NumItems("POTN03",Myself,5)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,5)  // Potion de  force de géant des collines*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df20",5,0,0)  // Potion de  force de géant de pierre*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN44",Myself,1)  // Potion de force
+	OR(2)
+		NumItems("POTN12",Myself,1)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,1)  // Potion de  force de géant de pierre*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df21",1,0,0)  // Potion de  force de géant du froid*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN44",Myself,5)  // Potion de force
+	OR(2)
+		NumItems("POTN12",Myself,5)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,5)  // Potion de  force de géant de pierre*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df21",5,0,0)  // Potion de  force de géant du froid*
+END
+
+IF
+	NumItems("POTN44",Myself,1)  // Potion de force
+	OR(4)
+		NumItems("POTN04",Myself,1)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,1)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,1)  // Potion de  force de géant du froid*
+		NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",1,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	NumItems("POTN44",Myself,5)  // Potion de force
+	OR(4)
+		NumItems("POTN04",Myself,5)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,5)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,5)  // Potion de  force de géant du froid*
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",5,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	OR(3)
+		NumItems("POTN04",Myself,1)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,1)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,1)  // Potion de  force de géant du froid*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",1,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	OR(3)
+		NumItems("POTN04",Myself,5)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,5)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,5)  // Potion de  force de géant du froid*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",5,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN44",Myself,1)  // Potion de force
+	OR(2)
+		NumItems("POTN05",Myself,1)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,1)  // Potion de  force de géant de feu*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df23",1,0,0)  // Potion de  force de géant des nuages*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN44",Myself,5)  // Potion de force
+	OR(2)
+		NumItems("POTN05",Myself,5)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,5)  // Potion de  force de géant de feu*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df23",5,0,0)  // Potion de  force de géant des nuages*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN44",Myself,1)  // Potion de force
+	OR(2)
+		NumItems("POTN06",Myself,1)  // Potion de force de géant des nuages
+		NumItems("pxl2df23",Myself,1)  // Potion de  force de géant des nuages*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN06")  // Potion de force de géant des nuages
+		DestroyItem("pxl2df23")  // Potion de  force de géant des nuages*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",1,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN44",Myself,5)  // Potion de force
+	OR(2)
+		NumItems("POTN06",Myself,5)  // Potion de force de géant des nuages
+		NumItems("pxl2df23",Myself,5)  // Potion de  force de géant des nuages*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN06")  // Potion de force de géant des nuages
+		DestroyItem("pxl2df23")  // Potion de  force de géant des nuages*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",5,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,1)  // Amplificateur
+		NumItems("POTN44",Myself,1)  // Potion de force
+	OR(2)
+		NumItems("POTN07",Myself,1)  // Potion de force de géant des tempêtes
+		NumItems("pxl2df24",Myself,1)  // Potion de  force de géant des tempêtes*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN07")  // Potion de force de géant des tempêtes
+		DestroyItem("pxl2df24")  // Potion de  force de géant des tempêtes*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",1,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(2)
+		NumItems("pxl2ampl",Myself,5)  // Amplificateur
+		NumItems("POTN44",Myself,5)  // Potion de force
+	OR(2)
+		NumItems("POTN07",Myself,5)  // Potion de force de géant des tempêtes
+		NumItems("pxl2df24",Myself,5)  // Potion de  force de géant des tempêtes*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN44")  // Potion de force
+		DestroyItem("POTN07")  // Potion de force de géant des tempêtes
+		DestroyItem("pxl2df24")  // Potion de  force de géant des tempêtes*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",5,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,1)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,1)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN12",Myself,1)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,1)  // Potion de  force de géant de pierre*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",1,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,5)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,5)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN12",Myself,5)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,5)  // Potion de  force de géant de pierre*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df22",5,0,0)  // Potion de  force de géant de feu*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,1)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,1)  // Potion de  force de géant des collines*
+	OR(4)
+		NumItems("POTN04",Myself,1)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,1)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,1)  // Potion de  force de géant du froid*
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df23",1,0,0)  // Potion de  force de géant des nuages*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,5)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,5)  // Potion de  force de géant des collines*
+	OR(4)
+		NumItems("POTN04",Myself,5)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,5)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,5)  // Potion de  force de géant du froid*
+		NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df23",5,0,0)  // Potion de  force de géant des nuages*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,1)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,1)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN05",Myself,1)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,1)  // Potion de  force de géant de feu*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",1,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,5)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,5)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN05",Myself,5)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,5)  // Potion de  force de géant de feu*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",5,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,1)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,1)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN06",Myself,1)  // Potion de force de géant des nuages
+		NumItems("pxl2df23",Myself,1)  // Potion de  force de géant des nuages*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN06")  // Potion de force de géant des nuages
+		DestroyItem("pxl2df23")  // Potion de  force de géant des nuages*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",1,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(2)
+		NumItems("POTN03",Myself,5)  // Potion de force de géant des collines
+		NumItems("pxl2df19",Myself,5)  // Potion de  force de géant des collines*
+	OR(2)
+		NumItems("POTN06",Myself,5)  // Potion de force de géant des nuages
+		NumItems("pxl2df23",Myself,5)  // Potion de  force de géant des nuages*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN03")  // Potion de force de géant des collines
+		DestroyItem("pxl2df19")  // Potion de  force de géant des collines*
+		DestroyItem("POTN06")  // Potion de force de géant des nuages
+		DestroyItem("pxl2df23")  // Potion de  force de géant des nuages*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",5,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(2)
+		NumItems("POTN12",Myself,1)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,1)  // Potion de  force de géant de pierre*
+	OR(3)
+		NumItems("POTN04",Myself,1)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,1)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,1)  // Potion de  force de géant du froid*
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",1,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("POTN12",Myself,5)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,5)  // Potion de  force de géant de pierre*
+	OR(3)
+		NumItems("POTN04",Myself,5)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,5)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,5)  // Potion de  force de géant du froid*
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df24",5,0,0)  // Potion de  force de géant des tempêtes*
+END
+
+IF
+	OR(2)
+		NumItems("POTN12",Myself,1)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,1)  // Potion de  force de géant de pierre*
+	OR(2)
+		NumItems("POTN05",Myself,1)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,1)  // Potion de  force de géant de feu*
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",1,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(2)
+		NumItems("POTN12",Myself,5)  // Potion de force de géant des pierres
+		NumItems("pxl2df20",Myself,5)  // Potion de  force de géant de pierre*
+	OR(2)
+		NumItems("POTN05",Myself,5)  // Potion de force de géant du feu
+		NumItems("pxl2df22",Myself,5)  // Potion de  force de géant de feu*
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN12")  // Potion de force de géant des pierres
+		DestroyItem("pxl2df20")  // Potion de  force de géant de pierre*
+		DestroyItem("POTN05")  // Potion de force de géant du feu
+		DestroyItem("pxl2df22")  // Potion de  force de géant de feu*
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",5,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(3)
+		NumItems("POTN04",Myself,1)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,1)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,1)  // Potion de  force de géant du froid*
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",1,0,0)  // Potion de force de titan*
+END
+
+IF
+	OR(3)
+		NumItems("POTN04",Myself,5)  // Potion de force de géant du froid
+		NumItems("POTN56",Myself,5)  // Potion de force de géant du froid des voleurs
+		NumItems("pxl2df21",Myself,5)  // Potion de  force de géant du froid*
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("POTN04")  // Potion de force de géant du froid
+		DestroyItem("POTN56")  // Potion de force de géant du froid des voleurs
+		DestroyItem("pxl2df21")  // Potion de  force de géant du froid*
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2df25",5,0,0)  // Potion de force de titan*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN38",Myself,1)  // Potion de rétrovision
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN38")  // Potion de rétrovision
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dcon",1,0,0)  // Potion de contrevue
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN38",Myself,5)  // Potion de rétrovision
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN38")  // Potion de rétrovision
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dcon",5,0,0)  // Potion de contrevue
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN24",Myself,1)  // Potion de défense
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN24")  // Potion de défense
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dinv",1,0,0)  // Potion d'invulnérabilité*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN24",Myself,5)  // Potion de défense
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN24")  // Potion de défense
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dinv",5,0,0)  // Potion d'invulnérabilité*
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN10",Myself,1)  // Potion d'invisibilité
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN10")  // Potion d'invisibilité
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2invm",1,0,0)  // Potion d'invisibilité majeure
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN10",Myself,5)  // Potion d'invisibilité
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN10")  // Potion d'invisibilité
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2invm",5,0,0)  // Potion d'invisibilité majeure
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("pxl2ddup",Myself,1)  // Potion de duplication
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2ddup")  // Potion de duplication
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2ddua",1,0,0)  // Potion de dualité
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("pxl2ddup",Myself,5)  // Potion de duplication
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2ddup")  // Potion de duplication
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2ddua",5,0,0)  // Potion de dualité
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN39",Myself,1)  // Potion de perception
+	NumItems("POTN09",Myself,1)  // Potion d'héroïsme
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN39")  // Potion de perception
+		DestroyItem("POTN09")  // Potion d'héroïsme
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN41",1,0,0)  // Potion de pouvoir
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN39",Myself,5)  // Potion de perception
+	NumItems("POTN09",Myself,5)  // Potion d'héroïsme
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN39")  // Potion de perception
+		DestroyItem("POTN09")  // Potion d'héroïsme
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("POTN41",5,0,0)  // Potion de pouvoir
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("POTN33",Myself,1)  // Potion de blocage de magie
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN33")  // Potion de blocage de magie
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dfee",1,0,0)  // Liqueur féerique
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("POTN33",Myself,5)  // Potion de blocage de magie
+	PartyGoldGT(499)
+THEN
+	RESPONSE #500
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("POTN33")  // Potion de blocage de magie
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dfee",5,0,0)  // Liqueur féerique
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("pxpasoin",Myself,1)  // Soin miracle
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxpasoin")  // Soin miracle
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dvie",1,0,0)  // Potion de Vie
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("pxpasoin",Myself,5)  // Soin miracle
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxpasoin")  // Soin miracle
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dvie",5,0,0)  // Potion de Vie
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("pxl2dese",Myself,1)  // Potion de désenchantement
+	OR(6)
+		NumItems("POTN23",Myself,1)  // Huile de rapidité
+		NumItems("POTN25",Myself,1)  // Potion de soins
+		NumItems("POTN32",Myself,1)  // Antidote
+		NumItems("POTN40",Myself,1)  // Potion d'invulnérabilité
+		NumItems("BAPOTION",Myself,1)// Potion de soin de Baeloth dans BGEE
+		NumItems("POTN48",Myself,1)  // Fiole de liquide mystérieux
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2dese")  // Potion de désenchantement
+		DestroyItem("POTN23")  // Huile de rapidité
+		DestroyItem("POTN25")  // Potion de soins
+		DestroyItem("POTN32")  // Antidote
+		DestroyItem("POTN40")  // Potion d'invulnérabilité
+		DestroyItem("BAPOTION")// Potion de soin de Baeloth dans BGEE
+		DestroyItem("POTN48")  // Fiole de liquide mystérieux
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2amp2",1,0,0)  // Amplificateur puissant
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("pxl2dese",Myself,5)  // Potion de désenchantement
+	OR(6)
+		NumItems("POTN23",Myself,5)  // Huile de rapidité
+		NumItems("POTN25",Myself,5)  // Potion de soins
+		NumItems("POTN32",Myself,5)  // Antidote
+		NumItems("POTN40",Myself,5)  // Potion d'invulnérabilité
+		NumItems("BAPOTION",Myself,5)// Potion de soin de Baeloth dans BGEE)
+		NumItems("POTN48",Myself,5)  // Fiole de liquide mystérieux
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2dese")  // Potion de désenchantement
+		DestroyItem("POTN23")  // Huile de rapidité
+		DestroyItem("POTN25")  // Potion de soins
+		DestroyItem("POTN32")  // Antidote
+		DestroyItem("POTN40")  // Potion d'invulnérabilité
+		DestroyItem("BAPOTION")// Potion de soin de Baeloth dans BGEE
+		DestroyItem("POTN48")  // Fiole de liquide mystérieux
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2amp2",5,0,0)  // Amplificateur puissant
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2memo",Myself,1)  // Mémoire en bouteille
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2memo")  // Mémoire en bouteille
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2mem2",1,0,0)  // Mémoire concentrée
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2memo",Myself,5)  // Mémoire en bouteille
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2memo")  // Mémoire en bouteille
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2mem2",5,0,0)  // Mémoire concentrée
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2bonn",Myself,1)  // Potion de bonne fortune
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2bonn")  // Potion de bonne fortune
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dluk",1,0,0)  // Filtre de chance sublimée
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2bonn",Myself,5)  // Potion de bonne fortune
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2bonn")  // Potion de bonne fortune
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dluk",5,0,0)  // Filtre de chance sublimée
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2invm",Myself,1)  // Potion d'invisibilité majeure
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2invm")  // Potion d'invisibilité majeure
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dcam",1,0,0)  // Potion de Disparition
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2invm",Myself,5)  // Potion d'invisibilité majeure
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2invm")  // Potion d'invisibilité majeure
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dcam",5,0,0)  // Potion de Disparition
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2dese",Myself,1)  // Potion de désenchantement
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dese")  // Potion de désenchantement
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dbro",1,0,0)  // Brouet anti-magique
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2dese",Myself,5)  // Potion de désenchantement
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dese")  // Potion de désenchantement
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dbro",5,0,0)  // Brouet anti-magique
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2refl",Myself,1)  // Baume de réflexion
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2refl")  // Baume de réflexion
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dref",1,0,0)  // Réflecteur de Sanset
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2refl",Myself,5)  // Baume de réflexion
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2refl")  // Baume de réflexion
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dref",5,0,0)  // Réflecteur de Sanset
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("POTN14",Myself,1)  // Huile de rapidité
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN14")  // Huile de rapidité
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dhat",1,0,0)  // Potion d'accélération
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN14",Myself,5)  // Huile de rapidité
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN14")  // Huile de rapidité
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dhat",5,0,0)  // Potion d'accélération
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2dhat",Myself,1)  // Potion d'accélération
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dhat")  // Potion d'accélération
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dvit",1,0,0)  // Potion de vitesse absolue
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2dhat",Myself,5)  // Potion d'accélération
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dhat")  // Potion d'accélération
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dvit",5,0,0)  // Potion de vitesse absolue
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("POTN48",Myself,1)  // Fiole de liquide mystérieux
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN48")  // Fiole de liquide mystérieux
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dpoi",1,0,0)  // Fiole de poison tenace
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN48",Myself,5)  // Fiole de liquide mystérieux
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN48")  // Fiole de liquide mystérieux
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dpoi",5,0,0)  // Fiole de poison tenace
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2dpoi",Myself,1)  // Fiole de poison tenace
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dpoi")  // Fiole de poison tenace
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dnex",1,0,0)  // Potion de non-existence
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2dpoi",Myself,5)  // Fiole de poison tenace
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dpoi")  // Fiole de poison tenace
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dnex",5,0,0)  // Potion de non-existence
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("POTN42",Myself,1)  // Potion de régénération
+	NumItems("POTN09",Myself,1)  // Potion d'héroïsme
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN42")  // Potion de régénération
+		DestroyItem("POTN09")  // Potion d'héroïsme
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpmhero",1,0,0)  // Potion d’héroïsme
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("POTN42",Myself,5)  // Potion de régénération
+	NumItems("POTN09",Myself,5)  // Potion d'héroïsme
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("POTN42")  // Potion de régénération
+		DestroyItem("POTN09")  // Potion d'héroïsme
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpmhero",5,0,0)  // Potion d’héroïsme
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxparevi",Myself,1)  // Revitalisant
+	NumItems("pxpastic",Myself,1)  // Stimulant cérébral
+	NumItems("pxpastim",Myself,1)  // Stimulant musculaire
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxparevi")  // Revitalisant
+		DestroyItem("pxpastic")  // Stimulant cérébral
+		DestroyItem("pxpastim")  // Stimulant musculaire
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpavivi",1,0,0)  // Vivifiant
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxparevi",Myself,5)  // Revitalisant
+	NumItems("pxpastic",Myself,5)  // Stimulant cérébral
+	NumItems("pxpastim",Myself,5)  // Stimulant musculaire
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxparevi")  // Revitalisant
+		DestroyItem("pxpastic")  // Stimulant cérébral
+		DestroyItem("pxpastim")  // Stimulant musculaire
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxpavivi",5,0,0)  // Vivifiant
+END
+
+IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2dmag",Myself,1)  // Élixir de Magica incarna
+	NumItems("pxl2dp16",Myself,1)  // Potion d'absorption de magie
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dmag")  // Élixir de Magica incarna
+		DestroyItem("pxl2dp16")  // Potion d'absorption de magie
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dp17",1,0,0)  // 12) Potion de dissipation
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2dmag",Myself,5)  // Élixir de Magica incarna
+	NumItems("pxl2dp16",Myself,5)  // Potion d'absorption de magie
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2dmag")  // Élixir de Magica incarna
+		DestroyItem("pxl2dp16")  // Potion d'absorption de magie
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2dp17",5,0,0)  // 12) Potion de dissipation
+END
+
+IF
+	Global("pxl2chaudron","GLOBAL",1)
+	SpellCastOnMe([ANYONE],WIZARD_MELF_ACID_ARROW)  // SPWI211.SPL (Flèche acide de Melf)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2ampl",2,0,0)  // Amplificateur
+END
