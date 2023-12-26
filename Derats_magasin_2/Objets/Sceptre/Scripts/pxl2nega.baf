@@ -1,0 +1,16 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,@301033)
+END
+
+IF
+	Global("pxl2negan","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@301032)
+		SetGlobal("pxl2negan","LOCALS",1)
+END

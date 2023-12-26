@@ -1,0 +1,41 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+	SetGlobalTimer("pxl2kurg","GLOBAL",180)
+END
+
+IF
+	GlobalTimerExpired("pxl2kurg","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("spgflsh1",Myself)
+		DestroySelf()
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDeadRES("pxl2kurg",Myself)
+END
+
+IF
+	Global("pxl2kur1","LOCALS",2)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		ChangeEnemyAlly(Myself,CONTROLLED)
+		SetGlobal("pxl2kur1","LOCALS",0)
+END
+
+IF
+	Global("pxl2kur1","LOCALS",2)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		ChangeEnemyAlly(Myself,ENEMY)
+		SetGlobal("pxl2kur1","LOCALS",0)
+END

@@ -1,0 +1,8 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30419)
+		Wait (2)
+		DisplayStringHead(Myself,@304110)
+END

@@ -1,0 +1,27 @@
+IF
+	Global("pxl2crtx","GlOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,76627)
+		SetGlobal("pxl2crtx","GlOBAL",2)
+END
+
+IF
+	Global("pxl2crtx","GlOBAL",3)
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,76637)
+		Wait(3)
+		DisplayStringHead(Myself,76638)
+		Wait(1)
+		SetGlobal("pxl2crtx","GlOBAL",4)
+END
+
+IF
+	Global("pxl2crtx","GlOBAL",4)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
