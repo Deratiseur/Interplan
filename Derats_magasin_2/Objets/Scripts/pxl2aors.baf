@@ -1,0 +1,8 @@
+IF
+	HasItemEquiped("pxl2aors",Myself)
+	SpellCastPriest(Myself,CLERIC_CONJURE_ANIMALS)
+
+THEN
+	RESPONSE #100
+		ReallyForceSpellRes("pxl2aors",Myself)
+END
