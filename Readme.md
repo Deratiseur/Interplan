@@ -14,12 +14,10 @@
 
 Un triple module :
 
-- Magasin : 100 objets dont la majorité originaux du genre à vous surprendre.
+- Magasin : 99 objets dont la majorité originaux du genre à vous surprendre.
 
-- Sorts : 110 nouveaux sorts, 92 disponibles pour l'ensorceleur.
+- Sorts : 108 nouveaux sorts, 92 disponibles pour l'ensorceleur.
 
 - Forgeron : un chaudron pour combiner des potions suivant 45 recettes. (pas dans IWDEE)
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
-
-V7.99 : version Wip de la future v8, tout fonctionne mais il y a encore quelques bugs que je corrige progressivement avant enfin la mise en ligne de la v8.
