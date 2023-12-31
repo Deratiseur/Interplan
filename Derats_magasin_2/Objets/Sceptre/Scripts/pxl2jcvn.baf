@@ -1,8 +1,39 @@
+
 IF
 	OnCreation()
 THEN
 	RESPONSE #100
+		DisplayStringHead(Myself,@309929)
 		Wait(2)
-		DisplayStringHead(Myself,@301751)
-		EscapeArea()
+		DisplayStringHead(Myself,@309919)
+END
+
+
+IF
+	Heard([ANYONE],111)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ReallyForceSpellRes("pxl2jcvn",NearestEnemyOf(Myself))
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRes("pxl2jcvn",LastAttackerOf(Myself))
 END
