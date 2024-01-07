@@ -21,3 +21,17 @@ Un triple module :
 - Forgeron : 45 recettes pour combiner des potions. (pas dans IWDEE)
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
+
+------------
+
+A triple module:
+
+- Store: 99 items, the majority of them original and guaranteed to surprise.
+
+- Spells: 108 new spells, 92 available for the sorcerer.
+
+- Blacksmith: 45 recipes for combining potions. (not in IWDEE)
+
+- Plus encounters and surprises. (including even more items and spells)(Not in IWDEE)
+
+Not in English (too big), not planned except for independent translator.
