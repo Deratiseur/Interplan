@@ -14,11 +14,11 @@
 
 Un triple module :
 
-- Magasin : 99 objets dont la majorité originaux du genre à vous surprendre.
+- Magasin : 98 objets dont la majorité originaux du genre à vous surprendre.
 
 - Sorts : 108 nouveaux sorts, 92 disponibles pour l'ensorceleur.
 
-- Forgeron : 45 recettes pour combiner des potions. (pas dans IWDEE)
+- Forgeron : 46 recettes pour combiner des potions. (pas dans IWDEE)
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
 
@@ -26,11 +26,11 @@ Un triple module :
 
 A triple module:
 
-- Store: 99 items, the majority of them original and guaranteed to surprise.
+- Store: 98 items, the majority of them original and guaranteed to surprise.
 
 - Spells: 108 new spells, 92 available for the sorcerer.
 
-- Blacksmith: 45 recipes for combining potions. (not in IWDEE)
+- Blacksmith: 46 recipes for combining potions. (not in IWDEE)
 
 - Plus encounters and surprises. (including even more items and spells)(Not in IWDEE)
 
