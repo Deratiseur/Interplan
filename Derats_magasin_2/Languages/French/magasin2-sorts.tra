@@ -145,7 +145,7 @@ Ce sort crée trois griffes fantomatiques qui agrippent la cible désignée. Celle 
 Niveau : 3
 Portée : 0
 Durée : 1D4+4 rounds
-Temps d'incantation : 4
+Temps d'incantation : 3
 Zone d'effet : le lanceur de sorts
 Jet de sauvegarde : aucun
 
@@ -172,6 +172,15 @@ Zone d'effet : personne touchée
 Jet de sauvegarde : aucun
 
 Ce sort permet de charger d’énergie magique l'arme de corps à corps portée par la cible. Cette dernière inflige alors 2D4 points de dégâts magiques supplémentaires, réduits de moitié quand la créature impactée réussi un jet de sauvegarde contre les sorts.~
+@603121 = ~Arme chargée (Enchantement)
+Niveau : 3
+Portée : contact
+Durée : 1 round par niveau
+Temps d'incantation : 3
+Zone d'effet : personne touchée
+Jet de sauvegarde : aucun
+
+Ce sort permet de charger d’énergie magique l'arme de corps à corps portée par la cible. Cette dernière inflige alors 2D4 points de dégâts magiques supplémentaires, réduits de moitié quand la créature impactée réussi un jet de sauvegarde contre les sorts. L'arme gagne aussi un bonus d'enchantement de +1 pour déterminer ce qu'elle eut toucher, si elle n'a pas déjà un bonus équivalent ou supérieur.~
 
 @60313 = ~Convocation de petites poules appétissantes~
 @60314 = ~Convocation de petites poules appétissantes (Conjuration/Invocation)
@@ -182,7 +191,7 @@ Temps d'incantation : 3
 Zone d'effet : spéciale
 Jet de sauvegarde : aucun
 
-Ce sort convoque 1D4+1 poules et les charge d’énergie magique. Elles ne gagnent aucune capacité d'attaque et ne servent que de leurre, mais à leur mort l’énergie magique dont elles sont chargées crée un petit nuage toxique qui empoisonne tous les ennemis qui le respirent (jet de sauvegarde contre les sorts à-2 pour éviter, 1 point de dégât par seconde pendant 3 rounds)~
+Ce sort convoque 1D4+1 poules et les charge d’énergie magique. Elles ne gagnent aucune capacité d'attaque et ne servent que de leurre, mais à leur mort l’énergie magique dont elles sont chargées crée un petit nuage toxique qui empoisonne tous les ennemis qui le respirent (jet de sauvegarde contre les sorts à -2 pour éviter, 1 point de dégât par seconde pendant 3 rounds)~
 
 @60315 = ~Note résonnante~ //Barde uniquement
 @60316 = ~Note résonnante (Évocation)
@@ -277,7 +286,7 @@ Zone d’effet : le lanceur de sort
 Temps d’incantation : 3
 Jet de sauvegarde : aucun
 
-Après avoir lancé ce sort le magicien passe partiellement dans le demi-plan de l'ombre. Il devient  invisible et gagne +1 à la CA et +20% en dissimulation et furtivité. Si son invisibilité est dissipée il lui suffit de rester immobile pendant un round pour revenir invisible. Il peut répéter ceci à volonté tant que ce sort n'est pas dissipé ou arrivé à le fin de sa durée légale.~
+Après avoir lancé ce sort le magicien passe partiellement dans le demi-plan de l'ombre. Il devient  invisible et gagne +1 à la CA et +20% en dissimulation et furtivité. Si son invisibilité est dissipée il lui suffit de rester immobile pendant un round pour revenir invisible. Il peut répéter ceci à volonté tant que ce sort n'est pas dissipé ou arrivé à la fin de sa durée légale.~
 
 @6041 = ~Forme d’araignée~
 @6042 = ~Forme d’araignée (Altération)
@@ -404,7 +413,7 @@ Temps d'incantation : 4
 Zone d'effet : rayon de 3,5 mètres
 Jet de sauvegarde : ½
 
-Crée sort crée une nova de poison à l'endroit désigné. Les créatures situées dans la zone subissent 1D6 points de dégâts de poison par deux niveaux du magicien (maximum 10D6) et doivent réussir un jet de sauvegarde contre le poison : s'il est raté, elles sont empoisonnées pour 2 points de dégâts de poison par round.~
+Crée sort crée une nova de poison à l'endroit désigné. Les créatures situées dans la zone subissent 1D6 points de dégâts de poison par deux niveaux du magicien (maximum 10D6) et doivent réussir un jet de sauvegarde contre le poison : toutes celles qui le rate sont empoisonnées pour 2 points de dégâts de poison par round.~
 
 @60411 = ~Image réfléchie majeure~
 @60412 = ~Image réfléchie majeure (Illusion/Fantasme) 
@@ -635,6 +644,7 @@ Ce sort reproduit l'effet du sort Boule de feu (10D6 point de dégâts de feu, jet
  Concentrée : elle inflige 50% de dégâts en plus.
  Sélective : elle ignore les cibles choisies (les alliés).
  Magique : 40% de ses dégâts sont convertis en énergie magique.
+ Brûlante : elle met met le feu aux cibles et inflige à celles-ci 1D2 points de dégâts supplémentaires par round pendant 5 rounds.
  Instantanée : elle se lance en un claquement de doigts, explose à l'endroit désigné sans projectile et impose un malus supplémentaire de -3 au jet de sauvegarde.
  Résonante : elle n'inflige que 2D6 mais ré-explose autour de chaque cible touchée. Nombre d'impacts pour chaque cible = nombre de victimes touchées.
  Infaillible : elle ignore la résistance à la magie des cibles et les éventuelles protections magiques.
@@ -651,6 +661,7 @@ Ce sort reproduit l'effet du sort Boule de feu (10D6 point de dégâts de feu, jet
 @605128 = ~Infaillible~
 @605129 = ~Retardée~
 @6051210 = ~Répétée~
+@6051211 = ~Brûlante~
 
 @60513 = ~Précognition~
 @60514 = ~Précognition (Divination)
@@ -702,7 +713,7 @@ Temps d'incantation : 5
 Zone d'effet : le lanceur de sorts
 Jet de sauvegarde : aucun
 
-Le sort crée autour du lanceur de sort un bouclier composé de l'énergie opposée à celle qui sert à dissiper les sorts. Ce bouclier absorbe toutes les tentatives de dissipation, assurant au magicien que les sorts l'affectant agiront jusqu'à leur terme normal.~
+Ce sort entoure le lanceur de sorts avec un aura dweomérique qui lui assure de pouvoir lancer ses sorts sans entrave et empêchent ceux-ci d'être dissipés. Sous le couvert de cette aura, la lanceur de sorts est protégé contre la dissipation, le fourvoiement magique, la magie entropique forcée (cela n’empêche pas les hiatus s'il est entropiste), le silence et la surdité, et il n'est pas affecté par les zone de magie morte ou de magie sauvage.~
 
 @60521 = ~Souffle caustique~
 @60522 = ~Souffle caustique (Évocation)
@@ -1096,7 +1107,7 @@ Zone d'effet : une créature
 Jet de sauvegarde : spécial
 
 Ce sort lance sur la cible un missile chargée d’énergie spécialement conçue pour tuer les dragons. Contre les dragons, la résistance à la magie pour résister à ce sort s’applique à -30%. Si un dragon est touché par le missile, il doit réussir un jet de sauvegarde contre la mort pour ne pas mourir. S'il survit, il subit quand même 20D10 points de dégâts, qui peuvent suffire à le tuer.
-Utilisé contre une créature non-dragon, ce sort ne pénètre pas mieux la résistance à la magie, ne peut pas tuer la cible et n'inflige que 20D6 points de dégâts, réduit de moitié en cas de Jet de sauvegarde contre les sorts réussi.~
+Utilisé contre une créature non-dragon, ce sort ne pénètre pas mieux la résistance à la magie, ne peut pas tuer la cible et n'inflige que 20D6 points de dégâts, réduit de moitié en cas de jet de sauvegarde contre les sorts réussi.~
 
 @60719 = ~Orbe de glace~
 @60720 = ~Orbe de glace (Évocation)
@@ -1131,7 +1142,7 @@ Temps d'incantation : 7
 Zone d'effet : un personnage du groupe
 Jet de sauvegarde : Non
 
-Ce sort crée une copie illusoire de n'importe quel membre du groupe. La copie a le même équipement que l’original mais a 60% de ses capacités  de combat, points de vie et jets de sauvegarde. Elle peut se déplacer et attaquer mais ne peut ni lancer de sorts ni utiliser de capacités spéciales ou d'objets rapides. Elle existe pour toute la durée du sort ou jusqu'à ce quelle soit détruite. Il n'y a pas de limite aux nombres d'alliés imagés pouvant être contrôlés, mais chaque allié ne peut avoir qu'une seule image associée.~
+Ce sort crée une copie illusoire de n'importe quel membre du groupe. La copie a le même équipement que l’original mais a 60% de ses capacités de combat, points de vie et jets de sauvegarde. Elle peut se déplacer et attaquer mais ne peut ni lancer de sorts ni utiliser de capacités spéciales ou d'objets rapides. Elle existe pour toute la durée du sort ou jusqu'à ce quelle soit détruite. Il n'y a pas de limite aux nombres d'alliés imagés pouvant être contrôlés, mais chaque allié ne peut avoir qu'une seule image associée.~
 @607241 = ~Cet allié est déjà imagé~
 
 @60725 = ~Purge de la magie~

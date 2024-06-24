@@ -1,6 +1,7 @@
 @1101 = ~Quaramon le dévoreur~
 @1102 = ~Wahahahaha – Miam~
 @1103 = ~La Chandelle du Monstre~
+@1104 = ~Katana +4~
 @1105 = ~Cette chandelle fut un jour offerte par le prêtre guérisseur de la région à Bilan Bogel, jeune fermier du Valplume. Bilan racontait assez souvent que son fils Gud se plaignait de voir la nuit une grosse bête humanoïde rôder autour de la maison, alors que lui même ne remarquait rien. Devant la sincérité affichée de son fils et son incapacité à voir l’intrus, Bilan avait du réagir, et après avoir requis l'aide du prêtre, il fut satisfait de pouvoir faire briller cette chandelle, qui devait dissiper l'illusion créée par l'intrus. Et la chandelle marcha comme prévu. La nuit même, Bilan put voir le monstre : un ogre énorme, habillé de vêtements bariolés. Alors qu'il restait stupéfait devant cette masse, l'ogre incanta un sort. L'instant d'après, Bilan se mit à brûler, profondément meurtri par la boule de feu que l'ogre venait de lancer. Alors qu'il courait se réfugier à la maison, il vit deux énormes mains fracasser la fenêtre de sa maison pour attraper Gud et ressortir aussi sec. Quand Bilan ressortit de la maison, ni l'ogre ni son fils n’étaient visibles, mais il entendait encore les cris de Gud qui s’éloignaient. Il tenta de le suivre à l'oreille, mais en perdit rapidement la trace.
 Le lendemain, Bilan ralluma la chandelle. Et il s’était préparé. Il était armé et accompagné de camarades fermiers. Quand l'ogre apparut de nouveau à la lumière de la chandelle, tous se jetèrent sur lui. Ce fut la dernière chose qu'ils purent faire avant de mourir.
 
@@ -9,17 +10,21 @@ Le surlendemain, le prêtre vint récupérer la chandelle. Bientôt il la proposerai
 CARACTÉRISTIQUES :
 
 Une fois fois par jour, peut invoquer pendant 3 tours Quaramon le dévoreur, ogre-mage de niveau 5.
-Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateur possède une pierre ionique quand il invoque Quaramon, celui ci prend la pierre et retourne dans la chandelle pour la dévorer. L'utilisateur peut dés lors le ré-invoquer, il sera plus puissant.
+Capacité spéciale : Quaramon peut dévorer des pierres d'Ioun. Si son invocateur possède une pierre d'Ioun quand il invoque Quaramon, celui ci prend la pierre et retourne dans la chandelle pour la dévorer. L'utilisateur peut dés lors le ré-invoquer, il sera plus puissant.
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA.
+Pour sept pierres dévorées, +1 à l'enchantement de son katana.
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 42
 TAC0 15
+CA 4
+Arme : Katana +1
 Jets de sauvegarde : 11 / 13 / 12 / 13 / 14
 Capacité : 1x Kaï
-Niveau d'incantateur : 5
+Niveau de lanceur de sorts : 5
 Sorts : 
 1x Charme personne 
 1x Sommeil
@@ -38,13 +43,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 45
 TAC0 15
+CA 4
+Arme : Katana +1
 Jets de sauvegarde : 11 / 13 / 12 / 13 / 14
 Capacité : 1x Kaï
-Niveau d'incantateur : 5
+Niveau de lanceur de sorts : 5
 Sorts : 
 2x Charme personne 
 1x Sommeil
@@ -63,13 +72,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 48
 TAC0 14
+CA 4
+Arme : Katana +1
 Jets de sauvegarde : 11 / 13 / 12 / 13 / 14
 Capacité : 1x Kaï
-Niveau d'incantateur : 6
+Niveau de lanceur de sorts : 6
 Sorts : 
 2x Charme personne 
 2x Sommeil
@@ -88,13 +101,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 51
 TAC0 14
+CA 4
+Arme : Katana +1
 Jets de sauvegarde : 10 / 12 / 11 / 12 / 13
 Capacité : 1x Kaï
-Niveau d'incantateur : 6
+Niveau de lanceur de sorts : 6
 Sorts : 
 2x Charme personne 
 2x Sommeil
@@ -114,13 +131,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 54
 TAC0 13
+CA 4
+Arme : Katana +1
 Jets de sauvegarde : 10 / 12 / 11 / 12 / 13
 Capacité : 1x Kaï
-Niveau d'incantateur : 7
+Niveau de lanceur de sorts : 7
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -140,13 +161,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 57
 TAC0 13
+CA 3
+Arme : Katana +1
 Jets de sauvegarde : 10 / 12 / 11 / 12 / 13
 Capacité : 1x Kaï
-Niveau d'incantateur : 7
+Niveau de lanceur de sorts : 7
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -166,13 +191,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 60
 TAC0 12
+CA 3
+Arme : Katana +1
 Jets de sauvegarde : 9 / 11 / 10 / 11 / 12
 Capacité : 1x Kaï
-Niveau d'incantateur : 8
+Niveau de lanceur de sorts : 8
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -193,13 +222,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 63
 TAC0 12
+CA 3
+Arme : Katana +2
 Jets de sauvegarde : 9 / 11 / 10 / 11 / 12
 Capacité : 1x Kaï
-Niveau d'incantateur : 8
+Niveau de lanceur de sorts : 8
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -220,13 +253,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 66
 TAC0 11
+CA 3
+Arme : Katana +2
 Jets de sauvegarde : 9 / 11 / 10 / 11 / 12
 Capacité : 1x Kaï
-Niveau d'incantateur : 9
+Niveau de lanceur de sorts : 9
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -247,13 +284,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 69
 TAC0 11
+CA 3
+Arme : Katana +2
 Jets de sauvegarde : 8 / 10 / 9 / 10 / 11
 Capacité : 1x Kaï
-Niveau d'incantateur : 9
+Niveau de lanceur de sorts : 9
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -275,13 +316,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 72
 TAC0 10
+CA 2
+Arme : Katana +2
 Jets de sauvegarde : 8 / 10 / 9 / 10 / 11
 Capacité : 2x Kaï
-Niveau d'incantateur : 10
+Niveau de lanceur de sorts : 10
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -303,13 +348,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 75
 TAC0 10
+CA 2
+Arme : Katana +2
 Jets de sauvegarde : 8 / 10 / 9 / 10 / 11
 Capacité : 2x Kaï
-Niveau d'incantateur : 10
+Niveau de lanceur de sorts : 10
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -331,13 +380,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 78
 TAC0 9
+CA 2
+Arme : Katana +2
 Jets de sauvegarde : 7 / 9 / 8 / 9 / 10
 Capacité : 2x Kaï
-Niveau d'incantateur : 11
+Niveau de lanceur de sorts : 11
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -360,13 +413,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 81
 TAC0 9
+CA 2
+Arme : Katana +2
 Jets de sauvegarde : 7 / 9 / 8 / 9 / 10
 Capacité : 2x Kaï
-Niveau d'incantateur : 11
+Niveau de lanceur de sorts : 11
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -389,13 +446,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 84
 TAC0 8
+CA 2
+Arme : Katana +3
 Jets de sauvegarde : 7 / 9 / 8 / 9 / 10
 Capacité : 2x Kaï
-Niveau d'incantateur : 12
+Niveau de lanceur de sorts : 12
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -418,13 +479,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 87
 TAC0 8
+CA 1
+Arme : Katana +3
 Jets de sauvegarde : 6 / 8 / 7 / 8 / 9
 Capacité : 2x Kaï
-Niveau d'incantateur : 12
+Niveau de lanceur de sorts : 12
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -448,13 +513,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 90
 TAC0 7
+CA 1
+Arme : Katana +3
 Jets de sauvegarde : 6 / 8 / 7 / 8 / 9
 Capacité : 2x Kaï
-Niveau d'incantateur : 13
+Niveau de lanceur de sorts : 13
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -478,13 +547,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 93
 TAC0 7
+CA 1
+Arme : Katana +3
 Jets de sauvegarde : 6 / 8 / 7 / 8 / 9
 Capacité : 2x Kaï
-Niveau d'incantateur : 13
+Niveau de lanceur de sorts : 13
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -508,13 +581,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 96
 TAC0 6
+CA 1
+Arme : Katana +3
 Jets de sauvegarde : 5 / 7 / 6 / 7 / 8
 Capacité : 2x Kaï
-Niveau d'incantateur : 14
+Niveau de lanceur de sorts : 14
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -539,13 +616,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 99
 TAC0 6
+CA 1
+Arme : Katana +3
 Jets de sauvegarde : 5 / 7 / 6 / 7 / 8
 Capacité : 2x Kaï
-Niveau d'incantateur : 14
+Niveau de lanceur de sorts : 14
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -570,13 +651,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 102
 TAC0 5
+CA 0
+Arme : Katana +3
 Jets de sauvegarde : 5 / 7 / 6 / 7 / 8
 Capacité : 3x Kaï
-Niveau d'incantateur : 15
+Niveau de lanceur de sorts : 15
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -601,13 +686,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 105
 TAC0 5
+CA 0
+Arme : Katana +4
 Jets de sauvegarde : 4 / 6 / 5 / 6 / 7
 Capacité : 3x Kaï
-Niveau d'incantateur : 15
+Niveau de lanceur de sorts : 15
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -633,13 +722,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 108
 TAC0 4
+CA 0
+Arme : Katana +4
 Jets de sauvegarde : 4 / 6 / 5 / 6 / 7
 Capacité : 3x Kaï
-Niveau d'incantateur : 16
+Niveau de lanceur de sorts : 16
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -665,13 +758,17 @@ Capacité spéciale : Quaramon peut dévorer des pierres ioniques. Si son invocateu
 Chaque pierre dévorée lui fait gagner 3 points de vies et lui permet de mémoriser un sort de plus.
 Pour deux pierres dévorées, +1 au TAC0 et +1 niveau de lanceur de sort.
 Pour trois pierres dévorées, +1 aux jets de sauvegarde et +1 sort connu.
+Pour cinq pierres dévorées, +1 à la CA
+Pour sept pierres dévorées, +1 à l'enchantement de son katana (qui est par défaut +1)
 
 Caractéristiques actuelles de Quaramon :
 Points de vie : 111
 TAC0 4
+CA 0
+Arme : Katana +4
 Jets de sauvegarde : 4 / 6 / 5 / 6 / 7
 Capacité : 3x Kaï
-Niveau d'incantateur : 16
+Niveau de lanceur de sorts : 16
 Sorts : 
 3x Charme personne 
 2x Sommeil
@@ -698,7 +795,7 @@ Points de vie : 54
 TAC0 13
 Jets de sauvegarde : 10 / 12 / 11 / 12 / 13
 Capacité : 1x Kaï
-Niveau d'incantateur : 7
+Niveau de lanceur de sorts : 7
 Sorts : 
 3x Charme personne 
 2x Sommeil

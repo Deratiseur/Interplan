@@ -523,8 +523,8 @@ Non utilisable par :
  Mages
  Voleurs~
 
-@4055 = ~Anneau de Rajhin~
-@4056 = ~Cet anneau existait déjà depuis plusieurs centaines d'années lorsqu'il est tombé entre les mains de Rajhin, le voleur tabaxi qui l'a rendu célèbre. C'est en effet Rajhin qui, le premier, a pensé à utiliser les propriétés de l'objet pour se monter effectuant de nobles taches alors que dans le même temps trois lui même multipliaient les rapines. Grâce à l'artefact, il est devenu le plus grand cambrioleur de l'histoire de Maztika. On ignore comment Rajhin a fini mais, s'il faut en croire la légende, l'anneau se serait un jour rebellé contre l'utilisation quasi constante qui était faite de ses pouvoirs ; il aurait disparu au plus mauvais moment, laissant Rajhin seul face à ses ennemis.
+@4055 = ~Amulette de Rajhin~
+@4056 = ~Cette amulette existait déjà depuis plusieurs centaines d'années lorsqu'elle est tombée entre les mains de Rajhin, le voleur tabaxi qui l'a rendu célèbre. C'est en effet Rajhin qui, le premier, a pensé à utiliser les propriétés de l'objet pour se monter effectuant de nobles taches alors que dans le même temps trois lui même multipliaient les rapines. Grâce à l'artefact, il est devenu le plus grand cambrioleur de l'histoire de Maztika. On ignore comment Rajhin a fini mais, s'il faut en croire la légende, l'amulette se serait un jour rebellée contre l'utilisation quasi constante qui était faite de ses pouvoirs ; elle aurait disparu au plus mauvais moment, laissant Rajhin seul face à ses ennemis.
 
 Capacités de charge :
  Une fois par jour, peut créer 3 clones (identiques à 100%) de l’utilisateur pendant 4 heures.
@@ -680,7 +680,7 @@ PARAMETRES :
 
 L'arbalète permet d'attaquer 4 fois par round
 Hâte améliorée
-Tout carreau tiré par cette arbalète ralenti la cible pendant 3 rounds.
+Tout carreau tiré par cette arbalète ralenti la cible pendant 3 rounds (sans jet de sauvegarde)
 
 Dégâts : +3
 TAC0 : +20
@@ -920,9 +920,9 @@ Spécial : le bras doit être greffé, usage unique et définitif. Pendant un tour, 
 
 Capacité d'équipement :
 Après un tour, force fixée à 20
-Après un tour, huit tatouages actifs conférant la possibilité de lancer des sorts de druide une fois par jour chacun :
+Après un tour, confère huit tatouages magiques permettant de lancer pour chacun le sort de druide associé une fois par jour :
  Neutralisation du poison
-Appel des créatures des bois
+ Appel des créatures des bois
  Peaux de fer
  Fléau d'insectes
  Régénération
@@ -956,7 +956,7 @@ Capacités spéciales : trois fois Vaporisation prismatique et une fois Rayon de s
 Lorsque les gants rentrent en contact avec une créature, ils la mordent pour régénérer leur porteur.
 
 Capacités d'équipement :
-Toutes les attaques de poing infligent 2d6 points de dégât perçants supplémentaires et font gagner un point de vie au porteur.~
+Toutes les attaques de poing infligent 2d6 points de dégât perçants supplémentaires et font gagner deux points de vie au porteur.~
 
 
 @40107 = ~Anneau de dévastation~
@@ -964,3 +964,12 @@ Toutes les attaques de poing infligent 2d6 points de dégât perçants supplémentai
 
 Capacités d'équipement :
 Dégâts infligés : +40%~
+
+@40109 = ~Anneau de contre argument~
+@40110 = ~Cet anneau qui a demandé des années de confection et une somme faramineuse en tant que paiement à été commandé par Bassel-Bar Dov le demi-elfe. Guerrier-mage-prêtre réputé et de nombreuses fois honoré pour ses glorieuses victoires, il prenait très mal les remarques lancées par certain spécialistes qui gagnaient parfois la place de gradé qu'il pensait devoir lui revenir. Une fois que son anneau fut achevé, il pensait pouvoir régler ces différents à coup de duels, magiques ou à l'arme. Il compris son erreur dès le premier affrontement magique quand trois comètes lui tombèrent dessus avant même qu'il puisse achever l'incantation de son premier sort. Tout puissant qu'il était, il lui manquant l'immunité à l'arrête du temps.
+
+Capacités d'équipement :
+Double le nombre de sorts profanes mémorisables
+Double le nombre de sorts divins mémorisables
++5 au niveau de lanceur de sorts et aux jets de sauvegarde
++50% au taco et aux points de vies~

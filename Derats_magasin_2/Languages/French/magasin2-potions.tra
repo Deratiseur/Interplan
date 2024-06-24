@@ -137,7 +137,7 @@ Protection contre les armes non-magiques
 Jets de sauvegarde et Classe d'Armure : +2
 Durée : 10 tours
 
-Poids : +1~
+Poids : 1~
 @7031 = ~Huile pyrophoricite~ //prix 700
 @7032 = ~Cette huile s'enflamme peu de temps après avoir été appliquée. Utilisé sur une arme de corps-à-corps, elle permet de rajouter des dégâts de feu à ses dégâts de base. Sur une arme à projectile, l'effet ne dure que quelques secondes, l'huile filant avec le projectile lancé.
 
@@ -179,12 +179,57 @@ Durée : 1 tour
 
 Poids : 1~
 
-@7039 = ~Mouche du fléau~ //prix 500
+@7039 = ~Mouche du fléau~ //prix 1200
 @7040 = ~Cette petite mouche momifiée permet de recréer un des sept fléaux. Pour l'utiliser il faut l'avaler, après quoi le mangeur peut cracher une nuée d'insectes.
 
 PARAMETRES :
 
 Lance Fléau d'insectes
 Durée : 1 tour
+
+Poids : 1~
+
+@7041 = ~Asticot fourré~ //prix 800
+@7042 = ~L'Asticot fourré est une des friandises les plus populaires sur Dothion. Celle-ci est une spécialité de Mamy Boulot, avec son ingrédient secret si savoureux et si utile.
+
+PARAMETRES :
+
+Après 3 round, le croqueur lâche un nuage de gaz, puis un autre après 5 rounds, puis un autre après 7 rounds.
+Durée des nuages : 1 tour
+
+Poids : 1~
+
+@7043 = ~Infinitérium~
+@7044 = ~L'origine de cet étrange breuvage se perd dans les circonvolutions du temps. La divination ne permet que de savoir qu'il n'est pas originaire d'Abel-Toril et que, plus qu'un simple objet planaire, il n'a pas sa place dans "cette" réalité. Un papier est collé sur le fond de la bouteille et malgré tous vos efforts vous ne parvenez pas à le décoller. Il est écrit dessus : Dfjtrugmp Svqjev, DM, 43/04/12096.
+
+Cet alcool fort redonne 15 points de vie à celui qui le boit. La bouteille se ré-rempli après chaque usage.~
+
+@7045 = ~Oeil magique~ //prix 800
+@7046 = ~Ce œil est solide et froid au touché, comme gelé. Pour l'utiliser il faut le faire fondre dans la main, après quoi un œil magique se manifeste.
+
+PARAMÈTRES :
+
+Oeil de magicien
+Durée : 2 tours
+
+Poids : 1~
+
+@7047 = ~Potion de déplacement~ //prix 1200
+@7048 = ~Cette potion permet à qui la boit de se déplacer instantanément sur de courtes distances à volonté une fois par round.
+
+PARAMETRES :
+
+Porte dimensionnelle à volonté une fois par round .
+Durée : 5 tours
+
+Poids : 1~
+
+@7049 = ~Potion de métamorphose~
+@7050 = ~Cette potion confère à quiconque la boit la capacité de se métamorphoser, comme avec le sort de mage du même nom.
+
+PARAMÈTRES :
+
+Métamorphose à volonté une fois par round
+Durée : 3 tours
 
 Poids : 1~

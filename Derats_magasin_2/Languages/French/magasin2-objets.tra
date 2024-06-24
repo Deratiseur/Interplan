@@ -1,4 +1,4 @@
-@801 = ~L’Étoile de Kahor~
+@801 = ~L’Étoile de Kahor +3~
 @802 = ~Il y a longtemps, Kahor, un célèbre forgeron nain, était confronté à un problème qu'il essayait de résoudre depuis plusieurs années. Sa maison, perchée à flan de montagne, était constamment attaquée par des créatures volantes sur lesquelles les flèches les plus acérées ne perçaient même pas le cuir.
 C'est un soir d'été où les créatures de la nuit s'en prenaient encore à ses chèvres que l'étoile tomba du ciel en dessinant derrière elle un sillon de feu vert. Cet incident fit fuir les créatures et Kahor, intrigué, décida d'aller voir de quoi il retournait. Arrivé sur le lieu de l'impact il découvrit un petit météore aux reflets verts. Il décida que c'était un signe du destin et passa une semaine entière à forger, à travailler et à ciseler ce qui allait devenir l'étoile de Kahor.
 Il conçu cette arme comme une arme de jet, tranchante comme un rasoir, et dont l'habilité du lanceur pourrait en faire l'égal de n'importe quelle arme de mêlée. Il fondit donc le métal et en fit une dague avec deux branches travaillées comme des petites lames de sabre, légèrement recourbées afin de trancher plutôt que de se planter. Ensuite, sur une des faces de la lame principale il plaça trois sifflets travaillés directement dans le métal de l'arme de façon à terroriser l'ennemi qui entendrait l'arme voler. Sur la seconde face, il grava diverses runes dont il avait le secret. Une pour que l'arme revienne dans la main du lanceur une fois que l'étoile à touché sa cible. La deuxième pour créer un mouvement de vrille. La dernière, plus terrible que les autres puisqu'elle mentaux du maprovoque une décharge d’énergie au contact.
@@ -23,6 +23,7 @@ Type de compétence : dague
 Type : arme à 1 main
 Non utilisable par :
  Clerc~
+@80199 = ~L’Étoile de Kahor +4~
 @80299 = ~Il y a longtemps, Kahor, un célèbre forgeron nain, était confronté à un problème qu'il essayait de résoudre depuis plusieurs années. Sa maison, perchée à flan de montagne, était constamment attaquée par des créatures volantes sur lesquelles les flèches les plus acérées ne perçaient même pas le cuir.
 C'est un soir d'été où les créatures de la nuit s'en prenaient encore à ses chèvres que l'étoile tomba du ciel en dessinant derrière elle un sillon de feu vert. Cet incident fit fuir les créatures et Kahor, intrigué, décida d'aller voir de quoi il retournait. Arrivé sur le lieu de l'impact il découvrit un petit météore aux reflets verts. Il décida que c'était un signe du destin et passa une semaine entière à forger, à travailler et à ciseler ce qui allait devenir l'étoile de Kahor.
 Il conçu cette arme comme une arme de jet, tranchante comme un rasoir, et dont l'habilité du lanceur pourrait en faire l'égal de n'importe quelle arme de mêlée. Il fondit donc le métal et en fit une dague avec deux branches travaillées comme des petites lames de sabre, légèrement recourbées afin de trancher plutôt que de se planter. Ensuite, sur une des faces de la lame principale il plaça trois sifflets travaillés directement dans le métal de l'arme de façon à terroriser l'ennemi qui entendrait l'arme voler. Sur la seconde face, il grava diverses runes dont il avait le secret. Une pour que l'arme revienne dans la main du lanceur une fois que l'étoile à touché sa cible. La deuxième pour créer un mouvement de vrille. La dernière, plus terrible que les autres puisqu'elle provoque une décharge d’énergie au contact.
@@ -49,7 +50,7 @@ Type : arme à 1 main
 Non utilisable par :
  Clerc~
 
-@803 = ~Dague porte-bonheur de Moorin~
+@803 = ~Dague porte-bonheur de Moorin +2~
 @804 = ~Cette dague appartenait autrefois à Moorin, dite "Porte-Poisse", une jeune femme pourchassée par la malchance qui devint voleuse sur un coup du sort (ou plutôt, plusieurs). Chaque fois qu'elle se choisissait une profession, son mentor mourait de façon accidentelle. Au bout du compte, elle devint voleuse autodidacte, mais ses compétences étaient proprement risibles.
 
 La carrière de Moorin ne fut qu'une succession d'accidents. Chaque fois, elle se retrouvait obligée de combattre sans l'avoir choisi, et finissait généralement mortellement blessée et en prison. Quand son père, l'archimage Xoorcon, comprit qu'elle ne survivrait pas longtemps à ce rythme, il créa cette lame à son intention.
@@ -107,7 +108,7 @@ Non utilisable par :
 @809 = ~Catalyseur du marteau Johrünbrumd~
 @8010 = ~Ce parchemin est écrit avec des runes naines très anciennes que seuls vieux nains et grands érudits peuvent lire. Il décrit avec moult précisions la technique pour reforger le marteau Johrünbrumd, chef d’œuvre du maître forgeron Grolin Main-de-roche. Le parchemin est lui même un composant de la formule et sert de catalyseur à la magie intrinsèque associé aux objets à fusionner, à savoir le Marteau de tonnerre +3, le Bâton de foudre et tonnerre et la Cape de réflexion. Sans oublier que pour forger le marteau, il faut trouver un forgeron volontaire et capable de reforger l'ouvrage.~
 
-@8010996 = ~Johrünbrumd~
+@8010996 = ~Johrünbrumd +5~
 @8010997 = ~Johrünbrumd est le chef d’œuvre qui couronne la carrière du forgeron nain Grolin Mains-de-roche. Il ne l'a jamais vu de ses yeux et ne l'a même jamais forgé, car au crépuscule de sa vie il n'avait plus la possibilité de travailler le métal, la vieillesse lui ayant pris ses yeux. Mais il connaissait le moyen de créer des armes puissantes en combinant plusieurs objets magiques, et avait encore en tête la puissance intrinsèque du marteau qu'avait forgé son apprenti, Silverblade. Le marteau tel qu'il devait être n'ayant jamais été fini, Grolin conçu un catalyseur pour pouvoir adjoindre au marteau les éléments qui le transcenderaient. Vous tenez entre vos main le résultat du travail magistral de maître Grolin mains-de-roche.
 
 PARAMÈTRES :
@@ -158,6 +159,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
+@801099999 = ~Johrünbrumd +6~
 @8010999 = ~Johrünbrumd est le chef d’œuvre qui couronne la carrière du forgeron nain Grolin Mains-de-roche. Il ne l'a jamais vu de ses yeux et ne l'a même jamais forgé, car au crépuscule de sa vie il n'avait plus la possibilité de travailler le métal, la vieillesse lui ayant pris ses yeux. Mais il connaissait le moyen de créer des armes puissantes en combinant plusieurs objets magiques, et avait encore en tête la puissance intrinsèque du marteau qu'avait forgé son apprenti, Silverblade. Le marteau tel qu'il devait être n'ayant jamais été fini, Grolin conçu un catalyseur pour pouvoir adjoindre au marteau les éléments qui le transcenderaient. Vous tenez entre vos main le résultat du travail magistral de maître Grolin mains-de-roche, sublimé par l'addition exceptionnelle du katana Furie céleste.
 
 PARAMÈTRES :
@@ -184,7 +186,7 @@ Non utilisable par :
  Mage 
  Voleur~
 
-@8011 = ~Dent affamée de Kessek~
+@8011 = ~Dent affamée de Kessek +3~
 @8012 = ~S'il faut en croire la légende, Kessek était un chef bariaure d'Outreterre qui a, voici de nombreux siècles, vu son peuple mourir de faim au cours d'une terrible tempête hivernale dans la Gorge des Larmes. Les incessantes chutes de neige avaient piégé les bariaures, et Kessek envoya plusieurs éclaireurs chercher de l'aide dans la province voisine d'Ohinru.
 
 Apprenant ce qui était arrivé aux bariaures, les princes-marchands d'Ohinru y virent l'occasion de se débarrasser une bonne fois pour toutes de ce qu'ils considéraient comme une "nuisance" et de s'emparer des terres des bariaures. Les éclaireurs furent mis à mort et on planta leur tête sur les plus hauts remparts afin que "les vautours puissent se gaver tandis que les bariaures mouraient de faim."
@@ -212,7 +214,8 @@ Type : arme à 1 main
 Non utilisable par :
  Clerc~
 
-@801209 = ~S'il faut en croire la légende, Kessek était un chef bariaure d'Outreterre qui a, voici de nombreux siècles, vu son peuple mourir de faim au cours d'une terrible tempête hivernale dans la Gorge des Larmes. Les incessantes chutes de neige avaient piégé les bariaures, et Kessek envoya plusieurs éclaireurs chercher de l'aide dans la province voisine d'Ohinru.
+@801199 = ~Dent affamée de Kessek +4~
+@801299 = ~S'il faut en croire la légende, Kessek était un chef bariaure d'Outreterre qui a, voici de nombreux siècles, vu son peuple mourir de faim au cours d'une terrible tempête hivernale dans la Gorge des Larmes. Les incessantes chutes de neige avaient piégé les bariaures, et Kessek envoya plusieurs éclaireurs chercher de l'aide dans la province voisine d'Ohinru.
 
 Apprenant ce qui était arrivé aux bariaures, les princes-marchands d'Ohinru y virent l'occasion de se débarrasser une bonne fois pour toutes de ce qu'ils considéraient comme une "nuisance" et de s'emparer des terres des bariaures. Les éclaireurs furent mis à mort et on planta leur tête sur les plus hauts remparts afin que "les vautours puissent se gaver tandis que les bariaures mouraient de faim."
 
@@ -325,7 +328,7 @@ PARAMÈTRES :
 Capacités de charge :
  Permet de lancer Clairvoyance, Vision lointaine et Oracle une fois par jour chacun.~
 
-@8025 = ~Percegerbe~
+@8025 = ~Percegerbe +4~
 @8026 = ~Cette arme peu ragoûtante a trop souvent changé de mains pour qu'on connaisse précisément son origine. La légende la plus volontiers admise en attribue la création à un berger et pilier de bar sembien, mais même cette histoire tend à être racontée avec des accents enivrés par la bière. L'unique certitude concernant cette épée, c'est sa composition : les vestiges déchiquetés et tordus d'une chope à bière en cuivre bon marché, ainsi que l'effet redoutable qu'elle a aussi bien sur son porteur que sur ses victimes. Percegerbe semble faire ressortir les pires défauts d'un ivrogne, et les ivrognes semblent être les seuls à l'avoir jamais porté, rarement longtemps, d'ailleurs. Comme on peut s'y attendre, ces individus ont tendance à perdre l'arme ou à la mettre en jeu avec une régularité alarmante, même si elle est le plus souvent prise de force après une rixe due à la boisson ou une bagarre gratuite dans une taverne.
 
 PARAMETRES
@@ -489,7 +492,7 @@ Capacité de charge :
 
 Poids : 3~
 
-@8045 = ~Bâton d'Hachitoza~
+@8045 = ~Bâton d'Hachitoza +2~
 @8046 = ~Hachitoza était un magicien doté d'un grand esprit de compétition, à tel point qu'il parcourut Kara-Tur dans tous les sens, à la recherche d'un mage capable de le vaincre. Il ne l'aurait apparemment jamais trouvé. On dit souvent que, las de se sentir rejeté par tous ceux qui redoutaient sa puissance, il finit par lier son énergie vitale à son bâton, dans laquelle son âme réside aujourd'hui encore. Nombreux sont les magiciens qui cherchent ce bâton en Kara-Tur, ce qui n'est pas étonnant, compte tenu du fait qu'il confère à son utilisateur une importante protection contre la magie.
 
 PARAMÈTRES :
@@ -623,7 +626,7 @@ Poids : 3
 Utilisable uniquement par :
 Tueur de magicien~
 
-@8057 = ~Canne de marche de Llawran~
+@8057 = ~Canne de marche de Llawran +1~
 @8058 = ~Pour gagner sa vie, Llawran, un magicien elfique, allait de village en village et utilisait son large répertoire de sorts pour divertir les villageois. D'un naturel doux, il évitait autant que faire se peut toute confrontation et ne portait sur lui que sa précieuse canne. Au fil du temps, Llawran fut la cible de voleurs qui profitaient de ses spectacles pour lui dérober son matériel et son argent. C'est ainsi que Llawran décida d'imprégner sa canne d'un enchantement de rapidité à la suite de quoi ses spectacles étaient souvent ponctués des cris de surprise des voleurs.
 
 PARAMÈTRES :
@@ -788,7 +791,7 @@ Inutilisable par :
  Mage
  Voleur~
 
-@8075 = ~Bouclier du dernier Gardien~
+@8075 = ~Bouclier du dernier Gardien +2~
 @8076 = ~Selon la légende, ce bouclier était l'un des douze qui furent conçus pour un petit groupe de paladins itinérants. Se nommant les Gardiens, les paladins se chargeaient eux-mêmes de protéger les petites villes et villages éloignés groupés autour de la Mare aux dragons.
 
 Bien que peu nombreux, les paladins étaient connus pour leur indéfectible dévouement, avançant promptement pour affronter n'importe quelle menace à l'encontre des innocents voyageurs. Ceux qui eurent la chance de combattre aux côtés de ces guerriers dirent souvent qu'ils avaient l'impression que des coups normalement mortels glissaient sans heurt sur leur armure, et prétendaient que les paladins leur avaient apporté la fortune.
@@ -816,7 +819,7 @@ Utilisable uniquement par :
 @80761 = ~Aide et Bénédiction~
 @80762 = ~Sanctuaire et Régénération~
 
-@8077 = ~Brise-Sorts~
+@8077 = ~Brise-Sorts +2~
 @8078 = ~Brise-Sorts, qui se présente sous la forme d'un écu elfe comme les autres, est en réalité l'un des plus anciens artefacts de Faêrun. Même si l'on ne tient aucun compte de son importance historique (il remonte en effet aux troisièmes guerres de la couronne), il protège presque totalement son porteur contre tous les lanceurs de sorts, soit en retournant la magie à son envoyeur, soit en empêchant de parler les mages qui s'apprêtent à proférer une incantation. On prétend que le bouclier recherche toujours son premier porteur et qu'il ne reste jamais longtemps en possession de qui que ce soit. Mais ceux qui l'ont eu entre les mains ne s'en sont jamais plaints.
 
 PARAMÈTRES :
@@ -837,7 +840,7 @@ Non utilisable par :
  Mage
  Voleur~
 
-@8079 = ~Sceptre du poing de fer~
+@8079 = ~Sceptre du poing de fer +2~
 @8080 = ~L'extrémité de ce sceptre en fer rouillé a la forme d'un poing fermé et il est presque impossible de le regarder sans s'interroger à son sujet. On dirait un ancien symbole de royauté, mais il est impossible de deviner sa provenance. Il a peut-être été utilisé jadis dans une province aujourd'hui oubliée. Ce qui est sûr, c'est qu'il se manie comme une masse et qu'il inflige des dégâts équivalents.
 
 Pour activer son pouvoir, il suffit de tenir le sceptre de la main gauche et de placer la main droite, paume ouverte, sous le poing fermé. Il projette alors une force magique prenant la forme d'un énorme poing et répondant aux ordres qu'on lui impose. 
@@ -869,6 +872,16 @@ PARAMÈTRES :
 
 Capacités d'équipement :
  Mémorisation de trois sorts de cinquième niveau supplémentaires.
+ Spécial : 1 point de dommage subit lorsque l'anneau est enfilé.
+
+Utilisable uniquement par :
+ Druide~
+@80829 = ~L'ordre druidique des Ovates de l'Arbre sacré croient que l'Anneau des merveilles est la pousse du grand chêne de Kuldahar. Ils disent qu'un jour il grandira et deviendra un arbre plus grand encore. Des fibres ressemblant à des racines sortent d'un bourgeon d'un jaune éclatant et s'entremêlent pour former un anneau qui s'ajuste au doigt de son porteur. Le retirer peut s'avérer une expérience douloureuse et demande une délivrance de la malédiction, car les racines fusionnent avec la chair.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Double la capacité de mémorisation des sorts de niveau 4.
  Spécial : 1 point de dommage subit lorsque l'anneau est enfilé.
 
 Utilisable uniquement par :
@@ -1069,7 +1082,7 @@ Poids : 1
 Uniquement utilisable par :
  Berserker~
 
-@80107 = ~Olobïnn~
+@80107 = ~Olobïnn +2~
 @80108 = ~Olobïnn appartenait autrefois à un brillant instructeur militaire de Lyrabar. Cet instructeur était un psionique dont les talents n'étaient que rarement utilisés par sa hiérarchie et qui s'indignait de l'incapacité de ses supérieurs à comprendre que les psioniques étaient les seuls à pouvoir mener certaines missions clés. Il ne tarda pas à faire connaître son opinion et au fil du temps celle-ci se radicalisa au point que ses agissements lui valurent d'être accusé de trahison.
 
 Mais l'officier et ses hommes venus pour l'arrêter le sous-estimèrent, et armé de sa seule épée et de ses qualités spirituelles, il les tua. Il quitta ensuite la ville et s'adonna à une vie de duelliste, bien décidé à prouver son potentiel à tous ceux qui pouvaient en douter. Il finit comme la plupart des duellistes et le potentiel dont il avait si souvent parlé resta tel qu'il était.
@@ -1200,7 +1213,7 @@ PARAMÈTRES :
 Capacité d'équipement :
  Résistance à l'électricité : +125%~
 
-@80119 = ~Lame de dualité~
+@80119 = ~Lame de dualité +3~
 @80120 = ~Deux siècles durant, cette épée resta un mystère pour les historiens comme pour les armuriers. Elle fut originellement récupérée dans une ruine Imaskarine, mais la plupart des experts s'accordent à dire qu'elle est bien plus récente que tous les artefacts laissés par cette ancienne civilisation. Pour autant, personne n'a réussi à expliquer les runes gravées sur sa lame qui sont, sans aucun doute, Imaskarines. Mais il est une chose sur laquelle tout le monde s'accorde : cette arme, bien que teintée de mystère, n'en demeure pas moins redoutable.
 
 PARAMÈTRES :
@@ -1213,7 +1226,9 @@ Capacité de combat :
  5% de chance en touchant de multiplier les copies : ce sont alors 1D4+2 copies qui sont crées et fonctionnent comme des images miroirs pendant 4 rounds.
  5% de chance en touchant de crée une image semi réelle et indépendante qui se comporte comme un simulacre pendant 5 rounds.
 
-Dégâts : 2D4+1 (compte comme une arme +3)
+Spécial : enchantée +3
+
+Dégâts : 2D4+1
 TAC0 : +1
 Type de dégâts : tranchant
 Poids : 9
@@ -1244,7 +1259,7 @@ Capacité d'équipement :
 Uniquement utilisable par :
  Mage et Barde~
 
-@80123 = ~Discordance~
+@80123 = ~Discordance +2~
 @80124 = ~Cette arme appartenait autrefois à Sasha Seremon, une maître-lames de grande renommée. Ses exploits et ses nombreux triomphes sont entrés dans la légende. Ses aventures ont longtemps été chantées, des cours de la noblesse jusqu'aux plus modestes tavernes, bien que nulle chanson ou poème n'ait rendu justice à la grâce dont faisait preuve Sasha lame en main.
 
 Son cimeterre, une lame antique forgée avec art, agite l'air quand on le manipule, et résonne à une fréquence particulièrement vibrante. Il produit une harmonie complexe et dissonante, aussi belle que troublante. C'est à la fois un instrument de musique et un outil de combat. Si l'on en croit les entailles le long de la lame plaquée argent, la grande maître-lames a gardé ce cimeterre de nombreuses années, et a croisé le fer avec nombre d'ennemis.
@@ -1280,7 +1295,7 @@ Utilisable uniquement par :
  Clerc
  Druide~
 
-@80127 = ~Bouclier Toile~
+@80127 = ~Bouclier Toile +1~
 @80128 = ~Ce bouclier de facture drow est aussi souple et léger qu'une toile d’araignée, et pourtant aussi solide que du métal. Il est légèrement chaud et collant entre les doigts, comme s'il venait de sortir de l'abdomen d'une araignée. En le tenant, on peut presque comprendre la façon dont les araignées communiquent.
 
 PARAMÈTRES :
@@ -1294,6 +1309,7 @@ Bonus à la Classe d'Armure : 2
 Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
 Poids : 1
 Force nécessaire : 1~
+@8012709 = ~Bouclier Toile +3~
 @8012809 = ~Ce bouclier de facture drow est aussi souple et léger qu'une toile d’araignée, et pourtant aussi solide que du métal. Il est légèrement chaud et collant entre les doigts, comme s'il venait de sortir de l'abdomen d'une araignée. En le tenant, on peut presque comprendre la façon dont les araignées communiquent. Un drow vous a révélé qu'il s'agit en fait d'une "Toile vivante" et il l'a réveillé.
 
 PARAMÈTRES :
@@ -1412,7 +1428,7 @@ Force nécessaire : 8
 Utilisable uniquement par :
  Barbare~
 
-@80139 = ~Torche de Lula-Ko~
+@80139 = ~Torche de Lula-Ko +1~
 @80140 = ~Ce gourdin provient du sac peu connu de Psant, un village du Tesk. Lorsqu'une bande d'esclavagistes lança un raid sur eux, les villageois furent complètement pris par surprise. Les esclavagistes débordèrent rapidement les quelques gardes et se mirent à rassembler les gens terrifiés, tuant ceux qui étaient trop vieux, trop jeunes ou trop faibles pour être vendus aux enchères à bon prix.
 
 Une adolescente, Lula Ko, n'allait pas laisser les bandits faire du mal à son jeune frère ou à sa grand-mère diminuée. Résolue à ne pas se rendre sans combattre, elle fit irruption dans la chapelle de Tyr située dans la salle commune du village et arracha une torche placée au-dessus de l'autel. Elle la plongea dans de la poix puis brisa le miroir du prêtre en morceaux pour les coller au bout du bâton. Elle implora le pardon de Tyr pour son sacrilège et sortit affronter les esclavagistes.  
@@ -1454,7 +1470,7 @@ Capacités de charges :
 @80144 = ~Ce manuel contient toutes la sagesse du maître Ishabü, où il explique avec maintes mots sacrés les meilleures façons de combattre avec un bâton. Toute personne qui prend le temps de lire studieusement ce manuel devient un maître dans le maniement du bâton, après quoi le livre disparaît.~
 @801441 = ~Ce manuel contient toutes la sagesse du maître Ishabü, où il explique avec maintes mots sacrés les meilleures façons de combattre avec un bâton. Toute personne qui prend le temps de lire studieusement ce manuel gagne 2 points de compétences dans le maniement du bâton, après quoi le livre disparaît.~
 
-@80145 = ~Rinogân~
+@80145 = ~Rinogân +3~
 @80146 = ~Dans un monastère surplombant le lac Nab Ho Ting sur les contreforts du Talbot, vivait un ordre de moines appelé Mille rêves. Moyennant d'éprouvantes séances de méditation, ces moines réussirent à remonter le fil de leurs vies antérieures comme s'il s'agissait de rêves. Chacun traversa ces souvenirs dans l'espoir ultime de découvrir l'identité de son âme primordiale. Ils pensaient qu'après un millier de vies, ils pouvaient atteindre l'illumination totale.
 
 Kûn li jouait un rôle prépondérant dans cet ordre et possédait une âme ancienne qui, disait-on, avait vécu plus de vies que toute autre. Mais arrivée au terme de toutes ses vies, elle comprit qu'elle n'avait plus rien à découvrir et qu'elle ne réussirait jamais à se connaître vraiment, car elle n'en avait tout simplement pas suffisamment appris.
@@ -1492,7 +1508,7 @@ PARAMETRES :
 Capacité d'équipement :
 Chaque fois que le porteur de l'anneau fait un coup critique en mêlée il est soigné pour 1D4 points de vie.~
 
-@80149 = ~Arc d'Alis~
+@80149 = ~Arc d'Alis +1~
 @80150 = ~Le rôdeur Alis du Bois tapi obtint cet arc des mains d'une mage errante après qu'elle et son furet de compagnie, Lysa, vinrent à son secours. Il était retenu captif par Garland, le troll des glaces. La mage imprégna l'arc avec les larmes du troll mourant pour lui donner la capacité de tirer des flèches de glace enchantées. Depuis ce jour, Alis ne partit plus jamais en patrouille sans son arc.
 
 PARAMETRES :
@@ -1528,7 +1544,7 @@ Permet de lancer Immunité contre les sorts une fois par jour.~
 PARAMETRES :
 
 Capacité d'équipement :
-Spécial : toute les heures 3% de chance de créer dans l’inventaire du porteur un parchemin de sort aléatoire. (enlever et remettre la ceinture remet le compteur à zéro).~
+Spécial : toute les heures 6% de chance de créer dans l’inventaire du porteur un parchemin de sort aléatoire. (enlever et remettre la ceinture remet le compteur à zéro).~
 
 @80155 = ~Bottes de sauvegarde~
 @80156 = ~Un nécromancien aquafondien, fatigué de la mauvaise réputation de sa profession, créa ces bottes pour aider les aventuriers épuisés dans leurs voyages. Contrairement à la croyance populaire, elles ne contiennent pas les âmes des victimes et des ennemis du nécromancien.
@@ -1740,7 +1756,7 @@ Capacité d'équipement :
 Chaque fois qu'il fait un raté critique le porteur est affecté par Frappe critique et Coup mortel.
 Chance de raté critique : +2~
 
-@80177 = ~Bâton de feu de Taluntain~
+@80177 = ~Bâton de feu de Taluntain +1~
 @80178 = ~Dans un coin sombre du Turmish, loin de l'influence de la société civile, on raconte qu'il existe une école construite pour former des magiciens dans un endroit aussi petit qu'obscur et oublié du reste du monde.
 
 Le grand maître de cette école, un mage elfique connu sous le nom de Taluntain, prit conscience d'un problème grandissant. L'aura émise par la magie de l'école servait de balise aux horribles créatures des alentours. Des trolls maraudeurs des landes voisines attaquaient régulièrement ses murs. Le grand maître se décida à passer à l'action et mit au point un redoutable bâton pour venir à bout de ces trolls.
@@ -1776,7 +1792,7 @@ Deux fois par jour le porteur peut se transformer en Loup-garou majeur pendant 3
 
 Spécial : maudite : l'amulette ne peut plus être enlevée une fois enfilée et tant que que le porteur et transformé il a 1% de chance par attaque d’acquérir la sauvagerie de la bête et de devenir incontrôlable~
 
-@80181 = ~Bras du vent~
+@80181 = ~Bras du vent +3~
 @80182 = ~Une douzaine de haches d'armes uniques avaient été créées à la demande du roi Tristan Kendrick pour équiper ses gardes du corps royaux. Chacune était destinée à rendre hommage aux éléments qui gouvernent la fortune maritime. Des haches d'armes additionnelles furent fabriquées pour honorer la pluie, les étoiles, le soleil, les vagues et d'autres symboles.
 
 Le Bras du Vent était la favorite du chef de la garde Bial Morgann, qui avait gagné son surnom « Casità mel Alisias » - le capitaine du Vent - pendant ses années de service dans la marine Callidyrrienne. On racontait que quelle que soit la direction dans laquelle Morgann devait se rendre, les vents souffleraient déjà de ce côté. Il donna le bras du Vent à son garde le plus habile, qui l'utilisa à de nombreuses reprises pour empêcher des nélanthères surexcités de s'approcher trop près du trône.
@@ -1835,7 +1851,7 @@ Capacités de charge :
 @801862 = ~Soufflées~
 @801863 = ~Projetées~
 
-@80187 = ~L'Étoile de Ganrish~
+@80187 = ~L'Étoile de Ganrish +3~
 @80188 = ~Il y a longtemps, Ganrich, le grand explorateur demi-orque, vogua jusqu'aux confins de de Féerune, en ne se guidant que grâce aux étoiles et aux marées. Une nuit, alors qu'il était en pleine mer, il eut la chance d'observer une pluie d'étoiles filantes traverser le ciel. Mais une des étoiles s'écrasa sur une île non loin, dans un éclat de lumière aveuglant. Ganrich ordonna immédiatement à son équipage de partir pour l'île. 
 
 Les arbres de l'île brûlaient comme du petit bois et le sable de la plage s'était changé en verre. Une fois débarqué, l'explorateur se fraya un chemin jusqu'au centre de l'île, qui avait été réduit en un cratère fumant. Au milieu du cratère, il découvrit une pierre unique en son genre. De retour sur son navire, Ganrich l'étudia. Elle était lourde, mais elle tombait lentement quand on la lançait ou qu'on la lâchait, laissant derrière elle une traînée de feu bleu. Quand elle atterrissait, elle produisait des étincelles, frappant avec une force mystérieuse et disproportionnée compte tenu de sa vitesse. Ces propriétés faisaient de la pierre une arme contondante idéale. Mais elle était impossible à façonner, alors Ganrich en fit cette étrange masse et demanda à un mage de l'enchanter pour être immunisé à ses effets.
@@ -1857,6 +1873,7 @@ Inutilisable par :
 Druides
 Mages
 Voleurs~
+@8018799 = ~L'Étoile de Ganrish +4~
 @8018899 = ~Il y a longtemps, Ganrich, le grand explorateur demi-orque, vogua jusqu'aux confins de de Féerune, en ne se guidant que grâce aux étoiles et aux marées. Une nuit, alors qu'il était en pleine mer, il eut la chance d'observer une pluie d'étoiles filantes traverser le ciel. Mais une des étoiles s'écrasa sur une île non loin, dans un éclat de lumière aveuglant. Ganrich ordonna immédiatement à son équipage de partir pour l'île. 
 
 Les arbres de l'île brûlaient comme du petit bois et le sable de la plage s'était changé en verre. Une fois débarqué, l'explorateur se fraya un chemin jusqu'au centre de l'île, qui avait été réduit en un cratère fumant. Au milieu du cratère, il découvrit une pierre unique en son genre. De retour sur son navire, Ganrich l'étudia. Elle était lourde, mais elle tombait lentement quand on la lançait ou qu'on la lâchait, laissant derrière elle une traînée de feu bleu. Quand elle atterrissait, elle produisait des étincelles, frappant avec une force mystérieuse et disproportionnée compte tenu de sa vitesse. Ces propriétés faisaient de la pierre une arme contondante idéale. Mais elle était impossible à façonner, alors Ganrich en fit cette étrange masse et demanda à un mage de l'enchanter pour être immunisé à ses effets.
@@ -1913,14 +1930,10 @@ PARAMETRES :
 
 Quand le total de point de vie du porteur est en dessous de 10%, 20% de chance chaque round qu'un éclair vienne frapper le porteur et rebondisse pour infliger 10D6 point de dégâts électriques (jet de sauvegarde contre les sorts pour ½) sur la créature la plus proche de lui.~
 
-@80195 = ~Ceinture de puissance férale~
-@80196 = ~Cherchant à accroître la puissance qu'elle avait même sous forme d'un ours, une shamane ogresse des temps anciens fabriqua cette ceinture qui puise dans le pouvoir spirituel de la transformation druidique et augmente la force de la forme animale. L'enchantement de la ceinture permet de s’adapter à n'importe quelle forme adoptée par son porteur, ainsi tous ceux qui choisissent de prendre des formes férales peuvent bénéficier de sa magie.
+@80195 = ~~
+@80196 = ~~
 
-PARAMETRES :
-
-Quand il est métamorphosé le porteur gagne +3 en force.~
-
-@80197 = ~Armure d’éclairs erratiques~
+@80197 = ~Armure d’éclairs erratiques +2~
 @80198 = ~La famille Bardatto a demandé à l’enchanteur Deltro de fabriquer une armure complète qui protégerait son porteur de l'électricité. En combinant des plaques en cuivre et d'autres éléments conducteurs à des sorts de protections, Deltro espérait rediriger et disperser toute attaque électrique dans l'air environnant. Son expérience fut un échec. L'armure, en plus de rediriger l'électricité sans causer de dommages, générait de violents orages. Sa construction fut coûteuse et son résultat, bien que magnifique, ne remplit jamais son office. Aussi, elle fut offerte en cadeau à un membre haut placé de la famille Bardatto où elle servit de décoration durant des années.
 
 PARAMETRES :
@@ -1948,7 +1961,7 @@ Non utilisable par :
 Capacités d'équipement :
 Classe d'armure : 8
 Charisme : -6
-Xp reçus fixé à 115%
+Xp reçus fixés à 115%
 
 Uniquement utilisable par :
  Mage~
