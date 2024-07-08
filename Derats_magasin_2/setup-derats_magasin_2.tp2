@@ -1698,12 +1698,12 @@ COPY	~Derats_Magasin_2/Objets/pxl2coff.itm~				~override~	SAY NAME2 @8091	SAY DE
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2clem.cre~	~override~	SAY NAME1 @401041	SAY NAME2 @401041
 	ACTION_IF GAME_IS ~BG2EE IWDEE EET~ THEN BEGIN
 	//Gants cannibales
-	COPY	~Derats_Magasin_2/EE/Objets/pxl2cann.itm~		~override~	SAY NAME2 @80105	SAY NAME2 @40106
+	COPY	~Derats_Magasin_2/EE/Objets/pxl2cann.itm~		~override~	SAY NAME2 @80105	SAY DESC @40106
 	COPY_EXISTING	~sareveff.eff~				~override/pxl2cann.eff~	WRITE_ASCII 0x30 ~pxl2cann~ #8
 	//Anneau de dévastation
-	COPY	~Derats_Magasin_2/EE/Objets/pxl2dvst.itm~		~override~	SAY NAME2 @80107	SAY NAME2 @40108
+	COPY	~Derats_Magasin_2/EE/Objets/pxl2dvst.itm~		~override~	SAY NAME2 @80107	SAY DESC @40108
 	//Anneau de contre-argument
-	COPY	~Derats_Magasin_2/EE/Objets/pxl2carg.itm~		~override~	SAY NAME2 @80109	SAY NAME2 @40110
+	COPY	~Derats_Magasin_2/EE/Objets/pxl2carg.itm~		~override~	SAY NAME2 @80109	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40110" END
 	END
 //Miracle de Delnar
 COPY	~Derats_Magasin_2/Objets/pxl2mira.itm~				~override~	SAY NAME2 @8093	SAY DESC @8094
@@ -3465,3 +3465,68 @@ COPY	~Derats_Magasin_2/Potions/pxl2oei2.itm~				~override~	SAY NAME2 @7045	SAY D
 COPY	~Derats_Magasin_2/Potions/pxl2depl.itm~				~override~	SAY NAME2 @7047	SAY DESC @7048
 //Potion de métamorphose
 COPY	~Derats_Magasin_2/Potions/pxl2metf.itm~				~override~	SAY NAME2 @7049	SAY DESC @7050
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////// SECRETS DISSEMINES DANS BG2 ////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//SECRETS :
+//Bille de plomb
+//Anneau en gelée //OK
+//Bâton d'Argus Dumatheira //Testé, infaisable
+//Hache des Ombres //OK Anneau
+//Casque de nombreuses bénédictions //OK Anneau
+//Arbalète à ressort //OK
+//Anneau de pouvoir //OK
+//Grimoire Infernal de Mensel //Quickload 1 seconde casse tout.
+//Omnitruc //Mais heu
+//Baguette du cœur gelé
+//Cube Sorcier //OK
+//Étrange gemme
+//Contrat d'Agril-shanak //OK
+//Amulette de protection +3
+//Carreaux tueurs de vampires
+//Pierre ionique immunité Évocation.
+
+//GRIMOIRE MOISI
+//lvl 1 Chagrin //Copie brut
+//Lvl 3 Aimant à coup //une cible -> utilité 0
+//Lvl 3 Maladresse //une cible -> utilité 0
+//Lvl 5 Ouverture de masse //utilité 0
+//Lvl 7 Mot de pouvoir : censure // Trop cheaté, Grimoire magique de Dillpater ???
+//Lvl 7 Immunité aux coups //Fait lvl 6 pour contondant. Complet x3 Grimoire magique de Dillpater si 3 icônes
+//Lvl 8 Création d'ombre majeure //Fait, nul
+//Lvl 8 Domination de masse //Trop classique
+//Lvl 8 Voile de la non-vie//Copie brut
+//Lvl 9 Invisibilité suprême //Grimoire magique de Dillpater
+//Lvl 9 Oeil de méduse //Grimoire magique de Dillpater lvl 8
+//Lvl 9 Convocation de tyranoeil //Grimoire magique de Dillpater
+//Lvl 9 Image en chaîne // OK 
+//Lvl 9 Armée des morts //OK Morts en marche lvl 8
+//Lvl 9 Égide //Copie brut
+//Lvl 9 Elfomorphose //OK, planqué à 4 endroits
+//Lvl 8 Rayon prismatique //Grimoire magique de Dillpater orbe
+//Lvl 9 Téléportation suprême //utilité 0
+//Lvl 9 Corp de diamant //En remplacement de Invulnérabilité Grimoire magique de Dillpater ???
+//Lvl 9 Nuage de folie frénétique //Ok Nuage de frénésie bestiale
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////// V9 /////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Script de combat automatique aux lanceurs de sorts du sceptre
+//Division du magasin en trois parties proposées par dialogue (voir sur couronnes de cuivre si quelqu’un gêné par magasin à 237 entrées)
+//Pnj pour le sceptre : Conteuse des secrets et ses 40 secrets cachés.
+//Client : Ebwen Pédipole et ses recettes
+//Client : Gor'th et ses objets "spéciaux"
+//Client : Jean Michel Rondubout, sa quête et son Paquet de carte illustrées v2
+//Client : divers, pubs, drôleries, mini-quêtes
+//Objet/pj : Modénia
+//Objet/Easter egg : Omnitruc
+//Objet : Essence de flammes
+//Combats : ennemis exigeant certains objets du module
+//Forgeron : composants pour les recettes des forgerons
+//Forgeron : Cespenar : fusion des 2 étoiles + météore : au choix masse à runes ou dague à explosion
+//Amélioration : minis icônes pour les sorts. Script d’installation dans SODtoBG2 item pack
+//Si la v9 sorts, moins d'objets dans le magasin : redistribution pour les Secrets et Gor'th
+
