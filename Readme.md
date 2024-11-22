@@ -35,4 +35,4 @@ A triple module:
 
 - Plus encounters and surprises. (including even more items and spells)(Not in IWDEE)
 
-Not in English (too big), not planned except for independent translator.
+Not in English (too big), not planned except for independent translators.
