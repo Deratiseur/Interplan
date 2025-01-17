@@ -7,7 +7,7 @@
 
 **Autor** : **Deratiseur**
 
-[Lien vers les decritions complètes (objet, sorts, potions, etc...)](https://www.baldursgateworld.fr/viewtopic.php?t=31563)
+[Lien vers les decritions complètes (objet, sorts, recettes, etc...)](https://www.baldursgateworld.fr/viewtopic.php?t=31563)
 
 
 ## Description:
