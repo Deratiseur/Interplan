@@ -7,7 +7,7 @@
 
 **Autor** : **Deratiseur**
 
-[Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=31563)
+[Lien vers les decritions complètes (objet, sorts, potions, etc...](https://www.baldursgateworld.fr/viewtopic.php?t=31563)
 
 
 ## Description:
@@ -23,6 +23,8 @@ Un triple module :
 
 - Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
 
+Note : ce mod est "green" : il ne modifie aucun fichier qui pourrait déranger d'autres modules. Compatibilité 100%, malgré son énorme contenu.
+
 ------------
 
 A triple module:
@@ -36,3 +38,5 @@ A triple module:
 - Plus encounters and surprises. (including even more items and spells)(Not in IWDEE)
 
 Not in English (too big), not planned except for independent translators.
+
+Note: this mod is "green": it doesn't modify any files that might disturb other modules. 100% compatibility, despite its enormous content.
