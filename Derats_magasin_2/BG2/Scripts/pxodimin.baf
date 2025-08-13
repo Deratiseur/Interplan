@@ -1,0 +1,9 @@
+IF
+	NumItems("sw2h06",Myself,1)
+	PartyGoldGT(999)
+THEN
+	RESPONSE #100
+		TakePartyGold(1000)
+		DestroyItem("sw2h06")
+		CreateItem("pxl2dl06",1,0,0)
+END

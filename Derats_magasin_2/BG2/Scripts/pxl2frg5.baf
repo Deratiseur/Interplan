@@ -1,0 +1,15 @@
+IF
+	!Detect("Protagonist")
+THEN
+	RESPONSE #100
+		MoveToObject("Protagonist")
+END
+
+IF
+	Detect("Protagonist")
+	Global("pxfrg5","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("pxfrg5","LOCALS",1)
+		Dialog("Protagonist")
+END
