@@ -1,0 +1,127 @@
+//Dérive un sort composé d'une seul niveau en plusieurs niveaux. (fourni par l'ami Zranoff de Legends)
+DEFINE_PATCH_FUNCTION MULTI_LEVELS
+BEGIN
+	READ_LONG 0x64 ZF_abilities_off
+	READ_SHORT 0x68 ZF_num_abilities
+	READ_SHORT 0x82 ZF_niv_min
+	READ_SHORT 0x90 ZF_nb_feat
+	SET ZF_c=0
+	FOR (ZF_i = ZF_niv_min+ZF_inc_level; ZF_i < ZF_max_level+1; ZF_i += ZF_inc_level) BEGIN
+		SET ZF_c=ZF_c+1
+		READ_ASCII 0x72 ZF_ability (0x28)
+		INSERT_BYTES (0x72+ZF_c*0x28) 0x28
+		WRITE_ASCIIE (0x72+ZF_c*0x28) ~%ZF_ability%~
+		WRITE_SHORT (0x72+ZF_c*0x28+0x10) ZF_i
+	END
+	WRITE_SHORT 0x68 ZF_num_abilities+ZF_c
+	WRITE_LONG 0x6a 0x72+(ZF_c+1)*0x28
+	SET ZF_d=0
+	SET ZF_h=ZF_nb_feat*0x30
+	FOR (ZF_i = ZF_niv_min+ZF_inc_level; ZF_i < ZF_max_level+1; ZF_i += ZF_inc_level) BEGIN
+		SET ZF_d=ZF_d+1
+		READ_ASCII 0x72+(ZF_c+1)*0x28+(ZF_d - 1)*ZF_h ZF_features (ZF_h)
+		INSERT_BYTES (0x72+(ZF_c+1)*0x28+ZF_d*ZF_h) ZF_h
+		WRITE_ASCIIE (0x72+(ZF_c+1)*0x28+ZF_d*ZF_h) ~%ZF_features%~
+		FOR (ZF_z=0;ZF_z<ZF_nb_feat;ZF_z=ZF_z+1)BEGIN
+			READ_LONG (0x72+(ZF_c+1)*0x28+(ZF_d - 1)*ZF_h+0x30*ZF_z+0x0e) ZF_duree_min
+			PATCH_IF (ZF_duree_min>4)THEN BEGIN
+				WRITE_LONG (0x72+(ZF_c+1)*0x28+ZF_d*ZF_h+0x30*ZF_z+0x0e) ZF_duree_min+ZF_inc_duree
+			END
+		END
+		WRITE_SHORT (0x72+ZF_d*0x28+0x20) ZF_d*ZF_nb_feat
+	END
+	WRITE_BYTE 0x82 1
+END
+
+// Changer le projectile de tous les niveaux d'un sort
+DEFINE_PATCH_FUNCTION SPELL_PROJO STR_VAR projectile = ~~
+BEGIN
+	READ_LONG 0x64 abilities_off
+	READ_SHORT 0x68 num_abilities
+	FOR (i = 0; i < num_abilities; i += 1) BEGIN				// pour chaque habileté
+		WRITE_SHORT (abilities_off + 0x28*i + 0x26) projectile	// indiquer le projectile
+	END
+END
+
+//Création de parchemin (Tiré de Idwification)
+DEFINE_PATCH_FUNCTION cd_scroll
+  INT_VAR
+    unusable0  = 0
+    unusable1  = 0
+    unusable2  = 0
+    target_hdr = 5
+    range      = 30
+    opcode     = 146
+    target_eff = 2
+    price = 54321
+  STR_VAR 
+    spell = cdnull
+  BEGIN
+
+  WRITE_LONG  0x1e (THIS | unusable0) // class/alignment flags
+  WRITE_BYTE  0x2d (THIS | unusable1) // add first set of unusable flags
+  WRITE_BYTE  0x2f (THIS | unusable2) // add second set of unusable flags
+  WRITE_LONG  0x34 price              // price of scroll
+  WRITE_BYTE  0x7e target_hdr         // target: target
+  WRITE_SHORT 0x80 range              // range
+
+  WRITE_ASCIIE 0x3a "%DEST_RES%"
+  WRITE_ASCII  0x41 a #1
+  WRITE_ASCIIE 0x76 "%DEST_RES%"
+  WRITE_ASCII  0x7d a #1
+  PATCH_IF (SOURCE_SIZE > 0xda) BEGIN // only for arcane scrolls that have second header for learning
+    WRITE_SHORT  0xe2 opcode          // cast-at-point opcode
+    WRITE_BYTE   0xe4 target_eff      // target: target
+    WRITE_ASCIIE 0xae "%DEST_RES%"
+    WRITE_ASCII  0xb5 a #1
+    WRITE_ASCIIE 0xf6 "%spell%" #8
+    WRITE_ASCIIE 0x126 "%spell%" #8
+  END
+END
+
+DEFINE_PATCH_FUNCTION cd_scroll2
+  INT_VAR
+    unusable0  = 0
+    unusable1  = 0
+    unusable2  = 0
+    target_hdr = 5
+    range      = 30
+    opcode     = 148
+    target_eff = 2
+    price = 54321
+  STR_VAR 
+    spell = cdnull
+  BEGIN
+
+  WRITE_LONG  0x1e (THIS | unusable0) // class/alignment flags
+  WRITE_BYTE  0x2d (THIS | unusable1) // add first set of unusable flags
+  WRITE_BYTE  0x2f (THIS | unusable2) // add second set of unusable flags
+  WRITE_LONG  0x34 price              // price of scroll
+  WRITE_BYTE  0x7e target_hdr         // target: target
+  WRITE_SHORT 0x80 range              // range
+
+  WRITE_ASCIIE 0x3a "%DEST_RES%"
+  WRITE_ASCII  0x41 a #1
+  WRITE_ASCIIE 0x76 "%DEST_RES%"
+  WRITE_ASCII  0x7d a #1
+  PATCH_IF (SOURCE_SIZE > 0xda) BEGIN // only for arcane scrolls that have second header for learning
+    WRITE_SHORT  0xe2 opcode          // cast-at-point opcode
+    WRITE_BYTE   0xe4 target_eff      // target: target
+    WRITE_ASCIIE 0xae "%DEST_RES%"
+    WRITE_ASCII  0xb5 a #1
+    WRITE_ASCIIE 0xf6 "%spell%" #8
+    WRITE_ASCIIE 0x126 "%spell%" #8
+  END
+END
+
+DEFINE_PATCH_FUNCTION SPELL_TO_INNATE BEGIN
+	WRITE_LONG 0x18 (THIS | 49152) WRITE_BYTE 0x1c 4
+				GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+				PHP_EACH headerOffsets AS _ => headerOffset BEGIN	WRITE_BYTE (headerOffset + 0x2) 4 END
+END
+
+DEFINE_PATCH_FUNCTION SPELL_TO_INNATE_1 BEGIN
+	WRITE_LONG 0x18 (THIS | 49152) WRITE_BYTE 0x1c 4
+				GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+				PHP_EACH headerOffsets AS _ => headerOffset BEGIN	WRITE_BYTE (headerOffset + 0x2) 4 WRITE_BYTE (headerOffset + 0x12) 1 END
+END

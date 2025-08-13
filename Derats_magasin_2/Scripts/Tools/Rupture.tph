@@ -1,0 +1,126 @@
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt0.2da~	~override~
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt0.2da~	~override/pxl2dweo.2da~
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt9.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt8.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt7.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt6.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt5.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt4.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt3.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt2.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
+
+COPY	~Derats_Magasin_2/Sorts/Special/pxl2rpt1.2da~	~override~
+READ_2DA_ENTRIES_NOW ~rows~ 3
+	FOR (row = 0; row < rows; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER ~rows~ row 0 sort
+		READ_2DA_ENTRY_FORMER ~rows~ row 1 ref
+		READ_2DA_ENTRY_FORMER ~rows~ row 2 trois
+        	SPRINT ~line~ ~%sort%			%ref%			%trois%~
+
+        	INNER_ACTION BEGIN
+            		APPEND_OUTER ~override\pxl2rpt0.2da~ ~%line%~ UNLESS ~%line%~
+					APPEND_OUTER ~override\pxl2dweo.2da~ ~%line%~ UNLESS ~%line%~
+        	END
+     	END
