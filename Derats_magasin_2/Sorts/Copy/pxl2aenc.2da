@@ -3,7 +3,10 @@
             	ResRef	Type    
 DEGATS_MAGIQUE	pxl2aen1	3
 VAMPIRIQUE		pxl2aen2	3
+FATALITE		pxl2aen9	3
 DISSIPATION		pxl2aen3	3
 DISRUPTION		pxl2aen4	3
+LENTEUR			pxl2aen8	3
 ETOURDISSEMENT	pxl2aen5	3
+DRAIN			pxl2aen7	3
 MORT			pxl2aen6	3
