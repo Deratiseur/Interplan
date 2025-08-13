@@ -1,8 +1,0 @@
-IF
-	Global("Px_agenor","GLOBAL",0)
-	AreaCheck("OH8100")
-THEN
-	RESPONSE #100
-		SetGlobal("Px_agenor","GLOBAL",12)
-		CreateCreature("pxoagen",[4372.3016],3)
-END
