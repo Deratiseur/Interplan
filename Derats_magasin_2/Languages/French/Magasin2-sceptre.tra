@@ -1,0 +1,443 @@
+@301 = ~ Christof Romuald~
+@302 = ~Le ranger du Chaos~
+@30219 = ~Alors, elles sont où ces poules ?~
+@30229 = ~Hé, je chasse les poules moi, pas les monstres !~
+@303 = ~Gilbert Gunderson~
+@30319 = ~Aujourd’hui, le vieux Gil est figurant.~
+@304 = ~Léguman~
+@30419 = ~Les carottes sont-elles cuites ?~
+@304110 = ~Non ! ~
+@305 = ~Hillock~
+@30519 = ~Oni-Goroshi~
+@306 = ~Griff Tannen~
+@307 = ~M'aiq Langue-Fourchue~
+@308 = ~Jeanne d'orque~
+@309 = ~Terkio~
+@3010 = ~Nitouche~
+@3011 = ~Sioban~
+@301119 = ~L'amour est au cœur du mal.~
+@3012 = ~Kick-Ass~
+@3013 = ~Forgrimm~
+@3014 = ~Godefroy de Montmirail~
+@30141 = ~Que trépasse si je fayblis~ 
+@3015 = ~Lenny~
+@3016 = ~Galford D.weller~
+@301619 = ~Arme électrique~
+@301629 = ~Poppy~
+@3017 = ~Homnibus~
+@3018 = ~Santal Gaïa~
+@30181 = ~Hooo... je me suis trop penchée ... au dessus du vide-ordure,~
+@30182 = ~Et je suis tombée … dans un étrange pays.~
+@30183 = ~C'est le pays de la Poubelle Magique.~
+@30184 = ~J'y ai rencontré des êtres fantastiques,~
+@30185 = ~Et voilà ce que j'ai appris :~
+@30186 = ~Les insectes sont nos amis,~
+@30187 = ~Il faut les aimer aussi,~
+@30188 = ~Laissez moi vous présenter,~
+@30189 = ~Mes bébêtes préférées.~
+@301810 = ~Scarabée scolyte~
+@3019 = ~Link~
+@30191 = ~Potion rouge~
+@3020 = ~Jason Voorhees~
+@3021 = ~Brumaire Courte-dague~
+@3022 = ~Fflewddur Fflam~
+@3023 = ~Oh Dae-Soo~
+@30231 = ~Marteau~
+@3024 = ~Pile-ou-Face~
+@30241 = ~Bepher ~
+@30242 = ~Dropper les objets volés~
+@3025 = ~Shino Aburame~
+@30251 = ~Toucher dévorant~
+@30252 = ~Manteau d'insectes~
+@3026 = ~Morkaï~
+@3027 = ~Tristan de Halsbourg~
+@3028 = ~Erritis~
+@3029 = ~Imrijka~
+@3030 = ~Rampant~
+@30301 = ~Allez... aidez un pauvre galopin ! Vous devez bien avoir besoin de quelque chose. J'ai de quoi boire... ~
+@30302 = ~Je ne veux pas de travail. Je veux juste taper sur mon tambour. Qu'est-ce qu'un galopin peut bien faire ? ~
+@30303 = ~Vous pouvez m'aider ? J'ai besoin d'argent. ~
+@30304 = ~Bonjour. Féerune ! Je suis ici pour toute la journée ! ~
+@30305 = ~Je suis la discrétion personnifiée. ~
+@30306 = ~Cognac de Cyrodil~
+@303061 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Sagesse et Constitution +2 pendant 1 tour.~
+@30307 = ~Greef~
+@303071 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Force +4 et Dextérité -4 pendant 1 tour.~
+@30308 = ~Mazte~
+@303081 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Force +4, Sagesse et Intelligence -4 pendant 1 tour.~
+@30309 = ~Shein~
+@303091 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Constitution + 2 et Intelligence -2 pendant 1 tour.~
+@303010 = ~Vieux cognac de Dagoth~
+@3030101 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool prohibé qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Sagesse et Intelligence -4 pendant 1 tour.~
+@303011 = ~Skouma~
+@3030111 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci viendrait d'un autre "univers" et serait une drogue.
+
+PARAMÈTRES :
+
+Mouvement +2, Force +4, Dextérité et Intelligence -4 pendant 1 tour.~
+@303012 = ~Flin~
+@3030121 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Force et Sagesse +4 pendant 1 tour.~
+@303013 = ~Sujamma~
+@3030131 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Force +10 et Intelligence -10 pendant 1 tour.~
+@303014 = ~Cognac Millésimé~
+@3030141 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+Celle-ci est un alcool de qualité qui viendrait d'un autre "univers".
+
+PARAMÈTRES :
+
+Force +6 et Dextérité -6 pendant 6 tours.~
+@303015 = ~Tambour~
+@303016 = ~C'est le tambour en peau de guar avec lequel Rampant s'occupe.~
+@303017 = ~Marchander~
+@303018 = ~Partir~
+@3031 = ~Sargon~
+@30311 = ~Grande massue~
+@3032 = ~Hiravias~
+@30321 = ~Métamorphose en Stelgaer~
+@30322 = ~Griffes de Stelgaer~
+@30323 = ~Lampe en obsidienne~
+@3033 = ~Gilius Thunderhead~
+@3034 = ~Shale~
+@3035 = ~Yu Shu Lien~
+@3036 = ~Shigmaa Urasta~
+@30361 = ~Toucher Drainant~
+@3037 = ~Kriss de Valnor~
+@3038 = ~Virgile~
+@30381 = ~La terreur bangellienne~
+@30382 = ~Protection contre les morts-vivants~
+@3039 = ~Lantry~
+@30391 = ~Rafale de Plumes~
+@30392 = ~Tempête de Plumes~
+@30393 = ~Second souffle~
+@30394 = ~Plume de Lantry~
+@3040 = ~Dame Gorge~
+@30401 = ~Grand cri~
+@3041 = ~Ragnar Lodbrok~
+@3042 = ~Tristelune~
+@3043 = ~Xylaz~
+@3044 = ~Mandorallen~
+@3045 = ~Éowyn~
+@3046 = ~Fuam~
+@30461 = ~Coup de poing éclair~
+@3047 = ~Fafhrd~
+@30471 = ~Massue grise~
+@3048 = ~Michonne~
+@3049 = ~Brienne de Torth~
+@3050 = ~Rick WTM-72~
+@3051 = ~Murtagh~
+@30511 = ~Zar'roc~
+@3052 = ~Miyamoto Musashi~
+@3053 = ~Thierry la Fronde~
+@3054 = ~Madmartigan~
+@3055 = ~Mokla~
+@3056 = ~Alexander Anderson~
+@3057 = ~King~
+@30571 = ~*Montre une gueule impressionnante*~
+@30572 = ~*Parlemente*~
+@30573 = ~*Fuit*~
+@3058 = ~Beatrix Kiddo~
+@3059 = ~Steve~
+@30591 = ~Épée en diamant~
+@3060 = ~Okko~
+@3061 = ~Requiem~
+@3062 = ~Calvin~
+@30621 = ~Hobbes~
+@3063 = ~Umbre~
+@30631 = ~Rôdeur~
+@3064 = ~Shiba Tsukune~
+@30641 = ~Ofushikai~
+@30642 = ~Zone non-violente~
+@3065 = ~Vlad von Carstein~
+@30651 = ~Buveuse de sang~
+@3066 = ~Sheltem~
+@3067 = ~Knolan~
+@3068 = ~Sixte Averroës~
+@3069 = ~Gerrard Capashen~
+@3070 = ~Hecubah~
+@3071 = ~Rito Revolto~
+@30711 = ~Lance-flammes~
+@3072 = ~Buffy Summers~
+@3073 = ~Spartacus~
+@3074 = ~Eto~
+@3075 = ~Nynaeve al'Meara~
+@3076 = ~Reine Geleeda~
+@30761 = ~Dame de la Vallée~
+@30762 = ~Sceptre de l’arachnide~
+@3077 = ~Tut-Tuuut-Ankh-Ammon~
+@3078 = ~Imhotep~
+@3079 = ~Galaad~
+@3080 = ~Thulsa Doom~
+@3081 = ~Le Kurgan~
+@3082 = ~Barr-Find Main Noire~
+@3083 = ~Akame~
+@30831 = ~Extermination~
+@30832 = ~Murasame~
+@3084 = ~Kenshirô~
+@30841 = ~Tu ne le sais pas, mais tu es déjà mort.~
+@3085 = ~Gana Gomar~
+@30851 = ~Répulsion~
+@3086 = ~Nux~
+@30861 = ~C'est une belle journée pour mourir.~ 
+@30862 = ~Soyez témoins ! *Allume une mèche*~
+@3087 = ~Patrick Sabatier~
+@30871 = ~Ho non, il va encore chanter !~
+@3088 = ~Mickaël Klaxon~
+@3089 = ~Ashrian~
+@30891 = ~Je ne comprend pas plus pourquoi je peux entendre les esprits parler que je comprends pourquoi vous ne le pouvez pas.~
+@30892 = ~Potion de soin~
+@30893 = ~Prière de soins~
+@3090 = ~Zagor~
+@3091 = ~Sunulael~
+@3092 = ~Mémé Ciredutemps~
+@30921 = ~Où est-ce-que j'ai fourré ce fichu chapeau ?~
+@3093 = ~Albus Dumbledore~
+@30931 = ~Ordres Chaotiques de masse~
+@3094 = ~Tyrael~
+@3095 = ~Falgant~
+@30951 = ~Je connais la chanson qu'il faut pour gérer cette situation.~
+@30952 = ~Violon incinérateur~
+@3096 = ~Zandalor~
+@30961 = ~Cimeterre +4~
+@3097 = ~Zaraki Kenpachi~
+@3098 = ~Cohen~
+@3099 = ~Jean Chuck Van Norris~
+@309919 = ~Z'avez aucune chance. Si v'z'êtes pas aware, rien qu'en vous r'gardant j'vous tue !~
+@309929 = ~Fuuu....sion !!~
+@30100 = ~Rénakhin~
+@301001 = ~?!? Je ne ressent plus l’énergie du Nôth ?!?~
+@301002 = ~Ho... mais je sens une énergie beaucoup plus puissance....~
+@301003 = ~WAHAHAHAHAHAHA, je suis tout puissant !!!~
+@30101 = ~Legolas Vertefeuille~
+@30102 = ~Torquemada~
+@30103 = ~Negan~
+@301031 = ~Lucille~
+@301032 = ~... Ma Lucille va adorer ça.~
+@301033 = ~Alors les fiottes, on a besoin d'un vrai mâle pour vous montrer comment faire ?~
+@30104 = ~Jaskier~
+@30105 = ~Pip~
+@301051 = ~E.J.~
+@30106 = ~Barnabé Bonarien~
+@30107 = ~Maximus Decimus Meridius~
+@30108 = ~Mor'du~
+@30109 = ~Solaire d'Astora~
+@30110 = ~Féra~
+@30111 = ~Canigou~
+@30112 = ~Deckard Cain~
+@301121 = ~Bonjours, aventuriers. Je dispose d'un grand savoir. Si vous le souhaitez, je peux vous aider à identifier les objets magiques que vous trouvez.~
+@301122 = ~Je veux bien, merci~
+@301123 = ~Ce ne sera pas nécessaire~
+@30113 = ~Haazheel Thorn~
+@301131 = ~Transformation démoniaque~
+@301132 = ~Griffes démoniaques~
+@30114 = ~Abobo~
+@30115 = ~Ansatsu~
+@30116 = ~Magus Gondè Kyal~
+@30117 = ~Gamora~
+@30118 = ~Faucon Ardent~
+@30119 = ~Biggs~
+@301191 = ~Wedge~
+@30120 = ~David Dunn~
+@30121 = ~Concelhaut~
+@30122 = ~Haffanen~
+@301221 = ~Exaltation~
+@30123 = ~Zamnà~
+@30124 = ~Bulrog~
+@30125 = ~Bénédict~
+@30126 = ~Guy~
+@30127 = ~Arantir~
+@301271 = ~Avatar de la mort~
+@301272 = ~Hurlement de Banshee~
+@30128 = ~Bagheera~
+@30129 = ~Iolo FitzOwen~
+@30130= ~Katniss Everdeen~
+@30131 = ~Morticia Addams~
+@30132 = ~Valna Asou~
+@30133 = ~Redwin~
+@301331 = ~Rage de dément~
+@301332 = ~Double-lames +5~
+@30134 = ~n° 218~
+@301341 = ~Laguiole~
+@30135 = ~Hornitos~
+@30136 = ~Griffe Blanche~
+@30137 = ~Tara~
+@30138 = ~Le Guinea Lord~
+@301381 = ~Mastiff de guerre~
+@30139 = ~Reese~
+@301391 = ~Maman va me tuer si elle apprend ça.~
+@301392 = ~Je suis bon pour être de corvée de chiottes pendant au moins un an.~
+@301393 = ~Mais rien que d'imaginer la tête de Malcom quand il va apprendre ça...~
+@301394 = ~...ça vaut le coup !~
+@30140 = ~Ardherin~
+@30141 = ~Rufio~
+@30142 = ~Argol de Persée~
+@30143 = ~Bragal~
+@30144 = ~Lady shiva~
+@301441 = ~Arracher le coeur~
+@30145 = ~Davey Trauma~
+@301451 = ~Ho ho, je suis dans un jeu vidéo !~
+@301452 = ~Est-ce-que ça marche ici ? *tapote sur son avant bras*~
+@301453 = ~Je vais m'éclater !~
+@301454 = ~Suicide~
+@30146 = ~Debbie Jacobs~
+@301461 = ~Horde sauvage~
+@301462 = ~Hogosha~
+@30147 = ~Beowulf~
+@30148 = ~Anjalbert de Ganfalon~
+@30149 = ~Spinal~
+@301491 = ~Fatality~
+@301492 = ~Crane volant~
+@30150 = ~Baron Zachareth~
+@301501 = ~Répulsion~
+@301502 = ~Éclair d'ombre~
+@30151 = ~Skieur~
+@301511 = ~Salut. J'ai huit s'condes pour vous dire qu'la barre Ovomaltine c'est d'la dynamique !~
+@30152 = ~Sir Galaway~
+@301521 = ~Rork Serling~
+@301522 = ~Mr Vitigo, acteur de seconde zone pour qui la vie n'a pas toujours été très tendre,~
+@301523 = ~croyait avoir enfin trouvé le rôle qui allait lancer sa carrière :~
+@301524 = ~Sir Galaway, paladin de fiction au service de son seigneur.~
+@301525 = ~Mais ce que Mr Vitigo ignore, c'est que lorsqu’il enfile son costume~
+@301526 = ~et fait son entrée pour la seconde scène de Sir Galaway,~
+@301527 = ~ce n'est pas dans le studio qu'il rentre...~
+@301528 = ~mais dans les Royaumes Oubliés.~
+@30153 = ~Ilya Mouromets~
+@30154 = ~La bête du Gévaudan~
+@30155 = ~Bragi Boddason~
+@301551 = ~Ballade des Trois Héros~
+@301552 = ~Ballade de Curran Coeurvaillant~
+@301553 = ~Chant de Kaudiès~
+@301554 = ~Mélodie de Tymora~
+@301555 = ~Chant des sirènes~
+@301556 = ~Chant de guerre des Sith~
+@301557 = ~Chant amélioré~
+@30156 = ~Speedy Gonzales~
+@30157 = ~Hua Mulan~
+@30158 = ~Luke Cage~
+@30159 = ~Jahan~
+@301591 = ~Ne pactisez jamais avec les démons.~
+@30160 = ~Amiri~
+@301601 = ~je passe devant. Je vais vous montrer ce que c'est qu'une vraie guerrière.~
+@30161 = ~Didier l'Embrouille~
+@301611 = ~Hé, salut les p'tites tapettes !~
+@30162 = ~Mauler~
+@301621 = ~Au boulot, le clone.~
+@301622 = ~Hé, c'est toi le clone !~
+@30163 = ~Mother Russia~
+@30164 = ~Mamoushka Maïtécoffe~
+@301641 = ~Invocation d'animal à cuisiner~
+@301642 = ~Couteau à découper~
+@301643 = ~Mais ? Qu'est-ce-c'est que cet animal ? C'est de la merde !~
+@301644 = ~Là, voilà !~
+@30165 = ~William Wallace~
+@30166 = ~Dupli-Kate~
+@301661 = ~Duplication~
+@30167 = ~Gargamel~
+@301671 = ~Azraël~
+@30168 = ~André le géant~
+@30169 = ~Till l'Espiègle~
+@30170 = ~Gilgamesh~
+@30171 = ~Grendel~
+@30172 = ~Mara~
+@301721 = ~Épée en os de dragon~
+@30173 = ~Black Canary~
+@30174 = ~Minus~
+@301741 = ~Cortex~
+@301742 = ~Qu'est-ce-qu'on fait ici, Cortex ?~
+@301743 = ~Je ne sais pas, Minus, mais je pense que ce fait incongru va pouvoir servir à la réalisation de mon plan.~
+@301744 = ~Quel plan, Cortex ?~
+@301745 = ~Celui de conquérir le monde, Minus.~
+@301746 = ~Trouvons nous un endroit pour tout préparer.~
+@30175 = ~Xavier Dupont de Ligonnès~
+@301751 = ~??....~
+@30176 = ~Hinata Hyûga~
+@301761 = ~64 Poings du Hakke ~
+@30177 = ~Yyrkoon~
+@30178 = ~Eikishi Onisuka~
+@30179 = ~Sasmaël~
+@301791 = ~Lotweën~
+@301792 = ~Épée de justice~
+@301793 = ~Je sens la magie affluer. Ce monde en est saturé. La guerre doit être partout.~
+@30180 = ~Deno Fevil~
+@301801 = ~Je ne suis pas un ninja.~
+@30181 = ~Jerry Li Lewiss~
+@301811 = ~Great Ball of fire~
+@30182 = ~Urssaf~
+@301821 = ~Camcras~
+@301822 = ~Carbalas~
+@30183 = ~Kimiko Miyashiro~
+@30184 = ~La proprio~
+@30185 = ~B.~
+@30186 = ~Crôm~
+@301861 = ~Lame barbare +6~
+@30187 = ~Arya Stark~
+@301871 = ~Dague en acier valyrien~
+@30188 = ~Fitz Chevalerie~
+@301881 = ~Oeil-de-nuit,~
+@30189 = ~Steven T.learoyd~
+@30190 = ~Garoh~
+@301901 = ~Quoi ? Aider des héros ? Sûrement pas !~
+@30191 = ~Boa Hancock~
+@301911 = ~Tu ne me blesseras pas, parce que je suis belle.~
+@30192 = ~Monsieur Thin~
+@301921 = ~Mais ? Qu'est-ce-que... ?~
+@301922 = ~Où suis-je ? ~
+@301923 = ~C'est un coup de Kalish ?~
+@301924 = ~Non, ce n'est pas possible, il n'est pas encore revenu.~
+@301925 = ~Norton ! NORTON !~
+@301926 = ~Haaa, j'ai mal ! Mes tuyaux, où sont-ils ?~
+@301927 = ~Norton ! *tousse*~
+@301928 = ~Non, je ne peux pas mourir comme ça ! Pas encore !~
+@301929 = ~Le moment n'est pas encore arrivé....~
+@3019210 = ~*Mort*~
+@30193 = ~Wolfhound~
+@30194 = ~Kevin McCallister~
+
+@30201 = ~Kurome~
+@302011 = ~Yatsufusa~
+@302012 = ~Natara~
+@302013 = ~*Croque un biscuit*~
