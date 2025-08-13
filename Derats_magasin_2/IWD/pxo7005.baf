@@ -1,0 +1,9 @@
+IF
+	PartyHasItem("Pxl2vrid")
+	LevelGT(Player1,16)
+	Global("pxl2rvndcreated","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("pxl2revn",[1911.1036],N)
+		SetGlobal("pxl2rvndcreated","GLOBAL",1)
+END
