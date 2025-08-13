@@ -1,0 +1,7 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		ReallyForceSpellRes("pxl2urs1",Myself)
+		ReallyForceSpellRes("pxl2urs2",Myself)
+END
