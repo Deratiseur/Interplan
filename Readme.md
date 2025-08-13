@@ -15,13 +15,17 @@
 
 Un triple module :
 
-- Magasin : 98 objets dont la majorité originaux du genre à vous surprendre.
+- Magasin : 100+ objets dont la majorité originaux du genre à vous surprendre.
 
-- Sorts : 108 nouveaux sorts, 92 disponibles pour l'ensorceleur.
+- Sorts : 130+ nouveaux sorts, 90% disponibles pour l'ensorceleur (sauf les sorts de niveau 9).
 
-- Forgeron : 46 recettes pour combiner des potions. (pas dans IWDEE)
+- Potions : 25+ Potions et charmes.
 
-- Plus des rencontres et des surprises. (incluant encore plus d'objets et de sorts)(Pas dans IWDEE)
+- 150+ objets/potions/sorts supplémentaires "cachés".
+
+- Forgeron : 50+ recettes pour combiner des potions. (pas dans IWDEE)
+
+- Plus des rencontres et des surprises. (pas dans IWDEE)
 
 Note : ce mod est "green" : il ne modifie aucun fichier qui pourrait déranger d'autres modules. Compatibilité 100%, malgré son énorme contenu.
 
@@ -29,13 +33,17 @@ Note : ce mod est "green" : il ne modifie aucun fichier qui pourrait déranger d
 
 A triple module:
 
-- Store: 98 items, the majority of them original and guaranteed to surprise.
+- Store: 100+ items, the majority of them original and guaranteed to surprise.
 
-- Spells: 108 new spells, 92 available for the sorcerer.
+- Spells: 130 new spells, 90% available for the sorcerer (except lvl 9 spells).
 
-- Blacksmith: 46 recipes for combining potions. (not in IWDEE)
+- Potions : 25+ potions and charms.
 
-- Plus encounters and surprises. (including even more items and spells)(Not in IWDEE)
+- 150+ additional “hidden” items/potions/spells.
+
+- Blacksmith: 50 recipes for combining potions. (not in IWDEE)
+
+- Plus encounters and surprises. (Not in IWDEE)
 
 Not in English (too big), not planned except for independent translators.
 
