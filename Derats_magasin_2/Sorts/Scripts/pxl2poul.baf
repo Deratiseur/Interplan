@@ -2,5 +2,5 @@ IF
 	Die()
 THEN
 	RESPONSE #100
-		ReallyForceSpellDead(Myself,GOLEM_GASCLOUD)
+		ReallyForceSpellDeadRES("pxl2ast1",Myself)
 END

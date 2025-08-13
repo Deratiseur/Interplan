@@ -1,0 +1,29 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDeadRES("pxl2gdc1",LastSummonerOf(Myself))
+		DestroySelf()
+END
+
+IF
+Global("PXL2GDC1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("pxl2gdc2",LastSummonerOf(Myself))
+		SetGlobal("PXL2GDC1","GLOBAL",0)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
