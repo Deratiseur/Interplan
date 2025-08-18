@@ -17,7 +17,7 @@ Un triple module :
 
 - Magasin : 100+ objets dont la majorité originaux du genre à vous surprendre.
 
-- Sorts : 130+ nouveaux sorts, 90% disponibles pour l'ensorceleur (sauf les sorts de niveau 9).
+- Sorts : 130+ nouveaux sorts.
 
 - Potions : 25+ Potions et charmes.
 
@@ -35,7 +35,7 @@ A triple module:
 
 - Store: 100+ items, the majority of them original and guaranteed to surprise.
 
-- Spells: 130 new spells, 90% available for the sorcerer (except lvl 9 spells).
+- Spells: 130 new spells.
 
 - Potions : 25+ potions and charms.
 
