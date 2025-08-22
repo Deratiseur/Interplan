@@ -1,6 +1,6 @@
 BACKUP ~Derats_Magasin_2/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v9~
+VERSION ~9.1~
 
 ALWAYS
 	ACTION_IF GAME_IS ~IWDEE BG2EE EET~ THEN BEGIN
@@ -66,7 +66,7 @@ LANGUAGE ~Francais~	~French~
 	~Derats_Magasin_2/Languages/French/pxl2revn.tra~
 	~Derats_Magasin_2/Languages/French/Setup.tra~
 
-BEGIN @33
+BEGIN @33	DESIGNATED 33	LABEL Px_Interplan_Main
 REQUIRE_PREDICATE GAME_IS ~BGT TOB IWDEE BG2EE EET~ @0009
 
 ////////// CARTE, MARCHAND ET EXTRA POUR BG2 //////////
@@ -1279,10 +1279,10 @@ COPY_EXISTING	~pxl2qu5.itm~			~override/pxl2qu26.itm~	WRITE_ASCIIE 0xee ~pxl2qu2
 COPY_EXISTING	~pxl2qu5.itm~			~override/pxl2qu27.itm~	WRITE_ASCIIE 0xee ~pxl2qu27~ #8	SAY DESC @11027
 COPY_EXISTING	~pxl2qu5.itm~			~override/pxl2qu28.itm~	WRITE_ASCIIE 0xee ~pxl2qu28~ #8	SAY DESC @11028
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
-	COPY	~Derats_Magasin_2/Objets/pxl2qu5.cre~			~override~ 	SAY NAME1 @1101	SAY NAME2 @11999 
+	COPY	~Derats_Magasin_2/Objets/pxl2qu5.cre~			~override~ 	SAY NAME1 @1101	SAY NAME2 @1101 
 	ADD_KNOWN_SPELL ~SPWI312~ #2 ~wizard~	ADD_MEMORIZED_SPELL ~SPWI104~ #0 ~wizard~	ADD_MEMORIZED_SPELL ~SPWI116~ #0 ~wizard~	ADD_MEMORIZED_SPELL ~SPWI312~ #2 ~wizard~	ADD_MEMORIZED_SPELL ~SPWI104~ #1 ~wizard~
 	WRITE_BYTE 0x54 10	WRITE_BYTE 0x55 12	WRITE_BYTE 0x56 11	WRITE_BYTE 0x57 12	WRITE_BYTE 0x58 13	WRITE_BYTE 0x52 13 WRITE_BYTE 0x234 7	WRITE_BYTE 0x24 54	WRITE_BYTE 0x26 54	WRITE_ASCII 0x248 ~~ #8
-	COPY	~Derats_Magasin_2/Objets/pxl2qu5.itm~			~override~	WRITE_BYTE 0x94 2	SAY NAME1 @1103	SAY NAME2 @1109
+	COPY	~Derats_Magasin_2/Objets/pxl2qu5.itm~			~override~	WRITE_BYTE 0x94 2	SAY NAME2 @1103	SAY DESC @11999
 END
 //Baguette à bulles de Cadob
 COPY	~Derats_Magasin_2/Objets/pxl2nois.itm~				~override~	SAY NAME2 @8039	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@8040" END
@@ -1585,6 +1585,7 @@ COPY	~Derats_Magasin_2/Objets/pxl2coff.itm~				~override~	SAY NAME2 @8091	SAY DE
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2bayl.itm~	~override~	SAY NAME2 @4051	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4052" END
 	//Armure en os de dragon
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2ardr.itm~	~override~	SAY NAME2 @4053	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4054" END
+	COPY_EXISTING	~pxl2dual.eff~				~override/pxl2ardr.eff~	WRITE_ASCII 0x30 ~spwi418D~ #8
 	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2ardr~ GW_tooltips = ~6618 39964 7663~ END
 	END
@@ -1598,6 +1599,9 @@ COPY	~Derats_Magasin_2/Objets/pxl2coff.itm~				~override~	SAY NAME2 @8091	SAY DE
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2dest.itm~	~override~	SAY NAME2 @4057	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4058" END
 	//Cape de démultiplication
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2cdup.itm~	~override~	SAY NAME2 @4059	SAY	DESC @4060
+	COPY_EXISTING	~pxl2ima1.eff~				~override/pxl2ima4.eff~	WRITE_BYTE 0x1c 4
+	COPY_EXISTING	~pxl2ima1.spl~				~override/pxl2ima4.spl~	WRITE_BYTE 0x9e 4
+	COPY_EXISTING	~pxl2dual.eff~				~override/pxl2cdup.eff~	WRITE_ASCII 0x30 ~pxl2ima4~ #8
 	//Hachette de Viccilo
 	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2vicc.itm~	~override~	SAY NAME2 @4061	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4062" END
 	//Bague de famille de Gwyn
@@ -1836,13 +1840,13 @@ COPY	~Derats_Magasin_2/Objets/pxl2coff.itm~				~override~	SAY NAME2 @8091	SAY DE
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2gant~ GW_tooltips = ~36100~ END
 	END
 	//Plume de révélation arcanique
-	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2plum.itm~	~override~	SAY NAME1 @40133	SAY DESC  @40134
+	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2plum.itm~	~override~	SAY NAME2 @40133	SAY DESC  @40134
 	//Pipe de dévastation
-	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2pipd.itm~	~override~	SAY NAME1 @40135	SAY DESC  @40136
+	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2pipd.itm~	~override~	SAY NAME2 @40135	SAY DESC  @40136
 	//Sprotch
-	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2sprc.itm~	~override~	SAY NAME1 @40137	SAY DESC  @40138
+	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2sprc.itm~	~override~	SAY NAME2 @40137	SAY DESC  @40138
 	//Ceinture de Shu Bhao
-	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2bhao.itm~	~override~	SAY NAME1 @40139	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40140" END
+	COPY	~Derats_Magasin_2/Objets/Coffre/pxl2bhao.itm~	~override~	SAY NAME2 @40139	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40140" END
 	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2bhao~ GW_tooltips = ~51848~ END
 	END
@@ -2604,7 +2608,6 @@ RET spell_res
 END
 COPY_EXISTING	~%spell_res%.spl~ ~override/pxl2chy2.spl~   SAY UNIDENTIFIED_DESC @801672	WRITE_BYTE 0x1c 2	WRITE_ASCII 0x10 ~CAS_P01~ #8	WRITE_BYTE 0x34 3
 COPY	~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2imaa.itm~	SAY NAME2 @60411	SAY DESC @60412	LPF cd_scroll INT_VAR unusable1 = BIT4 price = 500 STR_VAR spell = EVAL ~%current_spell_res%~ END
-COPY_EXISTING	~pxl2ima1.eff~					~override/pxl2ima4.eff~	WRITE_BYTE 0x1c 4 //cape de duplication
 COPY_EXISTING	~pxl2shib.cre~								~override~
 WRITE_ASCIIE 0x334 "%current_spell_res%" #8
 WRITE_ASCIIE 0x594 "%current_spell_res%" #8
@@ -3912,11 +3915,258 @@ ACTION_IF GAME_IS ~BG2EE EET IWDEE~ THEN BEGIN
 END
 
 
+BEGIN @38	DESIGNATED 38	LABEL Px_Interplan_Druid
+REQUIRE_PREDICATE GAME_IS ~BGT TOB IWDEE BG2EE EET~ @0009
+REQUIRE_COMPONENT ~Setup-Derats_magasin_2.tp2~ 33 @39
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FIRE_EXPLOSION~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd01.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd01.spl~ 1 1 CLERIC_PX_FIRE_EXPLOSION
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FIRE_BURST~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd02.spl~	WRITE_SHORT 0x1c 2
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd02.spl~ 1 1 CLERIC_PX_FIRE_BURST
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ACCURACY~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd03.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd03.spl~ 1 2 CLERIC_PX_ACCURACY
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FLAME_PULSE~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd04.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd04.spl~ 1 2 CLERIC_PX_FLAME_PULSE
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_CHARGED_WEAPON~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd05.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd05.spl~ 1 3 CLERIC_PX_CHARGED_WEAPON
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_SCOURGE_OF_FIENDS~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd06.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd06.spl~ 1 3 CLERIC_PX_SCOURGE_OF_FIENDS
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_AMBIDEXTRY~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd07.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd07.spl~ 1 3 CLERIC_PX_AMBIDEXTRY
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_STATIC_DISCHARGE~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd08.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd08.spl~ 1 3 CLERIC_PX_STATIC_DISCHARGE
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_DOOM_CLAWS~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd29.spl~	WRITE_SHORT 0x1c 2	WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd29.spl~ 1 3 CLERIC_PX_DOOM_CLAWS
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_SPIDER_FORM~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd09.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd09.spl~ 1 4 CLERIC_PX_SPIDER_FORM
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FAERIES_SHIELD~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd11.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd11.spl~ 1 4 CLERIC_PX_FAERIES_SHIELD
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_PROTECTIVES_WINDS~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd12.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd12.spl~ 1 4 CLERIC_PX_PROTECTIVES_WINDS
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_SANDFALL~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd13.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd13.spl~ 1 4 CLERIC_PX_SANDFALL
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FIREBRAND~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd14.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31	WRITE_BYTE 0x34 5
+/*READ_LONG 0x64 abilities_off
+READ_SHORT 0x68 num_abilities
+FOR (i = 0; i < num_abilities; i += 1) BEGIN
+READ_LONG 0x6a effects_off
+READ_SHORT 0x90 num_effects
+	FOR (i = 0; i < num_effects; i += 1) BEGIN
+	WRITE_BYTE (effects_off + 0x30*i + 0x03) 5
+END
+END*/
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd14.spl~ 1 5 CLERIC_PX_FIREBRAND	SAY UNIDENTIFIED_DESC @6043299
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_DANCING_BLADES~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd15.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd15.spl~ 1 5 CLERIC_PX_DANCING_BLADES
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_PRECOGNITION~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd16.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd16.spl~ 1 5 CLERIC_PX_PRECOGNITION
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ENSURED_MAGIC~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd17.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd17.spl~ 1 5 CLERIC_PX_ENSURED_MAGIC
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ACIDIC_BREATH~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd18.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd18.spl~ 1 5 CLERIC_PX_ACIDIC_BREATH
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_PUNCTURE~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd19.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31	WRITE_BYTE 0x1e 0b00001100 // only evil
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd19.spl~ 1 5 CLERIC_PX_PUNCTURE
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ANTI-ATTACK_SHIELDS~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd20.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd20.spl~ 1 5 CLERIC_PX_ANTI-ATTACK_SHIELDS
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_POISON_NOVA~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd10.spl~	WRITE_SHORT 0x1c 2	WRITE_BYTE 0x34 5
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd10.spl~ 1 5 CLERIC_PX_POISON_NOVA	SAY UNIDENTIFIED_DESC @6041099
+
+ACTION_IF GAME_IS ~BG2EE IWDEE EET~ THEN BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+	STR_VAR spell_name = ~WIZARD_PX_VULNERABILITY_TO_WEAPONS~
+	RET spell_res
+	END
+	COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd21.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+	ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd21.spl~ 1 6 CLERIC_PX_VULNERABILITY_TO_WEAPONS
+
+	LAF RES_NUM_OF_SPELL_NAME
+	STR_VAR spell_name = ~WIZARD_PX_SCION_OF_THE_FLAME~
+	RET spell_res
+	END
+	COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd22.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+	ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd22.spl~ 1 6 CLERIC_PX_SCION_OF_THE_FLAME
+END
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_SOVEREIGN_SELF~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd23.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd23.spl~ 1 6 CLERIC_PX_SOVEREIGN_SELF
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ANTI_IMPACT_ARMOR~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd24.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd24.spl~ 1 6 CLERIC_PX_ANTI_IMPACT_ARMOR
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_AFFLICTION~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd27.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31	WRITE_BYTE 0x34 6	WRITE_BYTE 0x1e 0b00001100 // only evil
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd27.spl~ 1 6 CLERIC_PX_AFFLICTION	SAY UNIDENTIFIED_DESC @607699
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FIGHTING_FURY~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd25.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31	WRITE_BYTE 0x34 7
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd25.spl~ 1 7 CLERIC_PX_FIGHTING_FURY SAY UNIDENTIFIED_DESC @606699
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_COLD_BITE~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd26.spl~	WRITE_SHORT 0x1c 2	WRITE_BYTE 0x34 7
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd26.spl~ 1 7 CLERIC_PX_COLD_BITE SAY UNIDENTIFIED_DESC @6062299 
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_FIRE_CALL~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd28.spl~	WRITE_SHORT 0x1c 2	WRITE_BYTE 0x34 7 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd28.spl~ 1 7 CLERIC_PX_FIRE_CALL SAY UNIDENTIFIED_DESC @6082299
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_MAJOR_ENCHANT_WEAPON~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd30.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT31
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd30.spl~ 1 7 CLERIC_PX_MAJOR_ENCHANT_WEAPON
+
+LAF RES_NUM_OF_SPELL_NAME
+STR_VAR spell_name = ~WIZARD_PX_ICE_ORB~
+RET spell_res
+END
+COPY_EXISTING	~%spell_res%.spl~ 					~Derats_Magasin_2/TempDir/pxl2cd31.spl~	WRITE_SHORT 0x1c 2 WRITE_LONG 0x1e BIT30
+ADD_SPELL ~Derats_Magasin_2/TempDir/pxl2cd31.spl~ 1 7 CLERIC_PX_ICE_ORB
+
+/*
+Sorts à placer comme HLAS de prêtre -> je n'arrive pas à l'appliquer à TOUS les prêtres, mods inclus.
+- Morts en marche
+- Purge de la magie
+- Rage de masse
+- Eau de vie
+- Bombardement
+- Contrôle du temps (DD3 "marée guerrière)
+
+Sorts à placer comme HLAS de druide -> je n'arrive pas à l'appliquer à TOUS les druides, mods inclus.
+- Nuage tueur de troll
+- Invocation arachnéenne
+*/
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// V10 /////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+// Passer tous les sorts en mod "Olvin" ; ne compte pas dans la limite de sorts.
 // Créer et appliquer des mini-icônes pour les sorts de buff. Commande d’installation dans le mod Sub-Zero.
 // "Anneau de dévastation" : rajouter mini-icône à sa capacité de charge. -> checker les objets autant que les sorts.
 // Voir dans le mod Sir Renal la conversion des bams avec GW.
