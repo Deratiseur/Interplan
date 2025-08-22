@@ -347,7 +347,7 @@ Temps d'incantation : 1
 Zone d'effet : une créature
 Jet de sauvegarde : aucun
 
-Ce sort arrête le déplacement d'une créature et le fixe à zéro. La créature peut continuer d'agir mais ne peux plus se déplacer pendant toute la durée du sort. (elle peux toujours se téléporter). Si elle réussi un jet de sauvegarde contre les sorts , la durée du sort n'est que de deux rounds. Les créature de moins de 12 dvs n'ont pas droit à un jet de sauvegarde.~
+Ce sort arrête le déplacement d'une créature et le fixe à zéro. La créature peut continuer d'agir mais ne peut plus se déplacer pendant toute la durée du sort. (elle peut toujours se téléporter). Si elle réussi un jet de sauvegarde contre les sorts , la durée du sort n'est que de deux rounds. Les créature de moins de 12 dvs n'ont pas droit à un jet de sauvegarde.~
 
 @60325 = ~Vol de sortilège~
 @60326 = ~Vol de sortilège (Enchantement)
@@ -577,6 +577,17 @@ Zone d'effet : rayon de 3,5 mètres
 Jet de sauvegarde : ½
 
 Crée sort crée une nova de poison à l'endroit désigné. Les créatures situées dans la zone subissent 1D6 points de dégâts de poison par deux niveaux du magicien (maximum 10D6) et doivent réussir un jet de sauvegarde contre le poison : toutes celles qui le rate sont empoisonnées pour 2 points de dégâts de poison par round.~
+@6041099 = ~Nova de poison (Nécromancie)
+
+Niveau : 5
+Sphère : poison
+Portée : champ de vision
+Durée : un round par deux niveaux
+Temps d'incantation : 4
+Zone d'effet : rayon de 3,5 mètres
+Jet de sauvegarde : ½
+
+Crée sort crée une nova de poison à l'endroit désigné. Les créatures situées dans la zone subissent 1D6 points de dégâts de poison par deux niveaux du magicien (maximum 10D6) et doivent réussir un jet de sauvegarde contre le poison : toutes celles qui le rate sont empoisonnées pour 2 points de dégâts de poison par round.~
 
 @60411 = ~Image réfléchie majeure~
 @60412 = ~Image réfléchie majeure (Illusion/Fantasme)
@@ -718,6 +729,17 @@ Un épais tas de sable tombe sur la cible désignée. Celle-ci et toutes les créatu
 @60432 = ~Brandons (Évocation)
 
 Niveau : 4
+Portée : champ de vision
+Durée : instantanée
+Temps d'incantation : 4
+Zone d'effet : une créature par deux niveaux
+Jet de sauvegarde : ½
+
+Ce sort permet au mage de lancer de petits projectiles de feu qui touchent automatiquement les cibles désignées. Il peut désigner une cible par deux niveaux de lanceur de sorts, après quoi chacune sera impactée par un brandon qui inflige 2D6+1 points de dégâts de feu (jet de sauvegarde contre les sorts pour ½). Il est aussi possible de diriger tous les brandons sur une seul cible : pour cela il suffit de la désigner deux fois de suite dès de début de la sélection.~
+@6043299 = ~Brandons (Évocation)
+
+Niveau : 5
+Sphère : combat
 Portée : champ de vision
 Durée : instantanée
 Temps d'incantation : 4
@@ -1064,6 +1086,18 @@ Jet de sauvegarde : aucun
 
 Ce sort transcende les alliés affectés, les rendant meilleurs en tout. Ils gagnent une attaque supplémentaire par round et +2 à leurs caractéristiques physiques, à l’initiative, à la classe d'armure, au toucher, aux dégâts, et +1 aux jets de sauvegarde.
 Ce sort ne peut pas être cumulé avec d'autres sorts accélérant les sujets (comme hâte).~
+@606699 = ~Fureur combative (Altération)
+
+Niveau : 7
+Sphère : combat
+Portée : champ de vision
+Durée : 1 round par niveau
+Zone d’effet : rayon de 4,5 mètres
+Temps d’incantation : 6
+Jet de sauvegarde : aucun
+
+Crée pour la garde rousse du Haut Bosquet d'Alfheim (et répandu par les contrebandiers), ce sort transcende les alliés affectés, les rendant meilleurs en tout. Ils gagnent une attaque supplémentaire par round et +2 à leurs caractéristiques physiques, à l’initiative, à la classe d'armure, au toucher, aux dégâts, et +1 aux jets de sauvegarde.
+Ce sort ne peut pas être cumulé avec d'autres sorts accélérant les sujets (comme hâte).~
 
 @6067 = ~Porte vers l'Interplan~
 @6068 = ~Porte vers l'Interplan (Altération)
@@ -1170,6 +1204,18 @@ Mais le puissance de ce sort présence un défaut majeur : le corps ainsi saturé d
 @60622 = ~Morsure du froid (Évocation)
 
 Niveau : 6
+Portée : champ de vision
+Durée : instantanée, spéciale
+Temps d'incantation : 6
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : spécial
+
+Un froid glacial tombe dans la zone ciblée. Les créatures qui s'y trouvent voient leur température corporelle brutalement chuter, ce qui leur cause une hypothermie comme si elles avaient été exposées pendant une période prolongée à une zone de froid polaire.
+Les créatures affectées subissent 1D4 points de dégât de froid par niveau du mage (maximum 20D4, jet de sauvegarde contre les sort pour ½). Si elles ratent un jet de sauvegarde contre la mort elles subissent aussi 1D3 points de dégâts de fatigue intense par deux niveaux du mage (maximum 10D3) qui ne peuvent pas les tuer mais les épuise (+1 en fatigue par dé de fatigue infligée, maximum +10).~
+@6062299 = ~Morsure du froid (Évocation)
+
+Niveau : 7
+Sphère : combat
 Portée : champ de vision
 Durée : instantanée, spéciale
 Temps d'incantation : 6
@@ -1348,6 +1394,23 @@ Niveau 34 et plus : un sort de niveau 7 à 10 (double probabilité pour le niveau 
 @6076 = ~Affliction (Nécromancie)
 
 Niveau : 7
+Portée : champ de vision
+Durée : spéciale
+Temps d'incantation : 9
+Zone d'effet : rayon de 4 mètres
+Jet de sauvegarde : spécial
+
+Ce sort fait tomber sur la zone des cendres appelées depuis les tombeaux, les champs de batailles, les antres des bêtes du carnages et d'autres zones souillées et impures. Les créatures vivantes dans la zone subissent :
+Contagion si elles ratent un jet de sauvegarde contre la mort
+Cécité et Surdité (2 tours) si elles ratent un jet de sauvegarde contre les sorts
+Immobilisation des monstres (1 tour) si elles ratent un jet de sauvegarde contre la métamorphose
+Étourdissement (5 rounds) si elles ratent un jet de sauvegarde contre les souffles
+
+Ce sort n'a aucun effet sur les constructions et les morts-vivants.~
+@607699 = ~Affliction (Nécromancie)
+
+Niveau : 7
+Sphère : mal
 Portée : champ de vision
 Durée : spéciale
 Temps d'incantation : 9
@@ -1801,6 +1864,18 @@ Ce sort permet au lanceur de sort d'ouvrir un portail vers le plan Élémentaire d
 Le feu en arrivant explose en une bouffé de flammes qui dure trois secondes : à la première, elle inflige 12D10 points de dégâts de feu à toutes les créatures situées à moins de 4,5 mètres du lanceur de sort et a 12% de chance de faire apparaître une créature du feu. A la deuxième elle inflige 8D10 points de dégâts de feu et a 8% de chance de faire apparaître une créature du feu. Et à la troisième elle inflige 4D10 points de dégâts de feu et a 4% de chance de faire apparaître une créature du feu. Tous les dégâts peuvent être minorés de moitié par un jet de sauvegarde réussi contre les sorts.
 L'appel dure cinq secondes, mais si des créatures sont apparues elle sont considérées comme des invocations et le lanceur de sort les gardes sous son contrôle pendant deux tours avant qu'elles ne retournent sur leur Plan.~
 @608221 = ~Elémental de feu vénérable~
+@6082299 = ~Appel du feu (Convocation)
+
+Niveau : 9
+Portée : 0
+Durée : spécial
+Temps d’incantation : 8
+Zone d’effet : rayon de 4,5 mètres
+Jet de sauvegarde : ½
+
+Ce sort permet au lanceur de sort d'ouvrir un portail vers le plan Élémentaire du Feu et d'attirer vers lui le feu primaire et peut être quelques indigènes. Pendant l'appel il ne peut pas se déplacer sous peine de rompre le lien.
+Le feu en arrivant explose en une bouffé de flammes qui dure trois secondes : à la première, elle inflige 12D10 points de dégâts de feu à toutes les créatures situées à moins de 4,5 mètres du lanceur de sort et a 12% de chance de faire apparaître une créature du feu. A la deuxième elle inflige 8D10 points de dégâts de feu et a 8% de chance de faire apparaître une créature du feu. Et à la troisième elle inflige 4D10 points de dégâts de feu et a 4% de chance de faire apparaître une créature du feu. Tous les dégâts peuvent être minorés de moitié par un jet de sauvegarde réussi contre les sorts.
+L'appel dure cinq secondes, mais si des créatures sont apparues elle sont considérées comme des invocations et le lanceur de sort les gardes sous son contrôle pendant deux tours avant qu'elles ne retournent sur leur Plan.~
 
 @60823 = ~Décharges vengeresses de Keleg-Ze~
 @60824 = ~Décharges vengeresses de Keleg-Ze (Évocation)
