@@ -11,6 +11,8 @@ Il est aussi possible de le lancer, auquel cas en se fracassant il provoquera su
 @35 = ~L'interplan~
 @36 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
 @37 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@38 = ~Dupliquer certains sorts de l'Interaplan en version clericales/druidiques~
+@39 = ~Ce composant necessite L'interplan~
 @40 = ~Vashir al'Maedissir~
 @41 = ~Bouteille du génie~
 @42 = ~Cette bouteille est la maison (ou la prison ?) d'un génie. Qui sait ce que cette créature de grande puissance peut vous offrir si vous ouvrez le bouchon qui la retient ?
