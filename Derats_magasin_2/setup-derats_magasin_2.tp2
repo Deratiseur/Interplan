@@ -1,6 +1,6 @@
 BACKUP ~Derats_Magasin_2/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~9.1~
+VERSION ~9.5~
 
 ALWAYS
 	ACTION_IF GAME_IS ~IWDEE BG2EE EET~ THEN BEGIN
@@ -65,6 +65,26 @@ LANGUAGE ~Francais~	~French~
 	~Derats_Magasin_2/Languages/French/pxl2Maiq.tra~
 	~Derats_Magasin_2/Languages/French/pxl2revn.tra~
 	~Derats_Magasin_2/Languages/French/Setup.tra~
+
+LANGUAGE ~English~    ~English
+    ~Derats_Magasin_2/Languages/English/Agenor.tra~
+    ~Derats_Magasin_2/Languages/English/Cromwell.tra~
+    ~Derats_Magasin_2/Languages/English/Iwd.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-chandelle.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-coffre.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-dillpater.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-discombulateur.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-objets.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-potions.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-sceptre.tra~
+    ~Derats_Magasin_2/Languages/English/Magasin2-sorts.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2ctbd.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2clnt.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2lapi.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2forg.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2Maiq.tra~
+    ~Derats_Magasin_2/Languages/English/pxl2revn.tra~
+    ~Derats_Magasin_2/Languages/English/Setup.tra~ 
 
 BEGIN @33	DESIGNATED 33	LABEL Px_Interplan_Main
 REQUIRE_PREDICATE GAME_IS ~BGT TOB IWDEE BG2EE EET~ @0009
