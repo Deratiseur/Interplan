@@ -8,6 +8,7 @@
 **Author** : **Deratiseur**
 
 [Lien vers les descriptions complètes (objets, sorts, recettes, etc...)](https://www.baldursgateworld.fr/viewtopic.php?t=31563)
+[Link to the Beamdog Topic](https://forums.beamdog.com/discussion/90779/linterplan-v9-5-is-now-in-english#latest))
 
 <table>
 <tr>
