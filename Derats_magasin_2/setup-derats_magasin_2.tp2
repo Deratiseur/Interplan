@@ -4,8 +4,6 @@ VERSION ~9.5~
 
 ALWAYS
 	ACTION_IF GAME_IS ~IWDEE BG2EE EET~ THEN BEGIN
-		COPY	~Derats_Magasin_2/Languages/French/Magasin2-sorts.tra~	~Derats_Magasin_2/Languages/French/Magasin2-sorts.tra~	REPLACE_TEXTUALLY ~
-(Dans oBG2 n'utilisez pas ce sort si vous tenez quelque chose en main secondaire sous peine de crash).~ ~~
 		ACTION_DEFINE_ARRAY px_reload BEGIN
 		~Agenor.tra~
 		~Cromwell.tra~
