@@ -1,0 +1,464 @@
+@301 = ~Christof Romuald~
+@302 = ~The Ranger of Chaos~
+@30219 = ~So... where are those chickens?~
+@30229 = ~Hey, I hunt chickens, not monsters!~
+@303 = ~Gilbert Gunderson~
+@30319 = ~Today, old Gil is just an extra.~
+@304 = ~Vegetable Man~
+@30419 = ~Are the carrots cooked?~
+@304110 = ~No!~
+@305 = ~Hillock~
+@30519 = ~Oni-Goroshi~
+@306 = ~Griff Tannen~
+@307 = ~M'aiq the Liar~
+@308 = ~Joan of Orc~
+@309 = ~Terkio~
+@3010 = ~Nitouche~
+@3011 = ~Sioban~
+@301119 = ~Love lies at the heart of evil.~
+@3012 = ~Kick-Ass~
+@3013 = ~Forgrimm~
+@3014 = ~Godefroy de Montmirail~
+@30141 = ~May I perish if I falter!~
+@3015 = ~Lenny~
+@3016 = ~Galford D. Weller~
+@301619 = ~Electric Weapon~
+@301629 = ~Poppy~
+@3017 = ~Homnibus~
+@3018 = ~Santal Gaia~
+@30181 = ~Oooh... I leaned too far... over the garbage chute,~
+@30182 = ~And I fell... into a strange land.~
+@30183 = ~It's the land of the Magic Trash Can.~
+@30184 = ~There I met fantastic creatures,~
+@30185 = ~And here's what I learned:~
+@30186 = ~Insects are our friends,~
+@30187 = ~We should love them too,~
+@30188 = ~Allow me to introduce,~
+@30189 = ~My favorite little critters.~
+@301810 = ~Bark Beetle~
+@3019 = ~Link~
+@30191 = ~Red Potion~
+@3020 = ~Jason Voorhees~
+@3021 = ~Brumaire Short-Dagger~
+@3022 = ~Fflewddur Fflam~
+@3023 = ~Oh Dae-Soo~
+@30231 = ~Hammer~
+@3024 = ~Heads or Tails~
+@30241 = ~Bepher~
+@30242 = ~Drop Stolen Items~
+@3025 = ~Shino Aburame~
+@30251 = ~Devouring Touch~
+@30252 = ~Insect Cloak~
+@3026 = ~Morkai~
+@3027 = ~Tristan of Halsbourg~
+@3028 = ~Erritis~
+@3029 = ~Imrijka~
+@3030 = ~Creeper~
+@30301 = ~Come on... help a poor rascal! You must need something. I've got something to drink...~
+@30302 = ~I don't want a job. I just want to beat my drum. What's a rascal supposed to do?~
+@30303 = ~Can you help me? I need money.~
+@30304 = ~Hello, Faerun! I'll be here all day!~
+@30305 = ~I'm discretion personified.~
+@30306 = ~Cyrodiil Brandy~
+@303061 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Wisdom: +2
+Constitution: +2
+Duration: 1 turn.~
+@30307 = ~Greef~
+@303071 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Strength: +4
+Dexterity: -4
+Duration: 1 turn.~
+@30308 = ~Mazte~
+@303081 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Strength: +4
+Wisdom: -4
+Intelligence: -4
+Duration: 1 turn.~
+@30309 = ~Shein~
+@303091 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Constitution: +2
+Intelligence: -2
+Duration: 1 turn.~
+@303010 = ~Aged Dagoth Brandy~
+@3030101 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a prohibited liquor said to come from another "universe".
+
+STATISTICS:
+
+Wisdom: -4
+Intelligence: -4
+Duration: 1 turn.~
+@303011 = ~Skooma~
+@3030111 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is said to come from another "universe" and is a narcotic.
+
+STATISTICS:
+
+Movement Rate: +2
+Strength: +4
+Dexterity: -4
+Intelligence: -4
+Duration: 1 turn.~
+@303012 = ~Flin~
+@3030121 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Strength: +4
+Wisdom: +4
+Duration: 1 turn.~
+@303013 = ~Sujamma~
+@3030131 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a liquor said to come from another "universe".
+
+STATISTICS:
+
+Strength: +10
+Intelligence: -10
+Duration: 1 turn.~
+@303014 = ~Vintage Brandy~
+@3030141 = ~Potions are generally stored in ceramic, crystal, glass, or metal flasks and vials. These containers usually hold enough liquid to provide a full dose and produce the desired effects.
+
+This one is a premium liquor said to come from another "universe".
+
+STATISTICS:
+
+- Strength: +6
+- Dexterity: -6
+- Duration: 6 turns.~
+@303015 = ~Drum~
+@303016 = ~This is the guar-hide drum that Creeper carries around.~
+@303017 = ~Trade~
+@303018 = ~Leave~
+@3031 = ~Sargon~
+@30311 = ~Great Club~
+@3032 = ~Hiravias~
+@30321 = ~Stelgaer Form~
+@30322 = ~Stelgaer Claws~
+@30323 = ~Obsidian Lamp~
+@3033 = ~Gilius Thunderhead~
+@3034 = ~Shale~
+@3035 = ~Yu Shu Lien~
+@3036 = ~Shigmaa Urasta~
+@30361 = ~Draining Touch~
+@3037 = ~Kriss of Valnor~
+@3038 = ~Virgil~
+@30381 = ~The Bangellian Terror~
+@30382 = ~Protection from Undead~
+@3039 = ~Lantry~
+@30391 = ~Feather Burst~
+@30392 = ~Feather Storm~
+@30393 = ~Second Wind~
+@30394 = ~Lantry's Feather~
+@3040 = ~Lady Gorge~
+@30401 = ~Great Cry~
+@3041 = ~Ragnar Lodbrok~
+@3042 = ~Tristelune~
+@3043 = ~Xylaz~
+@3044 = ~Mandorallen~
+@3045 = ~Éowyn~
+@3046 = ~Fuam~
+@30461 = ~Lightning Punch~
+@3047 = ~Fafhrd~
+@30471 = ~Grey Club~
+@3048 = ~Michonne~
+@3049 = ~Brienne of Tarth~
+@3050 = ~Rick WTM-72~
+@3051 = ~Murtagh~
+@30511 = ~Zar'roc~
+@3052 = ~Miyamoto Musashi~
+@3053 = ~Thierry la Fronde~
+@3054 = ~Madmartigan~
+@3055 = ~Mokla~
+@3056 = ~Alexander Anderson~
+@3057 = ~King~
+@30571 = ~*Shows a fearsome snarl*~
+@30572 = ~*Negotiates*~
+@30573 = ~*Runs away*~
+@3058 = ~Beatrix Kiddo~
+@3059 = ~Steve~
+@30591 = ~Diamond Sword~
+@3060 = ~Okko~
+@3061 = ~Requiem~
+@3062 = ~Calvin~
+@30621 = ~Hobbes~
+@3063 = ~Umbre~
+@30631 = ~Ranger~
+@3064 = ~Shiba Tsukune~
+@30641 = ~Ofushikai~
+@30642 = ~Zone of Nonviolence~
+@3065 = ~Vlad von Carstein~
+@30651 = ~Blooddrinker~
+@3066 = ~Sheltem~
+@3067 = ~Knolan~
+@3068 = ~Sixtus Averroes~
+@3069 = ~Gerrard Capashen~
+@3070 = ~Hecubah~
+@3071 = ~Rito Revolto~
+@30711 = ~Flamethrower~
+@3072 = ~Buffy Summers~
+@3073 = ~Spartacus~
+@3074 = ~Eto~
+@3075 = ~Nynaeve al'Meara~
+@3076 = ~Queen Geleeda~
+@30761 = ~Lady of the Valley~
+@30762 = ~Arachnid Scepter~
+@3077 = ~Tut-Tuuut-Ankh-Ammon~
+@3078 = ~Imhotep~
+@3079 = ~Galaad~
+@3080 = ~Thulsa Doom~
+@3081 = ~The Kurgan~
+@3082 = ~Barr-Find Blackhand~
+@3083 = ~Akame~
+@30831 = ~Extermination~
+@30832 = ~Murasame~
+@3084 = ~Kenshiro~
+@30841 = ~You don't know it yet, but you're already dead.~
+@3085 = ~Gana Gomar~
+@30851 = ~Repulsion~
+@3086 = ~Nux~
+@30861 = ~It's a lovely day to die.~
+@30862 = ~Witness me! *Lights a fuse*~
+@3087 = ~Patrick Sabatier~
+@30871 = ~Oh no, he's going to sing again!~
+@3088 = ~Mickaël Klaxon~
+@3089 = ~Ashrian~
+@30891 = ~I no more understand why I can hear the spirits speak than I understand why you cannot.~
+@30892 = ~Potion of Healing~
+@30893 = ~Prayer of Healing~
+@3090 = ~Zagor~
+@3091 = ~Sunulael~
+@3092 = ~Granny Lostherhat~
+@30921 = ~Now where did I put that blasted hat?~
+@3093 = ~Albus Dumbledore~
+@30931 = ~Mass Chaos~
+@3094 = ~Tyrael~
+@3095 = ~Falgant~
+@30951 = ~I know just the song for a situation like this.~
+@30952 = ~Incinerating Violin~
+@3096 = ~Zandalor~
+@30961 = ~Scimitar +4~
+@3097 = ~Zaraki Kenpachi~
+@3098 = ~Cohen~
+@3099 = ~Jean Chuck Van Norris~
+@309919 = ~You don't stand a chance. If you're not aware, I can kill you just by looking at you!~
+@309929 = ~Fuuuu... sion!!~
+@30100 = ~Renakhin~
+@301001 = ~?!? I can no longer feel the energy of the Nôth?!?~
+@301002 = ~Oh... but I sense an even greater power...~
+@301003 = ~WAHAHAHAHAHAHA, I am all-powerful!!!~
+@30101 = ~Legolas Greenleaf~
+@30102 = ~Torquemada~
+@30103 = ~Negan~
+@301031 = ~Lucille~
+@301032 = ~... My Lucille is going to love this.~
+@301033 = ~So, you pussies need a real man to show you how it's done?~
+@30104 = ~Jaskier~
+@30105 = ~Pip~
+@301051 = ~E.J.~
+@30106 = ~Barnabé Bonarien~
+@30107 = ~Maximus Decimus Meridius~
+@30108 = ~Mor'du~
+@30109 = ~Solaire of Astora~
+@30110 = ~Féra~
+@30111 = ~Canigou~
+@30112 = ~Deckard Cain~
+@301121 = ~Greetings, adventurers. I possess great knowledge. If you wish, I can help identify the magical items you find.~
+@301122 = ~Yes, please.~
+@301123 = ~That won't be necessary.~
+@30113 = ~Haazheel Thorn~
+@301131 = ~Demonic Transformation~
+@301132 = ~Demonic Claws~
+@30114 = ~Abobo~
+@30115 = ~Ansatsu~
+@30116 = ~Magus Gonde Kyal~
+@30117 = ~Gamora~
+@30118 = ~Firehawk~
+@30119 = ~Biggs~
+@301191 = ~Wedge~
+@30120 = ~David Dunn~
+@30121 = ~Concelhaut~
+@30122 = ~Haffanen~
+@301221 = ~Exaltation~
+@30123 = ~Zamna~
+@30124 = ~Bulrog~
+@30125 = ~Benedict~
+@30126 = ~Guy~
+@30127 = ~Arantir~
+@301271 = ~Avatar of Death~
+@301272 = ~Wail of the Banshee~
+@30128 = ~Bagheera~
+@30129 = ~Iolo FitzOwen~
+@30130 = ~Katniss Everdeen~
+@30131 = ~Morticia Addams~
+@30132 = ~Valna Asou~
+@30133 = ~Redwin~
+@301331 = ~Madman's Rage~
+@301332 = ~Twinblade +5~
+@30134 = ~No. 218~
+@301341 = ~Laguiole~
+@30135 = ~Hornitos~
+@30136 = ~White Claw~
+@30137 = ~Tara~
+@30138 = ~The Guinea Lord~
+@301381 = ~War Mastiff~
+@30139 = ~Reese~
+@301391 = ~Mom's going to kill me if she finds out about this.~
+@301392 = ~I'll be on latrine duty for at least a year.~
+@301393 = ~But just imagining Malcolm's face when he finds out...~
+@301394 = ~...makes it totally worth it!~
+@30140 = ~Ardherin~
+@30141 = ~Rufio~
+@30142 = ~Argol of Perseus~
+@30143 = ~Bragal~
+@30144 = ~Lady Shiva~
+@301441 = ~Rip Out Heart~
+@30145 = ~Davey Trauma~
+@301451 = ~Ho ho, I'm in a video game!~
+@301452 = ~Does this work here? taps his forearm~
+@301453 = ~I'm gonna have a blast!~
+@301454 = ~Suicide~
+@30146 = ~Debbie Jacobs~
+@301461 = ~Wild Horde~
+@301462 = ~Hogosha~
+@30147 = ~Beowulf~
+@30148 = ~Anjalbert of Ganfalon~
+@30149 = ~Spinal~
+@301491 = ~Fatality~
+@301492 = ~Flying Skull~
+@30150 = ~Baron Zachareth~
+@301501 = ~Repulsion~
+@301502 = ~Shadow Bolt~
+@30151 = ~Skier~
+@301511 = ~Hi! I've got eight seconds to tell you that Ovomaltine bars are full of energy!~
+@30152 = ~Sir Galaway~
+@301521 = ~Rork Serling~
+@301522 = ~Mr. Vitigo, a second-rate actor for whom life has not always been kind,~
+@301523 = ~believed he had finally found the role that would launch his career:~
+@301524 = ~Sir Galaway, a fictional paladin in service to his lord.~
+@301525 = ~But what Mr. Vitigo doesn't know is that when he puts on his costume~
+@301526 = ~and enters for Sir Galaway's second scene,~
+@301527 = ~he isn't stepping onto the studio set...~
+@301528 = ~but into the Forgotten Realms.~
+@30153 = ~Ilya Muromets~
+@30154 = ~The Beast of Gévaudan~
+@30155 = ~Bragi Boddason~
+@301551 = ~Ballad of the Three Heroes~
+@301552 = ~Ballad of Curran the Valiant~
+@301553 = ~Song of Kaudies~
+@301554 = ~Melody of Tymora~
+@301555 = ~Song of the Sirens~
+@301556 = ~Sith War Chant~
+@301557 = ~Enhanced Song~
+@30156 = ~Speedy Gonzales~
+@30157 = ~Hua Mulan~
+@30158 = ~Luke Cage~
+@30159 = ~Jahan~
+@301591 = ~Never make pacts with demons.~
+@30160 = ~Amiri~
+@301601 = ~I'll go first. I'll show you what a real warrior is.~
+@30161 = ~Didier the Trickster~
+@301611 = ~Hey! What's up, you little pansies!~
+@30162 = ~Mauler~
+@301621 = ~Get to work, clone.~
+@301622 = ~Hey, you're the clone!~
+@30163 = ~Mother Russia~
+@30164 = ~Mamoushka Madtécoffe~
+@301641 = ~Summon Animal for Cooking~
+@301642 = ~Carving Knife~
+@301643 = ~What? What kind of beast is this? It's utter rubbish!~
+@301644 = ~There we are!~
+@30165 = ~William Wallace~
+@30166 = ~Dupli-Kate~
+@301661 = ~Duplication~
+@30167 = ~Gargamel~
+@301671 = ~Azrael~
+@30168 = ~André the Giant~
+@30169 = ~Till Eulenspiegel~
+@30170 = ~Gilgamesh~
+@30171 = ~Grendel~
+@30172 = ~Mara~
+@301721 = ~Dragon Bone Sword~
+@30173 = ~Black Canary~
+@30174 = ~Pinky~
+@301741 = ~Brain~
+@301742 = ~What are we doing here, Brain?~
+@301743 = ~I don't know, Pinky, but I daresay this curious turn of events may yet serve my plans.~
+@301744 = ~What plans, Brain?~
+@301745 = ~To conquer the world, Pinky.~
+@301746 = ~Let us find a place where we may prepare everything.~
+@30175 = ~Xavier Dupont de Ligonnes~
+@301751 = ~??....~
+@30176 = ~Hinata Hyuga~
+@301761 = ~Eight Trigrams Sixty-Four Palms~
+@30177 = ~Yyrkoon~
+@30178 = ~Eikichi Onizuka~
+@30179 = ~Sasmaël~
+@301791 = ~Lotweën~
+@301792 = ~Sword of Justice~
+@301793 = ~I can feel the flow of magic. This world is steeped in it. War must rage everywhere.~
+@30180 = ~Deno Fevil~
+@301801 = ~I am no ninja.~
+@30181 = ~Jerry Lee Lewis~
+@301811 = ~Great Balls of Fire~
+@30182 = ~URSSAF~
+@301821 = ~Camcras~
+@301822 = ~Carbalas~
+@30183 = ~Kimiko Miyashiro~
+@30184 = ~The Landlady~
+@30185 = ~B.~
+@30186 = ~Crom~
+@301861 = ~Barbarian Blade +6~
+@30187 = ~Arya Stark~
+@301871 = ~Valyrian Steel Dagger~
+@30188 = ~FitzChivalry~
+@301881 = ~Nighteyes~
+@30189 = ~Steven T. Learoyd~
+@30190 = ~Garou~
+@301901 = ~What? Help heroes? Certainly not!~
+@30191 = ~Boa Hancock~
+@301911 = ~You cannot harm me, because I am beautiful.~
+@30192 = ~Mr. Thin~
+@301921 = ~But... what the...?~
+@301922 = ~Where am I?~
+@301923 = ~Is this Kalish's doing?~
+@301924 = ~No... that's impossible. He has not yet returned.~
+@301925 = ~Norton! NORTON!~
+@301926 = ~Aaah, it hurts! My tubes... where are they?~
+@301927 = ~Norton! *cough*~
+@301928 = ~No... I cannot die like this! Not yet!~
+@301929 = ~The time has not yet come...~
+@3019210 = ~*Dead*~
+@30193 = ~Wolfhound~
+@30194 = ~Kevin McCallister~
+
+@30201 = ~Kurome~
+@302011 = ~Yatsufusa~
+@302012 = ~Natara~
+@302013 = ~*Munches on a biscuit*~

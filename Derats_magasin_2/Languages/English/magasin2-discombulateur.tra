@@ -1,0 +1,696 @@
+@501 = ~Potion of Extra Healing~
+@502 = ~When completely consumed, this potion restores 18 hit points. The effect is instantaneous and the potion is destroyed in the process.~
+@503 = ~Potion of Superior Healing~
+@504 = ~When completely consumed, this potion restores 60 hit points. The effect is instantaneous and the potion is destroyed in the process.~
+@505 = ~Potion of Hill Giant Strength*~
+@506 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 19
+Duration: 10 turns
+
+Weight: 1~
+
+@507 = ~Potion of Stone Giant Strength*~
+@508 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 20
+Duration: 10 turns
+
+Weight: 1~
+
+@509 = ~Potion of Frost Giant Strength*~
+@5010 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 21
+Duration: 10 turns
+
+Weight: 1~
+
+@5011 = ~Potion of Fire Giant Strength*~
+@5012 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 22
+Duration: 10 turns
+
+Weight: 1~
+@5013 = ~Potion of Cloud Giant Strength*~
+@5014 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 23
+Duration: 10 turns
+
+Weight: 1~
+
+@5015 = ~Potion of Storm Giant Strength*~
+@5016 = ~Anyone who drinks a Potion of Giant Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 24
+Duration: 10 turns
+
+Weight: 1~
+
+@5017 = ~Potion of Titan Strength*~
+@5018 = ~Anyone who drinks a Potion of Titan Strength gains superhuman Strength, along with bonuses to attack and damage rolls with melee and thrown weapons. The effects last for 10 turns.
+
+STATISTICS:
+
+Strength: 25
+Duration: 10 turns
+
+Weight: 1~
+
+@5019 = ~Potion of Strength Transference~
+@5020 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced agility at the expense of physical strength.
+
+STATISTICS:
+
+Dexterity: +1
+Strength: -1
+Duration: Permanent
+
+Weight: 1~
+@5021 = ~Potion of Aptitude Transference~
+@5022 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced force of personality and intellect at the expense of agility.
+
+STATISTICS:
+
+Charisma: +1
+Intelligence: +1
+Dexterity: -1
+Duration: Permanent
+
+Weight: 1~
+
+@5023 = ~Potion of Sacred Transference~
+@5024 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced wisdom at the expense of agility.
+
+STATISTICS:
+
+Wisdom: +2
+Dexterity: -1
+Duration: Permanent
+
+Weight: 1~
+
+@5025 = ~Potion of Vital Transference~
+@5026 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced physical strength at the expense of vitality.
+
+STATISTICS:
+
+Strength: +1
+Constitution: -1
+Duration: Permanent
+
+Weight: 1~
+
+@5027 = ~Potion of Conviction~
+@5028 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced wisdom at the expense of vitality.
+
+STATISTICS:
+
+Wisdom: +1
+Constitution: -1
+Duration: Permanent
+
+Weight: 1~
+@5029 = ~Potion of Bestiality~
+@5030 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they enhanced physical prowess at the expense of reason.
+
+STATISTICS:
+
+Strength: +1
+Dexterity: +1
+Intelligence: -2
+Duration: Permanent
+
+Weight: 1~
+
+@5031 = ~Potion of Fortitude~
+@5032 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they increased the drinker's resilience.
+
+STATISTICS:
+
+Saving Throws: +1
+Duration: Permanent
+
+Weight: 1~
+
+@5033 = ~Potion of Hardening~
+@5034 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they strengthened the drinker's defenses.
+
+STATISTICS:
+
+Armor Class: +1
+Duration: Permanent
+
+Weight: 1~
+
+@5035 = ~Potion of Robustness~
+@5036 = ~Very few potions of this kind were ever brewed, and their formula has since been lost. Created during the days of the Netherese Empire for the prelates of its churches, they increased the drinker's hardiness.
+
+STATISTICS:
+
+Constitution: +1
+Duration: Permanent
+
+Weight: 1~
+@5037 = ~Potion of Insulation~
+@5038 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's resistance.
+
+STATISTICS:
+
+Fire Resistance: +5%
+Cold Resistance: +5%
+Duration: Permanent
+
+Weight: 1~
+
+@5039 = ~Potion of Vitality~
+@5040 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's vitality.
+
+STATISTICS:
+
+Fighter/Paladin/Ranger: +8 maximum hit points
+Cleric/Druid/Monk: +6 maximum hit points
+Thief/Bard: +4 maximum hit points
+Mage/Sorcerer: +2 maximum hit points
+Duration: Permanent
+
+Weight: 1~
+
+@5041 = ~Potion of Fortification~
+@5042 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's resilience.
+
+STATISTICS:
+
+Resistance to Crushing Damage: +10%
+Duration: Permanent
+
+Weight: 1~
+
+@5043 = ~Potion of Superior Resistance~
+@5044 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's resilience.
+
+STATISTICS:
+
+Resistance to Slashing and Piercing Damage: +5%
+Duration: Permanent
+
+Weight: 1~
+@5045 = ~Potion of Thaumaturgy~
+@5046 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for arcanists, they strengthened the drinker's bond with the Weave.
+
+STATISTICS:
+
+Mages and Sorcerers: +1 random spell slot of levels 1-5
+Duration: Permanent
+
+Weight: 1~
+
+@5047 = ~Potion of Aura Enhancement~
+@5048 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased both the drinker's resilience and intellect.
+
+STATISTICS:
+
+Intelligence: +1
+Magic Resistance: +5%
+Duration: Permanent
+
+Weight: 1~
+
+@5049 = ~Potion of Magic Absorption~
+@5050 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's resistance.
+
+STATISTICS:
+
+Magic Resistance: +10%
+Duration: Permanent
+
+Weight: 1~
+
+@5051 = ~Potion of Dispelling~
+@5052 = ~Few potions of this kind were ever brewed, and their formula has long since been lost. Created during the days of the Netheril Empire for the prelates of the Churches, they increased the drinker's resistance.
+
+STATISTICS:
+
+Magic Resistance: +15%
+Duration: Permanent
+
+Weight: 1~
+@5053 = ~Cerebral Stimulant~
+@5054 = ~This ingenious mixture of unknown substances has the power to elevate the drinker's mind at the expense of physical prowess.
+
+STATISTICS:
+
+Intelligence, Wisdom and Charisma: +1
+Strength, Dexterity and Constitution: -1
+Duration: Permanent
+
+Weight: 1~
+
+@5055 = ~Muscular Stimulant~
+@5056 = ~This remarkable mixture enhances the drinker's physical abilities while suppressing higher mental faculties.
+
+STATISTICS:
+
+Strength, Dexterity and Constitution: +1
+Intelligence, Wisdom and Charisma: -1
+Duration: Permanent
+
+Weight: 1~
+
+@5057 = ~Vitalizer~
+@5058 = ~This foul-smelling concoction, the pinnacle of the ingenuity of the natives of another universe, enhances whoever drinks it.
+
+STATISTICS:
+
+All Ability Scores: +1
+Duration: Permanent
+
+Weight: 1~
+
+@5059 = ~Potion of Gaze Protection~
+@5060 = ~This potion protects the drinker against all gaze attacks for 10 turns or until dispelled.
+
+STATISTICS:
+
+Special: Immunity to gaze attacks such as those of basilisks, gorgons, spectators, bodaks, babaus, rock shadows, vampires, and similar creatures.
+Duration: 10 turns
+
+Weight: 1~
+@5061 = ~Potion of Invulnerability*~
+@5062 = ~This potion grants tremendous resistance to all attacks and provides a bonus to all saving throws.
+
+STATISTICS:
+
+Armor Class: Set to 0
+Saving Throws: +5 bonus
+Duration: 5 turns
+
+Weight: 1~
+
+@5063 = ~Potion of Everlasting Fire~
+@5064 = ~Drinking this potion allows the imbiber to periodically create rings of fire around himself.
+
+STATISTICS:
+
+Fire Pulse
+Duration: 2 turns
+
+Weight: 1~
+
+@5065 = ~Potion of Shapechange~
+@5066 = ~This potion grants the drinker the ability to change shape, just as the wizard spell of the same name.
+
+STATISTICS:
+
+Shapechange at will, once per round
+Duration: 5 turns
+
+Weight: 1~
+
+@5067 = ~Faerie Liqueur~
+@5068 = ~This enchanted spirit protects the drinker against all forms of magic. The power of this draught is so great that its effects last only a few seconds, so it must be used with careful timing.
+
+STATISTICS:
+
+Magic Immunity
+Duration: 3 rounds~
+
+@5069 = ~Potion of Superior Vitality~
+@5070 = ~This potent draught greatly enhances the drinker's vitality.
+
+STATISTICS:
+
+Maximum Hit Points: +200%
+Save vs. Death: +4
+Duration: 5 turns
+
+Special: When the potion's effects expire, there is a 1% chance to gain 2 maximum hit points permanently.
+
+Weight: 1~
+
+@5071 = ~Potion of Acceleration~
+@5072 = ~This potion allows the drinker to attack and cast spells more quickly.
+
+STATISTICS:
+
+Improved Haste
+Casting Time: -2
+Duration: 3 turns
+
+Weight: 1~
+
+@5073 = ~Tokketel's Black Draught~
+@5074 = ~This acrid, foul-smelling brew conceals a strange power: whoever drinks it is surrounded by a shield of negative energy.
+
+STATISTICS:
+
+Camouflage: +30 to Stealth, +2 Armor Class
+Any creature striking the drinker while within range must make a save vs. Spell or suffer one level drain.
+Protection from Negative Plane
+
+Duration: 5 turns
+
+Weight: 1~
+
+@5075 = ~Potion of Complete Rejuvenation~
+@5076 = ~When consumed in its entirety, this potion cures the drinker of all ailments and fully restores magical energies.
+
+STATISTICS:
+
+Heal
+Magical Rest
+
+Weight: 1~
+@5077 = ~Divine Nectar~
+@5078 = ~This enchanted liquor grants the drinker the power of a demigod.
+
+STATISTICS:
+
+Statistics, Armor Class and THAC0: +4
+Physical, Elemental, Magic and Magic Resistance: +50%
+Duration: 10 turns
+
+Weight: 1~
+
+@5079 = ~Potion of Duplication~
+@5080 = ~The drinker of this potion becomes protected by multiple mirror images.
+
+STATISTICS:
+
+Mirror Image (7 images)
+Duration: 5 turns
+
+Weight: 1~
+
+@5081 = ~Potion of Duality~
+@5082 = ~The drinker of this potion becomes protected by a lingering mirror image.
+
+STATISTICS:
+
+Improved Mirror Image
+Duration: 5 turns
+
+Weight: 1~
+
+@5083 = ~Vial of Tenacious Poison~
+@5084 = ~This rancid and concentrated poison can be thrown to create a deadly mist at the point of impact.
+
+STATISTICS:
+
+Range: 12 meters
+Damage: 8 per round
+Special: Kills all summoned creatures
+Area of Effect: 10 meter radius
+Duration: 1 turn
+
+Weight: 1~
+@5085 = ~Potion of Nonexistence~
+@5086 = ~This potion exists only to annihilate all life that comes into contact with it. Rather than drinking it, it is far safer to throw it.
+
+STATISTICS:
+
+Range: 12 meters
+Disintegrates target, save vs. Spell at +2 negates
+Area of Effect: 10 meter radius
+
+Weight: 1~
+
+@5087 = ~Fortifying Draught~
+@5088 = ~Whoever ingests this strange compound sees their flesh harden and take on a bronze-like hue.
+
+STATISTICS:
+
+Physical Resistances: +30%
+Duration: 10 turns
+
+Weight: 1~
+
+@5089 = ~Morgana's Tears~
+@5090 = ~This powerful potion purifies and restores the body of whoever drinks it.
+
+STATISTICS:
+
+Special: Cures poison and disease, removes fatigue, and restores 65 hit points.
+
+Weight: 1~
+
+@5091 = ~Miraculous Healing~
+@5092 = ~This powerful elixir heals all wounds and afflictions suffered by the drinker.
+
+STATISTICS:
+
+Heal
+
+Weight: 1~
+
+@5093 = ~Revitalizer~
+@5094 = ~The viscous liquid contained within this vial has the power to enhance whoever consumes it.
+
+STATISTICS:
+
+All Abilities: +2
+Duration: 10 turns
+
+Weight: 1~
+@5095 = ~Potion of Heroism~
+@5096 = ~Potions are usually found in flasks or vials made of ceramic, crystal, glass, or metal. These containers generally hold enough liquid to provide a person with a full dose and grant the desired effects.
+
+This one is said to have come from another "universe."
+
+STATISTICS:
+
+Maximum Hit Points: +25
+Regeneration: 5 hit points per round
+THAC0: +6
+Armor Class: +3
+Duration: 10 turns
+
+Weight: 1~
+
+@5097 = ~Elixir of the Imperfect~
+@5098 = ~Potions are usually found in flasks or vials made of ceramic, crystal, glass, or metal. These containers generally hold enough liquid to provide a person with a full dose and grant the desired effects.
+
+This one is said to have come from another "universe."
+
+STATISTICS:
+
+Regeneration: 10 hit points per second
+Remembers a level 1 spell (arcane and divine) during the first second, then a level 2 spell during the third second, then a level 3 spell during the fifth second, and so on, up to a level 8 spell during the fifteenth second.
+Duration: 15 seconds
+
+Weight: 1~
+
+@5099 = ~Potion of Aura Cleansing~
+@50100 = ~This potion prevents magical residue from lingering around the drinker. As a result, the drinker can cast spells in rapid succession without interruption.
+
+STATISTICS:
+
+Spell Sequencer
+Duration: 1 turn
+
+Weight: 1~
+
+@50101 = ~Potion of Extreme Power~ //EE only
+@50102 = ~This foul-smelling mixture dramatically alters probability in favor of the drinker.
+
+STATISTICS:
+
+Damage: +150%
+Duration: 5 turns
+
+Weight: 1~
+
+@50103 = ~Elixir of Magica Incarna~
+@50104 = ~Inside its bottle, this brew is constantly in motion. This can be seen through the many magical particles swirling within the mixture. Whoever drinks this elixir merges with the Weave and becomes a magic elemental.
+
+STATISTICS:
+
+Immunity to Magical Weapons
+Immunity to Spells
+Infinite Spells
+Duration: 1 turn
+
+Weight: 1~
+
+@50105 = ~Potion of Absolute Speed~
+@50106 = ~This midnight-blue potion allows the drinker to acquire a speed far beyond known limits. In fact, the drinker moves so quickly that the world around them appears frozen, and even more strangely, drained of color, as if the very essence that creates colors could no longer reach them.
+
+STATISTICS:
+
+Time Stop
+Duration: 5 rounds
+
+Weight: 1~
+
+@50107 = ~Potion of Life~
+@50108 = ~This potion has the same effect as the Resurrection spell when sprinkled over the body of a deceased creature.
+
+STATISTICS:
+
+Resurrection
+Area of Effect: One dead character
+
+Weight: 1~
+
+@50109 = ~Anti-Magic Brew~
+@50110 = ~This flask must be thrown. It creates an area at the point of impact where all magic is dispelled, with a 100% chance of success, and leaves anti-magical residue on affected creatures that disrupts their ability to cast spells for 4 rounds (100% chance to fail spellcasting during the first round, 75% during the second round, 50% during the third round, and 25% during the fourth round).
+
+STATISTICS:
+
+Range: 12 meters
+Magic Purge
+Area of Effect: 10 meter radius
+
+Weight: 1~
+
+@50111 = ~Sublimated Luck Filter~
+@50112 = ~This filtered potion, refined to extract its full potential, alters fate in favor of the drinker.
+
+STATISTICS:
+
+Luck: +5
+Duration: 4 turns
+
+Weight: 1~
+
+@50113 = ~Sanset Reflector~
+@50114 = ~This concentrated source of power grants the drinker the ability to reflect all spells targeting them back at the caster. There is no limit to the number of spells that can be reflected.
+
+STATISTICS:
+
+Infinite Spell Turning
+Duration: 5 turns
+
+Weight: 1~
+
+@50115 = ~Potion of Disappearance~
+@50116 = ~This potion causes the drinker to vanish. They become invisible, odorless, silent, and undetectable. They gain +4 to Armor Class and saving throws and can freely attack or cast spells while remaining invisible. The Potion of Disappearance also protects against scrying, divination, and enhanced vision.
+
+STATISTICS:
+
+Camouflage
+Duration: 2 turns
+
+Weight: 1~
+
+@50117 = ~Heart of Ice~
+@50118 = ~This potion is extremely cold to the touch, so cold that drinking it does not seem like a good idea. Yet....
+
+PARAMETERS:
+
+Cold Resistance +125%
+Blue Fire Shield
+Cold Aura
+Cold melee attacks
+Duration: 2 turns
+
+Weight: 1~
+
+@50119 = ~Supreme Warrior Potion~
+@50120 = ~This potion grants whoever drinks it an instinctive knowledge of combat, as if they were an experienced warrior.
+
+PARAMETERS:
+
++1 attack per round
+THAC0 +10
+Critical Hit Chance +1
+Damage +2
+Duration: 10 turns
+
+Weight: 1~
+
+@50121 = ~Caustic Breath Potion~
+@50122 = ~This potion, whose core never stops burning, allows its drinker to breathe acid in a cone-shaped area in front of them at will once per round.
+
+PARAMETERS:
+
+Damage: 10D6 acid damage (save vs. breath for half)
+Area: 80° cone and 4 meters long in front of the user.
+
+Duration: 2 turns
+
+Weight: 1~
+
+@50123 = ~Psychomagic Potion~
+@50124 = ~This potion allows any spellcaster to cast spells through the sheer power of their mind.
+
+PARAMETERS:
+
+Casting Time set to 1
+Duration: 5 turns
+
+Weight: 1~
+
+@50125 = ~Sublimated Aim Filter~
+@50126 = ~This potion allows the drinker to instinctively target all the weak points of their opponents.
+
+PARAMETERS:
+
+THAC0: +10
+All attacks are critical hits
+Duration: 5 turns
+
+Weight: 1~
+
+@50127 = ~Obsidian Body Filter~
+@50128= ~This potion transforms the drinker's flesh into living obsidian.
+
+PARAMETERS:
+
+Armor Class set to 0
+Immunity to non-magical and magical weapons up to +2
+Physical damage resistance +50%
+
+Duration: 10 turns
+
+Weight: 1~
+
+@50129 = ~Essence of Death~
+@50130 = ~This oil, when applied to a melee weapon, makes it deadly.
+
+PARAMETERS:
+
+Melee hits kill the target if it has 10 Hit Dice or less. If it has more than 10 HD, it dies if it fails a save vs. death.
+
+Duration: 3 turns
+
+Weight: 1~
+
+@50131 = ~Antinomic Magic Blocking Potion~
+@50132 = ~This potion protects the target against the most powerful spells. It has no effect against lesser spells.
+
+PARAMETERS:
+
+Immunity to spells of levels 7 to 9.
+Immunity to Time Stop.
+
+Duration: 5 turns
+
+Weight: 1~
+
+@50133 = ~Potion of Total Protection~
+@50134 = ~This potion protects the target against anything that could harm it.
+
+PARAMETERS:
+
+Immunity to spells.
+Immunity to weapons.
+Physical, magical and elemental damage resistances set to 100%.
+
+Duration: 1 turn
+
+Weight: 1~

@@ -1,0 +1,2126 @@
+@801 = ~Kahor's Star +3~
+@802 = ~Long ago, Kahor, a renowned dwarven smith, struggled with a problem that had plagued him for years. His home, perched on a mountainside, was constantly beset by flying creatures whose hides could not be pierced even by the sharpest arrows.
+
+One summer evening, as the creatures of the night once again descended upon his goats, a star streaked across the sky, leaving a trail of green fire in its wake. The creatures fled, and Kahor, intrigued, went to investigate. At the impact site he discovered a small meteorite with a greenish sheen. Taking it as a sign of destiny, he spent an entire week forging, shaping and engraving what would become Kahor's Star.
+He designed the weapon as a throwing weapon, razor-sharp, one whose effectiveness in the hands of a skilled wielder could rival any melee weapon. He forged the metal into a dagger with two side blades fashioned like small, slightly curved sabers, designed to slash rather than pierce. On one face of the main blade he crafted three whistles directly into the metal, so that the weapon would emit a terrifying shriek as it flew through the air. On the opposite face he engraved several runes known only to him. One caused the weapon to return to its thrower after striking its target. The second imparted a spinning motion in flight. The last, more dreadful than the others, unleashed a burst of energy on impact.
+Kahor wielded this weapon until a band of passing adventurers rid him of the flying creatures. He then gave the Star to his nephew, who wished to seek out a treasure guarded by the dead. The dagger vanished, only to resurface sixty years later in the collection of a merchant who claimed to have purchased it from a dear friend.
+
+PARAMETERS:
+
+Combat abilities:
+ - 20% chance to inflict an additional 2D6 points of magic damage.
+
+Additional combat abilities when thrown:
+ - The dagger returns to its wielder.
+ - The struck target must save vs. spell at -2 or become panicked for 2 rounds.
+ - 20% chance to inflict an additional 2D3 points of slashing damage.
+
+THAC0: +3
+Damage: 2D4 +3
+Damage type: Slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Not usable by:
+ Cleric~
+@80199 = ~Kahor's Star +4~
+@80299 = ~Long ago, Kahor, a renowned dwarven smith, struggled with a problem that had plagued him for years. His home, perched on a mountainside, was constantly beset by flying creatures whose hides could not be pierced even by the sharpest arrows.
+One summer evening, as the creatures of the night once again descended upon his goats, a star streaked across the sky, leaving a trail of green fire in its wake. The creatures fled, and Kahor, intrigued, went to investigate. At the impact site he discovered a small meteorite with a greenish sheen. Taking it as a sign of destiny, he spent an entire week forging, shaping and engraving what would become Kahor's Star.
+He designed the weapon as a throwing weapon, razor-sharp, one whose effectiveness in the hands of a skilled wielder could rival any melee weapon. He forged the metal into a dagger with two side blades fashioned like small, slightly curved sabers, designed to slash rather than pierce. On one face of the main blade he crafted three whistles directly into the metal, so that the weapon would emit a terrifying shriek as it flew through the air. On the opposite face he engraved several runes known only to him. One caused the weapon to return to its thrower after striking its target. The second imparted a spinning motion in flight. The last, more dreadful than the others, unleashed a burst of energy on impact.
+Kahor wielded this weapon until a band of passing adventurers rid him of the flying creatures. He then gave the Star to his nephew, who wished to seek out a treasure guarded by the dead. The dagger vanished, only to resurface sixty years later in the collection of a merchant who claimed to have purchased it from a dear friend.
+Cromwell's addition of another metal fallen from the stars has made Kahor's Star even more powerful.
+
+PARAMETERS:
+
+Combat abilities:
+ - 20% chance to inflict an additional 2D8 points of magic damage.
+
+Additional combat abilities when thrown:
+ - The dagger returns to its wielder.
+ - The struck target is panicked for 2 rounds (save vs. spell at -2 negates).
+ - 20% chance to inflict an additional 2D3 points of slashing damage.
+
+THAC0: +4
+Damage: 2D4 +4
+Damage type: Slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Not usable by:
+ Cleric~
+
+@803 = ~Moorin's Lucky Dagger +2~
+@804 = ~This dagger once belonged to Moorin, known as "Jinx," a young woman plagued by misfortune who became a thief through a twist of fate (or rather, several). Every time she chose a profession, her mentor died in some freak accident. In the end, she became a self-taught thief, but her skills were utterly laughable.
+Moorin's career was nothing but a succession of disasters. Time and again, she found herself forced into combat against her will, and usually ended up mortally wounded and in prison. When her father, the archmage Xoorcon, realized she would not survive much longer at that rate, he forged this blade for her.
+Thanks to the luck bestowed by the dagger, Moorin finally managed to hit her opponents in combat (much to her own astonishment) and stun them. Their brief unconsciousness gave her the opportunity to flee. Unfortunately, one day, while running for her life, she tripped over her own weapon, stunned herself, and bled to death before regaining consciousness.
+
+PARAMETERS:
+
+Equipped abilities:
+- Armor Class: +2
+- Luck: +1
+
+Combat abilities:
+- 25% chance to stun the target for 1 round (save vs. spell negates).
+
+THAC0: +2
+Damage: 1D6+2
+Damage type: Piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Not usable by:
+ Cleric~
+
+@805 = ~Nustill's Unconventional Summoning Scepter~ //Recovery of the original description originally intended for the Cassette.
+@806 = ~Nustill's Unconventional Summoning Scepter
+
+Nustill Two-Masks always had a moral dilemma about summoning sentient beings. He often wondered how he himself would react if a wizard from another plane summoned him into slavery and forced him to risk his life. To resolve this persistent concern, he created this scepter.
+Nustill's Unconventional Summoning Scepter opens a portal to a universe beyond known time and space and summons a creature from that "nonexistent" reality to aid the wizard. The drawback is that the wizard has absolutely no idea what will be summoned, but the great advantage is that the creature's origin ensures it can never return to complain or seek revenge.
+
+PARAMETERS:
+
+Charge ability:
+ Once per day, summons a being from another reality to aid the party for 3 turns.
+
+Weight: 2~
+
+@807 = ~Kaarlac's Dagger~
+@808 = ~The masterpiece of one Kaarlac Landapic, this enchanted dagger is a true godsend for any practitioner of the arcane arts. Kaarlac sought to become one of the greatest wizards of all time and, to that end, designed an item capable of preserving part of his memory (specifically, his short-term memory, where memorized spells are "stored"). If successful, he believed he would be able to memorize twice as many spells as other wizards of his level. Unfortunately, the enchantment required was beyond his abilities. The ritual drove him mad, and he plunged the blade into his own heart.
+
+PARAMETERS:
+
+Equipped abilities:
+- Doubles the number of 1st-level spells a mage can memorize.
+
+Damage: 1D4, +1 slashing damage
+Damage type: Piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Not usable by:
+ Cleric~
+
+@809 = ~Johrünbrumd Hammer Catalyst~
+@8010 = ~This scroll is inscribed with ancient dwarven runes that only elderly dwarves and great scholars can read. It describes in meticulous detail the technique required to reforge Johrünbrumd, the masterpiece of the master smith Grolin Rockhand. The scroll itself is one of the components of the formula and serves as a catalyst for the intrinsic magic of the items to be fused: the Hammer of Thunderbolts +3, the Staff of Thunder and Lightning, and the Cloak of Reflection. Of course, to forge the hammer, one must also find a smith both willing and capable of carrying out the work.~
+
+@8010996 = ~Johrünbrumd +5~
+@8010997 = ~Johrünbrumd is the crowning masterpiece of the dwarven smith Grolin Rockhand. He never laid eyes upon it, nor did he ever forge it himself, for by the twilight of his life he could no longer work metal, old age having claimed his sight. Yet he knew how to create mighty weapons by combining several magical items, and he still remembered the intrinsic power of the hammer forged by his apprentice, Silverblade. Since the hammer was never completed as it was meant to be, Grolin devised a catalyst that would allow the final components to be joined to it and unlock its true potential. What you now hold in your hands is the magnificent result of Master Grolin Rockhand's craftsmanship.
+
+PARAMETERS:
+
+Combat abilities:
+- 6% chance on hit to cast Lightning Bolt (10D8 damage, save vs. spell for half).
+- 2% chance on hit to cast Chain Lightning (10D6 damage, save vs. spell for half).
+
+Equipped abilities:
+- Reflects all electrical damage.
+
+THAC0: +5
+Damage: 2D4+6, +2D4 electrical damage
+Special: Ignores the target's electricity resistance
+Damage type: Crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Required Strength: 9
+Not usable by:
+ Druid
+ Mage
+ Thief~
+
+@8010998 = ~Johrünbrumd is the crowning masterpiece of the dwarven smith Grolin Rockhand. He never laid eyes upon it, nor did he ever forge it himself, for by the twilight of his life he could no longer work metal, old age having claimed his sight. Yet he knew how to create mighty weapons by combining several magical items, and he still remembered the intrinsic power of the hammer forged by his apprentice, Silverblade. Since the hammer was never completed as it was meant to be, Grolin devised a catalyst that would allow the final components to be joined to it and unlock its true potential. What you now hold in your hands is the magnificent result of Master Grolin Rockhand's craftsmanship, further enhanced by the extraordinary addition of the Celestial Fury katana.
+
+PARAMETERS:
+
+Combat abilities:
+- Casts "Thunder" on hit (save vs. spell or stunned for 1 round).
+- 9% chance on hit to cast Lightning Bolt (10D8 damage, save vs. spell for half).
+- 3% chance on hit to cast Chain Lightning (10D6 damage, save vs. spell for half).
+
+Equipped abilities:
+ Reflects all electrical damage.
+
+THAC0: +5
+Damage: 2D4+6, +2D4 electrical damage
+Special: Ignores the target's electricity resistance
+Damage type: Crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Required Strength: 9
+Not usable by:
+ Druid
+ Mage
+ Thief~
+
+@801099999 = ~Johrünbrumd +6~
+
+@8010999 = ~Johrünbrumd is the crowning masterpiece of the dwarven smith Grolin Rockhand. He never laid eyes upon it, nor did he ever forge it himself, for by the twilight of his life he could no longer work metal, old age having claimed his sight. Yet he knew how to create mighty weapons by combining several magical items, and he still remembered the intrinsic power of the hammer forged by his apprentice, Silverblade. Since the hammer was never completed as it was meant to be, Grolin devised a catalyst that would allow the final components to be joined to it and unlock its true potential. What you now hold in your hands is the magnificent result of Master Grolin Rockhand's craftsmanship, further enhanced by the extraordinary addition of the Celestial Fury katana.
+
+PARAMETERS:
+
+Combat abilities:
+- Casts "Thunder" on hit (save vs. spell or stunned for 1 round)
+- 9% chance on hit to cast Lightning Bolt (10D8 damage, save vs. spell for half)
+- 3% chance on hit to cast Chain Lightning (10D6 damage, save vs. spell for half).
+
+Equipped abilities:
+ Reflects all electrical damage.
+
+THAC0: +6
+Damage: 2D4+7, +2D4 electrical damage
+Special: Ignores the target's electricity resistance
+Damage type: Crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Required Strength: 9
+Not usable by:
+ Druid
+ Mage
+ Thief~
+
+@8011 = ~Kessek's Hungry Tooth +3~
+@8012 = ~If legend is to be believed, Kessek was a bariaur chieftain from the Outlands who, many centuries ago, watched his people starve to death during a terrible winter storm in the Gorge of Tears. The relentless snowfall trapped the bariaurs, and Kessek sent several scouts to seek aid in the neighboring province of Ohinru.
+
+When the merchant princes of Ohinru learned what had befallen the bariaurs, they saw an opportunity to rid themselves once and for all of what they considered a "nuisance" and seize the bariaurs' lands. The scouts were put to death, and their heads were mounted atop the highest battlements so that "the vultures might feast while the bariaurs starved."
+When the storm finally subsided, and more than half of his people had already perished, Kessek at last learned the fate of his scouts. Consumed by vengeance, he fashioned a number of enchanted teeth from those of his tribesmen who had died of hunger. When his work was complete, he traveled by night to Ohinru and unleashed his wrath upon the city's streets, whispering the name of one of the dead each time he cast another tooth.
+Each tooth then took on a life of its own, seeking out a victim. Once it had slain its prey, it sought another, and then another still. The night rang with the screams of Ohinru's inhabitants as they were butchered by Kessek's Devourers.
+When dawn broke, the vultures feasted once more. No one ever learned what became of Kessek.
+The Teeth of Kessek the Devourer can still be found scattered across the planes. This one consists of three sharpened prongs that can animate, bend, and behave like fangs. When it strikes, the fangs awaken and begin devouring the victim's flesh, slowly burrowing deeper into the body. It is said that this tooth is reborn each time it bites a victim, and that its hunger surpasses that of all the others.
+
+STATISTICS:
+
+Combat Abilities:
+- The tooth is recreated in the wielder's hand each time it is thrown.
+
+THAC0: +3
+Damage: 2D3 +3
+Damage Type: Missile (Piercing)
+Weight: 0
+Speed Factor: 0
+Proficiency Type: Dart
+Type: 1-handed
+
+Not Usable By:
+ Cleric~
+
+@801199 = ~Kessek's Hungry Tooth +4~
+@801299 = ~If legend is to be believed, Kessek was a bariaur chieftain from the Outlands who, many centuries ago, watched his people starve to death during a terrible winter storm in the Gorge of Tears. The relentless snowfall trapped the bariaurs, and Kessek sent several scouts to seek aid in the neighboring province of Ohinru.
+
+When the merchant princes of Ohinru learned what had befallen the bariaurs, they saw an opportunity to rid themselves once and for all of what they considered a "nuisance" and seize the bariaurs' lands. The scouts were put to death, and their heads were mounted atop the highest battlements so that "the vultures might feast while the bariaurs starved."
+
+When the storm finally subsided, and more than half of his people had already perished, Kessek at last learned the fate of his scouts. Consumed by vengeance, he fashioned a number of enchanted teeth from those of his tribesmen who had died of hunger. When his work was complete, he traveled by night to Ohinru and unleashed his wrath upon the city's streets, whispering the name of one of the dead each time he cast another tooth.
+
+Each tooth then took on a life of its own, seeking out a victim. Once it had slain its prey, it sought another, and then another still. The night rang with the screams of Ohinru's inhabitants as they were butchered by Kessek's Devourers.
+
+When dawn broke, the vultures feasted once more. No one ever learned what became of Kessek.
+
+The Teeth of Kessek the Devourer can still be found scattered across the planes. This one consists of three sharpened prongs that can animate, bend, and behave like fangs. When it strikes, the fangs awaken and begin devouring the victim's flesh, slowly burrowing deeper into the body. It is said that this tooth is reborn each time it bites a victim, and that its hunger surpasses that of all the others. This is even more true since its ravenous instinct has been unleashed.
+
+STATISTICS:
+
+Equipped Abilities:
+- +1 attack per round
+
+Combat Abilities:
+- The tooth is recreated in the wielder's hand each time it is thrown.
+
+THAC0: +4
+Damage: 3D3 +4
+Damage Type: Missile (Piercing)
+Weight: 0
+Speed Factor: 0
+Proficiency Type: Dart
+Type: 1-handed
+
+Not Usable By:
+ Cleric~
+
+@8013 = ~Aeldiir's Ring~
+@8014 = ~An elven mage of Essembra named Aeldiir grew frustrated by the limits of her already formidable power. After spending nearly two centuries mastering most of the spells known to the civilized races, she discovered that her greatest challenge lay not in the breadth of her repertoire, but in the limits of her ability to wield magic.
+
+She devoted the last century of her life to finding a way to expand those limits. When she finally devised the spell she sought, she bound it into this ring, allowing any wizard who wears it to surpass the normal limits of the arcane arts.
+
+STATISTICS:
+
+Equipped Abilities:
+- Grants the ability to memorize three additional 1st-level spells, two additional 3rd-level spells, and one additional 5th-level spell.
+
+Charge Ability:
+- Once per day, restores up to 5 spell levels.
+
+Usable By:
+ Mage~
+@801491 = ~5x Level 1~
+@801492 = ~1x Level 2 + 3x Level 1~
+@801493 = ~2x Level 2 + 1x Level 1~
+@801494 = ~1x Level 3 + 2x Level 1~
+@801495 = ~1x Level 3 + 1x Level 2~
+@801496 = ~1x Level 4 + 1x Level 1~
+@801497 = ~1x Level 5~
+
+@8015 = ~Ring of Shadows~
+@8016 = ~This ring of orange and gray wood glows whenever it is not being worn. Its history belongs more to legend than reality. All accounts agree that it once belonged to the ranger Enohl Daevi, who acquired it after a period of exile, but they differ as to how he came into possession of it. Some claim it was a gift from the gods, while others insist he obtained it by striking a bargain with a malevolent power.
+
+STATISTICS:
+
+Equipped Abilities:
+- Whenever the wearer slays a creature, it is raised as a friendly shadow for 2 turns.~
+
+@8017 = ~Little Gorilla Belt~
+@8018 = ~Every Rashemi child knows the tale of the halfling hero Mewnan, who was pursued by the cruel Red Wizard slaver Dôen. Cornered after many weeks spent fleeing his pursuers, Mewnan found refuge among the tents and wagons of the Serccen Chowoth, a traveling fair whose ringmaster, Rik the Colossal, took pity on him and concealed him from the fiendish Thayans. Mewnan showed the ringmaster his magical belt, which he had stolen from the gingerbread house of the swamp witch Evhildwn.
+
+The belt, he explained, granted him the strength of five men, along with extraordinary agility that any elf would envy. Astonished, Rik invited Mewnan to join his circus as an acrobat. Mewnan soon became famous for his daring tumbles and astonishing feats of strength.
+
+When the greedy ringmaster saw how much the crowds adored Mewnan, he grew jealous. One day, he betrayed Mewnan to Dôen. When the slaver came to claim his quarry, Mewnan surprised him by vaulting over Dôen's head and landing in the saddle of his horse. Laughing all the while, Mewnan galloped away to countless new adventures. As for how his magical belt found its way here... that is another story.
+
+STATISTICS:
+
+Equipped Abilities:
+- Strength and Dexterity set to 19
+
+Usable By:
+ Small Folk~
+
+@8019 = ~The Eye of Kazgaroth~
+@8020 = ~No one knows how this eye has remained so well preserved. It appears almost mummified, yet it still radiates a powerful magical aura. All that is known is that it was taken from the corpse of Kazgaroth, the Great Beast. The eye has been heavily enchanted to serve any spellcaster, revealing its full power when held while casting a spell. However, using the eye comes at a price, for it draws upon the magical energy stored within its wielder.
+
+STATISTICS:
+
+Charge Abilities:
+- Casting Time reduced by 3 for 15 seconds
+- Spell Sequencer for 4 seconds
+- Forgets one memorized spell of the highest spell level
+
+Usable By:
+ Cleric
+ Mage
+ Bard~
+
+@8021 = ~Cap of Learning~
+@8022 = ~Crafted in great numbers by the faithful of Oghma at the House of Knowledge in Tir Nan Og and distributed widely through interplanar trade routes, these simple, unassuming caps allow their wearers to make better use of every situation they encounter by sharpening their awareness.
+
+STATISTICS:
+
+Equipped Abilities:
+- Wisdom: +1
+- Experience gained set to 107%
+(Designer Note: Does not grant bonus experience to characters whose class or kit already imposes an XP penalty.)~
+
+@8023 = ~Orb of Revelation~
+@8024 = ~Some nobles of Waterdeep secretly use these orbs to spy upon their peers. They naturally take great care to conceal this fact, and keep their orbs well hidden. Not well enough, however, to prevent thieves, smugglers, and eventually merchants from making such orbs available to others, preferably far from Waterdeep.
+
+STATISTICS:
+
+Charge Abilities:
+- Casts Clairvoyance, Farsight, and Oracle once per day each.~
+
+@8025 = ~Kegpiercer +4~
+@8026 = ~This thoroughly unsavory weapon has changed hands too many times for its true origin to be known. The most widely accepted tale credits its creation to a Sembian shepherd and tavern regular, though even that story is usually told through beer-soaked laughter. The only certainty surrounding this blade is its composition: the twisted, jagged remains of a cheap copper ale mug, and the remarkable effect it has upon both its wielder and its victims. Kegpiercer seems to bring out the very worst qualities of a drunkard, and drunkards appear to be the only people who have ever carried it—usually not for very long. As one might expect, such owners have an alarming tendency to lose the weapon or wager it away, though more often it changes hands by force after a drunken brawl or a completely unnecessary tavern fight.
+
+STATISTICS:
+
+Combat Ability:
+- Causes struck opponents to become intoxicated rapidly.
+
+Equipped Ability:
+- Causes the wielder to become intoxicated slowly.
+
+Damage: 1D8+4
+THAC0: +4
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Long Sword
+Type: 1-handed
+Required Strength: 8
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@8027 = ~Pemby's Protector~
+@8028 = ~The half-elven enchantress Pemby Silksky was renowned for her cheerful disposition and her fondness for men. During her lifetime, she crafted a number of staves and wands. She always carried this wand with her for protection. When she was slain by a possessive lover in 1103 CV, the wand passed to another of her many suitors, the thief Tamlock of Waterdeep. A few years later, he avenged her by slaying her murderer in a duel... with a blade that no one realized had been poisoned.
+
+STATISTICS:
+
+Charge Ability:
+- Holds Person and Slow (single target) cast upon a target; Haste (single target) and Shadow Door cast upon the wielder.
+ Range: 30 ft.~
+
+@8029 = ~Robe of the Dragon's Pride~
+@8030 = ~This robe was crafted for Taril'ta Feria, a megalomaniacal moon elf who proclaimed himself the "Son of the Dragon." The title earned him nothing but ridicule until the day he returned from the hunt bearing the carcass of a draco-sphinx. On that day, he won the respect of his people, along with the right to proudly bear his chosen title. To ensure no one would ever forget his feat, he commissioned this robe from the creature's various hides and wore it proudly during every moon festival. One day, while Taril'ta Feria was away hunting, the robe was stolen. Since then it has passed through many hands and is now considered lost.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: 4
+- Charisma: +2
+- Fire Resistance: +25%
+
+Charge Ability:
+- Casts any 1st- through 4th-level Illusion spell three times per day.
+
+Usable By:
+ Mage~
+
+@8031 = ~Carved Wand~
+@8032 = ~This wand was a gift from a philosopher of the Monastery of Zochine, who crafted it from the magnificent white reeds growing along the shores of the nearby lake. He presented it to a band of adventurers who had helped him track down a dangerous memory-devouring scarab that had been terrorizing the local people.
+
+STATISTICS:
+
+Charge Abilities:
+- Find Traps (the user detects traps as though they were a thief).
+
+- Knock (opens any locked container or door).
+
+Weight: 0.5~
+
+@8033 = ~Treatise on the Control of Entropy~
+@8034 = ~This magical book explains over several pages of complex esoteric writings how to master entropy and bend it to one's will. When read by an Entropist, it permanently grants a +5 bonus on all rolls made on the Entropic Hiatus table. The book offers nothing of value to the uninitiated and vanishes after being used.
+
+Usable By:
+ Entropist~
+@803409 = ~This magical book explains over several pages of complex esoteric writings how to master entropy and bend it to one's will. When read by an arcane spellcaster, it transforms the reader into an Entropist and permanently grants a +5 bonus on all rolls made on the Entropic Hiatus table. The book offers nothing of value to the uninitiated and vanishes after being used.~
+
+@8035 = ~Tome of Chaos~
+@8036 = ~This worn and otherwise ordinary-looking book is in fact a minor artifact capable of bending reality according to the whims of entropy. Crafted more than a thousand years ago by a civilization from beyond known space, it is written in an untranslatable language composed of runes, symbols, and chaotic illustrations that seem to obey no pattern whatsoever. Yet its power remains intact, and anyone who carefully "reads" every page without overlooking a single character can awaken its magic and become more powerful. Once its gift has been bestowed, the tome—driven by its own chaotic nature—vanishes, teleporting itself elsewhere, perhaps to another place... or another time.~
+@80361 = ~You know more than you did before (+300,000 XP)~
+@80362 = ~Lady Luck smiles upon you (Luck +1)~
+@803631 = ~You are more vigorous (+10 Hit Points)~
+@803632 = ~Your metabolism evolves (Regenerates 1 Hit Point every 2 rounds)~
+@803641 = ~You are tougher (+1 Armor Class and +1 to Saving Throws)~
+@803642 = ~You are more resilient (+2 to Saving Throws)~
+@803651 = ~Your skin hardens (+10% Physical Resistance)~
+@803652 = ~Your skin evolves (+10% to all Elemental Resistances)~
+@803653 = ~Some spells no longer affect you (+5% Magic Resistance)~
+@803661 = ~You possess a mind of steel (Immune to Charm and Confusion)~
+@803662 = ~You are unstoppable (Immune to Paralysis and Slow)~
+@803663 = ~Your metabolism evolves (Immune to Disease and Poison)~
+@803664 = ~The Negative Plane no longer affects you (Immune to Level Drain and Death Magic)~
+@803665 = ~Lesser magic no longer affects you (Immunity to 1st- and 2nd-level spells)~
+@803666 = ~Your skin becomes supernatural (Immune to normal weapons and +1 magical weapons)~
+@803671 = ~You are stronger (Strength +1)~
+@803672 = ~You are more agile (Dexterity +1)~
+@803673 = ~You are hardier (Constitution +1)~
+@803674 = ~You are more intelligent (Intelligence +1)~
+@803675 = ~You are wiser (Wisdom +1)~
+@803676 = ~You are more charismatic (Charisma +1)~
+@80368 = ~You develop a new ability~
+@803681 = ~Undead Destroying Touch~
+@803682 = ~Silence 10' Radius~
+@803683 = ~Inner Strength~
+@803684 = ~Living Force Shield~
+@803685 = ~Summon Spiders~
+@803686 = ~Psychic Shield~
+@803687 = ~Faerie Resistance~
+@803688 = ~Faerie Luck~
+@803689 = ~Rage Burst~
+@8036810 = ~Supernatural Resistance~
+@8036811 = ~Animate Air Elemental~
+@8036812 = ~Teleport~
+
+@8037 = ~Herazel's War Horn~
+@8038 = ~Herazel Longsun was a renowned Knight of the Celestial Harmony. Her battle hymn inspired great deeds of courage and chivalry among her fellow knights. It is said that one day she foresaw an impending catastrophe and decided to create an item that would protect the order from those who sought its destruction.
+
+STATISTICS:
+
+Charge Abilities:
+- Once per day casts Chant and Calm upon allies, and Horror upon enemies.
+- Once per day casts Defensive Harmony upon allies, and Holy Smite (cast at 15th level) and Slow upon enemies.
+
+Weight: 1
+
+Usable By:
+Good-aligned characters only~
+
+@8039 = ~Cadob's Bubble Wand~
+@8040 = ~In addition to being a wizard, Cadob was also a wandmaker. Brilliant though he was, he struggled to sell his creations because of his eccentricities, chief among them his refusal to craft two wands of the same color. This hazel wand was one of his finest works. Alas, like everything he made, it was one of a kind.
+
+STATISTICS:
+
+Charge Abilities:
+- Otiluke's Resilient Sphere on one target. No saving throw if cast on an ally; enemies receive a save at -3 to negate.
+
+- Minor Globe of Invulnerability on one target.
+
+- Minor Anti-Magic Sphere on one target (15%).
+
+Weight: 0.5
+
+Usable By:
+ Bard
+ Mage~
+@80401 = ~Minor Anti-Magic Sphere~
+
+@8041 = ~Pedipole's Comfortable Boots~
+@8042 = ~Even the simplest creations of Ebwen Pedipole are enough to demonstrate the extraordinary talent of this master shoemaker. These tasteful magical shoes adapt themselves to any foot size and can be worn by anyone. They are also enchanted to make walking easier, relieve fatigue, and prevent slips and falls.
+
+STATISTICS:
+
+Equipped Abilities:
+- Movement Rate: +1
+- Immunity to Fatigue
+- Immunity to Slipping Effects~
+
+@8043 = ~Dweomeric Safeguard Cloak~
+@8044 = ~This cloak was created by Gulph the Tiny. A man of diminutive stature, Gulph was determined never to find himself in a situation where survival depended upon physical strength. This cloak often allowed him to gain the upper hand in magical duels. Gulph eventually met his end after foolishly venturing into a grove of quicklings to gather Iberian mushrooms. The cloak remained in the possession of the malicious fey until they were exterminated to the last by a band of adventurers, who claimed it as their prize.
+
+STATISTICS:
+
+Equipped Abilities:
+- Protection from Dispel Magic.
+- Protection from Wild Surge and Entropic Magic.
+- Protection from Silence and Deafness.
+- Allows spellcasting even within Dead Magic or Wild Magic zones.
+
+Charge Abilities:
+- Casts Minor Globe of Invulnerability, Wild Surge, and Spell Freedom once per day each.
+
+Weight: 3~
+
+@8045 = ~Hachitoza's Staff +2~
+@8046 = ~Hachitoza was a wizard possessed of an intense competitive spirit, so much so that he traveled the length and breadth of Kara-Tur in search of a mage capable of defeating him. Apparently, he never found one. It is often said that, weary of being shunned by those who feared his power, he eventually bound his life force to his staff, where his soul is believed to reside to this very day. Many wizards seek this staff throughout Kara-Tur, which is hardly surprising considering the formidable protection against magic it grants its wielder.
+
+STATISTICS:
+
+Equipped Ability:
+- +25% Magic Resistance
+
+THAC0: +4
+Damage: 1D6+2
+Damage Type: Crushing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type: Two-Handed Weapon~
+
+@8047 = ~Archillusionist's Robe~
+@8048 = ~This luxurious silk robe is embroidered with subtle magical runes stitched in silver thread, granting its flowing folds shimmering mystical defenses. Its golden accents serve as seals of protection and concealment.
+
+When its enchantments are active, the robe blurs the wearer's outline and bends light to conceal their exact position.
+
+STATISTICS:
+
+Equipped Abilities:
+- The wearer is permanently blurred, granting a +3 bonus to Armor Class and +1 to all Saving Throws.
+- Invisibility (3 rounds) is cast upon the wearer whenever they are struck.
+
+Charge Ability:
+- Immunity to Spells, Divination (1 turn), twice per day.
+
+Special:
+- Cannot be used together with other items or spells that produce a Blur effect.
+
+Weight: 3
+
+Usable By:
+ Single-class Mage~
+
+@8049 = ~Dragonmaw~
+@8050 = ~This helmet has traditionally been passed down among dragon hunters to honor extraordinary slayings and remarkable feats. Receiving the Dragonmaw is one of the greatest distinctions a dragon hunter can earn, and over the years it has been the cause of countless wagers, broken friendships, years of apprenticeship, and violent deaths.
+
+Rinetta the Scarred received the helmet while still young, in recognition of a particularly courageous—or perhaps foolhardy—battle against a dracohydra. She lost one eye and every one of her teeth, but slew the beast and was awarded the helmet upon what everyone believed to be her deathbed. Yet Rinetta recovered from her wounds and lived for many long years, much to the disappointment of many.
+
+She eventually retired from dragon hunting and took on numerous apprentices, all eager to learn from the bearer of Dragonmaw and hoping she would one day leave the helmet to them. Her contemporaries, however, complained that she should relinquish it now that she had abandoned the hunt, insisting that no dragon hunter should profit from the helmet. Rinetta ultimately entrusted it to another hunter, though by then she had already become a very wealthy woman.
+
+====
+
+The twins Marad and Devna hunted dragons together for many years. They enjoyed great success, yet it was the handsome Marad whom their peers and admirers cherished most. Devna was sharp-tongued and unremarkable, and though her skill with a bow was undeniable, she constantly lived in her brother's shadow.
+
+They had hunted and fought side by side for nearly twenty years when the Dragonmaw helmet was passed on to Marad. Devna congratulated her brother and accepted the honor with as much grace as she could muster—after all, the helmet had always belonged to only one hunter at a time—but some claimed they saw resentment flicker in her eyes. Others said her reflexes had slowed and her aim had begun to falter. Rumors spread that she was in decline.
+
+One year after Marad inherited the helmet, he was slain by the claws of a blue dragon. Devna survived and recovered the helmet, but many blamed her perceived weakness for her brother's death. Others even suspected she had murdered him out of jealousy. Whatever the truth, she quickly passed the helmet to another successor and lived out the remainder of her life as a recluse.
+
+====
+
+Lirat the swineherd had never wished to become a dragon hunter, but when his village attracted the attention of a particularly vicious young red dragon, he was chosen to deal with it. Armed with his uncle's rusty sword and a single dose of poison—just in case—he set out in search of the beast.
+
+The dragon proved easy enough to find. Lirat could hear its snores from miles away and smell it from even farther. He followed a trail of bones to a cavern where the creature slept, surrounded by the corpses of dead and dying pigs. As Lirat entered the cave, one of the wounded swine let out a squeal. The cry awakened the dragon, which swallowed the pig whole in a single gulp. Then the beast noticed Lirat, who watched in astonishment as the dragon suddenly began choking on the pig.
+
+Lirat nearly died of fright as he watched the dragon thrash and convulse in agony. But the dying pig had lodged firmly within the creature's impossibly deep throat, and after only a few minutes the dragon suffocated to death.
+
+Despite his protests, Lirat was hailed as a hero. As tales of his feat spread—almost as quickly as the dragon in the story grew ever larger—they caught the attention of Turran the Bold, who passed the helmet on to the young swineherd. Lirat spent many happy years recounting his legendary deed and basking in the celebrations, but when people began asking about his next dragon hunt, he quietly passed the helmet to another hunter.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: +1
+- Armor Class and Saving Throws: +2 vs. Dragons
+- THAC0 and Damage: +3 vs. Dragons
+- Protects against all fear and panic effects, and improves morale.
+
+Special:
+- Protects against critical hits.
+
+Weight: 2
+
+Not Usable By:
+ Mage
+ Bard
+ Thief~
+
+@8051 = ~Universal Magic Amulet: Glidanty~
+@8052 = ~A Universal Magic Amulet can reproduce the effects of any arcane spell of the spell level to which it is attuned. All Universal Amulets were created by Driventill of Dothion. Each one is unique, bears its own name, and corresponds to a specific spell level.
+This one is called Glidanty and can reproduce 2nd-level spells.
+
+Charge Ability:
+- Three times per day, the wearer may cast any existing 2nd-level arcane spell.~
+
+@8053 = ~Sorcerous Wand: Gaiere~
+@8054 = ~A Sorcerous Wand is a magical wand capable of casting spells. Most unusually, it stores magical energy and uses it to cast spells as though it were a sorcerer of a given level. It naturally regenerates this energy after eight hours without use. Anyone can wield it.
+
+Several wands of this kind exist. This one is named Gaiere and casts spells as a 7th-level sorcerer, though with a more limited daily reserve of magical power. It grants none of a sorcerer's other abilities and shares none of their class features.
+
+To activate the wand, one must speak its name followed by the name of the desired spell. The wand then casts that spell using its normal casting time and effects (as a 7th-level caster). It can cast the following spells:
+
+- 3/day: Charm Person – Spook – Shield – Burning Hands – Magic Missile
+- 3/day: Knock – Mirror Image – Web
+- 2/day: Ghost Armor – Fireball
+
+Because the wand effectively grants its wielder a "pocket sorcerer," it is considered extremely dangerous.~
+
+@80541 = ~1st-Level Spells~
+@80542 = ~2nd-Level Spells~
+@80543 = ~3rd-Level Spells~
+
+@8055 = ~Magebane +4~ // Price 15000
+@8056 = ~This bow once belonged to a mage hunter of the Committee for Moral Studies. This warrior, now forgotten by history, had sworn to fulfill the Committee's mission: to identify, hunt down, and purge the practitioners of the arcane arts of Toril from all corruption. To that end, this weapon is imbued with energies that enable its wielder to withstand mad wizards, savage druids, and apostate priests alike.
+
+STATISTICS:
+
+Equipped Abilities:
+- Magic Resistance: +20%
+- Saving Throws vs. Spells: +3
+
+Combat Ability:
+- Every arrow fired from this bow dispels magic on hit.
+
+THAC0: +5
+Speed Factor: 4
+Proficiency Type: Longbow
+Type: Two-Handed Weapon
+Requires: Strength 6
+Weight: 3
+
+Usable Only By:
+Mage Slayer~
+
+@8057 = ~Llawran's Walking Staff +1~
+@8058 = ~To earn a living, Llawran, an elven wizard, traveled from village to village, entertaining the locals with his extensive repertoire of spells. Gentle by nature, he avoided confrontation whenever possible and carried nothing but his cherished walking staff. Over time, Llawran became a frequent target for thieves who took advantage of his performances to steal his belongings and money. It was for this reason that he enchanted his staff with the power of speed, after which his performances were often punctuated by the startled cries of would-be thieves.
+
+STATISTICS:
+
+Equipped Abilities:
+- Haste
+
+Damage: 1D6+1
+THAC0: +1
+Damage Type: Bludgeoning
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Quarterstaff
+Type: Two-Handed
+Required Strength: 5~
+
+@8059 = ~Shield Belt~
+@8060 = ~This plain-looking belt conceals a powerful enchantment. It once belonged to a wizard from Luskan affiliated with the Host Tower of the Arcane. Willing to sacrifice a portion of his life force in exchange for maximum protection, he created it to safeguard himself while searching for exotic artifacts for his research. Yet even the belt could not save him when he quarreled with a high-ranking member of the Plague Rats, an organization of thieves and assassins devoted to Talona.
+
+The belt draws upon its wearer's life force to create a magical protective barrier.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: 1
+- Maximum Hit Points: -10%
+
+Weight: 2
+
+Usable Only By:
+ Mage~
+
+@8061 = ~Black Stone of the Mantis~
+@8062 = ~It is said that this pendant once belonged to the Purple Mantis, a psionic assassin of the Black Circle order. He was captured while attempting to assassinate a duchess in Ankhapur, and while awaiting execution he channeled his soul into the black stone. The pendant was later taken by one of the guards who, upon wearing it, became possessed by the Mantis. Through him, the assassin completed the murder of the duchess. As the years passed, the stone lost its power of possession but remained a formidable magical item.
+
+This old, tarnished pendant appears quite ordinary. At night, however, the stone reveals the dark emblem of the Black Circle order.
+
+STATISTICS:
+
+Equipped Abilities:
+- Non-Detection
+- Chaotic Commands
+
+Charge Ability:
+- Phantom Killer (Psionic, ignores Magic Resistance) twice per day.
+
+Usable Only By:
+ Assassin~
+
+@8063 = ~Gil "Bean" Mungo's Flute~
+@8064 = ~The musician Gil Mungo, nicknamed "Bean Mungo," wore this pan flute around his neck for much of his illustrious career, using it to announce the beginning of each performance. The little-known secret of his success was that he filled the instrument's holes with powdered wrinkled sponge, which was then blown into the faces of his unsuspecting audience. After making a fortune on the concert circuit, Mungo retired from public life to join the navy of Luiren. His unit became famous for easing relations with the Tuena tribes of the Golden Var by bringing the khers together through a shared love of music—and other, less obvious pleasures.
+
+STATISTICS:
+
+Charge Ability:
+- Mass Charm for 1 turn (Save vs. Spell negates).
+  Range: 90° arc, 5 feet long.
+
+Usable Only By:
+ Bard~
+
+@8065 = ~Ring of Many Gods~
+@8066 = ~This worn, scratched onyx ring looks as though it has seen extensive use. It is adorned with fourteen tiny pearls, one for each of the good-aligned gods. It was created by a Damaran priest so that he would never forget his devotion, especially in the heat of battle. Legend says that, as he felt each pearl beneath his finger, he whispered a brief prayer to its deity, who in turn granted him a blessing.
+
+STATISTICS:
+
+Equipped Ability:
+- Whenever the wearer casts a Healing or Cure spell, they are also affected by another spell (cast at 10th level) according to the following list:
+
+Cast: Cure Light Wounds › Effect: Bless.
+Cast: Cure Moderate Wounds › Effect: Chant.
+Cast: Cure Medium Wounds › Effect: Draw Upon Holy Might.
+Cast: Cure Serious Wounds › Effect: Defensive Harmony.
+Cast: Cure Critical Wounds › Effect: Righteous Magic.
+Cast: Heal › Effect: Wonderful Recall.
+Cast: Resurrection › Effect: Aerial Servant.
+
+Usable Only By:
+ Cleric~
+
+@80669 = ~This worn, scratched onyx ring looks as though it has seen extensive use. It is adorned with fourteen tiny pearls, one for each of the good-aligned gods. It was created by a Damaran priest so that he would never forget his devotion, especially in the heat of battle. Legend says that, as he felt each pearl beneath his finger, he whispered a brief prayer to its deity, who in turn granted him a blessing.
+
+STATISTICS:
+
+Equipped Ability:
+- Whenever the wearer casts a Healing or Cure spell, they are also affected by another spell (cast at 10th level) according to the following list:
+
+Cast: Cure Light Wounds › Effect: Bless.
+Cast: Cure Medium Wounds › Effect: Draw Upon Holy Might.
+Cast: Cure Serious Wounds › Effect: Defensive Harmony.
+Cast: Cure Critical Wounds › Effect: Righteous Magic.
+Cast: Heal › Effect: Wonderful Recall.
+Cast: Resurrection › Effect: Aerial Servant.
+
+Usable Only By:
+ Cleric~
+
+@8067 = ~Bloodstained Robe~
+@8068 = ~This robe once belonged to the monk Qian Zhong, who believed that as long as no enemy could inflict greater suffering upon him than he willingly inflicted upon himself, no one could ever subjugate him. Drafted by his lord to suppress rebellions, Qian became a fearsome warrior, for every wound he suffered on the battlefield was repaid twofold upon his foes. Drawing strength from pain, he endured injuries that would have slain any other soldier. He charged into battle drenched in blood, with the skin of his hands and feet torn to shreds. Whenever he appeared, his enemies recoiled, convinced that no ordinary man could stand against him.
+
+Shortly before the rebellion came to an end, as the rebels stood on the brink of overthrowing the government, Qian fought in the battle defending the lordship's main forces. Legend claims that he was the last survivor of his army, and that Chan Cheng himself approached him. The mighty Lord of Heroes is said to have examined him before striking him with a gentle blow, sending him from the battlements so that he might die a free man.
+
+STATISTICS:
+
+Equipped Abilities:
+ - Armor Class: -1 penalty
+ - Each time the wearer is hit, they gain +1 Strength and +1 maximum hit point for 1 turn.
+
+Usable Only By:
+ Monk~
+
+@8069 = ~Stone Staff +2~
+@8070 = ~Very common on the free markets of Darkdig, this mass-produced staff is carved from the heart of stone taken from the Elemental Plane of Earth, then tempered within a bubble of transitive magma before being enchanted by a majin Dao. While its modest properties are commonplace on its home plane, they are highly valued elsewhere, as it partially calcifies its wielder. As a result, it is a popular item in interplanar trade.
+
+STATISTICS:
+
+Equipped Abilities:
+ - Immunity to Petrification
+ - Armor Class: +2
+ - Save vs. Polymorph: +2
+ - Save vs. Poison: +2
+ - Acid Resistance: +10%
+ - Slashing and Piercing Damage Resistance: +15%
+
+Charge Ability:
+ - Stoneskin once per day (5 skins).
+
+Combat Ability:
+ - 2% chance to petrify the target on hit (Save vs. Polymorph negates).
+
+THAC0: +2
+Damage: 1D8+2
+Damage Type: Bludgeoning
+Weight: 9
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Required Strength: 9~
+
+@8071 = ~Trollskins~
+@8072 = ~There are magical items so useful that one can hardly do without them, no matter how foul they may be. This cloak, a classic product of Dothion gnomish craftsmanship, is a perfect example. It is stitched together from the hides of three trolls and still reeks of their unmistakable stench. Viscous fluid seeps from the mushrooms woven into its fibers, and bits of moss fall from its surface whenever it is touched. The cloak retains some of the regenerative properties of trolls; unfortunately, like trolls themselves, it is highly flammable and extremely vulnerable to corrosive substances.
+
+STATISTICS:
+
+Equipped Abilities:
+- Regenerates 1 hit point every 4 seconds
+- Fire Resistance: -50%
+- Acid Resistance: -50%
+- Charisma: -3~
+
+@8073 = ~Spring Crossbow~
+@8074 = ~For many years, the traditional crossbow saw no significant innovation. Everything changed the day two wagons collided. The first belonged to a gnomish inventor carrying a heavy load of copper springs, while the second was driven by an entrepreneur with a passion for crossbows. As the dust settled and the two travelers sorted through their scattered cargo, fate granted them a revelation.
+
+From that day forward they became inseparable business partners, selling their spring-powered crossbows to arms merchants throughout the Western Heartlands and the North. Others eventually copied their design, but this mechanism is still regarded as the prototype that revolutionized weapon crafting—and gave birth to an even greater friendship.
+
+This crossbow requires great strength to operate, but that strength is multiplied by its spring mechanism: the farther the driving spring is drawn back, the more devastating the projectile becomes.
+
+STATISTICS:
+
+Damage: +4, plus Strength bonus
+Weight: 14
+Speed Factor: 10
+Proficiency Type: Crossbow
+Type: Two-handed
+Required Strength: 15
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+@8075 = ~Shield of the Last Guardian +3~
+@8076 = ~According to legend, this shield was one of twelve crafted for a small band of wandering paladins. Calling themselves the Guardians, these holy warriors took it upon themselves to defend the remote towns and villages surrounding the Dragonmere.
+
+Though few in number, the Guardians were renowned for their unwavering devotion, always riding swiftly to confront any threat against innocent travelers. Those fortunate enough to fight beside them often claimed that blows which should have been fatal simply glanced harmlessly from their armor, and many believed the paladins brought good fortune to all who fought alongside them.
+
+Over the years, each Guardian fell, whether to old age or the sword, until only one remained. The Last Guardian became a legend in his own right, patrolling the lonely roads of Impiltur alone.
+
+It is said that this shield was recovered from the depths of the Easting Reach by a villager from Ilmgard. Though dented and worn, it remains a superbly crafted shield, even if the mahogany paint of its heraldic cross has chipped away in many places.
+
+STATISTICS:
+
+Equipped Abilities:
+ - Armor of Faith on the wearer (+15% resistance to all damage).
+
+Charge Abilities:
+ - Bless and Aid (1 turn) on one target once per day.
+ - Sanctuary and Regeneration (2 hit points per round, 1 turn) on one target once per day.
+
+Armor Class Bonus: 4
+Special: +1 vs. missiles
+Weight: 13
+Required Strength: 14
+
+Usable only by:
+ Good-aligned Paladin~
+
+@80761 = ~Aid and Bless~
+@80762 = ~Sanctuary and Regeneration~
+
+@8077 = ~Spellbreaker +2~
+@8078 = ~Spellbreaker appears to be nothing more than an ordinary elven shield, but in truth it is one of the oldest artifacts in Faerun. Even setting aside its immense historical significance—it dates back to the Third Crown Wars—it offers its bearer near-complete protection against spellcasters, either by turning magic back upon its caster or by preventing mages from speaking as they prepare to utter their incantations. It is said that the shield is forever searching for its first owner and never remains in anyone's possession for long. Those fortunate enough to wield it, however, have never had cause to complain.
+
+STATISTICS:
+
+Equipped Ability:
+- Armor Class +2 and Magic Resistance +10% if the wielder is an Elf or Half-Elf.
+
+Charge Abilities:
+- Silence 5' Radius twice per day.
+- Spell Turning (1 turn, 15 spell levels) twice per day.
+
+Armor Class Bonus: 3
+Weight: 6
+Required Strength: 12
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+@8079 = ~Iron Fist Scepter +2~
+@8080 = ~The head of this scepter, fashioned from rusted iron, is shaped like a clenched fist, and it is almost impossible to look at it without wondering about its origins. It resembles an ancient symbol of royalty, though no one can determine where it came from. Perhaps it once served a kingdom long forgotten. What is certain is that it is wielded like a mace and strikes with comparable force.
+
+To activate its power, the wielder need only hold the scepter in the left hand and place the open right palm beneath the clenched fist. The scepter then projects a magical force in the shape of a gigantic fist that obeys the wielder's commands.
+
+STATISTICS:
+
+Charge Ability:
+- Bigby's Clenched Fist or Bigby's Crushing Hand.
+
+Special:
+- Rusted; may break if used in melee combat.
+
+THAC0: +2
+Damage: 1D6 +3
+Damage Type: Crushing
+Weight: 7
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+Required Strength: 10
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+
+@8081 = ~Ring of Wonders~
+@8082 = ~The druidic order of the Ovates of the Sacred Tree believes that the Ring of Wonders is a sapling from the Great Oak of Kuldahar. They claim that one day it will grow into an even greater tree. Root-like fibers emerge from a brilliant yellow bud and intertwine to form a ring that adjusts itself to its wearer's finger. Removing it can be a painful experience and requires a Remove Curse spell, as the roots fuse with the flesh.
+
+STATISTICS:
+
+Equipped Abilities:
+- Memorization of three additional 5th-level spells
+
+Special:
+- Can only be removed with a Remove Curse spell
+
+Usable Only By:
+ Druid~
+
+@80829 = ~The druidic order of the Ovates of the Sacred Tree believes that the Ring of Wonders is a sapling from the Great Oak of Kuldahar. They claim that one day it will grow into an even greater tree. Root-like fibers emerge from a brilliant yellow bud and intertwine to form a ring that adjusts itself to its wearer's finger. Removing it can be a painful experience and requires a Remove Curse spell, as the roots fuse with the flesh.
+
+STATISTICS:
+
+Equipped Abilities:
+- Doubles the memorization capacity of 4th-level spells
+
+Special:
+- Can only be removed with a Remove Curse spell
+
+Usable Only By:
+ Druid~
+
+@8083 = ~Bladesinger's Ring~
+@8084 = ~This finely wrought silver ring is set with a red gemstone unlike any other. It is believed to have been crafted by an adventuring bard named Lewin. He is said to have grown tired of standing behind the front lines while his companions were free to join the fighting. Thanks to this ring, he became what he called a "war bard." The ring was the crowning achievement of his brief career.
+
+STATISTICS:
+
+Equipped Abilities:
+- Wearing armor no longer prevents the wearer from casting spells
+- Maximum Hit Points: +10
+- +1 Attack per Round
+
+Usable Only By:
+ Bard
+ Multiclass Mage~
+@80841 = ~This finely wrought silver ring is set with a red gemstone unlike any other. It is believed to have been crafted by an adventuring bard named Lewin. He is said to have grown tired of standing behind the front lines while his companions were free to join the fighting. Thanks to this ring, he became what he called a "war bard." The ring was the crowning achievement of his brief career.
+
+STATISTICS:
+
+Equipped Abilities:
+- Wearing armor no longer prevents the wearer from casting spells
+- Maximum Hit Points: +10
+- +1 Attack per Round
+
+Charge Ability:
+- Once per day: Tenser's Transformation, without preventing spellcasting.
+
+Usable Only By:
+ Bard
+ Multiclass Mage~
+
+@8085 = ~Marvelous Discombobulator~
+@8086 = ~This genuine artifact has been enchanted only with the finest spatial and temporal magics. Through the use of intricate alchemical materials and masterful arcane craftsmanship, this modern magical marvel allows its user to reach beyond time and space itself, retrieving all manner of mysterious and powerful elixirs from beyond the very veil of reality, all without requiring the slightest magical training. Never has conjuring potions been so effortless.
+
+STATISTICS:
+
+Charge Ability:
+- Once per day, creates a random potion.~
+
+@8087 = ~Dwarven Purifier~
+@8088 = ~Centuries ago, the clergy of Clangeddin Silverbeard created this item to ensure that the warriors of their armies entered battle with clear minds. This blessed wooden goblet, indestructible and fireproof, possesses several remarkable properties. It purifies any liquid poured into it, and the purified drink also sobers anyone who consumes it. Once per day, it can imbue the purified liquid with restorative properties equivalent to an Elixir of Health. Three times per day, it can also grant the purified drink the power to temporarily increase the drinker's Wisdom.
+
+STATISTICS:
+
+Charge Abilities:
+- At will: cures intoxication and drunkenness
+- Once per day: cures poison and disease, restores 10 hit points
+- Three times per day: increases the drinker's Wisdom by 1D4+1 for 2 turns~
+
+@80881 = ~The Wisdom bonuses from multiple purified drinks do not stack.~
+@80882 = ~Sobering~
+@80883 = ~Wisdom Increase~
+
+@8089 = ~Ahu Taka's Pearl Necklace~
+@8090 = ~This humble pearl necklace once belonged to the priest Valien Ahu Taka, who had neither home nor family. He chose a life of voluntary exile, wandering among the towns bordering the Dragonmere to tend the sick. He helped all who needed him, regardless of their allegiance or past deeds. Scorned by the aristocracy and the elite wherever he traveled, Ahu Taka ministered in poor districts and brothels alike. He judged no one, offering only peace and acceptance. After battles, he was often seen tending the wounded and comforting the dying on both sides.
+
+Such conduct eventually earned him the wrath of a victorious commander. As long as the wandering priest preached among prostitutes and degenerates, it mattered little—but allowing him to heal the commander's enemies was out of the question. The commander ordered his troops to execute the priest on sight for meddling in affairs that did not concern him. When one soldier after another refused, the commander drew his own sword and struck Ahu Taka down. Legend says that with his dying breath, Ahu Taka forgave his murderer.
+
+This necklace bears three enchanted topaz pearls along with several apatite pearls. Each magical pearl can be used once per day to cast the spells stored within it. The necklace's three enchanted pearls are:
+
+Charge Abilities:
+- Pearl of Healing: Mass Cure.
+- Pearl of Devotion: Zone of Sweet Air, Neutralize Poison, or Cure Critical Wounds.
+- Pearl of the Worthy: Raise Dead.
+
+Minimum Wisdom Required: 17
+
+Usable only by:
+ Non-evil Priest~
+
+@80901 = ~Pearl of Healing~
+@80902 = ~Pearl of Devotion~
+@80903 = ~Pearl of the Worthy~
+
+@8091 = ~Seeker's Chest~
+@8092 = ~This chest is a minor artifact capable of opening onto the most marvelous of treasures. As long as it remains closed, the magic animating it continuously searches an immense area for a treasure worthy of its owner—that is, a powerful magical item belonging to no one and cherished by no one, a forgotten relic. The search never ceases until the chest is opened. Thus, it could reveal any number of things, but it will always present its owner with the finest treasure it has found.
+
+Only a high-level character can open the chest. Its powerful enchantments allow it to resist all attempts to open it by characters below level 18.
+
+When the chest is opened, all of its stored magical energy is expended to teleport a forgotten magical item from wherever it lay abandoned directly into the chest. The one who opens it may then claim the item, after which the chest, its magic exhausted, crumbles to dust.~
+
+@8093 = ~Delnar's Miracle~
+@8094 = ~A shy wizard, Delnar was never one to seek adventure. He spent most of his life beside his mother, trying to learn the art of crafting magical items. Unfortunately, she had a habit of interrupting him at the worst possible moments, and his enchanting attempts often ended in disaster. Delnar's Miracle earned its name because the wizard considered it nothing short of miraculous that he completed its creation without being interrupted. Indeed, it may well be the only magical item Delnar ever made that worked exactly as intended.
+
+PARAMETERS:
+
+Charge Ability:
+- Once per day, produces a random Wish effect.~
+
+@8095 = ~Cailatto's Silver Ring~
+@8096 = ~Cailatto, better known as "the Bronze Bard," or simply "Cai," was a renowned spellcaster and flutist from Neverwinter. His exploits with women are remembered even more vividly than his musical talents, and although he always claimed that his success came from natural charm alone, he was never seen without a certain silver ring—not even when he had removed everything else.
+
+In the end, it was Cai's own indiscretions that led to his downfall. He flirted with an assassin known as Faldila Rugia while also comforting the niece of her latest victim. What was merely an unfortunate coincidence to Cai appeared to be a suspicious alliance to the assassin, and she slew him in his sleep to ensure that none of her secrets would be revealed.
+
+STATISTICS:
+
+Equipped Ability:
+- Doubles the duration of all arcane spells cast.
+
+Usable Only By:
+ Mage
+ Bard~
+
+@80961 = ~Cailatto, better known as "the Bronze Bard," or simply "Cai," was a renowned spellcaster and flutist from Neverwinter. His exploits with women are remembered even more vividly than his musical talents, and although he always claimed that his success came from natural charm alone, he was never seen without a certain silver ring—not even when he had removed everything else.
+
+In the end, it was Cai's own indiscretions that led to his downfall. He flirted with an assassin known as Faldila Rugia while also comforting the niece of her latest victim. What was merely an unfortunate coincidence to Cai appeared to be a suspicious alliance to the assassin, and she slew him in his sleep to ensure that none of her secrets would be revealed.
+
+STATISTICS:
+
+Equipped Abilities:
+- Doubles the duration of all arcane spells cast
+- Arcane Caster Level: +2~
+
+@8097 = ~Runic Ioun Stone~
+@8098 = ~Little is known of the origins of this Ioun stone, but the many scratches and impact marks covering its surface suggest that it is several centuries old. To most people it appears to be nothing more than a poorly cut gemstone, but in the hands of someone attuned to the arcane arts, a spiral-shaped rune can be seen shimmering within its core.
+
+STATISTICS:
+
+Equipped Ability:
+- Grants one additional memorized 4th-level arcane spell.
+
+Usable Only By:
+ Mage
+ Bard~
+
+@8099 = ~Bracers of Concentration~
+@80100 = ~The teachings of Kamjin-Doh in Kara-Tur hold that a true weapons master does not rely upon leather, mail, or plate armor to survive, but solely upon the ability to never be struck at all... which means mastering an opponent's movements as completely as one's own. Such a principle can only be applied in the midst of battle through absolute concentration, and that is precisely the purpose of these bracers.
+
+These Bracers of Concentration were originally used to train the recruits of Kamjin-Doh. They radiate a faint glow when touched by the light of dusk. Whoever wears them experiences profound inner calm, while their senses become so keen that they seem able to "read" an opponent's movements. Should the wearer nevertheless be struck, the bracers dull the pain (or "distraction," as the masters of Kamjin-Doh call it).
+
+Many pairs of these bracers were scattered throughout Faerun after the fall of Kamjin-Doh, then ruled by the Blade Master. It is even said that the Blade Master himself wore such a pair, though little reliable information remains.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: +1
+- Physical Damage Resistance: +10%
+
+Weight: 0.5
+
+Usable Only By:
+ Kensai~
+
+@8010008 = ~Master's Bracers~
+
+@8010009 = ~The Blade Master, the last Kensai of Kamjin-Doh, met a dishonorable end in the wilds of western Kara-Tur. His leather bracers were torn from his arms, just as his arms were torn from his shoulders in retribution for his role in the fall of Kamjin-Doh. No one knows for certain who defeated him, though many tales claim that he fell to the spirits of three Kensai of Kamjin-Doh, risen from the dead to punish the renegade.
+
+It was discovered that the Bracers of Concentration he had worn since his apprenticeship had become stained with blood and shame, and no longer shone with the same light. As he lost his concentration during his final battle, the bracers themselves seemed to rust away, nearly crumbling apart when they were ripped from him. Yet despite their pitiful condition, they still contain the Blade Master's power, strength, and cunning... making their new wearer even more dangerous.
+
+Whoever dons these bracers must always keep three things in mind: their purpose, their concentration, and the intentions of their enemy. So long as these three remain in the wearer's heart, the bracers will never fail them in battle.
+
+STATISTICS:
+
+Equipped Abilities:
+- Armor Class: +2
+- Physical Damage Resistance: +25%
+
+Usable Only By:
+ Kensai
+
+Weight: 0.5~
+
+@80101 = ~Amulet of Wild Power~
+@80102 = ~The secret of crafting these amulets is closely guarded by an order of druids from Cormanthor. In fact, only those close to members of the order are usually seen wearing such amulets. No one knows how this one left their forest, though it is said that an exile carried it away with him.
+
+STATISTICS:
+
+Charge Ability:
+- Twice per day, the wearer may call upon an animal spirit to inhabit the amulet's bearer. The bond lasts for 1 turn and grants a bonus depending on the chosen spirit:
+  Bull: Strength +2 and Movement Rate +3.
+  Cat: Dexterity +2 and immunity to Web and Entangle.
+  Bear: Constitution +2 and +3 to saving throws vs. Death and Poison.
+  Fox: Intelligence +2 and Detect Traps.
+  Owl: Wisdom +2 and Detect Invisibility.
+  Eagle: Charisma +2 and +4 THAC0 with ranged weapons.
+
+It is possible to call upon two different spirits at the same time, but never the same spirit twice.
+
+Usable only by:
+ Druid
+ Ranger~
+
+@80103 = ~Wolfcloak~
+@80104 = ~A Sembian legend tells of a huntress who ventured into the forest to find food for her family. After several days, she caught a wild boar in her first snare.
+
+"Please, great huntress," pleaded the boar as she approached, "I am no ordinary boar. I am king among my kind. If you set me free, I shall reward you beyond measure!"
+So the huntress released the boar, which ran away laughing heartily, and she never heard of it again.
+Her second trap held a turkey.
+"Please, great huntress," begged the turkey, "I am no ordinary turkey. I am queen among my kind. If you free me, I shall shower you with gifts beyond your imagination."
+The huntress released the turkey as well, and it too fled in laughter, never to be seen again.
+The final trap held a she-wolf.
+"Please, great huntress..." she began.
+"I will not free you," replied the huntress. "I have already lost two fine meals. I will not lose a third. If you truly mean to reward me, then do so first. You must leave me something that belongs to you, so I know you will return."
+The she-wolf left behind a piece of one of her paws and enchanted the huntress's cloak, granting it her own strength and swift reflexes. When she returned to her pack, she was mocked because of her small paw.
+"You look like a dog," jeered the other wolves.
+An outcast among her own kind, the she-wolf returned to the huntress and offered her another bargain: she would aid her in all things in gratitude for sparing her life. This cloak stands as a symbol of the pact between the huntress and the she-wolf.
+Weathered and worn, this russet-brown cloak is mottled with pale patches. When the hood is drawn over the head, its pointed corners resemble the upright ears of a dog.
+
+STATISTICS:
+
+Equipped Abilities:
+- Strength +1
+- Dexterity +1
+
+Charge Ability:
+- Summon Wolves (18th-level) once per day.
+
+Usable only by:
+ Ranger~
+ 
+@80105 = ~Strungbr's Belt~
+@80106 = ~This belt is the result of an unusual collaboration between the famed berserker Strungbr and a far less celebrated enchanter. Strungbr was determined to find a way to rid himself of the exhaustion that followed his fits of rage. The enchanter, for his part, was fascinated by the prospect of studying the mechanisms that triggered specific behaviors. After much experimentation, they succeeded in isolating the stimulus responsible for Strungbr's rage, and the belt was enchanted to lessen the physical fatigue caused by it. The destruction of the laboratory that followed permanently ended any possibility of further cooperation between the two, but at least Strungbr was delighted with his new belt.
+
+STATISTICS:
+
+Equipped Abilities:
+- The wearer no longer suffers fatigue after using Rage.
+- +2 Rage uses per day.
+- Automatically enters an uncontrollable Rage whenever the wearer's hit points fall below 10%.
+
+Special:
+- Cursed. Can only be removed with a Remove Curse spell.
+
+Weight: 1
+
+Usable only by:
+ Berserker~
+
+@80107 = ~Olobinn +2~
+@80108 = ~Olobinn once belonged to a brilliant military instructor from Lyrabar. The instructor was a psionic whose talents were rarely employed by his superiors, and he grew increasingly frustrated by their inability to understand that only psionics were capable of carrying out certain critical missions. He soon made his opinions known, and over time his views became so extreme that his actions eventually led to charges of treason.
+
+The officer sent to arrest him—and the soldiers under his command—gravely underestimated him. Armed with nothing but his sword and his mental prowess, he slew them all. He then left the city and took up the life of a duelist, determined to prove his worth to anyone who doubted him. Like so many duelists before him, however, he eventually met his end, and the potential he so often boasted of remained just that: potential.
+
+The sword still retains the psychic imprint of its original owner. Those who wield it are haunted by vivid memories of the lethal maneuvers he once employed to deliver the killing blow. Some consider these visions a curse, but most regard them as a blessing, using the memories to unlock the weapon's true potential.
+
+Aside from the worn grip and pommel, Olobinn appears almost new, with its perfectly honed edge and an unblemished blade.
+
+Equipped Ability:
+- 6% chance on hit to relive one of these memories, randomly granting Deathblow, Critical Strike, or Evasion.
+
+STATISTICS:
+
+Damage: 1D8 +2
+THAC0: +2
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 6 Strength
+
+Not usable by:
+ Druid
+ Cleric
+ Mage~
+@801081 = ~Olobinn once belonged to a brilliant military instructor from Lyrabar. The instructor was a psionic whose talents were rarely employed by his superiors, and he grew increasingly frustrated by their inability to understand that only psionics were capable of carrying out certain critical missions. He soon made his opinions known, and over time his views became so extreme that his actions eventually led to charges of treason.
+
+The officer sent to arrest him—and the soldiers under his command—gravely underestimated him. Armed with nothing but his sword and his mental prowess, he slew them all. He then left the city and took up the life of a duelist, determined to prove his worth to anyone who doubted him. Like so many duelists before him, however, he eventually met his end, and the potential he so often boasted of remained just that: potential.
+
+The sword still retains the psychic imprint of its original owner. Those who wield it are haunted by vivid memories of the lethal maneuvers he once employed to deliver the killing blow. Some consider these visions a curse, but most regard them as a blessing, using the memories to unlock the weapon's true potential.
+
+Aside from the worn grip and pommel, Olobinn appears almost new, with its perfectly honed edge and an unblemished blade.
+
+Equipped Ability:
+- 6% chance on hit to relive one of these memories, randomly granting Greater Deathblow, Critical Strike, or Greater Evasion.
+
+STATISTICS:
+
+Damage: 1D8 +2
+THAC0: +2
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 6 Strength
+
+Not usable by:
+ Druid
+ Cleric
+ Mage~
+
+@80109 = ~Dragonkin Belt~
+@80110 = ~The Black Jungles were once home to creatures the yuan-ti called Wamasus—intelligent dragons whose blood was said to be pure acid. One of them, Haynekhtnamet, was slain by the Abominations, though it took twenty of them fighting fiercely for seven days and seven nights before they finally brought it down. One of the survivors kept a single scale from the Wamasu as a trophy. The scale was later carved into the shape of an egg and mounted upon a belt.
+
+Since then, for reasons no one has ever been able to explain, the belt has retained some of the Wamasu's magical power, granting its wearer the ability to inflict acid damage upon their enemies. From time to time, it is said to appear in the possession of a wandering adventurer.
+
+STATISTICS:
+
+Equipped Ability:
+- Adds 1 point of acid damage to all attacks made by the wearer.~
+
+@80111 = ~Erratic Sling Bullet~
+@80112 = ~This sling bullet was enchanted by a particularly indecisive wizard. Unable to decide what powers to grant his creation, he repeatedly halted and restarted the enchantment process, abandoning each attempt halfway through to try something else. When he finally finished, he discovered that the magic bound within the bullet had become unstable, producing unpredictable effects for no apparent reason.
+
+STATISTICS:
+
+Combat Abilities:
+- Returning: After every throw, the bullet flies back into the wielder's sling.
+- Unstable: Each time it strikes a target, it triggers one random effect (all non-damaging effects last 2 rounds and allow a save vs. Spell):
+  1 point of fire damage
+  1 point of cold damage
+  1 point of electrical damage
+  1 point of acid damage
+  2 points of piercing damage
+  Horror
+  Misfortune (Luck -1)
+  Confusion
+  Hold
+  Slow
+
+Damage: 1D4 +1
+Damage Type: Missile (Piercing)
+Weight: 0
+Missile Weapon: Sling~
+
+@80113 = ~Ajamuut's Cloak of Invisibility~
+@80114 = ~Ajamuut lived a life of sacrifice. As Hunt Matron, it was her duty to provide food for her nomadic tribe. To fulfill this role, she lived apart from her people, tirelessly tracking the great herds across the wilderness. Her tribe followed at a distance, always remaining on the horizon behind her so as not to disturb the hunt. Whenever they saw a fire burning in the distance, they knew the huntress had made a kill and already moved on. Upon reaching the cold ashes, they would always find a freshly dressed carcass waiting for them. Ajamuut herself was invariably gone.
+
+Ajamuut was renowned for her ability to approach game without making the slightest sound and to strike with deadly precision. The howling winds and bitter cold of the tundra rarely offered a second chance. This cloak helped conceal her, whether upon the open tundra or within dark forests, its subtle pattern breaking up her outline even in the eyes of the wariest prey.
+
+STATISTICS:
+
+Equipped Abilities:
+- Invisibility
+- Move Silently +30%~
+
+@80115 = ~Vampiric Bolt~
+@80116 = ~This fearsome crossbow bolt is the work of an ingenious—and somewhat eccentric—artisan and wizard known as Airon Broune. In truth, it is only assumed that Airon was a gnome, for no one has ever actually met him.
+
+Whatever the case, one day he seemingly took possession of an abandoned shop on the outskirts of a small town. The building had stood empty for years, yet overnight it became covered with signs, written in every known language, advising travelers to keep moving and not linger. When the former owner heard the news, he rushed to reclaim his property, only to abandon the idea after a large sack of gold suddenly appeared at his feet.
+Soon afterward, strange posters appeared throughout the town, all bearing the same message:
+
+**************************************
+
+Buying potatoes. Gold paid.
+- Airon Broune
+
+**************************************
+
+Curious townsfolk decided to try their luck by delivering sacks of potatoes to the mysterious shop. They simply had to drop the potatoes through a special hatch behind the building, whereupon a small sack of gold would instantly appear—containing roughly five times the amount one would normally expect. Higher-quality potatoes earned even greater rewards.
+Word spread quickly, and before long mountains of potatoes were being delivered. No matter how many were supplied, a sack of gold always appeared in payment.
+Soon every farm in the region devoted itself entirely to growing potatoes, each striving to produce the largest and tastiest crops. This continued for several years, and eventually the quality of the potatoes became so extraordinary that sacks of gold ceased to appear. Instead, magical items emerged as payment.
+Unable to understand the value of this new form of compensation, the farmers immediately abandoned potato farming and sold the magical objects to the first buyers they found... and this bolt was among them.
+
+STATISTICS:
+
+Combat Abilities:
+- Returning: The bolt flies back into the shooter's crossbow after each shot.
+- Drains 2 hit points from the target and transfers them to the shooter.
+
+Damage: 1D8
+THAC0: +2
+Damage Type: Missile (Piercing)
+Weight: 0
+Missile Weapon: Crossbow~
+
+@80117 = ~Thunder-Eater~
+@80118 = ~This cloak, woven with copper threads, was crafted by an eccentric wizard to protect himself against lightning. His early experiments were promising: the garment appeared to absorb and reflect the effects of even his most powerful lightning spells. After countless self-inflicted electrical shocks, he seemed none the worse for wear, apart from a few burns and a persistent nervous twitch that became more pronounced whenever he approached metal objects.
+
+A relentless perfectionist, however, the enchanter was dissatisfied with such limited testing. Mere spells were not enough. He had to test the cloak against the fury of a true thunderstorm. When the right storm finally arrived, the wizard donned the cloak, climbed to the spire atop his laboratory, and called lightning down upon himself.
+
+Seven bolts struck him simultaneously, tearing him from the pinnacle and hurling him into the dry garden below. Upon impact, a blinding flash vitrified the sand and set his arboretum ablaze. Broken and badly concussed, yet very much alive, the enchanter triumphantly declared his experiment an overwhelming success.
+
+STATISTICS:
+
+Equipped Ability:
+- Electrical Resistance: +125%~
+
+@80119 = ~Blade of Duality +3~
+@80120 = ~For two centuries, this sword remained an enigma to both historians and master weaponsmiths. It was originally recovered from an Imaskari ruin, yet most experts agree that it is far more recent than any artifact left behind by that ancient civilization. Even so, no one has ever managed to explain the runes engraved upon its blade, for they are unquestionably Imaskari. There is, however, one point upon which everyone agrees: whatever its origins, this mysterious weapon is a formidable one.
+
+STATISTICS:
+
+Equipped Ability:
+- The wielder is constantly accompanied by a perfect duplicate that mirrors every movement. As a result, 50% of attacks that would strike the wielder instead hit the duplicate, as enemies cannot tell which one is real.
+
+Combat Abilities:
+- 5% chance on hit to make the duplicate partially real: its imitation attack can truly strike the target, granting the wielder one additional "virtual" attack per round for 3 rounds.
+- 5% chance on hit to multiply the duplicates: 1D4+2 additional copies are created, functioning as Mirror Images for 4 rounds.
+- 5% chance on hit to create an independent semi-real duplicate that functions as a Simulacrum for 5 rounds.
+
+Special:
+- +3 enchantment.
+
+Damage: 2D4+1
+THAC0: +1
+Damage Type: Slashing
+Weight: 9
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires: 11 Strength
+
+Not usable by:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+@80121 = ~Cloak of Disastrous Magical Supremacy~
+@80122 = ~One of the many stage costumes belonging to the renowned Waterdhavian illusionist Mallia ne Spettacolira, this cloak vanished during the finale of one of her most memorable performances, along with Mallia herself and a number of audience members. The cloak resurfaced only recently, fluttering from the top of a mast in Athkatla's Docks District.
+
+Over the years, several other stage props have also reappeared. The Box of Death and Dismemberment materialized during the wedding of Erlu Lüfolg of Cormyr, bringing the ceremony to a spectacular end by crushing the bride's father. The Tumbling Ring of Immolation was spotted aboard a Tethyrian gunship in the Bay of the Fiery Drake a few weeks later, although the surviving crew members admitted that something else might possibly have been responsible for the fire that followed.
+
+Of the great magician herself—or of her audience—no trace has ever been found.
+
+STATISTICS:
+
+Equipped Abilities:
+- +3 memorized spells per spell level.
+- +4 bonus to Saving Throws vs. Spell.
+- Entropy.
+
+Usable only by:
+ Mage
+ Bard~
+
+@80123 = ~Discordance +2~
+@80124 = ~This weapon once belonged to Sasha Seremon, a legendary bladesinger whose countless triumphs became the stuff of legend. Tales of her exploits were sung for generations, from the courts of the nobility to the humblest taverns, though no song or poem ever truly captured the grace she displayed with a blade in hand.
+
+Her scimitar, an ancient weapon of exquisite craftsmanship, stirs the air whenever it is drawn and resonates at a uniquely vibrant frequency. It produces a complex, dissonant harmony that is as beautiful as it is unsettling. Both musical instrument and weapon of war, the silver-plated blade bears countless nicks and scars, proof that the great bladesinger carried it for many years and crossed swords with innumerable foes.
+
+STATISTICS:
+
+Combat Abilities:
+- 25% chance on hit to affect the target and all nearby enemies with Confusion and/or Slow for 2 rounds (Save vs. Spell at +2 to negate).
+
+THAC0: +2
+Damage: 1D8 +2
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 7
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Requires: 10 Strength
+
+Usable only by:
+ Bard~
+
+@80125 = ~Heartfire Wand~
+@80126 = ~The wizard Eccae created this unusual item in pursuit of a simple goal: a wand with limitless uses. Though she was not an enchanter by trade, Eccae believed that by infusing the wand with her own life essence, she could achieve the desired result. Her efforts were rewarded, and the finished creation surpassed even her own expectations.
+
+STATISTICS:
+
+Charge Ability:
+- At will: Drains 3 hit points from the user to fire a bolt of magical energy that deals 3D6 points of magic damage to a single target (double damage against undead).
+  Range: 30 feet
+
+Usable only by:
+ Mage
+ Bard
+ Cleric
+ Druid~
+
+@80127 = ~Web Shield +1~
+@80128 = ~This drow-crafted shield is as supple and light as a spider's web, yet as resilient as forged steel. It feels faintly warm and slightly sticky to the touch, as though it had only just emerged from a spider's spinnerets. Holding it, one can almost sense the strange language through which spiders communicate.
+
+STATISTICS:
+
+Equipped Abilities:
+- Protection from spiders.
+
+Special:
+- So light that almost anyone can use it.
+
+Armor Class Bonus: 2
+
+Special:
+- Does not protect against missile or piercing attacks.
+
+Weight: 1
+Requires: 1 Strength~
+@8012709 = ~Web Shield +3~
+@8012809 = ~This drow-crafted shield is as supple and light as a spider's web, yet as resilient as forged steel. It feels faintly warm and slightly sticky to the touch, as though it had only just emerged from a spider's spinnerets. Holding it, one can almost sense the strange language through which spiders communicate. A drow has revealed that it is in fact a "Living Web" and has awakened it.
+
+STATISTICS:
+
+Charge Abilities:
+- Spider Spawn once per day.
+- Web twice per day.
+
+Equipped Abilities:
+- Protection from spiders.
+- Allows the wearer to move freely across spider webs.
+
+Special:
+- So light that almost anyone can use it.
+
+Armor Class Bonus: 4
+
+Special:
+- Does not protect against missile or piercing attacks.
+
+Weight: 1
+Requires: 1 Strength~
+
+@80129 = ~Horn of Lost Reason~
+@80130 = ~This small drinking horn was commissioned by a band of caravan guards who, after countless perilous journeys along the Golden Way, decided they needed something with which to commemorate their past adventures—and prepare themselves for those yet to come.
+
+Some believe that an entire series of such horns was crafted. The Witches of Rashemen tell tales of men and women who, after drinking from these vessels, hurled themselves into the heart of battle while shouting increasingly elaborate insults about their enemies' ancestry. If other horns do indeed exist, however, none have ever been found.
+
+Suspended from a leather strap, the horn is gilded with fine gold. An inscription has been engraved along one side, though time has rendered it almost unreadable. Only a few words remain discernible:
+
+"...consume in moderation."
+
+STATISTICS:
+
+Charge Ability:
+- Once per day, drinking from this horn sends the imbiber into a state of bestial rage for 2 turns. The drinker gains +2 Strength, +2 Constitution, +2 THAC0, +2 damage, +2 movement rate, and one additional attack per round. The drinker also becomes immune to mind-affecting effects, Hold, Fear, Maze, Imprisonment, level drain, and Sleep. However, the drinker becomes uncontrollable and attacks any nearby creature indiscriminately.~
+
+@80131 = ~Combustion~
+@80132 = ~Malidron was an eccentric wizard utterly fascinated by fire. In addition to the many wands credited to his name, he crafted a great number of experimental magical items during his fifteen-year career. This helmet was among the creations of which he was least proud.
+
+A Firewalker named Bluktaf wore Combustion for more than thirty years before finally dying of old age. His companion, the pyrosmith Besha of the White Anvil, kept it for only three years before she was slain by raiders who had survived one of her assaults. The raiders sold the helmet to a fence, after which it vanished from circulation.
+
+STATISTICS:
+
+Equipped Ability:
+- Every attack made by the wearer reduces the target's Fire Resistance by 10% for 1 turn.
+
+Charge Ability:
+- Flaming Weapon once per day (+1D6 fire damage in melee, +1D4 fire damage with ranged attacks, lasts 1 turn).
+
+Special:
+- Protects against critical hits.
+
+Weight: 2
+
+Not usable by:
+ Mage
+ Bard
+ Thief~
+@801321 = ~Malidron was an eccentric wizard fascinated by fire. In addition to the many wands credited to him, he crafted numerous experimental magical items during his fifteen-year career. This helmet was one of the creations he was least proud of. A Firewalker named Bluktaf wore Combustion for more than thirty years before dying of old age. His companion, the Pyroforger Besha of the White Anvil, kept it for only three years before being slain by raiders who had survived one of her assaults. The raiders sold the helmet to a fence, after which it disappeared from circulation.
+
+Equipped Abilities:
+- Every attack made by the wearer reduces the target's Fire Resistance by 10% for 1 turn
+- +10% Fire damage dealt
+
+Charge Ability:
+- Flame Weapon once per day (+1d6 Fire damage in melee, +1d4 Fire damage at range, 1 turn)
+
+Special:
+- Protects against critical hits
+
+Weight: 2~
+
+@801322 = ~Flame Weapon~
+
+@80133 = ~Wizard's Cube~
+
+@80134 = ~This strange artifact resembles a small box without any opening, or perhaps a crystal cube. Each face bears an engraved mystic rune, invisible to the eye but detectable by touch. Enclosed within the cube is a geocentric object of unknown nature, radiating magic so intense that no one can look upon it without immediately averting their gaze. All agree that such magic is the mark of tremendous power.
+
+No one knows who could have created such a mighty artifact, though many have speculated that it was the work of the fearsome drow priestess Dar'Gartal. Others suggest that the priestess merely discovered the Cube somewhere within the forgotten reaches of Rrinnoroth, and that her greed for the artifact lured her away from the ghost city. Whatever the truth, no one can explain why the Cube has since parted company with its mistress.
+
+STATISTICS:
+
+Charge Abilities:
+- Once per day for each pair of opposite faces, the user may lightly touch one face of the Cube to release its power. The opposite face is disabled at the same time. All spells are cast at range with a casting time of 1.
+
+Each pair of faces grants access to:
+- Chaotic Commands / Chaos
+- Raise Dead / Finger of Death
+- Magic Resistance / Lower Resistance (+/-25%)
+
+Weight: 3
+Required Level: 12
+Required Wisdom: 9
+Required Intelligence: 9
+
+Usable By:
+ Mage
+ Bard
+ Cleric
+ Druid~
+@801341 = ~Chaotic Commands / Chaos~
+@801342 = ~Raise Dead / Finger of Death~
+@801343 = ~Magic Resistance / Lower Resistance~
+
+@80135 = ~Karpak Libed's Contract~
+@80136 = ~Karpak Libed's Contract
+
+Covered in a thin layer of gold, this scroll has been written with ink that is virtually indistinguishable from dried blood. The handwriting is uneven and chaotic, yet the parchment radiates an incredible aura of malice.
+
+This scroll opens a dimensional portal and summons three Fallen Planetars who will fight alongside the caster until they die or the contract expires (3 turns).
+
+Special:
+- The scroll crumbles to dust after use.
+
+Not usable by:
+ Good characters~
+
+@80137 = ~Blood Mail +2~
+@80138 = ~Contrary to popular belief, Blood Mail does not owe its name to its blood-soaked appearance. Although it once belonged to a barbarian of the Savage North whose fighting style ensured it remained permanently stained, its name actually refers to the cheerful disposition of its owner.
+
+He was greatly loved in his town and in the taverns of the nearby port, where he gladly bought drinks for friends and travelers bringing news from distant lands. Yet this unwavering good humor was only part of his nature. When anger overtook him, it was said that no one who witnessed his fury lived to tell the tale.
+
+STATISTICS:
+
+Equipped abilities:
+- Whenever the wearer enters Rage, they gain Haste. If, despite their Constitution bonus, the wearer has less than 15% of their maximum hit points remaining, they gain Improved Haste instead.
+
+Armor Class: 3
+Weight: 10
+Strength Required: 8
+
+Usable only by:
+ Barbarian~
+
+@80139 = ~Lula-Ko's Torch +1~
+@80140 = ~This club comes from the little-known village of Psant in Tethyr. When a band of slavers raided the settlement, the villagers were caught completely by surprise. The slavers quickly overwhelmed the few guards and began rounding up the terrified townsfolk, killing those too old, too young, or too weak to fetch a worthwhile price at auction.
+
+One young girl, Lula Ko, refused to let the raiders harm either her little brother or her frail grandmother. Determined not to surrender without a fight, she burst into Tyr's chapel inside the village hall and tore a torch from above the altar. She dipped it in pitch, then shattered the priest's mirror and fastened the shards to the end of the torch. Begging Tyr's forgiveness for her sacrilege, she marched out to face the slavers.
+
+The slave captain was so astonished by the girl's audacity that he died before he could do anything more than laugh as Lula Ko smashed the torch into his head. Inspired by her courage, the villagers rose up against their captors... and, against all odds, prevailed. Ever since, the people of Psant have honored their child-warrior, for she and her sacred weapon were surely blessed by Tyr.
+
+STATISTICS:
+
+Equipped abilities:
+- Bless: +2
+- Draw Upon Holy Might: +1
+
+THAC0: +1
+Damage: 1D4+1, +1 fire damage
+Damage Type: Bludgeoning
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type: One-handed
+Strength Required: 5
+
+Not usable by:
+ Mage
+ Evil characters
+ Chaotic characters~
+
+@80141 = ~Jelly Pearl~
+@80142 = ~When a group of jellies merges into a single, distinct entity, their metabolism refines the bones, soil, and indigestible debris consumed during their wanderings into a byproduct resembling a pearl. This object normally dissolves upon its host's death, but on rare occasions it can be recovered intact and kept as a trophy. On even rarer occasions, a jelly pearl absorbs one of its host's latent qualities, allowing whoever wears it to develop talents that are, objectively speaking, quite horrifying.
+
+STATISTICS:
+
+Equipped abilities:
+- Acid Resistance: +40%
+
+Charge abilities:
+- Melf's Acid Arrow twice per day.
+- Polymorph into a Mustard Jelly once per day.~
+
+@801421 = ~When a group of jellies merges into a single, distinct entity, their metabolism refines the bones, soil, and indigestible debris consumed during their wanderings into a byproduct resembling a pearl. This object normally dissolves upon its host's death, but on rare occasions it can be recovered intact and kept as a trophy. On even rarer occasions, a jelly pearl absorbs one of its host's latent qualities, allowing whoever wears it to develop talents that are, objectively speaking, quite horrifying. Somehow, a butler named Maxime Fistenbul managed to improve this ring.
+
+STATISTICS:
+
+Equipped abilities:
+- Acid Resistance: +40%
+
+Charge abilities:
+- Melf's Acid Arrow twice per day.
+- Polymorph into a Mustard Jelly twice per day.
+- Summon Sewer Ally once per day.~ // Mustard Jelly, Otyugh, Carrion Crawler, Sewer Troll, Sword Spider.
+
+@801422 = ~Summon Sewer Ally~
+
+@80143 = ~Master Ishabü's Lessons~
+@80144 = ~This manual contains all the wisdom of Master Ishabü, explaining in countless sacred words the finest techniques for fighting with a quarterstaff. Anyone who studies this manual with diligence becomes a master of the quarterstaff, after which the book disappears.~
+
+@801441 = ~This manual contains all the wisdom of Master Ishabü, explaining in countless sacred words the finest techniques for fighting with a quarterstaff. Anyone who studies this manual gains 2 proficiency points in Quarterstaff, after which the book disappears.~
+
+@80145 = ~Rinogân +3~
+@80146 = ~In a monastery overlooking Lake Nab Ho Ting on the foothills of the Talbot Mountains lived an order of monks known as the Thousand Dreams. Through grueling sessions of meditation, these monks learned to trace the thread of their previous lives as though they were dreams. Each of them relived those memories in the ultimate hope of discovering the identity of their primordial soul. They believed that after a thousand lives they could attain perfect enlightenment.
+
+Kün Li held a place of great importance within the order. She possessed an ancient soul said to have lived more lives than any other. Yet when she reached the end of all those lives, she realized that she had nothing left to discover and would never truly know herself, for she had simply not learned enough.
+
+Unable to accept this fate after countless attempts, Kün Li sought a way to claim the experiences of others. She channeled her insatiable hunger into her favorite sword until it became an instrument of her will. She then claimed many lives throughout the surrounding lands. Every drop of blood spilled by her blade was another experience gained, and every killing blow allowed her to seize yet another life.
+
+When the other monks of the Thousand Dreams learned of her deeds, they united against Kün Li upon her return to the monastery. Amid a courtyard strewn with the bodies of slaughtered monks, she finally came to understand her own soul. It is said that among the countless experiences contained within the sword are all those of Kün Li herself.
+
+The weapon itself is a simple saber with a worn leather grip and an ebony-inlaid hilt. The blade grows warm to the touch whenever its owner's enemies are slain.
+
+STATISTICS:
+
+Equipped ability:
+- Whenever the wielder kills a creature, they gain an additional 30 experience points.
+
+THAC0: +4
+Damage: 1D8 +3
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Strength Required: 6~
+
+@801461 = ~gained 30 XP~
+
+@80147 = ~Ring of Retribution~
+@80148 = ~This ring was once the badge of office passed down within a Turmish mercenary company known as the Orphan Bastards. The company never earned even the slightest prestige. Its members cared nothing for loyalty, honor, or respect. Every member constantly plotted against the current leader, often claiming command by slipping a dagger into their predecessor's back. Upon becoming the new leader, the traitor inherited the ring as the symbol of their rank. The ring was worn by fighters, barbarians, blackguards, and all manner of practitioners of violence. Each claimed that the ring made them invincible. Their untimely deaths suggest otherwise.
+
+The last known owner was Haelion, a bandit active in Amn. Curiously, Haelion had no known connection to the Bastards. No one knows how he came into possession of the ring, though it seems unlikely that its previous owner surrendered it willingly.
+
+STATISTICS:
+
+Equipped ability:
+- Whenever the wearer scores a melee critical hit, they are healed for 1D4 hit points.~
+
+@80149 = ~Alis's Bow +1~
+@80150 = ~The ranger Alis of the Lurking Woods received this bow from a wandering mage after she and her pet ferret, Lysa, came to his rescue. He had been taken captive by Garland, the Ice Troll. The mage infused the bow with the tears of the dying troll, granting it the ability to fire enchanted arrows of ice. From that day onward, Alis never again set out on patrol without it.
+
+STATISTICS:
+
+Combat ability:
+- Every arrow fired from this bow deals an additional 1D3 cold damage.
+
+THAC0: +2
+Weight: 2
+Speed Factor: 5
+Proficiency Type: Long Bow
+Type: Two-handed
+Strength Required: 3
+Not usable by:
+ Druid
+ Cleric
+ Mage~
+
+@80151 = ~Cape of Foresight~
+@80152 = ~The weaver Selana Quinetra embroidered this delicate cloak with her own skilled hands at the request of the Suzailan wizard Flavio. Once the cloak was finished, she had it enchanted by Vangerdahast Aeiulvana himself, imbuing it with glittering stars that reflected the heavens.
+
+When Selana presented Flavio with the bill for her work, he was unable to pay. In a fit of anger and resentment, Selana gave the cloak to her apprentice Zidacco, a young man utterly lacking any aptitude for magic, who sold it only a few days later.
+
+STATISTICS:
+
+Charge abilities:
+- Cast Contingency once per day.
+- Cast Spell Immunity once per day.
+
+Usable by:
+ Any spellcaster~
+
+@80153 = ~Scrollkeeper Belt~
+@80154 = ~The creator of this belt understood that organization was an essential talent for living a healthy and productive life. To bring order to her ever-growing collection of arcane scrolls, she needed a safe place to store them. Considering the astronomical size of her collection—which more closely resembled a chaotic heap than a library—that safe place would have to possess virtually limitless capacity while remaining compact enough to be practical. After several experimental enchantments, she succeeded.
+
+One by one, over many weeks, she carefully stored every scroll she owned within the hidden recesses of her Scrollkeeper Belt. Unfortunately, she later discovered that the scrolls almost never came back out, except on rare occasions entirely beyond her control. With great reluctance, she finally sold the faulty belt to a traveling merchant.
+
+STATISTICS:
+
+Equipped ability:
+- Special: Every hour there is a 6% chance that a random spell scroll is created in the wearer's inventory. (Removing and re-equipping the belt resets the timer.)~
+
+@80155 = ~Life-Saving Boots~
+@80156 = ~A Waterdhavian necromancer, weary of his profession's poor reputation, created these boots to aid exhausted adventurers on their travels. Contrary to popular belief, they do not contain the souls of the necromancer's victims or enemies.
+
+Drawing in part upon his colleagues' research into preserving vitality within necrotic flesh and bone, he imbued the boots with magic that could invigorate their wearer for a few precious moments longer. While that brief reprieve is rarely enough to win a battle, it has given more than one adventurer the chance to receive emergency healing instead of collapsing—or worse, dying.
+
+STATISTICS:
+
+Equipped ability:
+- Whenever the wearer's hit points fall below 10% of their maximum, they are affected by Vampiric Touch for 2 rounds, gaining 8 temporary hit points. This effect cannot stack.
+
+Weight: 4~
+
+@80157 = ~Alchemist's Ring~
+@80158 = ~It was only after his cauldron exploded that the alchemist Delegab realized it had been infused with magic: every fragment radiated a magical aura of its own. He had the local blacksmith fashion the fragments into rings, added a simple enchantment to each, and sold them to passing adventurers for outrageous sums. With the profits he bought himself a new cooking cauldron—and another one to try to recreate the accident.
+
+STATISTICS:
+
+Equipped ability:
+- After one turn, during which the ring adapts itself to the wearer's metabolism, it enters an endless cycle. Every turn, it grants the wearer the effects of a random potion from among those once brewed in the original cauldron.~
+
+@801581 = ~Ratbane Effects~
+@801582 = ~Effects of a Potion of Fire Resistance~
+@801583 = ~Effects of a Potion of Insulation~
+@801584 = ~Effects of a Potion of Cold Resistance~
+@801585 = ~Effects of a Potion of Insight~
+@801586 = ~Effects of a Potion of Agility~
+@801587 = ~Effects of a Potion of Hill Giant Strength~
+@801588 = ~Effects of a Potion of Heroism~
+@801589 = ~Effects of a Potion of Genius~
+@8015810 = ~Effects of a Potion of Persuasion~
+@8015811 = ~Effects of a Potion of Invulnerability~
+@8015812 = ~Effects of an Antidote~
+@8015813 = ~Effects of a Potion of Power~
+@8015814 = ~Effects of a Potion of Freedom~
+@8015815 = ~Effects of a Potion of Clarity~
+@8015816 = ~Effects of an Oil of Speed~
+@8015817 = ~Effects of an Extra Healing Potion~
+@8015818 = ~Effects of a Potion of Regeneration~
+@8015819 = ~Effects of a Potion of Superior Invisibility~
+@8015820 = ~Effects of a Potion of Magic Protection~
+@8015821 = ~Effects of a Potion of Magic Shielding~
+@8015822 = ~Effects of a Potion of Magic Resistance~
+
+@80159 = ~Preacher's Gloves~
+@80160 = ~A necromancer calling himself the Preacher of Anti-Fatality traveled throughout the Western Heartlands disguised as a priest, promising to restore the dead to life. These promises were merely a cover for kidnappings, murders, vivisections, and countless other horrific experiments, and in time he became infamous for what he truly was.
+
+When the guards of Secomber recognized him and attempted to arrest him, the Preacher unleashed a devastating spell that destroyed half the city. The city survived only because the collapse of a tower buried the necromancer beneath the rubble, killing him instantly.
+
+These gloves were recovered from his corpse. Their power was considered so vile—drawing directly upon the wearer's own life force—that the mayor of the town ordered them left where they were found. By the following morning, they had vanished.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: -9
+- Saving Throws vs. Death and Petrification: -3
+- +2 memorized spells per spell level
+
+Special:
+- Cursed: Once worn, the gloves cannot be removed.
+
+Usable only by:
+ Mage~
+
+@80161 = ~Sore Loser's Cloak~
+@80162 = ~A gambler from Waterdeep won the Sore Loser's Cloak in a game of chance. Unsure what to do with it, he decided to wear it while gambling in the hope it would bring him luck. When an opponent accused him of cheating and tried to teach him a lesson, the would-be avenger found himself sprawled on the ground after the very first blow. Realizing the cloak granted magical protection, the gambler devised a scheme.
+
+Whenever he gambled, he cheated openly—or at least made it appear that he did—then fought his enraged opponents once tempers flared, often with considerable wagers at stake. The plan worked perfectly until he overestimated his own chances and found himself facing an opponent whose fists proved stronger than his armor.
+
+Equipped abilities:
+- Luck: +2
+- Whenever the wearer makes a melee attack, the target suffers a non-cumulative -2 Luck penalty for 5 rounds.
+
+STATISTICS:
+
+Armor Class: 8
+Weight: 15
+Strength Required: 4
+Not usable by:
+ Mage~
+
+@80163 = ~Royal Donkey Ring of Protection~
+@80164 = ~An ill-tempered enchanter, exasperated by his lord's endless demands for magical entertainment, crafted this ring in the hope of permanently reducing the demanding nobleman to idiocy. He presented it at court, claiming it was an enchanted relic from a distant land where the donkey was revered as a symbol of perseverance. Without a moment's hesitation, the lord slipped the ring onto his finger. Disappointed that it granted him no obvious powers, the noble tossed it into a bed of reeds. The enchanter, equally disappointed that his victim had not become witless, put the ring on himself.
+
+At last, he found peace.
+
+STATISTICS:
+
+Equipped abilities:
+- Intelligence: -8
+- Wisdom: -3
+- Constitution: +3
+- Saving Throws vs. Paralysis/Poison/Death: +3
+- Immunity to Paralysis
+- Immunity to Death Magic
+- Immunity to Poison and Disease
+- Special: Animated enough to provide amusement.~
+
+@80165 = ~Blood-Red Ioun Stone~
+@80166 = ~This blood-colored stone forms a perfectly smooth, sparkling sphere. Black whorls seem to dance across its surface, while the light occasionally reveals glimmers of gold.
+
+STATISTICS:
+
+Equipped ability:
+- Minimum damage inflicted by attacks: +2~
+
+@80167 = ~The Chymaridumirium~
+@80168 = ~This thick magical tome explains how to master an entirely new sphere of magic: Reflection Magic. Written by an extraplanar shaman who once found himself stranded on the Prime Material Plane, the book serves as a testament to ensure that the world does not forget the existence of the Demiplane of Reflections. In addition to recounting the shaman's story and providing a detailed description of his native demiplane, it explains how to draw magical energy from it. Unfortunately, everything is written in shamanic terminology, leaving only druids capable of truly understanding the connection.
+
+STATISTICS:
+
+- Teaches the reader six Reflection spells, then vanishes, only to reappear somewhere else.
+
+Usable only by:
+ Druid
+ Shaman~
+
+@801671 = ~Mirror Image (Illusion/Phantasm)
+Sphere: Reflections
+Level: 1
+Range: 0
+Duration: 3 rounds + 1 round/level
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+When casting Mirror Image, the druid creates 2 to 8 duplicates of himself (maximum of 4, plus 1 additional image per 5 caster levels). These images imitate the druid's every action perfectly. Because the spell creates a subtle visual distortion, enemies cannot distinguish the true druid from his reflections. Whenever a duplicate is struck by a melee or missile attack (magical or otherwise), it disappears, while the remaining images persist until they too are destroyed. It is important to note, however, that the caster is not immune to attack, as an enemy may still strike the real druid instead of one of the images.~
+
+@801672 = ~Improved Reflected Image (Illusion/Phantasm)
+Sphere: Reflections
+Level: 3
+Range: 0
+Duration: 1 round/level
+Area of Effect: The caster
+Casting Time: 4
+Saving Throw: None
+
+This spell creates a reflection of the caster that moves beside him, perfectly copying all of his actions. Enemies attacking the druid cannot tell which is real, giving each attack a 50% chance to strike the reflection and a 50% chance to strike the druid. The reflected image disappears if dispelled or when the spell's duration expires.~
+
+@801673 = ~Lesser Simulacrum~
+
+@801674 = ~Lesser Simulacrum (Illusion/Phantasm)
+Sphere: Reflections
+Level: 4
+Range: 0
+Duration: 2 turns
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates a semi-real duplicate of the druid under the caster's control. The Lesser Simulacrum has 60% of the druid's hit points and 60% of the druid's combat abilities. It cannot use quick-slot items, cast spells, or shapeshift, but it attacks with an exact copy of whatever equipment the druid is wearing when the spell is cast.~
+
+@801675 = ~Illusory Double~
+
+@801676 = ~Illusory Double (Illusion/Phantasm)
+Sphere: Reflections
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+This spell grants the caster Improved Invisibility and instantly teleports them a short distance from their original position. At the same time, a perfect duplicate of the caster is created, possessing the same number of hit points. The duplicate cannot attack, cast spells, or perform any meaningful actions, but it can move about and serve as a convincing decoy for the druid. The image remains until its hit points are depleted or it is destroyed by Dispel Magic or any other illusion-dispelling effect.~
+
+@801677 = ~Project Image~
+
+@801678 = ~Project Image
+(Illusion/Phantasm)
+Sphere: Reflections
+Level: 6
+Range: 0
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates a duplicate of the druid. The duplicate can move freely, has the same number of hit points as the caster, and can cast the same spells. However, it cannot engage in physical combat. If the image is destroyed, the spell ends and the druid may move again. Likewise, if the druid suffers damage while the spell is active, the image vanishes and the druid regains the ability to move. Otherwise, the image persists for the spell's duration or until dispelled by Dispel Magic or any other illusion-dispelling spell, such as True Sight.~
+
+@801679 = ~Simulacrum (Illusion/Phantasm)
+Sphere: Reflections
+Level: 7
+Range: 0
+Duration: 1 round/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates an almost perfect duplicate of the druid. The simulacrum is created at 60% of the druid's level and possesses all of the abilities the druid would have at that level. It also has 60% of the druid's hit points and remains under the caster's complete control.~
+
+@80169 = ~Illustrated Deck of Cards~
+@80170 = ~This deck contains cards, each depicting one or more creatures in a variety of landscapes, either at rest or engaged in battle. You are struck by the astonishing realism of the illustrations: the scenery is rendered with such precision that it seems as though you are looking through a window. Whenever a creature occupies much of a card, every detail of its anatomy is visible, nothing omitted. They look almost as though living creatures had been frozen onto the cards. Many of the creatures are familiar to you, though some are entirely unknown. On the back of every card, a name is embossed in golden letters: Sony Instamatic Reality Mark 5 Life Edition.
+
+Once per day, the deck's magic may be activated. To do so, the cards must be shuffled and one drawn at random. The creature or creatures depicted on the chosen card immediately appear under the control of the card's drawer for 2 turns, or until destroyed. They must remain near the location where they were summoned and cannot follow the deck's owner into another area.~
+
+@80171 = ~Dreamdancer's Ring~
+
+@80172 = ~Dreamdancer was not only a celebrated performer renowned for portraying countless men and women upon the stage, but also an accomplished warrior. After the artist's death, a golden ring set with a shimmering blue gemstone was found upon one finger. Into this ring Dreamdancer had poured a fragment of the soul, ensuring that some measure of legendary talent would endure. Slender and solitary throughout life, Dreamdancer left the world never knowing whether the famed performer had truly been a man or a woman.
+
+Equipped ability:
+- Defensive Spin no longer prevents the Blade from moving.~
+
+@80173 = ~Bearfriend~
+
+@80174 = ~According to legend, a wise and powerful druid traveled in the company of bears. In battle, the druid would engage the enemy head-on while the bears circled the melee, distracting and flanking their foes. Years of such coordinated assaults, together with the druid's magic, are said to have imbued this amulet with enchantments that grant similar gifts to its wearer.
+
+STATISTICS:
+
+Equipped ability:
+- Whenever the wearer casts Conjure Animals, one additional bear is summoned.
+- There is a 2% chance that this additional bear will become independent of the spell and remain permanently at the wearer's side.
+
+Usable only by:
+ Druid
+ Cleric~
+
+@80175 = ~Counter-Jinx~
+
+@80176 = ~This amulet once belonged to Quarib the Unlucky, a warrior remembered less for his many exploits than for his spectacular misfortunes. Wherever he went and whatever he attempted, bad luck followed, ensuring disaster was never far behind. Finally growing tired of being humiliated by creatures as insignificant as goblins—even though he could dispatch them with ease—Quarib sought out an enchanter to craft an amulet that would transform his ill fortune into good luck. The enchantment worked, and he wore the amulet throughout the rest of his long career. Yet Quarib's misfortune was so extraordinary that, over time, it seeped into the item itself, twisting its magic.
+
+STATISTICS:
+
+Equipped ability:
+- Whenever the wearer scores a critical miss, they immediately gain the effects of Critical Strike and Deathblow.
+- Critical miss chance: +2~
+
+@80177 = ~Taluntain's Fire Staff +1~
+@80178 = ~In a remote corner of Turmish, far from the reach of civilized society, tales are told of a school built to train wizards in a place so small, obscure, and forgotten that the rest of the world scarcely knows it exists.
+
+The school's grand master, an elven mage known as Taluntain, eventually recognized a growing problem. The magical aura surrounding the academy acted as a beacon to the monstrous creatures of the surrounding wilderness. Marauding trolls from the nearby moors regularly assaulted its walls. Determined to end the threat, Taluntain devised a formidable staff specifically to deal with the trolls.
+
+During those difficult years, the stern and hot-tempered Taluntain soon discovered that his invention had other practical applications—particularly as a means of disciplining unruly students. In the years that followed, this became its primary purpose.
+
+STATISTICS:
+
+Charge ability:
+- The wielder may cast Burning Hands at 5th level at will.
+
+Special:
+- The wielder may make ranged attacks by hurling small fireballs. These attacks use Dexterity instead of Strength.
+
+Melee Damage: 1D6+1, +1 fire damage
+Ranged Damage: 1D4+1 fire damage
+THAC0: +1 (melee)
+Damage Type: Crushing / Fire
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Strength Required: 5~
+
+@80179 = ~Wolf Pendant~
+
+@80180 = ~For generations, the people of the Silver Marches told countless tales of the aggressive wildlife that haunted their forests. When woodcutters and hunters began suffering frequent attacks from animals near the villages, a master huntsman was sent to investigate. Every account of the attacks mentioned one common detail: the presence of an enormous wolf. The hunter set out to track down and slay the beast, hoping its death would put an end to the assaults.
+
+A month later, the hunter returned. He was at death's door, covered in deep, bleeding wounds. Many of his bones had been shattered, as though he had been trampled by a gigantic beast. Clutched in one hand was a bloodstained pendant. He died before reaching the village and never revealed what had happened during his hunt. After his death, however, the attacks ceased completely.
+
+STATISTICS:
+
+Charge ability:
+- Twice per day, the wearer may transform into a Greater Werewolf for 3 turns.
+
+Special:
+- Cursed: once worn, the pendant cannot be removed. While transformed, each attack has a 1% chance of causing the wearer to succumb to the beast's savagery, becoming uncontrollable.~
+
+@80181 = ~Wind's Arm +3~
+@80182 = ~A dozen unique battle axes were commissioned by King Tristan Kendrick to equip his royal bodyguards. Each was forged to honor one of the elements governing the fortunes of seafarers. Additional axes were later crafted to celebrate rain, stars, the sun, waves, and other maritime symbols.
+
+Wind's Arm was the favorite weapon of Captain of the Guard Bial Morgann, who had earned the nickname "Casita mel Alisias"—the Captain of the Wind—during his years of service in the Callidyrran navy. It was said that no matter which direction Morgann intended to travel, the winds would already be blowing that way. He eventually entrusted Wind's Arm to his most skilled guardsman, who used it on many occasions to keep overexcited Nelanther raiders from venturing too close to the throne.
+
+The battle axe itself is fashioned in the likeness of the wind. A face is carved into its head, as though exhaling a powerful gust along the sweeping curves of the blade. Even the grain of the ash-gray haft refuses to run straight, instead swirling gracefully around the shaft.
+
+STATISTICS:
+
+Charge abilities:
+- Gust of Wind (Zone of Sweet Air) once per day.
+
+Combat ability:
+- Enemies struck are knocked back 10 feet (Save vs. Breath Weapon negates).
+
+THAC0: +3
+Damage: 1D8 +3
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Axe
+Type: One-handed
+Strength Required: 10
+Not usable by:
+ Druids
+ Clerics
+ Mages
+ Thieves~
+
+@801821 = ~Gust of Wind~
+@80183 = ~The Nest~
+@80184 = ~Tiny insects flutter constantly around these bracers, while others scurry across their surface, occasionally disappearing into small holes within the seemingly hollow wood. Rather than damaging the bracers, their presence somehow appears to strengthen them.
+
+STATISTICS:
+
+Equipped ability:
+- 3% chance to cast Summon Insects when attacking.
+
+Charge abilities:
+- Insect Plague Cloak and Summon Insects, once per day each.
+
+Weight: 1~
+
+@801841 = ~Insect Plague Cloak~
+
+@80185 = ~Belib's Flamethrower~
+@80186 = ~Belib the Prudent was a remarkably brilliant gnome who proclaimed himself an adventurer while taking an absurd number of precautions before even stepping outside his front door. To prepare for every conceivable danger, he crafted countless magical devices that were meant to rescue him from any predicament. His collection would have been the envy of any true adventurer—if only Belib had ever managed to leave home with it.
+
+It took many years to complete his creations. At last, Belib packed his entire assortment of gadgets into a specially enchanted bag capable of carrying far more than its size suggested. With the burden strapped to his back, he triumphantly stepped onto his doorstep... promptly tripped over the threshold, and collapsed beneath the weight of his own equipment as it spilled across the street. His precious inventions lay scattered everywhere, pinning the unfortunate gnome beneath them. The passersby, rather than helping him to his feet, simply helped themselves to the contents of the magical bag.
+
+Belib's Flamethrower is undoubtedly among his most devastating inventions, particularly against groups of enemies. Although it resembles an ordinary wand, it conceals a mechanism capable of projecting fire in several different ways. It naturally replenishes its charges each day and requires very little maintenance. Unsurprisingly, it became a highly coveted treasure among adventurers and changed hands more times than anyone could count.
+
+STATISTICS:
+
+Charge abilities:
+- Three times per day, projects flames (fire damage; Save vs. Spell for half damage) in one of three modes:
+ Concentrated (Incinerator; lasts 2 rounds; 10D6 damage)
+ Sprayed (80° cone, 4 meters long; 10D6 damage)
+ Launched (Fireball with a 4.5-meter radius; 10D4 damage).~
+
+@801861 = ~Concentrated~
+@801862 = ~Sprayed~
+@801863 = ~Launched~
+
+@80187 = ~Ganrish's Star +3~
+@80188 = ~Long ago, Ganrish, the great half-orc explorer, sailed to the farthest reaches of Faerun, navigating solely by the stars and the tides. One night, while far out at sea, he witnessed a spectacular meteor shower streaking across the heavens. One of the falling stars crashed onto a nearby island in a blinding flash of light. Ganrish immediately ordered his crew to make for the island.
+
+The island's trees burned like kindling, and the beach sand had been fused into glass. Upon landing, the explorer fought his way to the island's center, now reduced to a smoking crater. There, at its heart, he discovered a stone unlike any other.
+
+Back aboard his ship, Ganrish studied the strange object. Though remarkably heavy, it drifted slowly whenever dropped or thrown, trailing blue flames through the air. Yet when it struck the ground, it showered sparks and landed with a force wildly disproportionate to its speed. These unusual properties made it an ideal bludgeoning weapon. Unable to shape the stone by any known means, Ganrish instead fashioned this curious mace around it and commissioned a wizard to enchant it so that he alone would be immune to its effects.
+
+STATISTICS:
+
+Combat ability:
+- On a successful hit, triggers an explosion that deals 1D4 crushing damage to all creatures within 3.5 meters. The wielder is immune to this explosion.
+
+THAC0: +3
+Damage: 1D6 +7, +1 electrical damage
+Damage Type: Crushing
+Weight: 7
+Speed Factor: 6
+Proficiency Type: Mace
+Type: One-handed
+Strength Required: 10
+Not usable by:
+ Druids
+ Mages
+ Thieves~
+@8018799 = ~Ganrish's Star +4~
+@8018899 = ~Long ago, Ganrish, the great half-orc explorer, sailed to the farthest reaches of Faerun, navigating solely by the stars and the tides. One night, while far out at sea, he witnessed a magnificent meteor shower streaking across the heavens. But one of the falling stars crashed onto a nearby island in a blinding flash of light. Ganrish immediately ordered his crew to make for the island.
+
+The island's trees burned like kindling, and the sand along its shores had been transformed into glass. After landing, the explorer fought his way to the center of the island, where the impact had left nothing but a smoking crater. There, at its heart, he discovered a stone unlike any other.
+
+Back aboard his ship, Ganrish began studying it. The stone was remarkably heavy, yet when thrown or dropped it fell unnaturally slowly, trailing blue flames behind it. Upon striking the ground, it showered sparks and hit with a mysterious force far greater than its speed should have allowed. These strange properties made it an ideal bludgeoning weapon. Unfortunately, it proved impossible to forge or reshape, so Ganrish fashioned this unusual mace from it and commissioned a wizard to enchant him against its effects.
+
+Cromwell's addition of another metal forged from a fallen star has made Ganrish's Star even more powerful.
+
+STATISTICS:
+
+Combat Abilities:
+• On a successful hit, releases an explosion that deals 1d6 crushing damage to all creatures within a 3.5-foot radius. The wielder is immune to this explosion.
+
+THAC0: +4
+Damage: 1d6 +9, +1 electrical damage
+Damage Type: Crushing
+Weight: 7
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-Handed
+Requires: 10 Strength
+
+Not Usable By:
+Druid
+Mage
+Thief~
+
+@80189 = ~Tattered Journal~
+@80190 = ~This journal appears to have been written by an inquisitor who had long since lost his sanity. While the beginning is quite conventional, recounting the exploits of one Betheraloff in grandiose and flowery language, the narrative gradually descends into increasingly confused ramblings.
+
+A closer reading reveals that this decline begins shortly after the inquisitor fought and, with great difficulty, defeated a lich near Iriaebor. From that point onward, he repeatedly cited the lich as proof that undead were merely another kind of arcane spellcaster. His fellow inquisitors tried to reason with him, explaining that only the most powerful undead could wield magic, but Betheraloff's clouded mind ignored their advice.
+
+Instead, he became obsessed with exterminating every undead creature throughout the Eastern Lands. Before long, he found himself overwhelmed, dividing his efforts between hunting renegade mages and destroying every shambling zombie that crossed his path. By then, keeping a coherent journal had become the least of his concerns, and the final pages dissolve into nearly incomprehensible rants about the sacredness of his duty and his renewed faith.
+
+Even so, the journal has its uses. If read carefully, before the text becomes completely incoherent, Betheraloff claims to have destroyed lesser undead using nothing more than his Turn Undead ability. Could it be that, in his madness, Betheraloff rediscovered a forgotten power once possessed by inquisitors?
+
+STATISTICS:
+
+Allows an Inquisitor who studies it long enough to learn how to Turn Undead.
+
+Usable By:
+Inquisitor~
+
+@80191 = ~Bracers of Double Striking~
+@80192 = ~The outlaw heroine Magnera Delita wore these bracers during her legendary assault on the prison of Selgaunt to rescue her captive husband from the clutches of a corrupt Sembian magistrate. Magnera fought her way through the entire prison garrison, carving a path from the front gate to the keep, where the magistrate himself stood between her and her husband's cell.
+
+The two engaged in a fierce saber duel. Though a skilled swordsman, the officer was no match for Magnera. His many defensive techniques and sturdy shield could not withstand her relentless barrage of blows. Helpless against her assault, he could do nothing but curse the outlaw's name as she struck him down.
+
+STATISTICS:
+
+- Eliminates all penalties for fighting with two weapons~
+
+@80193 = ~Felipo's Iron Gauntlets~
+@80194 = ~The Cormyrean captain Felipo wore these gauntlets during his legendary naval duel against Jón Everbrok, the infamous pirate. At the height of the battle, while their crews clashed in a bloody melee all around them, the two commanders crossed blades beneath a storm-filled sky.
+
+The duel gradually turned in Everbrok's favor as the aging Felipo's endurance began to fail. Exhausted, the captain summoned his remaining strength for one final desperate assault. He forced Everbrok back—but only briefly. The pirate captain disarmed the admiral and prepared to deliver the killing blow. Seeing death before him, the honorable Felipo raised his hand in salute to his opponent.
+
+At that very moment, the heavens split apart and lightning struck Felipo's iron gauntlets in a blinding flash. The bolt arced into Everbrok, killing him instantly and hurling him over the ship's rail. Inspired by their captain's miraculous victory, Felipo's men found renewed courage and won the battle.
+
+After retiring, the captain locked the gauntlets away in a chest, wary of both their power and their unpredictability.
+
+STATISTICS:
+
+- When the wearer's hit points fall below 10% of maximum, there is a 20% chance each round that a bolt of lightning will strike the wearer and arc to the nearest creature, dealing 10d6 electrical damage (Save vs. Spell for half damage).~
+
+@80195 = ~Nullification Wand~
+@80196 = ~This wand suppresses the magical properties of the target's equipped weapons, rendering them non-magical for two turns. It also works against the natural weapons of monsters.~
+
+@80197 = ~Erratic Lightning Plate Mail +2~
+@80198 = ~The Bardatto family commissioned the enchanter Deltro to forge a suit of full plate that would protect its wearer from electricity. By combining copper plates and other conductive materials with powerful protective enchantments, Deltro hoped to redirect and harmlessly disperse any electrical attack into the surrounding air.
+
+His experiment failed. Although the armor successfully redirected electricity without harming its wearer, it also generated violent electrical storms. Expensive to construct and magnificent in appearance, it nevertheless failed to fulfill its intended purpose. It was eventually presented as a gift to a prominent member of the Bardatto family, where it served as nothing more than an ornamental display for many years.
+
+STATISTICS:
+
+Equipping Abilities:
+- 100% Electrical Resistance
+- Reflects all electrical damage back to its source
+- Whenever the wearer is struck, 20% chance to cast Lightning Bolt at the nearest creature
+- Whenever the wearer rolls a critical miss, casts Chain Lightning that may strike everyone nearby
+- Whenever the wearer scores a critical hit, casts Chain Lightning
+- All damage inflicted by these three effects is 4d6 electrical damage (Save vs. Spell for half damage)
+
+Armor Class: 1 (-2 vs. slashing weapons)
+Weight: 70
+Required Strength: 15~
+
+@80199 = ~Robe of the Recluse~
+@80200 = ~Also known as the Robe of the Stubborn, this garment has been carefully maintained despite its worn and shabby appearance. It was created by a long-forgotten wizard who was convinced that the only thing preventing him from achieving a brilliant career was the endless distractions caused by narrow-minded people.
+
+Imbued with its creator's misanthropic nature, the robe fulfilled his wish in two ways: people no longer sought him out, and he found it much easier to advance his studies. He never married and died alone.
+
+STATISTICS:
+
+Equipping Abilities:
+- Armor Class: 8
+- Charisma: -6
+- Experience gained is set to 115%
+
+Usable By:
+- Mage~
+
+@80201 = ~Wand of Displacement~
+@80202 = ~There are five wands like this one. Lord Gobel presented one to each of the guardians entrusted with protecting his treasury. They allowed their bearers to pass through the paralyzing barrier that sealed the treasure chamber.
+
+Unfortunately for Gobel, the temptation proved too great. The guards stole his treasure and fled.
+
+STATISTICS:
+
+Charge Abilities:
+- Teleport (instant)
+- Switch Places (targeted; swaps the positions of the user and the target)~
+
+@802021 = ~Teleport~
+@802022 = ~Switch Places~
+
+@80203 = ~Bilafull's Magical Amulet~ //Icons representing the 9 abilities?
+@80204 = ~Bilafull was a gifted actor, capable of playing every imaginable role, from a romantic paladin to the vilest criminal. His only flaw was his complete immersion in his performances, which extended far beyond the stage. Whenever he portrayed a tyrant, he behaved like one and mistreated his fellow actors. Whenever he played a hierophant druid, the theater would soon be overrun with animal companions.
+
+The mystery of his strange behavior was solved the day he was found murdered in his bed. Nothing had been stolen, but his amulet revealed the truth: he did not merely play these characters—he became them.
+
+STATISTICS:
+
+Charge Ability:
+- Change Alignment once per day~
+
+@802041 = ~Lawful Good~
+@802042 = ~Neutral Good~
+@802043 = ~Chaotic Good~
+@802044 = ~Lawful Neutral~
+@802045 = ~True Neutral~
+@802046 = ~Chaotic Neutral~
+@802047 = ~Lawful Evil~
+@802048 = ~Neutral Evil~
+@802049 = ~Chaotic Evil~

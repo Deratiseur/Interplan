@@ -1,0 +1,2547 @@
+@6011 = ~Fireburst~
+@6012 = ~Fireburst (Evocation)
+
+Level: 1
+Range: 0
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 5-ft. radius
+Saving Throw: 1/2
+
+This spell creates a fiery explosion centered upon the caster, scorching all creatures within a 5-foot radius. All affected creatures suffer 1d4 points of fire damage per caster level, to a maximum of 10d4. A successful save vs. spell reduces the damage by half.~
+
+@6013 = ~Spell Shield~
+@6014 = ~Spell Shield (Abjuration)
+
+Level: 1
+Range: 0
+Duration: 3 rounds + 1 round/2 levels
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+This spell conjures a small orb that circles the caster, shielding him by absorbing part of the harmful effects of incoming spells. The caster gains a +1 bonus to saving throws vs. spell. At 8th level the wizard creates a second shield, and at 15th level a third, for a maximum bonus of +3 to saving throws vs. spell.~
+
+@6015 = ~Déorie's Arcane Particles~
+@6016 = ~Déorie's Arcane Particles (Conjuration)
+
+Level: 1
+Range: 0
+Duration: 3 rounds
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell surrounds the wizard with shimmering particles charged with magical energy. These particles empower every spell he casts, causing them to be treated as though cast by a wizard four levels higher. For example, a 1st-level wizard under the effects of this spell would cast Magic Missile as though he were 5th level, producing three missiles instead of one.~
+
+@6017 = ~Flame Burst~
+@6018 = ~Flame Burst (Evocation)
+
+Level: 1
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 5-ft. radius
+Saving Throw: Neg.
+
+This spell creates a sudden burst of flame at the designated point. Creatures within the area who fail a save vs. breath suffer 1d2 points of fire damage per caster level, to a maximum of 8d2.~
+
+@6019 = ~Repulsion~
+@60110 = ~Repulsion (Illusion)
+
+Level: 1
+Range: 0
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 5-ft. radius
+Saving Throw: Neg.
+
+This spell creates a wave of illusory force, causing enemies within a 5-foot radius to believe they have been hurled backward. Those who fail a save vs. spell are actually driven back 30 feet and suffer 1d4+1 points of crushing damage.~
+
+@60111 = ~Absence~
+@60112 = ~Absence (Alteration)
+
+Level: 1
+Range: 0
+Duration: 1 round
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+This spell causes the caster to vanish completely. Spells already affecting him continue to function, but the caster himself is simply no longer there. For one round he cannot be targeted, harmed, or affected by any means.~
+
+@6021 = ~Precision~
+@6022 = ~Precision (Divination)
+
+Level: 2
+Range: 0
+Duration: 2 rounds/level
+Casting Time: 2
+Area of Effect: The caster
+Saving Throw: None
+
+This spell sharpens the caster's accuracy, allowing him to more easily discern weaknesses in an opponent's defenses. The caster gains a +1 bonus to attack rolls, plus an additional +1 for every 5 caster levels, to a maximum bonus of +5 at 20th level.~
+
+@6023 = ~Energy Buffer~
+@6024 = ~Energy Buffer (Necromancy)
+
+Level: 2
+Range: 0
+Duration: 1 turn/level
+Casting Time: 2
+Area of Effect: The caster
+Saving Throw: None
+
+This spell conjures a sphere of energy above the caster's head that absorbs a portion of the damage he would otherwise suffer, increasing his resilience in battle. The caster's maximum hit points increase by 5, plus 1 additional hit point for every 2 caster levels, to a maximum bonus of +15. This spell does not restore lost hit points if the caster is already wounded.~
+
+@6025 = ~Flame Pulse~
+@6026 = ~Flame Pulse (Evocation)
+
+Level: 2
+Range: 0
+Duration: 2 rounds + 1 round/2 levels
+Area of Effect: 4-ft. radius
+Casting Time: 3
+Saving Throw: 1/2
+
+Sold in a handful of shops within the Crucible and especially useful for clearing the skull rats that infest its sewers, this spell allows the wizard to create rings of fire that radiate outward from him, one each round. Each ring inflicts 2d4 points of fire damage upon all creatures within a 4-foot radius. A successful save vs. spell reduces the damage by half.~
+@60269 = ~Flame Pulse (Evocation)
+
+Level: 2
+Range: 0
+Duration: 1 round/2 levels
+Area of Effect: 15-ft. radius
+Casting Time: 3
+Saving Throw: 1/2
+
+This spell allows the wizard to create rings of fire that radiate outward from him, one each round. Each ring inflicts 2d4 points of fire damage upon all creatures within a 4-foot radius. A successful save vs. spell reduces the damage by half.~
+
+@6027 = ~Serpent Strike~
+@6028 = ~Serpent Strike (Alteration)
+
+Level: 2
+Range: Touch
+Duration: 3 rounds + 1 round/2 levels
+Casting Time: 3
+Area of Effect: Creature touched
+Saving Throw: None
+
+This spell grants the recipient the speed of a striking serpent. The target gains one additional attack per round and a x2 backstab multiplier. If the recipient already possesses the ability to backstab, its backstab multiplier is increased by an additional x1.
+This spell cannot be cast more than once upon the same target.~
+
+@6029 = ~Staff of Power~
+@60210 = ~Staff of Power (Evocation)
+
+Level: 2
+Range: 0
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: The caster
+Saving Throw: None
+
+This spell creates a staff of pure magical energy in the wizard's hands. The staff inflicts no physical damage and gains no benefit from the wielder's Strength. Instead, it deals magical energy damage based upon the caster's level:
+
+Level 3-6: +1 weapon, 2d4+1 damage
+Level 7-10: 2d6+1 damage
+Level 11-14: +2 weapon, 2d8+2 damage
+Level 15-18: 2d10+2 damage
+Level 19+: +3 weapon, 2d12+3 damage~
+
+@60211 = ~Hexblades~
+@60212 = ~Hexblades (Evocation)
+
+Level: 2
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 2
+Area of Effect: One creature
+Saving Throw: Neg.
+
+This spell causes six steel blades to erupt beneath the feet of a creature that fails its saving throw. Each blade strikes once before vanishing. The damage inflicted depends upon the caster's level:
+
+Level 3-6: 6d4 slashing damage
+Level 7-10: 6d6 slashing damage
+Level 11-14: 6d8 slashing damage
+Level 15-18: 6d10 slashing damage
+Level 19+: 6d12 slashing damage~
+
+@60213 = ~Vengeful Mirror~
+@60214 = ~Vengeful Mirror (Abjuration) //Remove resource: effect 321
+
+Level: 2
+Range: 0
+Duration: Special
+Casting Time: 2
+Area of Effect: The caster
+Saving Throw: None
+
+This spell remains active for up to 4 rounds. If the caster is struck by an attack during that time, the mirror releases its stored energy, inflicting 2d6+4 points of magical damage upon all enemies within a 15-foot radius. Once discharged, the spell immediately ends.~
+
+@6031 = ~Hachitoza's Instinctive Sight~
+@6032 = ~Hachitoza's Instinctive Sight (Divination/Enchantment)
+
+Level: 3
+Range: 0
+Duration: 3 rounds + 1 round/2 levels
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell grants the wizard an instinctive awareness of his foes' vulnerable points, allowing him to strike with uncanny precision. The caster gains a +3 bonus to attack rolls and to his chance of scoring a critical hit.~
+
+@6033 = ~Martial Prowess~
+@6034 = ~Martial Prowess (Divination)
+
+Level: 3
+Range: 0
+Duration: 2 rounds maximum
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell opens the caster's mind to the accumulated battle knowledge of countless warriors drawn from across the land. As the spell reaches completion, the caster must focus upon one of the martial techniques revealed to him. For a brief time thereafter, he is able to surpass his normal limits by reproducing the chosen technique.~
+
+@6035 = ~Claws of Misfortune~
+@6036 = ~Claws of Misfortune (Necromancy)
+
+Level: 3
+Range: Sight of the caster
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell conjures three spectral claws that seize the designated target. The victim suffers 3d6 points of piercing damage and is cursed, suffering a -2 penalty to saving throws, Armor Class, attack rolls, and movement. If the target fails a save vs. spell, it is also paralyzed for the duration of the spell.~
+
+@6037 = ~Tenser's Deadly Blows~
+@6038 = ~Tenser's Deadly Blows (Alteration)
+
+Level: 3
+Range: 0
+Duration: 1d4+4 rounds
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell greatly enhances the caster's martial prowess. For the duration of the spell, every successful melee attack inflicts the maximum possible damage.~
+
+@6039 = ~Bigdip's Immeasurable Strength~
+@60310 = ~Bigdip's Immeasurable Strength (Alteration)
+
+Level: 3
+Range: Touch
+Duration: 11 rounds
+Casting Time: 3
+Area of Effect: Creature touched
+Saving Throw: None
+
+This spell grants the recipient tremendous strength, though the enchantment quickly fades. The target gains a +8 bonus to Strength, which is reduced by 1 point each round thereafter, eventually becoming a -1 penalty on the 10th round and a -2 penalty on the 11th and final round.~
+
+@60311 = ~Charged Weapon~
+@60312 = ~Charged Weapon (Enchantment)
+
+Level: 3
+Range: Touch
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: Creature touched
+Saving Throw: None
+
+This spell charges the target's melee weapon with magical energy. The enchanted weapon inflicts an additional 1d6 points of magical damage with every successful hit.~
+
+@603121 = ~Charged Weapon (Enchantment)
+
+Level: 3
+Range: Touch
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: Creature touched
+Saving Throw: None
+
+This spell charges the target's melee weapon with magical energy. The enchanted weapon inflicts an additional 1d6 points of magical damage with every successful hit. In addition, the weapon is treated as having a +2 enchantment bonus for the purpose of striking creatures requiring magical weapons, unless it already possesses an enchantment bonus of +2 or greater.~
+
+@60313 = ~Conjure Tasty Little Chickens~
+@60314 = ~Conjure Tasty Little Chickens (Conjuration/Summoning)
+
+Level: 3
+Range: 120 ft.
+Duration: 3 rounds + 1 round/2 levels
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons 1d4+1 chickens and fills them with magical energy. They possess no offensive abilities and serve only as decoys, but upon death the energy within them is released as a small toxic cloud. Creatures breathing the fumes must make a save vs. spell at a -2 penalty or suffer poisoning, taking 1 point of damage per second for 2 rounds.~
+
+@60315 = ~Resonant Note~ //Bard only
+@60316 = ~Resonant Note (Evocation)
+
+Level: 3
+Range: Sight of the caster
+Duration: 3 rounds
+Casting Time: 3
+Area of Effect: 15-ft. radius
+Saving Throw: Special
+
+Upon casting this spell, the bard may unleash a deep musical note that echoes into countless resonances throughout a small area. Creatures caught within the area suffer 10d6 points of nonlethal damage and are deafened and stunned for 3 rounds. A successful save vs. spell halves the damage and negates the stun, though the victim is still deafened.
+
+While deafened by this spell, creatures are immune to spells based upon sound, including this spell, Ghostly Wail, Power Word: Resonance, and Banshee's Wail.~
+
+@60317 = ~Pandemonium Screaming Skull~
+@60318 = ~Pandemonium Screaming Skull (Conjuration)
+
+Level: 3
+Range: Sight of the caster
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 5-ft. radius
+Saving Throw: Neg.
+
+This spell hurls a screaming skull at the target. The skull relentlessly pursues its victim and cannot fail to strike. Upon impact, the target and all nearby creatures are subjected to the howling winds of Pandemonium:
+
+100% chance to be deafened (save vs. spell at -6 negates)
+75% chance to be frightened (save vs. spell at -4 negates)
+50% chance to become confused (save vs. spell at -2 negates)
+25% chance to fall into despair (save vs. spell negates)
+10% chance to die of fright (save vs. spell at -2 negates)~
+
+@60319 = ~Déorie's Wondrous Aura~
+@60320 = ~Déorie's Wondrous Aura (Alteration)
+
+Level: 3
+Range: 0
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+The half-fairy Déorie devised this spell merely to show off her fey heritage. Yet the results exceeded even her expectations. In addition to surrounding the caster with a swirling cloud of fairy dust, the spell sweeps away lingering magical residue from the surrounding area, allowing spells to be cast more swiftly. The caster's casting time is reduced by 2.
+
+Déorie never discovered whether this unexpected benefit arose from her fey blood or from a misplaced rune in the spell's formula. It has since been proven that any wizard casting Wondrous Aura enjoys the same effect, confirming that this remarkably useful spell owes its existence to nothing more than a fortunate mistake in its design.~
+@603201 = ~Déorie's Wondrous Aura is already upon you.~
+@603209 = ~Déorie's Wondrous Aura (Alteration)
+
+Level: 3
+Range: 0
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell surrounds the caster with a swirling cloud of fairy dust and sweeps away lingering magical residue from the surrounding area. As a result, the caster's spells are cast more swiftly. (Casting Time: -2)~
+
+@60321 = ~Scourge of Fiends~
+@60322 = ~Scourge of Fiends (Evocation)
+
+Level: 3
+Range: Sight of the caster
+Duration: 1d4+2 rounds
+Casting Time: 3
+Area of Effect: One creature
+Saving Throw: Special
+
+When cast upon a fiend, this spell causes the creature's ichor to burst into flame. The target suffers 1d10 points of damage per caster level, with a successful save vs. spell reducing the damage by half. A fiend that fails its saving throw is also stunned for 1d4+1 rounds.
+
+This spell affects fiends only, but it was specifically designed to overcome their innate Magic Resistance. A fiend's Magic Resistance is treated as 15% lower against this spell.
+
+Curiously, though this spell was created in the Blessed Fields of Elysium and is widely taught there, it proves even more versatile upon the Prime Material Plane, where it is equally effective against all fallen celestials.~
+
+@60323 = ~Power Word: Halt~
+@60324 = ~Power Word: Halt (Conjuration/Summoning)
+
+Level: 3
+Range: Sight of the caster
+Duration: 4 rounds
+Casting Time: 1
+Area of Effect: One creature
+Saving Throw: None
+
+This spell reduces a creature's movement rate to zero. The target may continue to act normally but cannot move for the duration of the spell, though teleportation remains possible. A successful save vs. spell reduces the duration to 2 rounds. Creatures of fewer than 12 Hit Dice receive no saving throw.~
+
+@60325 = ~Spell Theft~
+@60326 = ~Spell Theft (Enchantment)
+
+Level: 3
+Range: Touch
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: One creature
+Saving Throw: Neg.
+
+This spell affects wizards only and has no effect upon any other creature. If the touched wizard fails a save vs. spell, he immediately forgets one spell of the highest spell level he is capable of casting. At the same time, the caster of Spell Theft regains one previously expended spell of up to 6th level.~
+
+@60327 = ~A Step into Shadow~
+@60328 = ~A Step into Shadow (Illusion)
+
+Level: 3
+Range: 0
+Duration: 1 round/level
+Area of Effect: The caster
+Casting Time: 3
+Saving Throw: None
+
+Upon casting this spell, the wizard partially steps into the Demiplane of Shadow. He becomes invisible and gains a +1 bonus to Armor Class, as well as a +20% bonus to Hide in Shadows and Move Silently. If his invisibility is dispelled, he need only remain motionless for 1 round to become invisible once more. This may be repeated at will until the spell is dispelled or its duration expires.~
+
+@60329 = ~Acid Grasp~
+@60330 = ~Acid Grasp (Evocation)
+
+Level: 3
+Range: 0
+Duration: 1 round/level
+Area of Effect: The caster
+Casting Time: 3
+Saving Throw: None
+
+The caster's hand becomes coated in a layer of corrosive acid. The acid does not harm the caster himself, but prevents him from wielding weapons or using scrolls. A successful touch attack inflicts 1d2 points of damage (plus the caster's Strength bonus), in addition to 1d6 points of acid damage plus 1 point per 2 caster levels, to a maximum of 1d6+10 acid damage.~
+
+@60331 = ~Gilispur's Boom-Boom Potions~
+@60332 = ~Gilispur's Boom-Boom Potions (Evocation)
+
+Level: 3
+Range: 0
+Duration: 24 hours
+Area of Effect: The caster
+Casting Time: 3
+Saving Throw: None
+
+Created by a wizard who knew how to enjoy himself, this spell condenses pyrotechnic magic into any ordinary waterskin, transforming it into a highly explosive concoction. A true cause for celebration!
+
+Upon casting this spell, the wizard may create either a Boom-Boom Potion, a Hot-Fuzz Potion, or a Flashy-Flash Potion. The chosen potion appears in the caster's inventory and remains usable for 24 hours before reverting to ordinary water. As a temporary magical item, it has no monetary value.~
+
+@603321 = ~Boom-Boom Potion~
+@603322 = ~Hot-Fuzz Potion~
+@603323 = ~Flashy-Flash Potion~
+@6033231 = ~Throw this potion to create a brilliant flash of light upon impact—certain to liven up any gathering.
+
+PARAMETERS:
+
+Effect: Blinds creatures for 3 rounds and stuns them for 1 round. A successful save vs. spell negates the stun, but the blindness cannot be avoided.
+Area of Effect: 15-ft. radius~
+
+@60333 = ~Ambidexterity~
+@60334 = ~Ambidexterity (Enchantment)
+
+Level: 3
+Range: 0
+Duration: 24 hours
+Area of Effect: The caster
+Casting Time: 7
+Saving Throw: None
+
+This spell allows the caster to use his off hand with the same ease as his dominant one. For the next 24 hours, the caster suffers no penalties whatsoever for fighting with two weapons.~
+
+@60335 = ~Static Discharge~
+@60336 = ~Static Discharge (Evocation)
+
+Level: 3
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: One creature, Special
+Saving Throw: Special
+
+This spell causes the static electricity surrounding the target to erupt violently. If the target succeeds on a save vs. spell, it suffers a discharge that inflicts 6d8 points of electrical damage, and the spell ends.
+
+If the saving throw is failed, however, the discharge becomes far more violent. The target suffers triple damage, delivered as three successive electrical explosions that may also strike creatures within a 5-foot radius. Creatures caught in these secondary blasts (but not the original target) may reduce the damage by half with successful saves vs. spell, made at a -2 penalty against the first explosion and a -1 penalty against the second.~
+
+@60337 = ~Déorie's Swift Escape~
+@60338 = ~Déorie's Swift Escape (Abjuration/Enchantment)
+
+Level: 3
+Range: Sight of the caster
+Duration: 5 rounds
+Casting Time: 3
+Area of Effect: 15-ft. radius
+Saving Throw: None
+
+This spell was devised to allow a party of adventurers to make a swift escape from imminent danger. Upon casting, all allies within a 15-foot radius of the caster are protected by a special Sanctuary that cannot be dispelled by spells that detect or negate invisibility. In addition, they may move at three times their normal speed.
+
+Any offensive action taken by a creature protected by this Sanctuary immediately ends the effect for that creature.~
+
+@6041 = ~Spider Form~
+@6042 = ~Spider Form (Alteration)
+
+Level: 4
+Range: 0
+Duration: 2 turns
+Area of Effect: The caster
+Casting Time: 4
+Saving Throw: None
+
+This spell transforms the caster into a giant spider. The caster may choose from several spider forms, gaining each form's special abilities, attacks, and the ability to move freely across webs.
+
+Once a form has been chosen, it cannot be changed until the caster returns to his natural shape or the spell expires. While transformed, the caster cannot speak or cast spells.
+
+The available forms are:
+
+Hairy Spider: Very weak attack, Detect Invisibility.
+Web Spider: May create 4 webs; each attack has a 5% chance to entangle the target.
+Eclipsing Spider: Teleport at will; highly virulent poison.
+Sabre Spider: Haste; 5 attacks per round.~
+
+@604219 = ~Hairy Spider~
+@604229 = ~Giant Spider~//For the tome
+@604239 = ~Web Spider~
+
+@6043 = ~Phantom Bow~
+@6044 = ~Phantom Bow (Evocation)
+
+Level: 4
+Range: 0
+Duration: 1 turn/2 levels
+Area of Effect: The caster
+Casting Time: 4
+Saving Throw: None
+
+The renowned conjurer Salyvia created this spell because she lamented never being able to wield a bow, a weapon she had always admired and longed to master. This spell conjures a pale blue magical bow that may be used by any wizard. It requires no proficiency, weighs nothing, and appears directly in the caster's hands for the duration of the spell.
+
+The bow fires three arrows per round. It creates its own glowing arrows, which count as a +3 magical weapon. These arrows grant a +3 bonus to attack rolls and inflict 1d6+3 points of piercing damage, plus 3 points of magical damage.
+
+(In classic BG2, do not cast this spell while wielding an off-hand weapon, or the game may crash.)~
+
+@60449 = ~Phantom Bow (Evocation)
+
+Level: 4
+Range: 0
+Duration: 1 turn/2 levels
+Area of Effect: The caster
+Casting Time: 4
+Saving Throw: None
+
+This spell conjures a pale blue magical bow that may be used by any wizard. It requires no proficiency, weighs nothing, and appears directly in the caster's hands for the duration of the spell.
+
+The bow fires three arrows per round. It creates its own glowing arrows, which count as a +3 magical weapon. These arrows grant a +3 bonus to attack rolls and inflict 1d6+3 points of piercing damage, plus 3 points of magical damage.
+
+(In classic BG2, do not cast this spell while wielding an off-hand weapon, or the game may crash.)~
+
+@60441 = ~Phantom Bow~
+@60442 = ~This magical bow was created according to the spell formula devised by Salyvia the Gentle. It draws upon residual magical energy to create its own arrows.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d6+3 piercing + 3 points of magical damage
+Special: Sets the wielder's Short Bow proficiency to 1
+Weight: 1
+Speed Factor: 3
+Proficiency Type: Short Bow
+Type: Two-handed~
+
+@6045 = ~Nature's Communion~
+@6046 = ~Nature's Communion (Evocation)
+
+Level: 4
+Range: 0
+Duration: Variable
+Casting Time: Variable
+Area of Effect: The caster
+Saving Throw: None
+
+Created upon Mount Olympus to allow a select few traveling wizards to benefit from the gifts of nature, this spell was never intended to exist upon the Prime Material Plane. Smuggling? A careless wizard? Only Agenor knows how such a scroll found its way into his shop.
+
+This spell allows the wizard to commune briefly with nature in the manner of a druid. Depending upon the caster's level, one of the following powers may be invoked:
+
+Level 7-9: Entangle, Wolf Shape
+Level 10-12: Summon Insects, Brown Bear Shape
+Level 13-15: Animal Summoning I, Call Woodland Beings
+Level 16-18: Animal Summoning II, Insect Plague, Animal Spirit
+Level 19+: Animal Summoning III, Creeping Doom
+
+Animal Spirit: This spell calls an animal spirit to merge with the caster. For 1 turn, the chosen spirit grants one of the following blessings:
+
+Bull: +2 Strength, +3 Movement Rate
+Cat: +2 Dexterity, immunity to Web and Entangle
+Bear: +2 Constitution, +3 bonus to saves vs. poison and death
+Fox: +2 Intelligence, Detect Traps
+Owl: +2 Wisdom, Detect Invisibility
+Eagle: +2 Charisma, +4 bonus to ranged THAC0.~
+@60469 = ~Nature's Communion (Evocation)
+
+Level: 4
+Range: 0
+Duration: Variable
+Casting Time: Variable
+Area of Effect: The caster
+Saving Throw: None
+
+This spell allows the wizard to commune briefly with nature in the manner of a druid. Depending upon the caster's level, one of the following powers may be invoked:
+
+Level 7-9: Entangle, Wolf Shape
+Level 10-12: Summon Insects, Brown Bear Shape
+Level 13-15: Animal Summoning I, Call Woodland Beings
+Level 16-18: Animal Summoning II, Insect Plague, Wild Might
+Level 19+: Animal Summoning III, Creeping Doom
+
+Animal Spirit: This spell calls an animal spirit to merge with the caster. For 1 turn, the chosen spirit grants one of the following blessings:
+
+Bull: +2 Strength, +3 Movement Rate
+Cat: +2 Dexterity, immunity to Web and Entangle
+Bear: +2 Constitution, +3 bonus to saves vs. poison and death
+Fox: +2 Intelligence, Detect Traps
+Owl: +2 Wisdom, Detect Invisibility
+Eagle: +2 Charisma, +4 bonus to ranged THAC0.~
+
+@60461 = ~Animal Spirit~
+
+@6047 = ~Frenzied Skeleton~
+@6048 = ~Frenzied Skeleton (Necromancy)
+
+Level: 4
+Range: Sight of the caster
+Duration: 9 rounds
+Casting Time: 4
+Area of Effect: One skeleton
+Saving Throw: None
+
+This spell can affect only skeletons and has no effect upon any other creature.
+
+The affected skeleton is driven into a frenzy. It gains the effects of Haste and attacks 3 times per round. On the 4th round, it gains an additional +3 Movement Rate and attacks 4 times per round. On the 7th round, it gains another +3 Movement Rate and attacks 5 times per round. On the 10th round, the strain becomes too great and the skeleton explodes in a shower of bone shards, inflicting 10d4 points of piercing damage to all creatures in a small area around it. A successful save vs. spell reduces this damage by half.~
+
+@6049 = ~Poison Nova~
+@60410 = ~Poison Nova (Necromancy)
+
+Level: 4
+Range: Sight of the caster
+Duration: 1 round/2 levels
+Casting Time: 4
+Area of Effect: 10-ft. radius
+Saving Throw: 1/2
+
+This spell creates a burst of poisonous energy at the designated location. Creatures within the area suffer 1d6 points of poison damage for every 2 caster levels (to a maximum of 10d6) and must make a successful save vs. poison or become poisoned, suffering an additional 2 points of poison damage each round.~
+@6041099 = ~Poison Nova (Necromancy)
+
+Level: 5
+Sphere: Poison
+Range: Sight of the caster
+Duration: 1 round/2 levels
+Casting Time: 4
+Area of Effect: 10-ft. radius
+Saving Throw: 1/2
+
+This spell creates a burst of poisonous energy at the designated location. Creatures within the area suffer 1d6 points of poison damage for every 2 caster levels (to a maximum of 10d6) and must make a successful save vs. poison or become poisoned, suffering an additional 2 points of poison damage each round.~
+
+@60411 = ~Greater Mirror Image~
+@60412 = ~Greater Mirror Image (Illusion/Phantasm)
+
+Level: 4
+Range: 0
+Duration: 1 round/level
+Area of Effect: The caster
+Casting Time: 4
+Saving Throw: None
+
+This spell creates a perfect reflection of the caster that moves at his side, mimicking his every action. Enemies attacking the wizard cannot distinguish the true caster from the illusion: each attack has a 50% chance to strike the image and a 50% chance to strike the wizard. The image disappears if dispelled or when the spell's duration expires.~
+
+@60413 = ~Bakanëo's Fantastic Reckoning*~
+@60414 = ~Bakanëo's Fantastic Reckoning* (Conjuration/Summoning)
+
+Level: 4
+Range: Special
+Duration: Special
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: Special
+
+The wild mage Bakanëo devised this spell during a period of profound despair. By altering Nahal's Reckless Dweomer to create ever more violent wild surges in the hope of finding the death he lacked the courage to seek himself, he inadvertently elevated the spell to an entirely new level.
+
+This improved version of Nahal's spell allows the caster to shape chaotic energy into any known arcane spell, even if he possesses only the vaguest notion of what that spell is meant to accomplish.
+
+However, the wild mage who casts this spell draws the tides of chaos irresistibly toward himself, suffering a -50 penalty on all Wild Surge table rolls both when casting the spell and for the next 1d10 rounds. It is therefore strongly recommended that this spell never be cast.
+
+(This spell is compatible with mods that add new spells. If several such mods are installed, the spell selection list may become veeeeeery long. To make browsing easier, spells are presented in descending spell-level order.)~
+
+@604149 = ~Bakanëo's Fantastic Reckoning* (Conjuration/Summoning)
+
+Level: 4
+Range: Special
+Duration: Special
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: Special
+
+This improved version of Nahal's spell allows the caster to shape chaotic energy into any known arcane spell, even if he possesses only the vaguest notion of what that spell is meant to accomplish.
+
+However, the wild mage who casts this spell draws the tides of chaos irresistibly toward himself, suffering a -50 penalty on all Wild Surge table rolls both when casting the spell and for the next 1d10 rounds. It is therefore strongly recommended that this spell never be cast.~
+
+@60415 = ~Phantasmal Assassin~
+@60416 = ~Phantasmal Assassin (Illusion/Phantasm)
+
+Level: 4
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: One creature
+Saving Throw: Special
+
+This spell conjures the image of the most terrifying being imaginable to the target, giving form to its darkest fears. Only the victim perceives the phantasmal assassin in its full horror; to the caster, it appears as little more than a vague spectral shape.
+
+The target may make a save vs. spell to realize that its attacker is merely an illusion. If the save fails, it must immediately make a save vs. death or perish from sheer terror. Even if this second saving throw succeeds, the psychic shock is so severe that the victim still suffers 3d6 points of damage.~
+
+@60417 = ~Keleg-Ze's Wrathful Fist~
+@60418 = ~Keleg-Ze's Wrathful Fist (Evocation)
+
+Level: 4
+Range: 0
+Duration: 2 rounds
+Casting Time: 6
+Area of Effect: The caster
+Saving Throw: Neg.
+
+Upon casting this spell, the wizard must clench his fist. It immediately bursts into flame, charged with primordial fire. Should the caster open his hand for any reason, the flames are extinguished and the spell is wasted. Consequently, the caster cannot cast spells while this enchantment remains in effect.
+
+The caster has 2 rounds in which to strike an opponent with the charged fist. A successful hit inflicts 1d2 points of bludgeoning damage (plus the Strength bonus), and the victim must make a save vs. spell or suffer the spell's full fury. The stored energy erupts, dealing 1d12 points of fire damage per caster level, to a maximum of 20d12.
+
+The spell ends immediately after a successful attack, whether or not the magical energy is discharged.~
+
+@604181 = ~Charged Fist~
+
+@60419 = ~Fairy Shield~
+@60420 = ~Fairy Shield (Abjuration)
+
+Level: 4
+Range: 0
+Duration: 3 rounds
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+Cast with the force of a commanding Power Word, this spell protects the caster from all hostile magic. Such is the spell's potency that it can endure only a few brief moments, making careful timing essential.~
+
+@60421 = ~Protective Winds~
+@60422 = ~Protective Winds (Conjuration)
+
+Level: 4
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: The caster
+Saving Throw: Special
+
+By means of this spell, the wizard opens a gateway to the Elemental Plane of Air and calls forth mighty winds to shield him. The winds gather into a swirling barrier that surrounds the caster like a living suit of armor.
+
+While protected, the caster is immune to wing buffet attacks, disperses all clouds and flames, gains 75% fire resistance, receives a +10 bonus to Armor Class against missile weapons, and a +2 bonus to Armor Class against all other attacks.
+
+Furthermore, any creature approaching the caster must make a save vs. breath weapon or be hurled 30 feet backward by the raging winds.~
+
+@60423 = ~Electroneutralization~
+@60424 = ~Electroneutralization (Abjuration)
+
+Level: 4
+Range: Sight of the caster
+Duration: 1 round/level
+Casting Time: 4
+Area of Effect: 30-ft. radius
+Saving Throw: Neg.
+
+All enemies within the affected area have any resistance to electricity negated, even if it is granted by magical items. Those who fail a save vs. spell at a -2 penalty instead have their electrical resistance set to -50%.~
+
+@604241 = ~Electrical resistance negated~
+@604242 = ~Electrical resistance set to -50%~
+
+@60425 = ~Electrical Conflagration~
+@60426 = ~Electrical Conflagration (Evocation)
+
+Level: 4
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: 15-ft. radius
+Saving Throw: 1/2
+
+This spell creates a series of electrical explosions at the designated point. All creatures within a 10-foot radius suffer 10d6 points of electrical damage. The conflagration then expands outward in a great wave, inflicting an additional 10d4 points of electrical damage upon all creatures within a 15-foot radius. A successful save vs. spell reduces all damage by half.~
+
+@60427 = ~Shifting Ground~
+@60428 = ~Shifting Ground (Illusion/Phantasm)
+
+Level: 4
+Range: Sight of the caster
+Duration: 1 round/level
+Casting Time: 4
+Area of Effect: 15-ft. radius
+Saving Throw: Special
+
+All enemies within the area of effect must make a save vs. spell. Those who fail become victims of a powerful illusion that causes the ground to seem as though it were pitching violently beneath them, like the deck of a ship caught in a raging storm.
+
+Affected creatures suffer a -2 penalty to attack rolls, Armor Class, and Dexterity, as well as a 10% chance of spell failure. In addition, each round they must make a save vs. breath weapon or collapse unconscious from overwhelming nausea, interrupting all actions for that round.~
+
+@60429 = ~Sandfall~
+@60430 = ~Sandfall (Conjuration)
+
+Level: 4
+Range: Sight of the caster
+Duration: Special
+Casting Time: 4
+Area of Effect: 5-ft. radius
+Saving Throw: Special
+
+A massive cascade of sand crashes down upon the designated target. The target and all creatures within a 5-foot radius suffer 1d6 points of bludgeoning damage per caster level (to a maximum of 20d6), are blinded for 2 rounds, and are held for 1 round.
+
+Creatures that succeed on a save vs. spell take only half damage and avoid being held, but the blindness cannot be avoided.~
+
+@60431 = ~Firebrands~
+@60432 = ~Firebrands (Evocation)
+
+Level: 4
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: One creature per 2 levels
+Saving Throw: 1/2
+
+This spell allows the wizard to hurl small bolts of fire that automatically strike their designated targets. The caster may select one target for every 2 caster levels, after which each target is struck by a firebrand that inflicts 2d6+1 points of fire damage. A successful save vs. spell reduces the damage by half.
+
+It is also possible to direct every firebrand at a single target by selecting that target twice at the beginning of the targeting sequence.~
+
+@6043299 = ~Firebrands (Evocation)
+
+Level: 5
+Sphere: Combat
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: One creature per 2 levels
+Saving Throw: 1/2
+
+This spell allows the wizard to hurl small bolts of fire that automatically strike their designated targets. The caster may select one target for every 2 caster levels, after which each target is struck by a firebrand that inflicts 2d6+1 points of fire damage. A successful save vs. spell reduces the damage by half.
+
+It is also possible to direct every firebrand at a single target by selecting that target twice at the beginning of the targeting sequence.~
+
+@60433 = ~Enervation~
+@60434 = ~Enervation (Necromancy)
+
+Level: 4
+Range: Sight of the caster
+Duration: 8 hours
+Casting Time: 4
+Area of Effect: One creature
+Saving Throw: Neg.
+
+If the target fails a save vs. spell, it loses one experience level for every 4 caster levels, to a maximum of 5 levels at 20th level. Lost levels are restored after one full night's rest.~
+
+@6051 = ~Explosive Missiles~
+@6052 = ~Explosive Missiles (Enchantment)
+
+Level: 5
+Range: Touch
+Duration: 1 round/2 levels
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell charges the target's missile weapon with elemental energy. Projectiles fired from the enchanted weapon explode upon impact, inflicting an additional 2d4 points of fire damage upon the target and all creatures within a 5-foot radius.
+
+Each affected creature may make a save vs. spell to reduce this additional damage by half.~
+
+@6053 = ~Mnemonic Corruption~
+@6054 = ~Mnemonic Corruption (Enchantment)
+
+Level: 5
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 5
+Area of Effect: One arcane spellcaster
+Saving Throw: Special
+
+This spell affects wizards only and has no effect upon any other creature. If the targeted wizard fails a save vs. spell, one or more of the highest-level spells currently memorized become corrupted. The victim forgets 1d4 of these spells and suffers 4 points of damage for each spell lost.
+
+This damage cannot kill the victim, but if it would reduce the target below 1 hit point, the target instead falls unconscious at 1 hit point.
+
+The saving throw penalty depends upon the number of spells to be corrupted: -1 if 1 spell is affected, up to -4 if 4 spells are affected.~
+
+@60541 = ~One spell corrupted~
+@60542 = ~Two spells corrupted~
+@60543 = ~Three spells corrupted~
+@60544 = ~Four spells corrupted~
+
+@6055 = ~Dancing Blades~
+@6056 = ~Dancing Blades (Evocation)
+
+Level: 5
+Range: The caster
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates one blade of pure magical energy for every 2 caster levels, each completely under the wizard's control. Every blade attacks using the caster's THAC0 with a +2 bonus, counts as a +2 magical weapon, and inflicts 2d4+2 points of magical damage.
+
+Any creature struck by a dancing blade may make a save vs. spell to reduce the damage by half.~
+
+@60561 = ~Dancing Blade~
+
+@6057 = ~Arcane Cannon~
+@6058 = ~Arcane Cannon (Alteration)
+
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: The caster
+Saving Throw: None
+
+This spell transforms the wizard's forearm into an arcane cannon, its muzzle opening in the palm of the caster's hand. The wizard may still cast spells, but cannot wield another weapon without obstructing the cannon.
+
+The cannon may fire one sphere of chaotic energy per round for every 7 caster levels (to a maximum of 3 shots per round at 21st level). Each sphere counts as a +3 magical weapon and inflicts 1d6+3 points of magical damage.
+
+Each shot also has a 20% chance of producing one additional effect:
+
+1d8 fire damage
+1d8 cold damage
+1d8 electrical damage
+1d8 acid damage
+1d12 magical damage
+2d6 bludgeoning damage
+Blindness for 5 rounds
+Curse for 5 rounds (-2 penalty to saving throws; does not stack)
+Save vs. spell or Slowed for 5 rounds
+Save vs. spell or Confused for 5 rounds~
+
+@60581 = ~This arcane cannon can fire one sphere of chaotic energy per round.~
+@60582 = ~This arcane cannon can fire two spheres of chaotic energy per round.~
+@60583 = ~This arcane cannon can fire three spheres of chaotic energy per round.~
+
+@6059 = ~Power Word: Resonance~//Bard only
+@60510 = ~Power Word: Resonance (Conjuration)
+
+Level: 5
+Range: Sight of the caster
+Duration: 3 rounds
+Casting Time: 1
+Area of Effect: One creature
+Saving Throw: Special
+
+This Power Word creates deadly vibrations within the body of the chosen victim.
+
+On the first round, the target suffers 2d8 points of damage and is stunned for 1 round.
+On the second round, the target suffers 4d8 points of damage and is stunned for 1d4 rounds.
+On the third round, the target suffers 8d8 points of damage and must make a save vs. death at a -2 penalty or explode.
+
+At the end of each round, the target may make a save vs. spell. A successful save halves the damage suffered that round and negates the secondary effect.~
+
+@60511 = ~Mazaron's Fabulous Fireball~
+@60512 = ~Mazaron's Fabulous Fireball (Evocation)
+
+Level: 5
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: 15-ft. radius
+Saving Throw: 1/2
+
+This spell reproduces the effects of a normal Fireball (10d6 points of fire damage; save vs. spell at a -2 penalty for half damage), but may be altered at will. During casting, the wizard chooses one of the following modifications:
+
+Ethereal: The blast radius is increased by 50%, and the fireball passes through solid matter.
+Focused: Inflicts 50% more damage.
+Selective: Ignores designated creatures (typically allies).
+Arcane: 40% of its fire damage is converted into magical damage.
+Instant: Cast with a snap of the fingers, detonates instantly at the chosen point without a projectile, and imposes an additional -3 penalty to the saving throw.
+Resonant: Inflicts only 2d6 damage, but detonates again around every creature struck. The number of secondary explosions around each target equals the total number of creatures hit by the original blast.
+Unerring: Ignores both Magic Resistance and magical protective effects.
+Animated: Inflicts only 4d6 damage, but summons four 2 Hit Dice Fire Elementals at the point of impact, attacking any nearby creature.
+Delayed: Does not explode immediately upon reaching its destination, but remains in place until a creature comes within 10 feet.
+Repeating: Inflicts only 6d6 damage, but detonates twice more at the same location: once 1 round later and again 2 rounds after the initial explosion.
+Multiplied: Inflicts only 2d6 damage, but may target four separate locations.
+Adhesive: Inflicts only 6d6 damage, but clings to its victims, dealing an additional 4d4 damage on the following round and 2d2 damage on the round after that.~
+
+@605121 = ~Selective~
+@605122 = ~Focused~
+@605123 = ~Ethereal~
+@605124 = ~Instant~
+@605125 = ~Resonant~
+@605126 = ~Animated~
+@605127 = ~Arcane~
+@605128 = ~Unerring~
+@605129 = ~Delayed~
+@6051210 = ~Repeating~
+@6051211 = ~Multiplied~
+@6051212 = ~Adhesive~
+
+@60513 = ~Precognition~
+@60514 = ~Precognition (Divination)
+
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: The caster
+Saving Throw: None
+
+This spell allows the wizard to glimpse the immediate future. Forewarned of what is to come, the caster reacts with uncanny speed and subtly alters fate in his favor.
+
+The caster gains a +4 bonus to Armor Class and to saving throws vs. spell, wands, and breath weapon attacks, and becomes immune to backstab attacks.~
+
+@60515 = ~Stroke of Luck~
+@60516 = ~Stroke of Luck (Enchantment)
+
+Level: 5
+Range: Sight of the caster
+Duration: 4 rounds
+Casting Time: 5
+Area of Effect: One creature
+Saving Throw: None
+
+This spell grants the target an extraordinary stroke of good fortune, dramatically bending fate in its favor. The blessing is immense at first, but quickly fades.
+
+First round:
++16 bonus to attack rolls and saving throws
++8 bonus to damage
++4% chance of scoring a critical hit
+
+Second round:
++8 bonus to attack rolls and saving throws
++4 bonus to damage
++2% chance of scoring a critical hit
+
+Third round:
++4 bonus to attack rolls and saving throws
++2 bonus to damage
++1% chance of scoring a critical hit
+
+Fourth round:
++2 bonus to attack rolls and saving throws
++1 bonus to damage.~
+
+@60517 = ~Ghostly Wail~//Bard only
+@60518 = ~Ghostly Wail (Necromancy)
+
+Level: 5
+Range: 0
+Duration: Special
+Casting Time: 3
+Area of Effect: 5-ft. radius
+Saving Throw: Neg.
+
+Upon completing this spell, the bard unleashes a dreadful wail like that of a restless ghost.
+
+All creatures that hear the cry suffer a -2 penalty to attack rolls and saving throws for 1 turn, then must make a save vs. spell. Those who fail suffer one of the following effects:
+
+50% chance of being deafened for 5 rounds
+25% chance of being paralyzed for 5 rounds
+25% chance of being both deafened and paralyzed for 5 rounds
+
+Creatures deafened by this spell are immune to other sound-based spells (this spell, Resonant Note, Power Word: Resonance, and Banshee's Wail) for 5 rounds.~
+
+@60519 = ~Spell Assurance~
+@60520 = ~Spell Assurance (Abjuration)
+
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: The caster
+Saving Throw: None
+
+This spell surrounds the caster with a dweomeric aura that ensures spells may be cast without hindrance and cannot be dispelled.
+
+While protected by this aura, the caster is immune to Dispel Magic, Spell Failure, forced Entropic Magic (though it does not prevent Chaos Surges for Entropists), Silence, and Deafness. In addition, the caster is unaffected by Dead Magic or Wild Magic zones.~
+
+@60521 = ~Caustic Breath~
+@60522 = ~Caustic Breath (Evocation)
+
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the wizard to exhale a stream of acid once per round. Each breath takes but a second to unleash, does not harm the caster, and inflicts 1d6 points of acid damage per 2 caster levels (to a maximum of 10d6). Creatures caught within the 80-degree, 13-foot cone in front of the caster may make a save vs. breath weapon for half damage.~
+
+@60523 = ~Lubath's Accelerator~
+@60524 = ~Lubath's Accelerator (Alteration)
+
+Level: 5
+Range: Sight of the caster
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: One creature
+Saving Throw: None
+
+This spell accelerates the subject, granting an additional attack per round, +3 movement rate, +2 initiative, and +1 Armor Class.
+
+The spell bends reality itself to hasten the subject. Such power comes at a cost: the strain inflicted upon the body causes the subject to lose 1 hit point each round.
+
+Lubath's Accelerator does not prevent the subject from benefiting from other haste effects. Because it slightly distorts the fabric of reality around the recipient, the resulting spatial distortion grants an additional +1 bonus to Armor Class, while still allowing the subject to benefit from Blur and similar effects.
+
+Every 6 caster levels, the wizard may increase the spell's acceleration multiplier by one, up to a maximum of ×5. Each multiplier stacks all bonuses and penalties granted by the spell. For example, at ×4 the subject gains +4 attacks per round, +12 movement rate, +8 initiative, +4 Armor Class (plus the additional +1 from spatial distortion), and loses 4 hit points each round.~
+
+@605241 = ~Acceleration ×1~
+@605242 = ~Acceleration ×2~
+@605243 = ~Acceleration ×3~
+@605244 = ~Acceleration ×4~
+@605245 = ~Acceleration ×5~
+
+@60525 = ~Life Drain~
+@60526 = ~Life Drain (Necromancy)
+
+Level: 5
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 12-ft. radius
+Saving Throw: Neg.
+
+This spell creates a field of necromantic energy in which all creatures must make a save vs. spell. Those who fail suffer 3d10 points of damage as their life force is drained away by the caster.
+
+The caster regains 3 hit points for every creature successfully drained in this manner.~
+
+@60527 = ~Dweomeric Chant~
+@60528 = ~Dweomeric Chant (Alteration)
+
+Level: 5
+Range: 0
+Duration: 24 hours
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This spell transforms the bard's song into dweomeric harmonies that may be shaped into spells the bard already knows.
+
+While the spell is in effect, the bard can no longer perform a normal bard song, but instead gains the ability to cast three additional spells. The spell level depends upon the bard's level:
+
+Level 13–15: three 3rd-level spells
+Level 16–18: three 4th-level spells
+Level 19–21: three 5th-level spells
+Level 22+: three 6th-level spells~
+
+@60529 = ~Mazaron's Fantastic Triad~
+@60530 = ~Mazaron's Fantastic Triad (Invocation)
+
+Level: 5
+Range: 0
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the wizard to cast three 3rd-level spells without expending any memorized spell slots, whether or not those spells are already known.
+
+After casting this spell, the wizard gains a special ability allowing the selection of any existing 3rd-level arcane spell. Once chosen, the spell may be cast freely without being deducted from the caster's memorized spells.
+
+The ability may be used three times before it vanishes, or it expires after 1 turn if any uses remain.~
+
+@605301 = ~3rd-Level Spell~
+
+@60531 = ~Deflection Shields~
+@60532 = ~Deflection Shields (Abjuration)
+
+Level: 5
+Range: 0
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: 10-ft. radius
+Saving Throw: Special
+
+This spell creates shields of magical energy around the wizard that deflect incoming attacks.
+
+Each round, every enemy within 10 feet of the caster must make a save vs. spell. Those who fail have their THAC0 set to 20 for that round. (This does not negate attack bonuses granted by magical weapons or special abilities.)~
+
+@60533 = ~Lobini's Chaotic Protector*~
+@60534 = ~Lobini's Chaotic Protector* (Abjuration, Alteration)
+
+Level: 5
+Range: 0
+Duration: 2 rounds/level - 4 rounds
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+Created by the eccentric wizard Lobini the Magnificent, this spell protects the caster by granting a random defensive spell every 2 rounds. The granted spell may be of any spell level, but each lasts only 4 rounds.
+
+Because new protections are granted before older ones expire, two defensive spells may overlap and combine—or not, should chance grant the same protection twice.
+
+Lobini's Chaotic Protector may reproduce any of the following spells:
+
+Protection from Evil, Armor, Ghost Armor, Spirit Armor, Shield, Spell Shield, Resist Fear, Blur, Mirror Image, Greater Reflected Image, Improved Invisibility, Mislead, Stoneskin, Minor Globe of Invulnerability, Globe of Invulnerability, Faerie Globe of Invulnerability, Anti-Magic Shell, Faerie Shield, Sovereign Body, Chaos Shield*, Improved Chaos Shield*, Fire Shield (Blue), Fire Shield (Red), Protection from Fire, Protection from Cold, Protection from Electricity, Protection from Acid, Protection from Magical Energy, Protection from the Elements, Protection from Energy, Keleg-Ze's Lightning Sphere, Deflection Shields, Protection from Normal Missiles, Protection from Normal Weapons, Protection from Magical Weapons, Mantle, Improved Mantle, Absolute Immunity, Invulnerability, Shock Shield, Spell Shield, Minor Spell Deflection, Spell Deflection, Spell Trap, Anti-Magic Sphere, Minor Spell Turning, Spell Turning, Precognition, Spell Assurance, and Troll Resilience.~
+
+@6061 = ~Weapon Vulnerability~
+@6062 = ~Weapon Vulnerability (Abjuration)
+
+Level: 6
+Range: Sight of the caster
+Duration: Permanent
+Casting Time: 6
+Area of Effect: One creature
+Saving Throw: Neg.
+
+If the target fails a save vs. spell at a -4 penalty, any immunity it possesses to normal or magical weapons is stripped away. Thereafter, the creature may be harmed by weapons of any kind.~
+
+@606219 = ~Vulnerable to all weapons~
+
+@6063 = ~Alabastine's Magical Conversion~
+@6064 = ~Alabastine's Magical Conversion (Alteration)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell converts the immense magical energy normally required for a powerful spell into an aura of diffuse magic that the wizard can use to replenish weaker spells. For the duration of the spell, the caster regains one memorized spell of levels 1 and 2 each round, alternating every 3 seconds.~
+
+@6065 = ~Battle Fury~
+@6066 = ~Battle Fury (Alteration)
+
+Level: 6
+Range: Sight of caster
+Duration: 1 round per level
+Area of Effect: 4.5-meter radius
+Casting Time: 6
+Saving Throw: None
+
+Originally created for the Red Guard of Alfheim's High Grove (and later spread by smugglers), this spell elevates the affected allies beyond their normal limits, improving every aspect of their combat abilities. They gain one additional attack per round, +2 to all physical attributes, initiative, Armor Class, attack rolls, and damage rolls, as well as +1 to all saving throws.
+
+This spell cannot be combined with other effects that accelerate the target (such as Haste).~
+
+@60661 = ~Already under the effects of Battle Fury~
+@60669 = ~Battle Fury (Alteration)
+
+Level: 6
+Range: Sight of caster
+Duration: 1 round per level
+Area of Effect: 4.5-meter radius
+Casting Time: 6
+Saving Throw: None
+
+This spell elevates the affected allies beyond their normal limits, improving every aspect of their combat abilities. They gain one additional attack per round, +2 to all physical attributes, initiative, Armor Class, attack rolls, and damage rolls, as well as +1 to all saving throws.
+
+This spell cannot be combined with other effects that accelerate the target (such as Haste).~
+
+@606699 = ~Battle Fury (Alteration)
+
+Level: 7
+Sphere: Combat
+Range: Sight of caster
+Duration: 1 round per level
+Area of Effect: 4.5-meter radius
+Casting Time: 6
+Saving Throw: None
+
+Originally created for the Red Guard of Alfheim's High Grove (and later spread by smugglers), this spell elevates the affected allies beyond their normal limits, improving every aspect of their combat abilities. They gain one additional attack per round, +2 to all physical attributes, initiative, Armor Class, attack rolls, and damage rolls, as well as +1 to all saving throws.
+
+This spell cannot be combined with other effects that accelerate the target (such as Haste).~
+
+@6067 = ~Gate to the Interplan~
+@6068 = ~Gate to the Interplan (Alteration)
+
+Level: 6
+Range: Caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+Created especially by Agenor Parcilofann for his loyal customers, this spell transports the caster and any companions of his choice (up to 2 creatures per level of the wizard) to the shop known as "The Interplan."
+
+Once there, the wizard can return to the exact spot where the spell was cast simply by using the shop's exit door. It is impossible to leave the shop by any normal means while this spell is in effect, as the magically altered doorway is attuned to the caster's unique magical signature.
+
+Special: This spell does not function in the Antechamber.~
+
+@6069 = ~Scion of Flame~
+@60610 = ~Scion of Flame (Alteration)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 5
+Area of Effect: Caster
+Saving Throw: None
+
+This spell places the wizard in a state of perfect harmony with fire. While under its effects, the caster's fire resistance becomes 125% (causing fire damage to heal a small amount of hit points instead) and all fire damage inflicted by the caster is increased by 30%.~
+
+@60611 = ~Boiling Blood~
+@60612 = ~Boiling Blood (Necromancy)
+
+Level: 6
+Range: Sight of caster
+Duration: 1 round per level
+Casting Time: 6
+Area of Effect: One creature
+Saving Throw: Special
+
+This spell transforms the target creature's blood into burning acid. Each round the victim suffers 1 point of fire damage and must attempt a save vs. spell. If the save fails, it suffers an additional 1D6 points of fire damage and 1D6 points of acid damage, while the agonizing shock imposes a -4 penalty to attack rolls and -2 Dexterity for that round.
+
+This spell has no effect on creatures without blood, such as golems, undead, or elementals, and cannot be stacked.~
+
+@606121 = ~This victim's blood is already boiling.~
+
+@60613 = ~Déorie's Memorization~
+@60614 = ~Déorie's Memorization (Alteration)
+
+Level: 6
+Range: 0
+Duration: 24 hours
+Casting Time: 9
+Area of Effect: Caster
+Saving Throw: None
+
+While under the effects of this spell, the wizard can memorize one fewer spell of the highest spell level available to him, but one additional spell of every lower spell level.
+
+This spell cannot be stacked with itself or with Déorie's Greater Memorization.~
+
+@60615 = ~Keleg-Ze's Rending Chaos~
+@60616 = ~Keleg-Ze's Rending Chaos (Evocation)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell imbues the weapon wielded by the wizard with magical energy drawn from the very essence of Chaos. The affected weapon deals an additional 1D20 points of magical damage. If the caster is wielding a missile weapon, the effect is applied to its ammunition instead. Against lawful creatures, the weapon inflicts an additional 1D20 points of magical damage.
+
+However, Chaos despises stability. With each successful hit, there is a 5% chance the weapon deals no additional damage, a 5% chance it deals double the additional damage, and a 5% chance the extra damage is inflicted upon the wizard as well.~
+
+@60617 = ~Chromatic Missile Volley~
+@60618 = ~Chromatic Missile Volley (Invocation)
+
+Level: 6
+Range: Sight of caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Negates
+
+This spell hurls a volley of magical missiles at the designated target, one missile for every two levels of the wizard. Each missile randomly reproduces one of the effects of a Chromatic Orb.
+
+Each missile has:
+20% chance to deal 1D4 points of magical damage and dazzle the target for 1 round
+17% chance to deal 1D4 points of magical damage and inflict pain upon the target for 1 round
+15% chance to deal 1D6 points of magical damage and burn the target
+13% chance to deal 1D6 points of magical damage and blind the target for 1 turn
+11% chance to deal 1D8 points of magical damage and stun the target for 3 rounds
+9% chance to deal 1D8 points of magical damage and weaken the target for 1 turn
+7% chance to deal 1D10 points of magical damage and paralyze the target for 2 turns
+5% chance to deal 1D12 points of magical damage and petrify the target
+3% chance to deal 2D8 points of magical damage and instantly slay the target
+
+All secondary effects may be negated by a successful save vs. spell made with a +4 bonus. A Shield spell or any similar effect blocks all missiles created by this spell.~
+
+@60619 = ~Sovereign Body~
+@60620 = ~Sovereign Body (Abjuration)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 9
+Area of Effect: Caster
+Saving Throw: None
+
+By casting this spell, the wizard saturates his body with the power of abjuration, making him extraordinarily difficult to kill.
+
+The caster gains 50% resistance to physical, elemental, and magical damage, as well as 50% bonus hit points. He becomes immune to poison, disease, level drain, ability score penalties (any lost levels or ability points are immediately restored), polymorph, blindness, deafness, silence (existing effects are removed), paralysis, petrification, and non-magical weapons. In addition, he gains a +8 bonus to saving throws vs. death and polymorph, and regenerates 2 hit points per round.
+
+However, the immense power of this spell comes at a severe cost. The wizard's body becomes so thoroughly saturated with magic that it disrupts any further spellcasting. For the duration of the spell, the caster is unable to cast any other spells.~
+
+@60621 = ~Bite of Frost~
+@60622 = ~Bite of Frost (Evocation)
+
+Level: 6
+Range: Sight of caster
+Duration: Instantaneous, Special
+Casting Time: 6
+Area of Effect: 4.5-meter radius
+Saving Throw: Special
+
+An icy chill descends upon the targeted area. Creatures caught within it experience a sudden and dramatic drop in body temperature, suffering hypothermia as though they had been exposed to extreme polar cold for an extended period.
+
+Affected creatures suffer 1D4 points of cold damage per level of the caster (maximum 20D4, save vs. spell for half). Those who also fail a save vs. death suffer an additional 1D3 points of exhaustion damage per two caster levels (maximum 10D3). This exhaustion damage cannot kill its victims, but leaves them severely fatigued (+1 Fatigue per die of exhaustion damage inflicted, up to a maximum of +10 Fatigue).~
+
+@6062299 = ~Bite of Frost (Evocation)
+
+Level: 7
+Sphere: Combat
+Range: Sight of caster
+Duration: Instantaneous, Special
+Casting Time: 6
+Area of Effect: 4.5-meter radius
+Saving Throw: Special
+
+An icy chill descends upon the targeted area. Creatures caught within it experience a sudden and dramatic drop in body temperature, suffering hypothermia as though they had been exposed to extreme polar cold for an extended period.
+
+Affected creatures suffer 1D4 points of cold damage per level of the caster (maximum 20D4, save vs. spell for half). Those who also fail a save vs. death suffer an additional 1D3 points of exhaustion damage per two caster levels (maximum 10D3). This exhaustion damage cannot kill its victims, but leaves them severely fatigued (+1 Fatigue per die of exhaustion damage inflicted, up to a maximum of +10 Fatigue).~
+
+@60623 = ~Impact Ward~
+@60624 = ~Impact Ward (Abjuration)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell surrounds the caster with a soft, flexible barrier of magical energy that conforms perfectly to the wizard's movements without hindering them. Despite its pliable nature, the barrier is remarkably resistant to compression, protecting the caster from violent impacts.
+
+The wizard gains 100% resistance to crushing damage, falling damage, and knockback effects.~
+
+@60625 = ~Basulfin's Cryogenic Aura~ //Converted into a potion for the Discombobulator until I have an icon to represent it.
+@60626 = ~Basulfin's Cryogenic Aura (Evocation)
+
+Level: 6
+Range: 0
+Duration: 1 round per level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+The wizard is surrounded by an aura of intensely cold, swirling air that grants several benefits:
+
+Cryophagy: All cold damage heals the caster instead (125% cold resistance)
+Frozen Backlash: Any creature striking the caster in melee suffers 1D8+2 points of cold damage
+Frozen Strike: The caster's melee attacks deal an additional 1D6+1 points of cold damage
+Cryogenic Aura: All creatures within 2.5 meters of the caster suffer 1D4 points of cold damage each round.~
+
+@60627 = ~Unspeakable Beauty~
+@60628 = ~Unspeakable Beauty (Illusion, Enchantment)
+
+Level: 6
+Range: 0
+Duration: 2 turns
+Casting Time: 8
+Area of Effect: Caster
+Saving Throw: None
+
+This spell transforms the caster into the very embodiment of beauty, capable of captivating any Medium-sized biped to whom attention is directed. The caster's Charisma becomes 23 and, for the duration of the spell, the caster may use *Charm Person* at will as a special ability (save vs. spell at -2; the target does not become hostile when the effect ends).~
+
+@60629 = ~Tokilom's Magic Slippers~
+@60630 = ~Tokilom's Magic Slippers (Evocation)
+
+Level: 6
+Range: 0
+Duration: 1 day
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell, created by Tokilom of Selgaunt so he could sell his masterpiece indefinitely, earned him not only imprisonment but also the loss of his ability to create other magical items. No matter—these slippers are now forever available to anyone who has access to this spell.
+
+The spell creates Tokilom's Magic Slippers in the caster's inventory. They double the wearer's movement rate, grant the effects of *Free Action*, and make the wearer more attractive.~
+
+@606309 = ~Gilipur's Magic Slippers (Evocation)
+
+Level: 6
+Range: 0
+Duration: 1 day
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates Gilipur's Magic Slippers in the caster's inventory. They double the wearer's movement rate, grant the effects of *Free Action*, and make the wearer more attractive.~
+@606301 = ~These tasteful magical slippers are a creation of Gilipur, a talented mage who wasn't particularly bright.
+
+STATISTICS:
+
+Equipped abilities:
+- Doubles movement speed.
+- Free Action (does not grant immunity to Haste).
+- Charisma: +1.~ 
+
+@60631 = ~Familiar Metamorphosis~
+@60632 = ~Familiar Metamorphosis (Alteration)
+
+Level: 6
+Range: 0
+Duration: 2 turns
+Casting Time: 6
+Area of Effect: the caster's familiar
+Saving Throw: none
+
+This spell transforms the caster's familiar into a Gauth. Although this improves its combat abilities, it does not increase its hit points or make it any more aggressive, so the mage must still guide it carefully. And it would be wise to remain cautious.~ 
+
+@60633 = ~Ice Shards~ //Bugged by game behavior (effect 214). Waiting for a possible fix...
+@60634 = ~Ice Shards (Conjuration)
+
+Level: 6
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: 1 to 6 creatures
+Saving Throw: 1
+
+After casting this spell, the caster may choose between one and six targets, each of which is struck automatically by an ice shard that deals cold damage.
+
+The damage dealt (all targets are entitled to a save vs. spell for half damage) depends on the number of targets selected:
+one target: 20D8 points of cold damage
+two targets: 10D8 points of cold damage each
+three targets: 6D10 points of cold damage each
+four targets: 5D10 points of cold damage each
+five targets: 4D10 points of cold damage each
+six targets: 3D12 points of cold damage each.~
+
+@606341 = ~One target~
+@606342 = ~Two targets~
+@606343 = ~Three targets~
+@606344 = ~Four targets~
+@606345 = ~Five targets~
+@606346 = ~Six targets~
+
+@60635 = ~Deorie's Magical Escape~
+@60636 = ~Deorie's Magical Escape (Alteration)
+
+Level: 6
+Range: Special
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: Party
+Saving Throw: None
+
+Another creation of the half-fey Deorie designed to help her companions escape dangerous situations, this spell instantly transports the entire party to any known location within the current area. The destination does not need to be visible, only known.~
+
+@606369 = ~Deorie's Magical Escape (Alteration)
+
+Level: 6
+Range: Special
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: Party
+Saving Throw: None
+
+This spell instantly transports the entire party to any known location within the current area. The destination does not need to be visible, only known.~
+
+@6071 = ~Starblade~
+@6072 = ~Starblade (Evocation)
+
+Level: 7
+Range: 0
+Duration: 15 rounds
+Casting Time: 7
+Area of Effect: The caster
+Saving Throw: None
+
+A beam of pure light springs from the mage's hand, taking on the rough shape of a blade. The caster can alter its length and form, choosing between a returning throwing dagger, a dagger, a shortsword, a longsword, or a bastard sword. Regardless of its form, the weapon counts as a +4 magical weapon and deals double the base damage of the chosen weapon (2D8+4 for a sword). It easily pierces even the toughest defenses, grants an additional +4 bonus to THAC0, and reduces the target's Magic Resistance by 5% for 1 turn each time it strikes.~
+
+@6073 = ~Deorie's Chaotic Recall~
+@6074 = ~Deorie's Chaotic Recall (Alteration)
+
+Level: 7
+Range: 0
+Duration: Instantaneous
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This spell allows the mage to recall a spell previously cast. The level of the recovered spell is random and depends on the caster's level:
+
+Level 14 to 17: one level 5 to 7 spell
+Level 18 to 21: one level 5 to 8 spell
+Level 22 to 25: one level 6 to 8 spell
+Level 26 to 29: one level 6 to 9 spell
+Level 30 to 33: one level 7 to 9 spell
+Level 34 and above: one level 7 to 10 spell (double chance of recalling a level 9 spell).~
+
+@60745 = ~One level 5 spell recalled~
+@60746 = ~One level 6 spell recalled~
+@60747 = ~One level 7 spell recalled~
+@60748 = ~One level 8 spell recalled~
+@60749 = ~One level 9 spell recalled~
+
+@6075 = ~Affliction~
+@6076 = ~Affliction (Necromancy)
+
+Level: 7
+Range: Sight of the caster
+Duration: Special
+Casting Time: 9
+Area of Effect: 4-meter radius
+Saving Throw: Special
+
+This spell causes ashes gathered from tombs, battlefields, the lairs of savage beasts, and other tainted and unholy places to rain down upon the target area. Living creatures within the area suffer:
+
+Contagion if they fail a save vs. death.
+Blindness and Deafness (2 turns) if they fail a save vs. spell.
+Hold Monster (1 turn) if they fail a save vs. polymorph.
+Stun (5 rounds) if they fail a save vs. breath weapon.
+
+This spell has no effect on constructs or undead.~
+
+@607699 = ~Affliction (Necromancy)
+
+Level: 7
+Sphere: Evil
+Range: Sight of the caster
+Duration: Special
+Casting Time: 9
+Area of Effect: 4-meter radius
+Saving Throw: Special
+
+This spell causes ashes gathered from tombs, battlefields, the lairs of savage beasts, and other tainted and unholy places to rain down upon the target area. Living creatures within the area suffer:
+
+Contagion if they fail a save vs. death.
+Blindness and Deafness (2 turns) if they fail a save vs. spell.
+Hold Monster (1 turn) if they fail a save vs. polymorph.
+Stun (5 rounds) if they fail a save vs. breath weapon.
+
+This spell has no effect on constructs or undead.~
+
+@6077 = ~Salyvia's Magical Arrow~
+@6078 = ~Salyvia's Magical Arrow (Evocation)
+
+Level: 7
+Range: 0
+Duration: 1 day
+Casting Time: 1 round
+Area of Effect: The caster
+Saving Throw: None
+
+This spell creates a single, highly enchanted arrow in the caster's inventory. The arrow is a +4 magical weapon, granting +4 to THAC0 and dealing 1D6+4 piercing damage plus 4 points of magical damage. After every shot, the arrow is automatically recreated in the wielder's quiver. It can be used by any character capable of wielding a bow and lasts for one full day.~
+
+@60781 = ~This returning magical arrow was created by the renowned conjurer Salyvia so that it could be summoned and used by anyone.
+
+STATISTICS
+
+THAC0: +4
+Damage: 1D6+4, +4 magical damage
+Damage Type: Missile (Piercing)
+Weight: 0
+Launcher: Bow~
+
+@6079 = ~Greater Weapon Enchantment~
+@60710 = ~Greater Weapon Enchantment (Enchantment)
+
+Level: 7
+Range: Touch
+Duration: 15 rounds
+Casting Time: 7
+Area of Effect: One touched melee weapon
+Saving Throw: None
+
+This spell grants the touched melee weapon a unique magical ability of the caster's choice. The weapon gains no enchantment bonus and, if it was originally non-magical, it is still treated as a non-magical weapon. However, it gains one of the following on-hit effects, chosen by the caster:
+
++1D10 magical damage
+Vampiric (drains 2 hit points)
+Doom (-2 to all rolls)
+Dispel Magic
+Disruption against undead (save vs. death at -4)
+Slow (3 rounds)
+Stun (save vs. spell, 1 round)
+33% chance to drain one level
+Death (save vs. death at +4).~
+
+@607101 = ~Magical Damage~
+@607102 = ~Vampiric~
+@607104 = ~Undead Disruption~
+@607105 = ~Stun~
+@607107 = ~Level Drain~
+
+@60711 = ~Rainbow Projectile~
+@60712 = ~Rainbow Projectile (Evocation)
+
+Level: 7
+Range: 0
+Duration: Instantaneous
+Casting Time: 7
+Area of Effect: 1 creature, special
+Saving Throw: 1
+
+This spell hurls a sphere of combined, unstable elemental energies at the target. The sphere automatically hits, dealing 1D8 points of damage per caster level (maximum 20D8; save vs. spell for half damage), and has:
+
+22% chance to deal fire damage
+22% chance to deal cold damage
+22% chance to deal electrical damage
+22% chance to deal acid damage
+12% chance to explode, dealing quadruple damage to the target and all creatures within 2.5 meters through the combined power of all four elements.~
+
+@60713 = ~Form of Fire~
+@60714 = ~Form of Fire (Alteration)
+
+Level: 7
+Range: 0
+Duration: 2 turns
+Casting Time: 7
+Area of Effect: The caster
+Saving Throw: None
+
+Upon casting this spell, the caster's body gradually transforms into living fire while all worn equipment merges into the blazing mass, taking on the form of a fire elemental. In this form, the caster becomes immune to all fire damage, poison, disease, non-magical weapons, and backstab attacks. Natural Armor Class becomes -1, Strength becomes 19, and Constitution becomes 17. The caster's fists may be used twice per round with a +3 THAC0 bonus, dealing 1D8 bludgeoning damage plus 1D10 fire damage.
+
+The caster burns through webs, entangling roots, and grease, moving freely through all such obstacles.
+
+The caster retains the ability to cast spells and may also use the following innate abilities at will:
+
+Burning Hands (4D12, save vs. spell for half)
+Incinerator (4D10, save vs. spell for half)
+Flaming Breath (4D8, save vs. breath weapon for half)
+Fireball (4D6, save vs. spell for half).~
+
+@607141 = ~Flaming Breath~
+
+@60715 = ~Electric Web~
+@60716 = ~Electric Web (Evocation, Conjuration)
+
+Level: 7
+Range: Sight of the caster
+Duration: 1 turn
+Casting Time: 7
+Area of Effect: 4.5-meter radius
+Saving Throw: Special
+
+This spell is similar to the 2nd-level spell Web, except that the web it creates is metallic and charged with electricity. As a result, it is much harder to escape, and creatures moving through the area suffer 2D4 points of slashing damage and 1D4 points of electrical damage each round (a save vs. spell halves the slashing damage, but the electrical damage is unavoidable). Creatures ensnared by the web (save vs. spell at -4) suffer an additional 1D4 points of electrical damage for each round they remain trapped.~
+
+@60717 = ~Ralorn's Dragon-Slaying Missile~
+@60718 = ~Ralorn's Dragon-Slaying Missile (Evocation / Necromancy)
+
+Level: 7
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: One creature
+Saving Throw: Special
+
+This spell launches a missile charged with energy specifically designed to slay dragons. Against dragons, Magic Resistance is checked at a -30% penalty. If a dragon is struck by the missile, it must succeed on a save vs. death or die instantly. Even if it survives, it still suffers 20D10 points of damage, which may be enough to kill it.
+
+Against non-draconic creatures, the spell does not receive the Magic Resistance penalty, cannot kill the target outright, and instead deals only 20D6 points of damage, halved on a successful save vs. spell.~
+
+@60719 = ~Ice Orb~
+@60720 = ~Ice Orb (Evocation)
+
+Level: 7
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 7
+Area of Effect: 3.5-meter radius
+Saving Throw: 1
+
+The caster gathers intense cold between their hands, compresses it into an orb, and hurls it at the chosen location. Upon impact, the orb explodes, dealing 10D8 points of cold damage to all creatures within the area while encasing them in a layer of ice.
+
+Victims are slowed for 5 rounds and become immobilized for 1 turn if they fail a save vs. spell at -2. A successful saving throw prevents the immobilization, but neither the damage nor the slowing effect can be avoided.
+
+Undead cannot be immobilized by this spell.~
+
+@60721 = ~Antimagic Sphere~
+@60722 = ~Antimagic Sphere (Abjuration)
+
+Level: 7
+Range: Sight of the caster
+Duration: 1 round per 2 levels
+Casting Time: 7
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell surrounds the target with an aura that has a chance to negate offensive spells directed at it.
+
+The target gains 10% Magic Resistance, plus an additional 1% per caster level (maximum 30%). If the creature already possesses Magic Resistance, this bonus is added to its existing Magic Resistance.~
+
+@60723 = ~Illusory Ally~
+@60724 = ~Illusory Ally (Illusion)
+
+Level: 7
+Range: Sight of the caster
+Duration: 15 rounds
+Casting Time: 7
+Area of Effect: One party member
+Saving Throw: None
+
+This spell creates an illusory duplicate of any party member. The duplicate possesses the same equipment as the original but only 60% of its combat abilities, hit points, and saving throws. It can move and attack, but cannot cast spells or use special abilities or quick-slot items. It remains in existence for the spell's duration or until destroyed.
+
+There is no limit to the number of illusory allies that may be controlled at once, but each party member may have only one associated duplicate.~
+
+@607241 = ~This ally already has an illusory duplicate~
+
+@60725 = ~Magic Purge~
+@60726 = ~Magic Purge (Abjuration)
+
+Level: 7
+Range: Sight of the caster
+Duration: 4 rounds
+Casting Time: 1 round
+Area of Effect: 4.5-meter radius
+Saving Throw: None
+
+This spell dispels all magical effects on every creature within the target area with a 100% chance of success. No saving throw is allowed, and Magic Resistance is ignored. In addition, the magical aura of every affected creature is severely disrupted, making spellcasting difficult for the next 4 rounds (100% spell failure during the first round, 75% during the second, 50% during the third, and 25% during the fourth).~
+
+@60727 = ~Nature Communion~
+@60728 = ~Nature Communion (Evocation)
+
+Level: 7
+Range: 0
+Duration: Variable
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+A more powerful version of *Contact with Nature*, this spell grants access to the following abilities:
+
+Level 14 to 16: Animal Summoning, Summon Animal Spirit
+Level 17 to 19: Summon Wolves, Creeping Doom
+Level 20 to 22: Fire Elemental Summoning, Storm of Vengeance
+Level 23 to 25: Fire Elemental Transformation, Nature's Beauty
+Level 26 and above: Conjure Elementals
+
+Summon Animal Spirit: Summons an animal spirit (bear, wolf, lion, or serpent) to aid the mage for 6 turns.
+
+Summon Wolves: Summons 1 Hit Die worth of various wolves per caster level, +3 (23 HD worth of wolves at level 20).~
+
+@607281 = ~Summon Wolves~
+
+@60729 = ~Hachitoza's Troop Enhancement~
+@60730 = ~Hachitoza's Troop Enhancement (Divination, Enchantment)
+
+Level: 7
+Range: Sight of caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: 20-meter radius
+Saving Throw: None
+
+It was after being appointed general to defend Kara-Tur from yet another barbarian invasion that Hachitoza improved the spell that had made him famous, adapting it to benefit entire companies of soldiers.
+
+All allies affected by this spell perceive weaknesses in their enemies more easily. They gain a +3 bonus to THAC0 and critical hit chance.~
+
+@607309 = ~Hachitoza's Troop Enhancement (Enchantment)
+
+Level: 7
+Range: Sight of caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: 10-meter radius
+Saving Throw: None
+
+All allies affected by this spell perceive weaknesses in their enemies more easily. They gain a +3 bonus to THAC0 and critical hit chance.~
+
+@60731 = ~Air Animation~
+@60732 = ~Air Animation (Alteration)
+
+Level: 7
+Range: 0
+Duration: 2 turns
+Casting Time: 7
+Area of Effect: Caster
+Saving Throw: None
+
+This spell allows the caster to awaken rudimentary consciousness within portions of the surrounding air, creating small air elementals under his control. He may create one elemental each round for the spell's duration. Each elemental remains animated for 1 turn before reverting to ordinary air.
+
+The animated elementals have 2 Hit Dice, 10% Magic Resistance, and one attack per round dealing 1D10 bludgeoning damage. They are immune to non-magical weapons and to all spells from the Enchantment/Charm school.~
+
+@60733 = ~Déorie's Greater Memory Discipline~
+@60734 = ~Déorie's Greater Memory Discipline (Alteration)
+
+Level: 7
+Range: 0
+Duration: 24 hours
+Casting Time: 9
+Area of Effect: Caster
+Saving Throw: None
+
+While under the effects of this spell, the wizard may memorize two additional spells of the highest spell level available to him, but one fewer spell of every lower level.
+
+This spell cannot be combined with itself or with Déorie's Memory Discipline.~
+
+@60735 = ~Explosive Minion Creation~
+@60736 = ~Explosive Minion Creation (Invocation)
+
+Level: 7
+Range: Sight of caster
+Duration: 2 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+This spell transforms any existing flame into a heavily enchanted 8 Hit Dice fire elemental.
+
+The elemental can attack twice per round, dealing 1D6 bludgeoning damage plus 1D10 fire damage with each hit.
+
+At will, it may generate a small explosion centered on itself, dealing 4D6 fire damage to all creatures within a 2.5-meter radius (save vs. spells for half damage).
+
+It may also detonate itself (destroying itself in the process) in a fiery explosion equivalent to a Fireball, dealing 10D6 fire damage within a 4.5-meter radius (save vs. spells for half damage). This explosion occurs automatically if the elemental is slain.~
+
+@607361 = ~Explosive Minion~
+@607362 = ~Explosion~
+@607363 = ~Greater Explosion~
+
+@60737 = ~Spell Totem~ /// NO, Korrelo's Discreet Slayer does it better.
+@60738 = ~Spell Totem (Enchantment)
+
+Level: 7
+Range: Sight of caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates a magical totem at the chosen location. Every two rounds, the totem automatically casts the spell selected when it was created.
+
+The caster may choose one of the following spells:
+Magic Missile (×8)
+Agannazar's Scorcher
+Lightning Bolt
+Fireball
+Monster Summoning I
+
+The totem's behavior is very limited: it always targets the nearest hostile creature.
+
+If enemies choose to attack the totem, it is treated as a 7 Hit Dice construct.~
+
+@6081 = ~Sorcerous Eye~
+@6082 = ~Sorcerous Eye (Alteration)
+
+Level: 8
+Range: 0
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell is similar to the 4th-level Wizard Eye spell, which creates an invisible eye capable of scouting areas for the caster. However, this version creates a far more powerful eye that can actively use magical powers.
+
+The eye may instantly cast each of the following spells twice:
+Hold Monster (single target)
+Chaos (single target)
+Feeblemind
+Domination
+Mnemonic Corruption.~
+
+@6083 = ~Trollslayer Cloud~
+@6084 = ~Trollslayer Cloud (Invocation/Evocation)
+
+Level: 8
+Range: Sight of caster
+Duration: 1 round
+Casting Time: 1 round
+Area of Effect: One creature
+Saving Throw: Special
+
+Originally created during the troll invasion of Arborea, this spell conjures a small cloud laden with acid that pours its contents over the chosen target.
+
+The victim suffers 2D4 acid damage per caster level, reduced by half with a successful save vs. spells.
+
+If the target fails its saving throw, the acid ignites a few moments later. The victim suffers an additional 1D4 acid damage per caster level and must make a save vs. death. Failure causes the creature to be completely dissolved.~
+
+@60849 = ~Trollslayer Cloud (Invocation/Evocation)
+
+Level: 8
+Range: Sight of caster
+Duration: 1 round
+Casting Time: 1 round
+Area of Effect: One creature
+Saving Throw: Special
+
+This spell conjures a small cloud laden with acid that pours its contents over the chosen target.
+
+The victim suffers 2D4 acid damage per caster level, reduced by half with a successful save vs. spells.
+
+If the target fails its saving throw, the acid ignites a few moments later. The victim suffers an additional 1D4 acid damage per caster level and must make a save vs. death. Failure causes the creature to be completely dissolved.~
+
+@6085 = ~March of the Dead~
+@6086 = ~March of the Dead (Necromancy)
+
+Level: 8
+Range: 10 meters
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell searches an enormous area for intact corpses that have not been properly sanctified through burial rites. They are gathered at the location chosen by the caster and raised as undead.
+
+When the spell is cast, 3D10 corpses are summoned, becoming:
+
+40% Skeletons
+32% Zombies
+12% Skeleton Archers
+8% Skeleton Mages
+4% Skeleton Warriors
+2% Ghouls
+2% Ghasts.~
+
+@6087 = ~Porphatys' Breath~
+@6088 = ~Porphatys' Breath (Conjuration)
+
+Level: 8
+Range: Sight of caster
+Duration: Special
+Casting Time: 9
+Area of Effect: 15-foot radius
+Saving Throw: Special
+
+This spell conjures a blast of freezing acid from another plane into the targeted area. All creatures within the area suffer 10D6 acid damage and 10D6 cold damage (save vs. breath weapon for half damage).
+
+Creatures that fail their save vs. breath weapon must also make a save vs. spells. Those who fail become encased in ice for 6 rounds. While frozen, they are completely immobilized and unable to interact with the outside world, but are likewise immune to all outside effects.
+
+Each round spent trapped in the ice, they suffer 2D4 cold damage and an additional cumulative 1D6 crushing/suffocation damage.~
+
+@6089 = ~Assassin's Strike~
+@60810 = ~Assassin's Strike (Alteration)
+
+Level: 8
+Range: Sight of caster
+Duration: 4 rounds
+Casting Time: 8
+Area of Effect: One creature
+Saving Throw: None
+
+This spell temporarily grants the wizard the skills of an assassin, allowing him to strike a chosen target with ruthless efficiency.
+
+Once the target is selected and the spell cast, the wizard is instantly teleported adjacent to it and gains progressively diminishing assassination abilities. For the next four rounds, all of his attacks are treated as backstabs, with the following bonuses:
+
+Round 1: +12 melee THAC0, ×4 backstab multiplier
+Round 2: +9 melee THAC0, ×3 backstab multiplier
+Round 3: +6 melee THAC0, ×2 backstab multiplier
+Round 4: +3 melee THAC0, ×1 backstab multiplier
+
+Note: Although the spell teleports the caster next to the designated target, he is not required to attack it. The granted bonuses apply against any creature he attacks for the spell's duration.~
+
+@60811 = ~Lightning Arm~
+@60812 = ~Lightning Arm (Invocation)
+
+Level: 8
+Range: 0
+Duration: 2 turns
+Casting Time: 8
+Area of Effect: Caster
+Saving Throw: None
+
+Upon casting this spell, the caster's arm becomes charged with crackling lightning, granting several benefits:
+
+- The caster gains 25% electrical resistance.
+- The lightning extends into any weapon held in hand, causing all melee attacks to inflict an additional 2D4 electrical damage.
+- Once per round, the caster may unleash a Lightning Bolt dealing 4D6 damage (save vs. spells for half damage). The bolt ricochets whenever it strikes a wall or another solid surface.
+- The caster may instead discharge all of the stored electricity in a devastating Chain Lightning that deals 10D6 damage (save vs. spells for half damage). Doing so immediately ends the spell.~
+
+@60813 = ~Explosive Teleportation~
+@60814 = ~Explosive Teleportation (Alteration, Evocation)
+
+Level: 8
+Range: Sight of the caster
+Duration: 4 turns
+Casting Time: 1 round
+Area of Effect: The caster
+Saving Throw: Special
+
+This spell allows the mage to teleport up to five times during the spell's duration. Each teleport takes only one second (the time required to designate the destination) and creates a small explosion with a 2.5-meter radius at the arrival point, dealing 10d6 fire damage (save vs. spells for half damage).~
+@608141 = ~Explosive Teleport~
+
+@60815 = ~Korrelo's Discreet Slayer~
+@60816 = ~Korrelo's Discreet Slayer (Conjuration/Summoning)
+
+Level: 8
+Range: Sight of the caster
+Duration: 3 turns
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons the masterpiece of the mage Korrelo: an 8 Hit Dice magical slayer golem. The golem is invisible, immune to normal weapons and +1 weapons, as well as spells of levels 1 to 3. It resists 35% of all damage and attacks three times per round with magical projectiles.~
+
+@60817 = ~Mass Rage~
+@60818 = ~Mass Rage (Enchantment)
+
+Level: 8
+Range: Sight of the caster
+Duration: 15 rounds
+Casting Time: 8
+Area of Effect: 4.5-meter radius
+Saving Throw: None
+
+This spell causes all allies within the targeted area to enter a barbarian-like rage. They gain +4 Strength, +4 Constitution, and +2 to saving throws vs. spells, but suffer a -2 penalty to Armor Class. They also become immune to charm, hold, fear, maze, stun, sleep, confusion, and level drain effects.~
+
+@60819 = ~Resonant Spontaneous Combustion~
+@60820 = ~Resonant Spontaneous Combustion (Evocation, Necromancy)
+
+Level: 8
+Range: Sight of the caster
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: Negates
+
+The original scroll of this spell was recovered from the Plains of Carnage in Ysgard by the band of mercenaries who survived their dreadful battle against Kra'lo-benn, the fenser necromancer. It was kept in the library of Skeinheim's Circular Hall before disappearing one evening after excessive revelry. Since then, a few copies have appeared for sale in the markets of Glorium.
+
+The targeted creature experiences a catastrophic rise in internal temperature. If it succeeds on a saving throw vs. spells at -2, it suffers 5d6 fire damage and the spell ends. If it fails, it is completely incinerated, creating a fireball with a 4-meter radius that reproduces the same effect: every creature caught in the explosion must succeed on a saving throw at -2 or suffer the same fate, exploding into another fireball that repeats the process.
+
+The spell can therefore spread indefinitely, with its area of effect traveling far beyond the original point of impact. It continues as long as new explosions are generated.
+
+However, each creature can normally be affected only once. Any creature that succeeds on its saving throw against one of the fireballs becomes immune to this spell for the next two rounds. (If the chain reaction later returns to the same area, that creature may be affected again starting on the third round after its first exposure.)~
+@608209 = ~Resonant Spontaneous Combustion (Evocation, Necromancy)
+
+Level: 8
+Range: Sight of the caster
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: Negates
+
+The targeted creature experiences a catastrophic rise in internal temperature. If it succeeds on a saving throw vs. spells at -2, it suffers 5d6 fire damage and the spell ends. If it fails, it is completely incinerated, creating a fireball with a 4-meter radius that reproduces the same effect: every creature caught in the explosion must succeed on a saving throw at -2 or suffer the same fate, exploding into another fireball that repeats the process.
+
+The spell can therefore spread indefinitely, with its area of effect traveling far beyond the original point of impact. It continues as long as new explosions are generated.
+
+However, each creature can normally be affected only once. Any creature that succeeds on its saving throw against one of the fireballs becomes immune to this spell for the next two rounds. (If the chain reaction later returns to the same area, that creature may be affected again starting on the third round after its first exposure.)~
+
+@60821 = ~Call of Fire~
+@60822 = ~Call of Fire (Summoning)
+
+Level: 8
+Range: 0
+Duration: Special
+Casting Time: 8
+Area of Effect: 4.5-meter radius
+Saving Throw: 1
+
+This spell allows the caster to open a portal to the Elemental Plane of Fire, drawing forth primordial flame and perhaps a few of its native inhabitants. While maintaining the call, the caster cannot move without breaking the connection.
+
+As the fire emerges, it erupts in a burst of flames lasting three seconds. During the first second, it deals 12d10 fire damage to all creatures within 4.5 meters of the caster and has a 12% chance of summoning a fire creature. During the second second, it deals 8d10 fire damage and has an 8% chance of summoning a fire creature. During the third second, it deals 4d10 fire damage and has a 4% chance of summoning a fire creature. A successful saving throw vs. spells halves all damage.
+
+The summoning itself lasts five seconds, but if any creatures appear they are treated as summoned creatures. The caster retains control of them for two turns before they return to their home plane.~
+
+@608221 = ~Venerable Fire Elemental~
+
+@6082299 = ~Call of Fire (Summoning)
+
+Level: 9
+Range: 0
+Duration: Special
+Casting Time: 8
+Area of Effect: 4.5-meter radius
+Saving Throw: 1
+
+This spell allows the caster to open a portal to the Elemental Plane of Fire, drawing forth primordial flame and perhaps a few of its native inhabitants. While maintaining the call, the caster cannot move without breaking the connection.
+
+As the fire emerges, it erupts in a burst of flames lasting three seconds. During the first second, it deals 12d10 fire damage to all creatures within 4.5 meters of the caster and has a 12% chance of summoning a fire creature. During the second second, it deals 8d10 fire damage and has an 8% chance of summoning a fire creature. During the third second, it deals 4d10 fire damage and has a 4% chance of summoning a fire creature. A successful saving throw vs. spells halves all damage.
+
+The summoning itself lasts five seconds, but if any creatures appear they are treated as summoned creatures. The caster retains control of them for two turns before they return to their home plane.~
+
+@60823 = ~Keleg-Ze's Vengeful Discharges~
+@60824 = ~Keleg-Ze's Vengeful Discharges (Evocation)
+
+Level: 8
+Range: 0
+Duration: 1 round per level
+Casting Time: 8
+Area of Effect: The caster
+Saving Throw: Special
+
+This spell grants the mage a retaliatory ability: whenever they are struck by a weapon or spell, they unleash an electrical discharge centered on themselves. Every hostile creature within a 4.5-meter radius suffers 4d8 electrical damage and is stunned for 1d2 rounds. Creatures that succeed on a saving throw vs. spells take only half damage and avoid the stun.~
+
+@60825 = ~Arachnid Summoning~
+@60826 = ~Arachnid Summoning (Conjuration/Summoning)
+
+Level: 8
+Range: Sight of the caster
+Duration: 3 turns
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons 2d6 spiders. The summoned spiders may be of any type or size, and if more than one is summoned they may be of different varieties, with rarer spiders appearing less frequently. They range from 2 Hit Dice +2 to a maximum of 5 Hit Dice +5. The spiders appear at the designated location, attack all visible enemies, never make morale checks, and vanish if slain or when the spell ends.~
+@608261 = ~Mutant Spider~
+
+@60827 = ~Keleg-Ze's Lightning Sphere~
+@60828 = ~Keleg-Ze's Lightning Sphere (Summoning)
+
+Level: 8
+Range: 0
+Duration: 1 round per level
+Casting Time: 8
+Area of Effect: 1.5-meter radius sphere
+Saving Throw: None
+
+This spell surrounds the caster with a sphere of electricity, granting several benefits:
+
+- Electrical resistance is set to 100%.
+- All electrical damage is reflected back to its source.
+- Whenever the mage is attacked by a creature within the sphere's radius, that creature suffers 3d6 electrical damage, must succeed on a saving throw vs. spells or be stunned for 2 rounds, and has a 10% chance of being struck by a chain lightning bolt dealing 6d6 electrical damage (save vs. spells for half).~
+
+@60829 = ~Mazaron's Formidable Tetrad~
+@60830 = ~Mazaron's Formidable Tetrad (Alteration)
+
+Level: 8
+Range: 0
+Duration: 2 turns
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the mage to cast four 4th-level spells without expending memorized spell slots, whether or not they actually know those spells.
+
+After casting this spell, the mage gains a special ability allowing them to choose any existing 4th-level spell. Once selected, that spell can be cast freely without consuming a memorized spell slot. The ability may be used four times before disappearing, or it expires automatically after two turns if not fully used.~
+@608301 = ~4th-level spell~
+
+@60831 = ~Create Spectral Mage~
+@60832 = ~Create Spectral Mage (Necromancy)
+
+Level: 8
+Range: 10 meters
+Duration: 2 hours
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates a 10th-level spectral mage that uses all of its abilities (spells and its paralyzing touch) to aid the mage who summoned it.~
+@608321 = ~Spectral Mage~
+@608322 = ~Spectral Pyromancer~
+
+@60833 = ~Strike of the Six Scourges~ //Problem: requires the Hexblade spell icon.
+@60834 = ~Strike of the Six Scourges (Evocation)
+
+Level: 8
+Range: 0
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: One creature
+Saving Throw: Negates
+
+This spell conjures six bolts of force that strike the target in rapid succession.
+
+The first bolt deals 2d6 piercing damage and inflicts a -2 penalty to all of the target's saving throws.
+The second bolt deals 2d6 fire damage and reduces the target's elemental resistances by 20%.
+The third bolt deals 2d6 cold damage and slows the target.
+The fourth bolt deals 2d6 magical damage and reduces the target's magic resistance by 20%.
+The fifth bolt deals 2d6 damage.
+The sixth bolt deals 2d6 slashing damage and tears the fabric of reality, transforming the target into a squirrel.~
+
+@6091 = ~Energy Assault~
+@6092 = ~Energy Assault (Evocation)
+
+Level: 9
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 1 round
+Area of Effect: One creature
+Saving Throw: Special
+
+This spell unleashes a massive discharge of pure energy at a creature, surrounding it before collapsing inward upon itself. If the creature fails a saving throw vs. death at -4, it is utterly annihilated by the concentric energy nova, and only a Wish spell can restore it to life. If it succeeds, it still suffers 10d6 magical damage.
+
+The power of this spell is so great that it can affect creatures normally immune to death effects and similar abilities.~
+
+@6093 = ~Obliteration~
+@6094 = ~Obliteration (Evocation)
+
+Level: 9
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 13.5-meter radius
+Saving Throw: Special
+
+This spell is the mage's ultimate last resort when all other options have failed.
+
+Upon casting it, the mage converts all of their life force into magical energy and releases it as a sphere of power that engulfs a vast area, ignoring all physical barriers (it even passes through walls). Every enemy within the area suffers 1d20 magical damage per caster level (maximum 30d20, save vs. spells at -2 for half damage).
+
+Because the spell consumes the caster's entire life force, the mage dies if they fail a saving throw vs. death at +2. If the saving throw succeeds, they survive with 1 hit point remaining but fall unconscious for 2 rounds.
+
+Note 1: When rolling damage, all results of 1 or 2 on the d20s are treated as 3.
+
+Note 2: Since the mage sacrifices their own life force to fuel this spell, effects such as Protection from Death cannot prevent death caused by this self-sacrifice.~
+
+@6095 = ~Blazing Sun~
+@6096 = ~Blazing Sun (Illusion/Phantasm)
+
+Level: 9
+Range: 0
+Duration: Instantaneous
+Casting Time: 1 round
+Area of Effect: 12-meter radius
+Saving Throw: Negates
+
+This spell creates the illusion of a blazing sun shining above the affected area. All enemies who fail a saving throw vs. spells believe themselves to be consumed by its scorching heat and suffer 30d12 fire damage.~
+
+@6097 = ~Dance of Steel~
+@6098 = ~Dance of Steel (Alteration)
+
+Level: 9
+Range: Sight of the caster
+Duration: 1 round per level
+Casting Time: 9
+Area of Effect: One target
+Saving Throw: None
+
+This spell grants the target Improved Haste and allows them to make ten attacks per round.~
+
+@6099 = ~Greater Arcane Cannon~
+@60910 = ~Greater Arcane Cannon (Alteration)
+
+Level: 9
+Range: 0
+Duration: 1 round per level
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This spell creates a magical cannon within the mage's forearm, with its muzzle opening in the palm of the caster's hand. The mage can still cast spells, but cannot wield another weapon without obstructing the cannon.
+
+The cannon can fire four times per round, launching bolts of energy that deal 1d10+5 magical damage, grant a +3 THAC0 bonus, and count as a +5 weapon.
+
+Each energy bolt has a 30% chance of applying one additional effect chosen from the following:
+
+- 1d12 fire damage
+- 1d12 cold damage
+- 1d12 electrical damage
+- 1d12 acid damage
+- 1d20 magical damage
+- 2d10 crushing damage
+- Blindness for 1 turn
+- Dispel Magic
+- Curse for 1 turn (-2 to saving throws, does not stack)
+- Save vs. spells at -2 or Slow for 1 turn
+- Save vs. spells at -2 or Confusion for 1 turn
+- Save vs. polymorph or be transformed into a squirrel
+- Save vs. spells or be stunned for 3 rounds
+- Save vs. spells or be petrified
+- Save vs. spells at +2 or be disintegrated~
+@609101 = ~This magical cannon can fire four chaotic energy bolts per round, each capable of inflicting a wide variety of harmful effects.~
+
+@60911 = ~Cloud of Bestial Frenzy~
+@60912 = ~Cloud of Bestial Frenzy (Enchantment/Charm)
+
+Level: 9
+Range: 10 meters
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: 4.5-meter radius
+Saving Throw: Negates
+
+This spell creates a cloud of gas that causes those who breathe it to become extremely aggressive. Each round, all creatures that fail a saving throw vs. spells lose all restraint: they gain +2 to hit and damage, an additional attack per round, and violently attack the nearest creature.
+
+This spell is particularly effective against enemy mages, as those who fail their saving throw are consumed by battle frenzy and become unable to cast any spells.~
+
+@60913 = ~Agenor Parcilofann's War Harness~
+@60914 = ~Agenor Parcilofann's War Harness (Alteration-Abjuration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This spell is a special version of Simbul's Spell Sequencer, designed by Agenor to help him survive the many planes he has visited. Upon casting, the mage gains the benefits of five spells prepared in advance:
+
+Tenser's Transformation
+Sovereign Body
+Troll Resistance
+Improved Haste
+Antimagic Shell.~
+
+@609143 = ~Troll Resistance~
+@609144 = ~Antimagic Shell~
+
+@609149 = ~Agenor Parcilofann's War Harness (Alteration-Abjuration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This spell is a special version of Simbul's Spell Sequencer. Upon casting, the mage gains the benefits of five spells prepared in advance:
+
+Tenser's Transformation
+Sovereign Body
+Troll Resistance
+Improved Haste
+Antimagic Shell.~
+
+@60915 = ~Time Control~
+@60916 = ~Time Control (Alteration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: 4.5 meter radius
+Saving Throw: None
+
+By casting this spell, the caster creates a temporal bubble around himself, granting him partial control over the flow of time; he can slow it down or accelerate it to a certain extent. While under the effects of this spell, the mage:
+Gains Improved Haste and -2 to casting time.
+Slows all enemies within 4.5 meters of him (no saving throw).
+Accelerates (haste) all allies within 4.5 meters of him.
+Doubles the duration of all spells he casts.
+Is immune to slow effects.
+Starting at level 30, is also immune to Time Stop.~
+
+@60917 = ~Greater Magic Conversion~
+@60918 = ~Greater Magic Conversion (Alteration)
+
+Level: 9
+Range: 0
+Duration: 1 round per level
+Casting Time: 1 turn
+Area of Effect: Caster
+Saving Throw: None
+
+This spell is Salyvia's clumsy attempt to improve Alabastine's famous spell: "Magic Conversion". The improvement can be considered successful, as it allows the caster to endlessly cast spells of higher levels than the original spell, but it has lost stability in the process: the level of the spells that this new spell allows the caster to recall is not fixed.
+
+By casting this spell, the mage sacrifices the energy of a high-level spell to continuously fuel the power of his weaker spells. This spell allows him to randomly memorize a level 1 to 4 spell every 3 seconds.~
+
+@609189 = ~Greater Magic Conversion (Alteration)
+
+Level: 9
+Range: 0
+Duration: 1 round per level
+Casting Time: 1 turn
+Area of Effect: Caster
+Saving Throw: None
+
+By casting this spell, the mage sacrifices the energy of a high-level spell to continuously fuel the power of his weaker spells. This spell allows him to randomly memorize a level 1 to 4 spell every 3 seconds.~
+
+@609181 = ~A level 1 spell has been recalled~
+@609182 = ~A level 2 spell has been recalled~
+@609183 = ~A level 3 spell has been recalled~
+@609184 = ~A level 4 spell has been recalled~
+
+@60919 = ~Hand of the Devil~
+@60920 = ~Hand of the Devil (Necromancy)
+
+Level: 9
+Range: 0
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This spell grants the mage five Finger of Death spells, one for each finger on his main hand. Each Finger of Death can be used once with a casting time of 1 during the duration of the spell, after which the mage's fingers are drained and return to normal.~
+
+@60921 = ~Touch of the Abyss~
+@60922 = ~Touch of the Abyss (Evocation)
+
+Level: 9
+Range: Sight range
+Duration: Special
+Casting Time: 9
+Area of Effect: 4.5 meter radius
+Saving Throw: Special
+
+This spell opens a portal to the Abyss from which a burst of elemental energy combining several Abyssal planes is expelled. All victims within the area suffer 8D6 points of fire damage, 4D6 points of acid damage and 4D6 points of cold damage, reduced by half with a successful saving throw vs. breath. They must also attempt three additional saving throws:
+- A saving throw vs. spells or lose 2 levels.
+- A saving throw vs. poison or become poisoned (6 points of damage per round for 1 turn).
+- A saving throw vs. polymorph or become sickened (-2 Strength and Constitution, slowed, and lose 1 hit point per round for 5 turns).
+
+Each time this spell is cast, there is a 3% chance that a Tanar'ri in the Abyss notices the appearance of the portal and decides to enter it. In this case, its only goal upon arriving on the Prime Material Plane would be to destroy everything.~
+@609221 = ~Bodak~
+@609222 = ~Balor~
+@609223 = ~Nabassu~
+@609224 = ~Marilith~
+
+@60923 = ~Faerie Globe of Invulnerability~
+@60924 = ~Faerie Globe of Invulnerability (Abjuration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Déorie created this spell spontaneously one day when she and her friends were confronted by dangerous rakshasas. Knowing their techniques of relying on low-level spells, she wanted to be able to protect her friends and chose to modify a Globe of Invulnerability by casting it at a higher level and adding her half-fey essence to it. The result exceeded her expectations, and she and her friends were able to return safely from their expedition.
+
+This spell is an improvement of the Globe of Invulnerability spell, which blocks low and mid-level spells, with the following improvements:
+Blocks spells up to level 6.
+Upon casting, affects all allies within 4.5 meters, protecting them with Minor Globe of Invulnerability.~
+
+@609249 = ~Faerie Globe of Invulnerability (Abjuration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell is an improvement of the Globe of Invulnerability spell, which blocks low and mid-level spells, with the following improvements:
+Blocks spells up to level 6.
+Upon casting, affects all allies within 4.5 meters, protecting them with Minor Globe of Invulnerability.~
+
+@60925 = ~Elixir of Life~
+@60926 = ~Elixir of Life (Alteration, Necromancy)
+
+Level: 9
+Range: 0
+Duration: 1 day
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This spell transforms any liquid into a serum with powerful healing properties. This remedy can heal all wounds and cure all afflictions of whoever drinks it. If it is not consumed, it reverts back to the liquid it originally was after one day.~
+
+@60927 = ~Fantastic Convergence~//EE only
+@60928 = ~Fantastic Convergence (Alteration)
+
+Level: 9
+Range: 0
+Duration: 2 rounds
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This spell causes all possible notions of favorable probabilities to converge, applying THE ultimate favorable probability in favor of the mage. As a result, for 2 rounds he doubles all damage he inflicts and automatically succeeds at all saving throws and attack rolls.~
+
+@60929 = ~Bombardment~
+@60930 = ~Bombardment (Evocation)
+
+Level: 9
+Range: Sight range
+Duration: 1 round per 4 levels
+Casting Time: 1 round
+Area of Effect: 1 creature
+Saving Throw: 1/2
+
+This spell causes small flaming meteors to rain down upon the target when cast and once per round thereafter. The target and all creatures within 1.5 meters suffer 6D6 points of crushing damage and 4D6 points of fire damage, reduced by half for each victim who successfully saves. For each victim with magic resistance, a resistance check is made for every bombardment.
+The maximum duration of this spell is set to 7 rounds at caster level 28.~
+
+@60931 = ~Alabastine's Dweomeric Fusion Device~
+@60932 = ~Alabastine's Dweomeric Fusion Device (Invocation)
+
+Level: 9
+Range: 0
+Duration: Permanent
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows several spells to be combined in order to make them more powerful. After casting this spell, the mage may choose three spells of level 7 or lower. Afterwards, a special ability button is granted, allowing him to cast the three enhanced spells simultaneously with 35% increased duration and damage.~
+
+@60933 = ~Pragadon's Universal Dweomer~
+@60934 = ~Pragadon's Universal Dweomer (Alteration)
+
+Level: 9
+Range: 0
+Duration: Special
+Casting Time: Special
+Area of Effect: Special
+Saving Throw: Special
+
+The mage who casts this spell can shape its energy into any spell of a lower level. He can create any existing spell of level 1 to 8, even if the spell is not in his spellbook.~
+
+@60935 = ~Subconscious Enemy~
+@60936 = ~Subconscious Enemy (Illusion)
+
+Level: 9
+Range: Sight range
+Duration: Instantaneous
+Casting Time: 9
+Area of Effect: 4.5 meter radius
+Saving Throw: Special
+
+All enemies in the area designated by the mage lose 1D4 points of Strength for one turn and are held for 1 round. Those who fail a saving throw vs. spells are also attacked by an imaginary assassin: they must make a saving throw vs. death or die, otherwise they suffer 3D6 points of damage.~
+@609361 = ~1 point of Strength lost~
+@609362 = ~2 points of Strength lost~
+@609363 = ~3 points of Strength lost~
+@609364 = ~4 points of Strength lost~
+
+@60937 = ~Vampiric Bodyguard~
+@60938 = ~Vampiric Bodyguard (Conjuration/Summoning)
+
+Level: 9
+Range: Sight range
+Duration: Permanent
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates an Aerial Servant and binds it to the mage. This costs the mage 20 hit points, which are permanently deducted from his maximum hit points. Afterwards, the Aerial Servant behaves like a familiar (it can follow its summoner into all areas and only disappears upon its death), and whenever it attacks and hits, it drains 2 hit points which are restored to the mage.
+
+The mage can control only one Vampiric Bodyguard at a time. When it dies, the caster regains the invested hit points and may freely summon another one.~
+@609381 = ~You can only control one Vampiric Bodyguard~
+
+@60939 = ~Malakar's Burning Hell~
+@60940 = ~Malakar's Burning Hell (Evocation)
+
+Level: 9
+Range: 0
+Duration: Instantaneous
+Casting Time: 5
+Area of Effect: 4.5 meter radius
+Saving Throw: 1/2
+
+This spell launches a Fireball (10D6 points of fire damage, saving throw vs. spells for half) at every enemy within 4.5 meters of the mage.~

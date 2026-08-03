@@ -1,0 +1,85 @@
+@9001 = ~[Uu]sable\([ %tab%]+[Oo]nly\|[ %tab%]+[Oo]nly\)?[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\([Nn]ot[ %tab%]+\|[Ii]n\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
+@71 = ~Fairy Dust~
+@72 = ~This terracotta vial contains a fine powder made from fairy dust.
+This precious component must be useful for many magical experiments.
+It can also be thrown, in which case it will shatter and create the effect of the "Faerie Dust" spell in the area.~
+
+@73 = ~The Metal That Does Not Exist~
+@74 = ~This hexagonal-shaped ring has a hole too small to fit on a finger. And any dwarf could tell you: the metal it is made from does not correspond to anything known on Toril.~
+
+@33 = ~The Interplanar, Magical Items~
+@34 = ~Agenor Parcilofann~
+@35 = ~The Interplanar~
+@36 = ~[Uu]sable[ %tab%]+[Oo]nly[ %tab%]+[Bb]y[ %tab%]*:~
+@37 = ~\([Nn]ot[ %tab%]+\|[Ii]n\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@38 = ~Duplicate some Interplan spells as clerical/druidic versions~
+@39 = ~This component requires The Interplan~
+@40 = ~Vashir al'Maedissir~
+
+@41 = ~Bottle of the Genie~
+@42 = ~This bottle is the home (or prison?) of a genie. Who knows what this powerful creature might offer you if you open the stopper that binds it?
+
+Special Ability: Summons the genie from the bottle once per day.~
+
+@43 = ~Kriol~
+@44 = ~Kriol's Suspicious Stock~
+@45 = ~The Interplan: Items~
+@46 = ~The Interplan: Scrolls~
+@47 = ~The Interplan: Potions~
+
+@48 = ~The Interplan Portal Gem~
+@49 = ~Enchanted by a loyal customer of the Interplan store in Athkatla, this gem charged with magical energy allows its owner to teleport there once per day and return through the magical door.
+
+FEATURE
+
+Charges:
+ Once per day allows the casting of "Portal to the Interplan".~
+
+@51 = ~Elf Transformation~
+@52 = ~Elf Transformation (Alteration)
+
+Level: 10
+Range: 0
+Duration: Permanent
+Area of Effect: One non-monstrous humanoid
+Casting Time: 10
+Saving Throw: Negates
+
+This spell transforms the target into an elf if they fail a Save vs. Spells at -6.
+The target transformed by this spell physically becomes an elf. Their physical characteristics may be slightly altered, but by no more than plus or minus one. The new elf "intuitively" knows the languages of several elven communities, but gains no knowledge of elven history or culture. Likewise, their mind remains the same as it was before the transformation; they cannot naturally behave as an elf. They must therefore learn everything if they did not already know it before the spell was cast.
+The transformation caused by this spell is permanent and can only be reversed by a Wish or Miracle spell.~
+
+@53 = ~Elven Transformation Filter~
+@54 = ~According to the label attached to this flask, this liquid supposedly has the property of transforming the drinker into an elf. How an inexperienced sorcerer managed to create such a powerful potion, and above all why, remains a mystery.~
+
+@55 = ~Ring of Power~
+@56 = ~Myserill Bolperdu was a powerful priest of Malar who took part in many bloody battles and countless conflicts. However, he regretted that these battles always ended too quickly. By studying the regenerative abilities of trolls, he became convinced that it would be much more entertaining to face warriors blessed with regenerative powers on the battlefield. He therefore commissioned several very powerful rings, and when they were completed he distributed them to particularly evil warriors who were usually on the opposing side during conflicts.
+
+FEATURES:
+
+Free Action
+Regeneration: 1 hit point per round
+Elemental Resistances: +20%~
+@57 = ~Kri'Binn~
+
+@61 = ~The Despair of the Dwarven Mage
+We met Agenor, an elf transformed into a dwarf who would very much like to become an elf again. He asked us to find a way to restore his original form.
+He says he has searched all of Toril and even many other planes without success, so if he could not find anything, how could we?~
+
+@62 = ~The Despair of the Dwarven Mage
+We met Agenor, an elf transformed into a dwarf who would very much like to become an elf again. He asked us to find a way to restore his original form.
+We gave Agenor an Elf Transformation scroll. Unable to learn the spell, he used the scroll instead.~
+
+@63 = ~The Despair of the Dwarven Mage
+We met Agenor, an elf transformed into a dwarf who would very much like to become an elf again. He asked us to find a way to restore his original form.
+We gave Agenor an Elven Transformation Filter, which he drank in one gulp.~
+
+@64 = ~The Despair of the Dwarven Mage
+We met Agenor, an elf transformed into a dwarf who would very much like to become an elf again. He asked us to find a way to restore his original form.
+Our mage cast an Elf Transformation spell on Agenor, and it worked.~
+
+@65 = ~The Despair of the Dwarven Mage
+We met Agenor, an elf transformed into a dwarf who would very much like to become an elf again. He asked us to find a way to restore his original form.
+Agenor became an elf again and generously rewarded us for our help.~

@@ -1,0 +1,277 @@
+@701 = ~Enhancer~ //Price 250
+@702 = ~This chemical compound is used to enhance another potion when mixed with it in the Magic Cauldron.
+It has no other purpose, and drinking it on its own is strongly discouraged.~
+
+@703 = ~Greater Enhancer~ //Not sold
+@704 = ~This chemical compound has been improved through a special process. When mixed with another potion in the Magic Cauldron, it elevates that potion beyond its normal limits.
+It has no other purpose, and consuming it on its own is highly discouraged.~
+
+@705 = ~Potion of Good Fortune~ //Price 1000
+@706 = ~This potion makes the drinker exceptionally lucky.
+
+STATISTICS:
+
+- Luck: +2
+- Duration: 4 rounds
+- Special: 20% chance to grant Luck +4 for 2 rounds instead.
+
+Weight: 1~
+@7069 = ~Extraordinary Luck~
+
+@707 = ~Positive Water~ //Price 1500
+@708 = ~This bottle contains pure water that has passed through the Positive Energy Plane.
+
+STATISTICS:
+
+- Restoration
+- Heals 50 hit points
+- Maximum Hit Points: +10
+- Protection from the Negative Plane and Death
+- Duration: 10 rounds
+
+Weight: 1~
+
+@709 = ~Sage's Gutbuster~ //Price 800
+@7010 = ~This potent spirit, distilled from exotic grains and spices imported from distant lands, sharpens the senses and allows its drinker to strike with uncanny precision.
+
+STATISTICS:
+
+- THAC0: +3
+- Critical Hit Chance: +3
+- Duration: 5 rounds
+
+Weight: 1~
+
+@7011 = ~Sacred Pyramid~ //Price 800
+@7012 = ~This powerful charm, crafted primarily in the Principality, contains enough divine power to hold three spells. To activate it, it must be crushed between both hands, causing it to quickly crumble away.
+
+STATISTICS:
+
+- Draw Upon Holy Might
+- Armor of Faith
+- Holy Power
+- Duration: 2 rounds
+
+Weight: 1~
+
+@7013 = ~Enchanted Wood~ //Price 600
+@7014 = ~This charm allows its user to call upon the power of nature. To activate its magic, it must be snapped in two.
+
+STATISTICS:
+
+- Summons your choice of: Insects, Animals, or a Dryad
+- Duration: 2 rounds
+
+Weight: 1~
+
+@7015 = ~Potion of Disenchantment~ //Price 650
+@7016 = ~This potion contains the tongue of a disenchanter. Whoever drinks it is freed from all magical effects and curses currently affecting them.
+
+STATISTICS:
+
+- Dispel Magic (100%)
+- Remove Curse
+
+Weight: 1~
+
+@7017 = ~Potion of Improved Invisibility~ //Price 600
+@7018 = ~This potion grants an invisibility effect equivalent to the fourth-level wizard spell.
+
+STATISTICS:
+
+- Improved Invisibility
+- Duration: 6 rounds
+
+Weight: 1~
+@7019 = ~Memory in a Bottle~ //Price 500
+@7020 = ~This magical elixir allows a wizard to recover minor spells from memory. It has no effect on those untrained in the arcane arts.
+
+STATISTICS:
+
+- Re-memorizes one spell of each spell level from 1 to 5
+
+Weight: 1~
+
+@7021 = ~Green Moss~ //Price 1200
+@7022 = ~This toxic moss (handle only while wearing gloves) can be applied to a melee weapon, causing it to poison any target it strikes.
+The jar contains enough moss for 10 applications.
+
+STATISTICS:
+
+- Coats the equipped weapon with poison (1 point of damage per second for 1 round, extended to 4 rounds if the target fails a Save vs. Death)
+- Duration: 5 rounds
+
+Weight: 1~
+
+@7023 = ~Mirror of Duplication~ //Price 1000
+@7024 = ~This small charm contains a powerful enchantment capable of creating a duplicate of its user. To activate it, it must be broken in half.
+
+STATISTICS:
+
+- Simulacrum
+- Duration: 2 rounds
+
+Weight: 1~
+
+@7025 = ~Potion of True Sight~ //Price 800
+@7026 = ~This potion greatly enhances the drinker's vision, allowing them to perceive all things hidden or illusory.
+
+STATISTICS:
+
+- True Sight
+- Duration: 6 rounds
+
+Weight: 1~
+
+@7027 = ~Focused Memory~ //Price 2000
+@7028 = ~This magical elixir allows a wizard to recover major spells from memory. It has no effect on those untrained in the arcane arts.
+
+STATISTICS:
+
+- Re-memorizes one spell of each spell level from 6 to 9
+
+Weight: 1~
+@7029 = ~Fey Oil~ //Price 1000
+@7030 = ~Applying this shimmering oil to the user's body takes one full round, after which the user is granted powerful magical protection.
+
+STATISTICS:
+
+- Protection from Non-Magical Weapons
+- Saving Throws: +2
+- Armor Class: +2
+- Duration: 10 rounds
+
+Weight: 1~
+
+@7031 = ~Pyrophoric Oil~ //Price 700
+@7032 = ~This oil ignites shortly after being applied. When used on a melee weapon, it adds fire damage to the weapon's normal attacks. When applied to a ranged weapon, the effect lasts only a few seconds, as the burning oil travels with the fired projectile.
+
+STATISTICS:
+
+- Melee Damage: +1d6 fire damage
+- Special: Lasts only 3 seconds when applied to a ranged weapon
+- Duration: 2 rounds
+
+Weight: 1~
+
+@7033 = ~Concentrated Stone Nectar~
+@7034 = ~This flask contains concentrated liquid stone which, when sprayed onto a creature, instantly hardens to provide protection equivalent to a Stoneskin spell. The flask contains enough liquid for five applications.
+
+STATISTICS:
+
+- Grants Stoneskin to the target (1d4+2 skins)
+- Duration: 2 hours
+
+Weight: 2~
+
+@7035 = ~Reflective Balm~ //Price 1500
+@7036 = ~This balm allows anyone who coats themselves with it to reflect all targeted spells back at their caster.
+
+STATISTICS:
+
+- Spell Turning (10 spell levels)
+- Duration: 10 rounds
+
+Weight: 1~
+
+@7037 = ~Rat of Misfortune~ //Price 500
+@7038 = ~This dried and enchanted rodent can be used to lay a curse upon a creature. To activate it, the rat must be crushed into crumbs while pointing at the intended target.
+
+STATISTICS:
+
+- Casts Doom on a target
+- Duration: 1 round
+
+Weight: 1~
+
+@7039 = ~Plague Fly~ //Price 1200
+@7040 = ~This tiny mummified fly can recreate one of the Seven Plagues. To use it, the fly must be swallowed, allowing the user to spew forth a swarm of insects.
+
+STATISTICS:
+
+- Casts Insect Plague
+- Duration: 1 round
+
+Weight: 1~
+
+@7041 = ~Stuffed Maggot~ //Price 800
+@7042 = ~The Stuffed Maggot is one of the most popular delicacies on Dothion. This particular variety is Grandma Boulot's specialty, made with her delicious—and remarkably useful—secret ingredient.
+
+STATISTICS:
+
+- Three rounds after being eaten, the consumer releases a cloud of gas, followed by another after 5 rounds, and a third after 7 rounds.
+- Cloud Duration: 1 round
+
+Weight: 1~
+
+@7043 = ~Infiniterium~
+@7044 = ~The origin of this peculiar drink has been lost in the twists of time. Divination reveals only that it does not originate from Abeir-Toril and that, rather than being merely a planar object, it simply does not belong in *this* reality. A piece of paper is glued to the bottom of the bottle, and despite every effort, it cannot be removed. Written on it are the words:
+
+Dfjtrugmp Svqjev, DM, 43/04/12096.
+
+This potent liquor restores 15 hit points to whoever drinks it. The bottle magically refills itself after each use.~
+
+@7045 = ~Magic Eye~ //Price 800
+@7046 = ~This eye is solid and cold to the touch, as though frozen. To activate it, it must be melted in the user's hand, after which a magical eye appears.
+
+STATISTICS:
+
+- Wizard Eye
+- Duration: 2 rounds
+
+Weight: 1~
+
+@7047 = ~Potion of Dimensional Travel~ //Price 1200
+@7048 = ~This potion allows its drinker to instantly teleport over short distances at will, once per round.
+
+STATISTICS:
+
+- Dimension Door at will, once per round
+- Duration: 5 rounds
+
+Weight: 1~
+
+@7049 = ~Potion of Polymorph~
+@7050 = ~This potion grants anyone who drinks it the ability to polymorph, just like the wizard spell of the same name.
+
+STATISTICS:
+
+- Polymorph Self at will, once per round
+- Duration: 3 rounds
+
+Weight: 1~
+
+@7051 = ~Compressed Air~
+@7052 = ~This bottle can be thrown to create a Zone of Fresh Air at the location where it shatters.~
+
+@7053 = ~Vorpal Coating~
+@7054 = ~Handle with care! This oil is applied to a melee weapon, granting it the vorpal property.
+
+STATISTICS:
+
+- Each successful hit has a 5% chance to instantly kill the target (Save vs. Death negates).
+
+- Duration: 3 rounds
+
+Weight: 1~
+
+@7055 = ~Magical Resonance Oil~
+@7056 = ~This oil can be applied to a melee weapon, temporarily increasing its enchantment level.
+
+STATISTICS:
+
+- The equipped weapon becomes +3.
+
+- Duration: 5 rounds
+
+Weight: 1~
+@70561 = ~Greater Magical Resonance Oil~
+@70562 = ~This oil can be applied to a melee weapon, temporarily increasing its enchantment level.
+
+STATISTICS:
+
+- The equipped weapon becomes +5.
+
+- Duration: 5 rounds
+
+Weight: 1~

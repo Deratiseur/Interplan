@@ -1,0 +1,298 @@
+@13041 = ~Fatal Rage~
+@13042 = ~Fatal Rage (Necromancy)
+
+Level: 4
+Range: Sight of Caster
+Duration: 15 rounds
+Casting Time: 5
+Area of Effect: 1 friendly creature
+Saving Throw: None
+
+This spell may only affect a friendly or summoned creature. The target's life force erupts with overwhelming power, causing it to become enraged, berserk, and hasted, increasing its attacks per round to 10. However, this surge rapidly exhausts its vitality, causing it to lose 2 points of Constitution each round (note: the rage itself grants a +4 bonus to Constitution). If the creature dies from having its Constitution reduced to 0 before the spell expires, the spell ends immediately.~
+
+@13061 = ~Mark of Fire~
+@13062 = ~Mark of Fire (Abjuration)
+
+Level: 6
+Range: Sight of Caster
+Duration: 5 rounds + 1 round/level
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell reduces the target's fire resistance by 100%. No saving throw is allowed, and the target's magic resistance is treated as though it were 30% lower against this spell. If the creature's base fire resistance is less than 100%, any excess reduction becomes vulnerability. For example, a creature with 70% fire resistance affected by this spell will instead have -30% fire resistance.~
+
+@13071 = ~Dillpater's Hideous Cleaver~
+@13072 = ~Dillpater's Hideous Cleaver (Conjuration, Enchantment)
+
+Level: 7
+Range: Sight of Caster
+Duration: Instantaneous
+Casting Time: 7
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+A massive cleaver of pure psychic energy materializes above the target and comes crashing down, attempting to cleave it in two. If the target fails a save vs. spell, it is slain instantly. If the saving throw succeeds, the psychic trauma is so overwhelming that the creature instead loses half of its current hit points, rounded up.~
+
+@13073 = ~Spider's Dominion~
+@13074 = ~Spider's Dominion (Enchantment)
+
+Level: 7
+Range: Sight of Caster
+Duration: Permanent
+Casting Time: 7
+Area of Effect: 1 spider
+Saving Throw: Neg.
+
+This spell is effective only against spiders. If the target fails a save vs. spell at a -4 penalty, it becomes the wizard's loyal companion and behaves much like a familiar. It may accompany the caster from area to area and remains faithful until it dies or the wizard or one of the wizard's allies attempts to harm it. Should that occur, the spell immediately ends and the spider turns hostile.
+Note: This spell has no effect on spiders summoned by spells or magical items.~
+
+@13081 = ~Summon Beholder~
+@13082 = ~Summon Beholder (Conjuration)
+
+Level: 8
+Range: Sight of Caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons a friendly beholder that uses all of its powers to aid the spellcaster. Each time the spell is cast, there is a 15% chance that a second friendly beholder will also appear.~
+
+@13083 = ~Curse of Certain Death~
+@13084 = ~Curse of Certain Death (Enchantment)
+
+Level: 8
+Range: Sight of Caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: 30-ft. radius
+Saving Throw: Special
+
+You suffer the unfortunate mishap of drawing the last monster from the discard pile. Er... no, not quite...
+All enemies within the area of effect suffer a -4 penalty to all saving throws for the duration of the spell. They must then attempt two additional saving throws. First, a save vs. spell; if failed, they suffer an additional -4 penalty to all saving throws. Second, a save vs. death; if failed, they suffer a further -4 penalty to saves vs. death (for a total penalty of -12 to saves vs. death if both saving throws are failed).~
+
+@130841 = ~Save vs. Death Reduced~
+
+@13085 = ~Vaal Skeleton Army~
+@13086 = ~Vaal Skeleton Army (Necromancy)
+
+Level: 8
+Range: Sight of Caster
+Duration: 5 rounds
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates an army of 55 skeletons, consisting of:
+- 1 Skeleton General clad in heavy armor, who radiates an aura that grants Haste to all allies within a 30-ft. radius.
+- 5 Skeleton Archers
+- 4 Skeleton Mages
+- 17 Skeleton Soldiers
+- 28 Skeletons~
+
+@130861 = ~Skeleton Soldier~
+@130862 = ~Skeleton General~
+
+@13087 = ~Supernatural Dweomers~
+@13088 = ~Supernatural Dweomers (Alteration)
+
+Level: 8
+Range: 0
+Duration: 4 rounds
+Casting Time: 8
+Area of Effect: The caster
+Saving Throw: None
+
+While this spell is in effect, the caster's spells are treated as though they were innate abilities, reducing their casting time to 1.~
+
+@13091 = ~Magical Rest~
+@13092 = ~Magical Rest (Alteration)
+
+Level: 9
+Range: 0
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: The caster
+Saving Throw: None
+
+This spell grants the wizard all the benefits of a full night's rest. Fatigue is removed, the caster regains 2D6 hit points, and all memorized spells are restored. However, any other effects or afflictions currently affecting the caster remain in place.~
+
+@13093 = ~Medusa's Gaze~
+@13094 = ~Medusa's Gaze (Alteration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: The caster
+Saving Throw: None
+
+This spell grants the wizard the power to petrify enemies simply by looking at them. Once per round, for the duration of the spell, the caster may target a creature with a petrifying gaze. The victim may avoid petrification by making a successful save vs. petrification.~
+
+@13095 = ~Chain Images~
+@13096 = ~Chain Images (Illusion/Phantasm)
+
+Level: 9
+Range: 0
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This spell is similar to the 7th-level spell Improved Image. It creates a duplicate of the wizard that can move, possesses the same number of hit points, and can cast the same spells, but cannot engage in physical combat.
+Unlike Improved Image, however, Chain Images creates a new duplicate every 2 rounds, eventually producing a fifth image on the 9th round. (All images vanish after 10 rounds, so the final image lasts only 2 rounds.)
+Each successful attack against the wizard destroys one image, but does not interrupt the chain. New images continue to appear until the spell expires.~
+
+@13097 = ~Camouflage~
+@13098 = ~Camouflage (Illusion)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+Like the 4th-level spell Improved Invisibility, this spell renders the wizard invisible to normal sight while granting defensive and saving throw bonuses. Camouflage, however, provides perfect concealment by masking everything that might betray the caster's presence. Footsteps, body heat, breathing, scent, and every other trace are magically concealed. The caster may still choose to speak normally.
+Camouflage also protects the caster from scrying, divination, and all forms of enhanced vision.~
+
+@13099 = ~Prismatic Orb~
+@130910 = ~Prismatic Orb (Invocation/Evocation)
+
+Level: 9
+Range: 20 yds.
+Duration: Instantaneous
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell reproduces the effects of the 7th-level spell Prismatic Spray, condensing its seven rays into a single orb capable of striking one target. The victim suffers the full effects of the original rays:
+
+120 points of damage; save vs. spell for half damage.
+Save vs. spell or be disintegrated.
+Save vs. poison or suffer 20 points of damage; if the save fails, the target dies.
+Save vs. petrification or be turned to stone.
+Save vs. wand or suffer Feeblemind.
+Blinded if the target is 7th level or lower.~
+
+@130911 = ~Invulnerability~
+@130912 = ~Invulnerability (Abjuration, Necromancy)
+
+Level: 9
+Range: 0
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: The caster
+Saving Throw: None
+
+The ultimate protective spell, Invulnerability is designed to render the caster truly immortal. For the spell's 5-round duration, the wizard is immune to all forms of damage, death effects, disintegration, petrification, and, in general, anything that could bring about his demise. In addition, all saving throws are automatically successful.
+Note: If the caster is already suffering from a harmful effect when this spell is cast, that effect cannot kill him while Invulnerability lasts, but it is not dispelled. Its harmful effects resume normally once the spell expires. Such is the power of this spell that it cannot be sustained for long.~
+
+@130913 = ~Infant's Frailty~
+@130914 = ~Infant's Frailty (Abjuration)
+
+Level: 9
+Range: Sight of Caster
+Duration: Permanent
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: Neg.
+
+If the target fails a save vs. spell at a -4 penalty, it becomes as vulnerable as a newborn child. It may thereafter be struck by any weapon, including non-magical ones, and affected by any spell, even 1st-level spells. All of its physical, magical, and elemental resistances, including innate resistances, are reduced to 0%.
+For example, a fire elemental affected by this spell can be harmed by a Fireball and by non-magical weapons.~
+
+@130915 = ~Deathshade Mist~
+@130916 = ~Deathshade Mist (Necromancy)
+
+Level: 9
+Range: Sight of Caster
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: 15-ft. radius
+Saving Throw: Special
+
+This spell conjures a haunted mist at the designated location. Each round, every creature within the mist is assaulted by the equivalent of 1D3 Phantom Assassins. For each assassin, the victim must first make a save vs. spell to avoid being attacked. If the attack proceeds, the victim must then make a save vs. death or die instantly; a successful save instead limits the damage to 3D6 hit points.~
+
+@130917 = ~Clone~
+@130918 = ~Clone (Necromancy)
+
+Level: 9
+Range: 0
+Duration: 3 turns
+Casting Time: 10
+Area of Effect: The caster
+Saving Throw: None
+
+This spell creates a perfect duplicate of the wizard, possessing all of the caster's abilities. However, the newly created clone requires a short period of rest to recover from the psychic shock of its newly acquired "complete life," and cannot do so if it is immediately drawn into combat.
+Note: After creating the clone, it is not initially under your control. To gain control of it, you must save the game and reload.~
+
+@130919 = ~Nazzer's Nullification Mantle~
+@130920 = ~Nazzer's Nullification Mantle (Abjuration)
+
+Level: 9
+Range: 0
+Duration: 1 turn
+Casting Time: 10
+Area of Effect: 15-foot radius
+Saving Throw: None
+
+This spell surrounds the caster with a mantle that suppresses all magic within its area of effect. Every second, all active spells within the area are dispelled, and no spell can function there, including those cast by the caster. Monsters' innate abilities continue to function normally.~
+
+@130921 = ~Illusory Company~
+@130922 = ~Illusory Company (Illusion/Phantasm)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Area of Effect: 15-foot radius
+Casting Time: 9
+Saving Throw: None
+
+An illusory duplicate of every party member within 30 feet of the caster is created. Each duplicate has the same hit points as the original and can move about as a convincing decoy, but cannot attack or cast spells.
+As long as a duplicate remains intact, its original benefits from Improved Invisibility.~
+
+@130925 = ~Erasure~
+@130926 = ~Erasure (Enchantment)
+
+Level: 9
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 9
+Area of Effect: One spellcaster
+Saving Throw: Neg.
+
+This spell affects any spellcaster who relies on memorized spells (it has no effect on sorcerers). If the target fails a save vs. spell at -2, it immediately forgets all memorized spells.~
+
+@130927 = ~Dillpater's Transformation~
+@130928 = ~Dillpater's Transformation (Alteration)
+
+Level: 9
+Range: 0
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This spell is Archmage Dillpater's improvement upon Tenser's famous spell. Like the original, it grants the mage the following benefits:
+- Hit points doubled
+- Armor Class: +4
+- THAC0 set to 1
+- +2 bonus to attack and damage rolls
+
+In addition, it grants the following bonuses:
+- +1 attack per round
+- Strength set to 19
+- Does not prevent spellcasting.~
+
+@130929 = ~Nova of Absolute Destruction~
+@130930 = ~Nova of Absolute Destruction (Evocation)
+
+Level: 9
+Range: Sight of the caster
+Duration: Instantaneous
+Casting Time: 1 round
+Area of Effect: 12-foot radius
+Saving Throw: Special
+
+A pillar of pure energy crashes down upon the location designated by the caster. Creatures caught beneath it suffer 8d6 points of fire damage, 8d6 points of cold damage, and 8d6 points of magical damage. A successful save vs. spell halves the damage. Creatures that fail their save vs. spell must then make a save vs. death or be disintegrated.~
