@@ -31,8 +31,6 @@ A triple module:
 
 - Plus encounters and surprises. (not in IWDEE)
 
-Not in English (too big), not planned except for independent translators.
-
 Note: this mod is "green": it doesn't modify any files that might disturb other modules. 100% compatibility, despite its enormous content.
 
 </td>
