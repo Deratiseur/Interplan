@@ -360,7 +360,16 @@ details.spell-level > summary{
   margin-top:2px;
   color:var(--text);
 }
-  </style>
+  
+/* Tableau du spoiler du Sceptre de Convocation */
+.sceptre-table-wrap{width:96%;margin:8px auto 20px;overflow-x:auto;}
+.sceptre-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:95%;line-height:145%;background:rgba(0,0,0,.08);}
+.sceptre-table col:nth-child(1){width:19%;}.sceptre-table col:nth-child(2){width:29%;}.sceptre-table col:nth-child(3){width:18%;}.sceptre-table col:nth-child(4){width:34%;}
+.sceptre-table th{padding:7px 9px;text-align:left;color:var(--gold);background:rgba(0,0,0,.22);border-bottom:2px solid #796b58;font-size:95%;}
+.sceptre-table td{padding:7px 9px;vertical-align:top;border-bottom:1px solid #62584b;overflow-wrap:anywhere;}
+.sceptre-table tbody tr:last-child td{border-bottom:0;}.sceptre-table td:first-child{font-weight:bold;color:#eee;}.sceptre-table td:nth-child(3){color:#eee;}.sceptre-table-empty{color:var(--muted);}
+@media(max-width:900px){.sceptre-table{min-width:900px;}}
+</style>
 </head>
 <body>
 <div id="cartouche">
@@ -1892,649 +1901,47 @@ details.spell-level > summary{
 <h4>
             Films
            </h4>
-<ul>
-<li>
-             La proprio - Film : Crazy Kung-Fu - Grand maître de kung-fu 19 - 3x Cri du lion
-            </li>
-<li>
-             Maximus Decimus Meridius - Film : Gladiateur - Guerrier 18
-            </li>
-<li>
-             Le Kurgan - Film : Highlander - Guerrier 18 - oBG2 : si meurt, régénère et se relève après 6 rounds
-            </li>
-<li>
-             Rufio - Film : Hook - Guerrier 10
-            </li>
-<li>
-             David Dunn - Film : Incassable / Glass - Bagarreur 12 - Invulnérable (sauf noyade et magie)
-            </li>
-<li>
-             Mother Russia - Film : Kick-Ass 2 - Guerrière 18 - Brutalité incarnée
-            </li>
-<li>
-             Beatrix Kiddo - Film : Kill Bill - Kensaï 16 - 3x Mise à mal
-            </li>
-<li>
-             Godefroy de Montmirail - Film : Les visiteurs - Guerrier 8
-            </li>
-<li>
-             Oh Dae-Soo - Film : Old boy - Guerrier 8
-            </li>
-<li>
-             Nux - Film : Mad Max Fury Road - Warboy 9 - Si, en combat, il a moins de 10 % de PV ou voit un monstre de plus de 180 PV, kamikaze : se fait exploser.
-            </li>
-<li>
-             Kevin McCallister - Film : Maman j'ai raté l'avion - Enfant - 8x pose de piège, intouchable (n'est jamais blessé)
-            </li>
-<li>
-             Griff Tannen - Film : Retour vers le futur 2 - Guerrier 3
-            </li>
-<li>
-             Yu Shu Lien - Film : Tigre et dragon - Guerrière 12
-            </li>
-<li>
-             Madmartigan - Film : Willow - Guerrier 16
-            </li>
-<li>
-             Wolfhound - Film : Wolfhound, l’Ultime Guerrier - Guerrier 16
-            </li>
-<li>
-             Imhotep - Film : La momie - Prêtre 18 - Momie royale, divers sorts additionnels druidiques
-            </li>
-<li>
-             Jason Voorhees - Film : Vendredi 13 - Guerrier 8 - Mort-vivant, quasiment invulnérable. oBG2 : si meurt : régénère et se relève après 6 rounds
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Beatrix Kiddo</td><td>Film - Kill Bill</td><td>Kensaï 16</td><td>3x Mise à mal</td></tr><tr><td>David Dunn</td><td>Film - Incassable / Glass</td><td>Bagarreur 12</td><td>Invulnérable (sauf noyade et magie)</td></tr><tr><td>Godefroy de Montmirail</td><td>Film - Les visiteurs</td><td>Guerrier 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Griff Tannen</td><td>Film - Retour vers le futur 2</td><td>Guerrier 3</td><td class="sceptre-table-empty">—</td></tr><tr><td>Imhotep</td><td>Film (série) - La momie</td><td>Prêtre 18</td><td>Momie royale, divers sorts additionnels druidiques</td></tr><tr><td>Jason Voorhees</td><td>Film (série) - Vendredi 13</td><td>Guerrier 8</td><td>Mort-vivant, quasiment invulnérable. oBG2 : si meurt : régénère et se relève après 6 rounds</td></tr><tr><td>Kevin McCallister</td><td>Film - Maman j'ai raté l'avion</td><td>Enfant</td><td>8x pose de piège, intouchable (n'est jamais blessé)</td></tr><tr><td>La proprio</td><td>Film - Crazy Kung-Fu</td><td>Grand maître de kung-fu 19</td><td>3x Cri du lion</td></tr><tr><td>Madmartigan</td><td>Film - Willow</td><td>Guerrier 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Maximus Decimus Meridius</td><td>Film - Gladiateur</td><td>Guerrier 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mother Russia</td><td>Film - Kick-Ass 2</td><td>Guerrière 18</td><td>Brutalité incarnée</td></tr><tr><td>Nux</td><td>Film - Mad Max Fury Road</td><td>Warboy 9</td><td>Si, en combat, il a moins de 10 % de PV ou voit un monstre de plus de 180 PV, kamikaze : se fait exploser.</td></tr><tr><td>Oh Dae-Soo</td><td>Film - Old boy</td><td>Guerrier 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Rufio</td><td>Film - Hook</td><td>Guerrier 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>Wolfhound</td><td>Film - Wolfhound, l’Ultime Guerrier</td><td>Guerrier 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Yu Shu Lien</td><td>Film - Tigre et dragon</td><td>Guerrière 12</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Séries TV
            </h4>
-<ul>
-<li>
-             Buffy Summers - Série TV : Buffy contre les vampires - Tueuse de mvs &amp; de démons 17
-            </li>
-<li>
-             Sir Galaway - Série TV : La quatrième Dimension - Acteur
-            </li>
-<li>
-             Reese - Série TV : Malcolm - Crétin
-            </li>
-<li>
-             N° 218 - Série TV : Squid game - Loser
-            </li>
-<li>
-             Kimiko Miyashiro - Série TV : The Boys - Bagarreuse 16 - Super force, super régénération
-            </li>
-<li>
-             Thierry de Janville - Série TV : Thierry la fronde - Guerrier 12
-            </li>
-<li>
-             Morticia Addams - Cartoon / Série TV : La famille Addams - Sorcière 17 - 3x Alchimie (potion posée au sol)
-            </li>
-<li>
-             Didier l'embrouille - Émission : Nulle part ailleurs - Bagarreur 4
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Buffy Summers</td><td>Série TV - Buffy contre les vampires</td><td>Tueuse de mvs &amp; de démons 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Didier l'embrouille</td><td>Émission - Nulle part ailleurs</td><td>Bagarreur 4</td><td class="sceptre-table-empty">—</td></tr><tr><td>Kimiko Miyashiro</td><td>Série TV - The Boys</td><td>Bagarreuse 16</td><td>Super force, super régénération</td></tr><tr><td>Morticia Addams</td><td>Cartoon / Série TV - La famille Addams</td><td>Sorcière 17</td><td>3x Alchimie (potion posée au sol)</td></tr><tr><td>N° 218</td><td>Série TV - Squid game</td><td>Loser</td><td class="sceptre-table-empty">—</td></tr><tr><td>Reese</td><td>Série TV - Malcolm</td><td>Crétin</td><td class="sceptre-table-empty">—</td></tr><tr><td>Sir Galaway</td><td>Série TV - La quatrième Dimension</td><td>Acteur</td><td class="sceptre-table-empty">—</td></tr><tr><td>Thierry de Janville</td><td>Série TV - Thierry la fronde</td><td>Guerrier 12</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Films / Séries pour enfants
            </h4>
-<ul>
-<li>
-             Mor'du - Film : Dessin animé - Rebelle - Guerrier 13 - Ours noir
-            </li>
-<li>
-             Gilbert Gunderson - Série TV : Dessin animé - Les Simpsons - Acteur
-            </li>
-<li>
-             Speedy Gonzales - Série TV : Dessin animé - Looney Tunes - Souris - Très rapide
-            </li>
-<li>
-             Minus et Cortex - Série TV : Dessin animé - Minus et Cortex - Souris de laboratoire - Inséparables
-            </li>
-<li>
-             Rick WTM-72 - Série TV : Dessin animé - Rick et Morty - Kensaï 15
-            </li>
-<li>
-             Léguman - Série TV : Téléchat - Moine 2
-            </li>
-<li>
-             Rito Revolto - Série TV : Power rangers - Guerrier 17 - Squelette. 2x lance-flammes (Incinérateur d'Agannazar), 2x Éclair, 4x Porte dimensionnelle
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Gilbert Gunderson</td><td>Série TV - Dessin animé - Les Simpsons</td><td>Acteur</td><td class="sceptre-table-empty">—</td></tr><tr><td>Léguman</td><td>Série TV - Téléchat</td><td>Moine 2</td><td class="sceptre-table-empty">—</td></tr><tr><td>Minus et Cortex</td><td>Série TV - Dessin animé - Minus et Cortex</td><td>Souris de laboratoire</td><td>Inséparables</td></tr><tr><td>Mor'du</td><td>Film - Dessin animé - Rebelle</td><td>Guerrier 13</td><td>Ours noir</td></tr><tr><td>Rick WTM-72</td><td>Série TV - Dessin animé - Rick et Morty</td><td>Kensaï 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Rito Revolto</td><td>Série TV - Power rangers</td><td>Guerrier 17</td><td>Squelette. 2x lance-flammes (Incinérateur d'Agannazar), 2x Éclair, 4x Porte dimensionnelle</td></tr><tr><td>Speedy Gonzales</td><td>Série TV - Dessin animé - Looney Tunes</td><td>Souris</td><td>Très rapide</td></tr></tbody></table></div>
 <h4>
             Jeux vidéo
            </h4>
-<ul>
-<li>
-             Barnabé Bonarien - Jeu vidéo : Arcanum - Guerrier 12 - Chien (de guerre)
-            </li>
-<li>
-             Virgile - Jeu vidéo : Arcanum - Guerrier 12 / Prêtre 12 - Équipement et sorts cheatés d'Arcanum
-            </li>
-<li>
-             Solaire d'Astora - Jeu vidéo : Dark Souls - Guerrier 15 - 2x Éclair, 2x Soin des blessures critiques, 2x Rayon de soleil
-            </li>
-<li>
-             Tyrael - Jeu vidéo : Diablo II, Lord of Destruction - Paladin 23 - Archange
-            </li>
-<li>
-             Jahan - Jeu vidéo : Divinity Original Sin - Sorcier cryo/électromancien 12
-            </li>
-<li>
-             Shale - Jeu vidéo : Dragon Age: Origins - Guerrier 12 - Golem de pierre, chant de barde qui immobilise Shale et améliore un peu tout.
-            </li>
-<li>
-             Lenny - Jeu vidéo : Fallout II - Prêtre 8 - Goule, que des sorts de soin
-            </li>
-<li>
-             Arantir - Jeu vidéo : Heroes of Might and Magic V - Nécromancien 14 - 1x Invoque l'Avatar de la mort. Si l’Avatar meurt, Arantir ne peut plus lancer de sorts, 1x Hurlement de Banshee
-            </li>
-<li>
-             Spinal - Jeu vidéo : Killer instinct - Guerrier 11 - Squelette, 3x Téléportation, 3x crâne volant, 3x Déviation de sorts (instantané, 2 rounds)
-            </li>
-<li>
-             Deno Fevil - Jeu vidéo : Knight of Pen and Paper 2 - Guerrier 6
-            </li>
-<li>
-             Steve - Jeu vidéo : Minecraft - Guerrier 5 - Équipé full diamant, enchantements agilité aquatique, chute amortie, raccommodage, tranchant, butin, flammes
-            </li>
-<li>
-             Rampant - Jeu vidéo : Morrowind - Marchand - Achète/revend tout au prix maximal
-            </li>
-<li>
-             Hecubah - Jeu vidéo : Nox - Nécromancienne 17
-            </li>
-<li>
-             Hillock - Jeu vidéo : Path of Exile - Guerrier 3 - Quand il a perdu 50 % de sa vie, il sort son épée (ou dans 2% des cas Oni-Goroshi) et retrouve toute sa santé.
-            </li>
-<li>
-             Amiri - Jeu vidéo : Pathfinder : Kingmaker - Barbare 7
-            </li>
-<li>
-             Hiravias - Jeu vidéo : Pillars of Eternity - Sorcier druidique 11 - 3x Métamorphose en grand loup-garou durée 6 rounds
-            </li>
-<li>
-             Sargon - Jeu vidéo : Severance : Blade of Darkness - Guerrier 14 - Cimeterre +3 = +2 attaques/round, Masse +4 = +3 aux chances de critique
-            </li>
-<li>
-             Erritis - Jeu vidéo : Torment, Tides of Numenéra - Guerrier 10
-            </li>
-<li>
-             Lantry - Jeu vidéo : Tyranny - Sorcier 13 - TAC0 amélioré à distance, sorts de soin/druidiques, 2x Hâte++, 2x Tornade de fer, 2x Rappel à la vie++
-            </li>
-<li>
-             Christof Romuald - Jeu vidéo : Vampire : la mascarade - Rédemption - Chevalier 4
-            </li>
-<li>
-             Le Faucon Ardent - Jeu vidéo : Borderlands - Sirène 15 - 25x Téléportation explosive et 25x Déplacement instantané
-            </li>
-<li>
-             Deckard Cain - Jeu vidéo : Diablo - Érudit - Identifie tout gratuitement
-            </li>
-<li>
-             Zandalor - Jeu vidéo : Divinity - Mage combattant 20
-            </li>
-<li>
-             Abobo - Jeu vidéo : Double Dragon - Bagarreur 10
-            </li>
-<li>
-             Forgrimm - Jeu vidéo : Drakensang - Guerrier 6
-            </li>
-<li>
-             M'aiq Langue-Fourchue (IWD) - Jeu vidéo : The Elder Scrolls - Raconteur - A plein de trucs loufoques à raconter
-            </li>
-<li>
-             Canigou - Jeu vidéo : Fallout - Guerrier 9 - Chien
-            </li>
-<li>
-             Biggs &amp; Wedge - Jeu vidéo : Final Fantasy - Guerriers 9 &amp; 8 - Inséparables
-            </li>
-<li>
-             Guy - Jeu vidéo : Final Fight / Street fighters - Karatéka 9 - Quand il a perdu 80 % de sa vie, il gagne Tornade d'acier
-            </li>
-<li>
-             Gilius Thunderhead - Jeu vidéo : Golden Axe - Guerrier 11 - 2x Foudre sur tous les ennemis présents
-            </li>
-<li>
-             Xylaz - Jeu vidéo : Ishar - Guerrier 9 - Homme lézard, dés de vie D12
-            </li>
-<li>
-             Sheltem - Jeu vidéo : Might and Magic - Guerrier 13 / Pyromancien 13 - Androïde
-            </li>
-<li>
-             Concelhaut - Jeu vidéo : Pillars of Eternity - Sorcier 23 - Liche
-            </li>
-<li>
-             Galford D.weller - Jeu vidéo : Samuraï Shodown - Guerrier 8 - 3x Éclair, 2x Image miroir, 2x Arme chargée, 1x Hâte améliorée, 1x Tornade de fer + Image réfléchie majeure
-            </li>
-<li>
-             Iolo FitzOwen - Jeu vidéo : Ultima - Barde archer 17 - Aucun sort, divers chants de barde
-            </li>
-<li>
-             Valna Asou - Jeu vidéo : Valis - Sorcière guérisseuse 12 - Baguette de projectiles magiques infinie
-            </li>
-<li>
-             Link - Jeu vidéo : Zelda - Guerrier 8
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Abobo</td><td>Jeu vidéo (série) - Double Dragon</td><td>Bagarreur 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>Amiri</td><td>Jeu vidéo : Pathfinder : Kingmaker</td><td>Barbare 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Arantir</td><td>Jeu vidéo - Heroes of Might and Magic V</td><td>Nécromancien 14</td><td>1x Invoque l'Avatar de la mort. Si l’Avatar meurt, Arantir ne peut plus lancer de sorts, 1x Hurlement de Banshee</td></tr><tr><td>Barnabé Bonarien</td><td>Jeu vidéo - Arcanum</td><td>Guerrier 12</td><td>Chien (de guerre)</td></tr><tr><td>Biggs &amp; Wedge</td><td>Jeu vidéo (série) - Final Fantasy</td><td>Guerriers 9 &amp; 8</td><td>Inséparables</td></tr><tr><td>Canigou</td><td>Jeu vidéo (série) - Fallout</td><td>Guerrier 9</td><td>Chien</td></tr><tr><td>Christof Romuald</td><td>Jeu vidéo - Vampire : la mascarade - Rédemption</td><td>Chevalier 4</td><td class="sceptre-table-empty">—</td></tr><tr><td>Concelhaut</td><td>Jeu vidéo (série) - Pillars of Eternity</td><td>Sorcier 23</td><td>Liche</td></tr><tr><td>Deckard Cain</td><td>Jeu vidéo (série) - Diablo</td><td>Érudit</td><td>Identifie tout gratuitement</td></tr><tr><td>Deno Fevil</td><td>Jeu vidéo - Knight of Pen and Paper 2</td><td>Guerrier 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Erritis</td><td>Jeu vidéo - Torment, Tides of Numenéra</td><td>Guerrier 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>Forgrimm</td><td>Jeu vidéo (série) - Drakensang</td><td>Guerrier 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Galford D.weller</td><td>Jeu vidéo (série) - Samuraï Shodown</td><td>Guerrier 8</td><td>3x Éclair, 2x Image miroir, 2x Arme chargée, 1x Hâte améliorée, 1x Tornade de fer + Image réfléchie majeure</td></tr><tr><td>Gilius Thunderhead</td><td>Jeu vidéo (série) - Golden Axe</td><td>Guerrier 11</td><td>2x Foudre sur tous les ennemis présents</td></tr><tr><td>Guy</td><td>Jeu vidéo (série) - Final Fight / Street fighters</td><td>Karatéka 9</td><td>Quand il a perdu 80 % de sa vie, il gagne Tornade d'acier</td></tr><tr><td>Hecubah</td><td>Jeu vidéo - Nox</td><td>Nécromancienne 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Hillock</td><td>Jeu vidéo - Path of Exile</td><td>Guerrier 3</td><td>Quand il a perdu 50 % de sa vie, il sort son épée (ou dans 2% des cas Oni-Goroshi) et retrouve toute sa santé.</td></tr><tr><td>Hiravias</td><td>Jeu vidéo - Pillars of Eternity</td><td>Sorcier druidique 11</td><td>3x Métamorphose en grand loup-garou durée 6 rounds</td></tr><tr><td>Iolo FitzOwen</td><td>Jeu vidéo (série) - Ultima</td><td>Barde archer 17</td><td>Aucun sort, divers chants de barde</td></tr><tr><td>Jahan</td><td>Jeu vidéo - Divinity Original Sin</td><td>Sorcier cryo/électromancien 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Lantry</td><td>Jeu vidéo - Tyranny</td><td>Sorcier 13</td><td>TAC0 amélioré à distance, sorts de soin/druidiques, 2x Hâte++, 2x Tornade de fer, 2x Rappel à la vie++</td></tr><tr><td>Le Faucon Ardent</td><td>Jeu vidéo (série) - Borderlands</td><td>Sirène 15</td><td>25x Téléportation explosive et 25x Déplacement instantané</td></tr><tr><td>Lenny</td><td>Jeu vidéo - Fallout II</td><td>Prêtre 8</td><td>Goule, que des sorts de soin</td></tr><tr><td>Link</td><td>Jeu vidéo (série) - Zelda</td><td>Guerrier 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>M'aiq Langue-Fourchue</td><td>Jeu vidéo (série) - The Elder Scrolls</td><td>Raconteur</td><td>A plein de trucs loufoques à raconter</td></tr><tr><td>Rampant</td><td>Jeu vidéo - Morrowind</td><td>Marchand</td><td>Achète/revend tout au prix maximal</td></tr><tr><td>Sargon</td><td>Jeu vidéo - Severance : Blade of Darkness</td><td>Guerrier 14</td><td>Cimeterre +3 = +2 attaques/round, Masse +4 = +3 aux chances de critique</td></tr><tr><td>Shale</td><td>Jeu vidéo - Dragon Age: Origins</td><td>Guerrier 12</td><td>Golem de pierre, chant de barde qui immobilise Shale et améliore un peu tout.</td></tr><tr><td>Sheltem</td><td>Jeu vidéo (série) - Might and Magic</td><td>Guerrier 13 / Pyromancien 13</td><td>Androïde</td></tr><tr><td>Solaire d'Astora</td><td>Jeu vidéo - Dark Souls</td><td>Guerrier 15</td><td>2x Éclair, 2x Soin des blessures critiques, 2x Rayon de soleil</td></tr><tr><td>Spinal</td><td>Jeu vidéo - Killer instinct</td><td>Guerrier 11</td><td>Squelette, 3x Téléportation, 3x crâne volant, 3x Déviation de sorts (instantané, 2 rounds)</td></tr><tr><td>Steve</td><td>Jeu vidéo - Minecraft</td><td>Guerrier 5</td><td>Équipé full diamant, enchantements agilité aquatique, chute amortie, raccommodage, tranchant, butin, flammes</td></tr><tr><td>Tyrael</td><td>Jeu vidéo - Diablo II, Lord of Destruction</td><td>Paladin 23</td><td>Archange</td></tr><tr><td>Valna Asou</td><td>Jeu vidéo (série) - Valis</td><td>Sorcière guérisseuse 12</td><td>Baguette de projectiles magiques infinie</td></tr><tr><td>Virgile</td><td>Jeu vidéo - Arcanum</td><td>Guerrier 12 / Prêtre 12</td><td>Équipement et sorts cheatés d'Arcanum</td></tr><tr><td>Xylaz</td><td>Jeu vidéo (série) - Ishar</td><td>Guerrier 9</td><td>Homme lézard, dés de vie D12</td></tr><tr><td>Zandalor</td><td>Jeu vidéo (série) - Divinity</td><td>Mage combattant 20</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Livres
            </h4>
-<ul>
-<li>
-             Bagheera - Livre : Le livre de la jungle - Guerrier 6 - Panthère
-            </li>
-<li>
-             Fflewddur Fflam - Livre : Chroniques de Prydain - Barde 9 - Aucun sort, divers chants de barde
-            </li>
-<li>
-             Tristelune d'Elwher - Livre : Elric - Guerrier 14
-            </li>
-<li>
-             Yyrkoon - Livre : Elric - Guerrier 17 - Protection contre les démons, 1x Portail
-            </li>
-<li>
-             Katniss Everdeen - Livre : Hunger Games - Archère 15 - Aucun sort
-            </li>
-<li>
-             Mandorallen - Livre : La Belgariade / La mallorée - Chevalier 14 - Aucun sort, ne repousse pas les morts-vivants
-            </li>
-<li>
-             Nynaeve al'Meara - Livre : La Roue du Temps - Sorcière guérisseuse élémentaliste 17
-            </li>
-<li>
-             Zagor - Livre : LDVELH Défis fantastiques (tomes 1, 50 et 54) Magicien élémentaliste 20 - Liche ½ démon
-            </li>
-<li>
-             Pip - Livre : LDVELH Quête du graal, 8 livres - Guerrier 13
-            </li>
-<li>
-             Fafhrd - Livre : Le Cycle des Épées - Rôdeur 15
-            </li>
-<li>
-             Bénédict d’Ambre - Livre : Le Cycle des Princes d'Ambre - Guerrier 22 - Capacités physiques surhumaines, régénération
-            </li>
-<li>
-             Legolas Vertefeuille - Livre : Le Seigneur des anneaux - Guerrier (Archer) 17
-            </li>
-<li>
-             Éowyn - Livre : Le Seigneur des anneaux - Chevalière 14 - Aucun sort, ne repousse pas les morts-vivants
-            </li>
-<li>
-             Arya Stark - Livre : Le Trône de fer - Assassin 15 - Dague en acier valyrien tueuse de morts-vivants sans RM ni jds
-            </li>
-<li>
-             Brienne de Torth - Livre : Le Trône de fer - Paladine 15 - Aucun sort, ne repousse pas les morts-vivants
-            </li>
-<li>
-             Cohen le barbare - Livre : Les annales du Disque-monde - Barbare 18
-            </li>
-<li>
-             Mémé Ciredutemps - Livre : Les annales du Disque-monde - Sorcière 22
-            </li>
-<li>
-             Fitz Chevalerie - Livre : L'Assassin royal - Guerrier 4 / Assassin 14 - Accompagné d'Oeil-de-nuit, 1x Berserk à la Minsc, 4x Charme-animal
-            </li>
-<li>
-             Umbre Tombétoile - Livre : L'Assassin royal - Assassin 20
-            </li>
-<li>
-             Murtagh - Livre : L'Héritage - Guerrier 15 - Immunité aux attaques mentales
-            </li>
-<li>
-             Albus Dumbledore - Livre : Harry Potter - Magicien 22 - Sorts de tous types orientés "protecteur"
-            </li>
-<li>
-             Thulsa Doom - Livre : Kull puis Conan - Nécromancien 18 - Liche, 1x Animation des morts
-            </li>
-<li>
-             Jaskier - Livre : The Witcher - Barde 7 - Aucun sort, divers chants de barde
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Albus Dumbledore</td><td>Livre (série) - Harry Potter</td><td>Magicien 22</td><td>Sorts de tous types orientés "protecteur"</td></tr><tr><td>Arya Stark</td><td>Livre (série) - Le Trône de fer</td><td>Assassin 15</td><td>Dague en acier valyrien tueuse de morts-vivants sans RM ni jds</td></tr><tr><td>Bagheera</td><td>Livre - Le livre de la jungle</td><td>Guerrier 6</td><td>Panthère</td></tr><tr><td>Bénédict d’Ambre</td><td>Livre (série) - Le Cycle des Princes d'Ambre</td><td>Guerrier 22</td><td>Capacités physiques surhumaines, régénération</td></tr><tr><td>Brienne de Torth</td><td>Livre (série) - Le Trône de fer</td><td>Paladine 15</td><td>Aucun sort, ne repousse pas les morts-vivants</td></tr><tr><td>Cohen le barbare</td><td>Livre (série) - Les annales du Disque-monde</td><td>Barbare 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Éowyn</td><td>Livre (série) - Le Seigneur des anneaux</td><td>Chevalière 14</td><td>Aucun sort, ne repousse pas les morts-vivants</td></tr><tr><td>Fafhrd</td><td>Livre (série) - Le Cycle des Épées</td><td>Rôdeur 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Fflewddur Fflam</td><td>Livre (série) - Chroniques de Prydain</td><td>Barde 9</td><td>Aucun sort, divers chants de barde</td></tr><tr><td>Fitz Chevalerie</td><td>Livre (série) - L'Assassin royal</td><td>Guerrier 4 / Assassin 14</td><td>Accompagné d'Oeil-de-nuit, 1x Berserk à la Minsc, 4x Charme-animal</td></tr><tr><td>Jaskier</td><td>Livre (série) - The Witcher</td><td>Barde 7</td><td>Aucun sort, divers chants de barde</td></tr><tr><td>Katniss Everdeen</td><td>Livre (série) - Hunger Games</td><td>Archère 15</td><td>Aucun sort</td></tr><tr><td>Legolas Vertefeuille</td><td>Livre (série) - Le Seigneur des anneaux</td><td>Guerrier (Archer) 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mandorallen</td><td>Livre (série) - La Belgariade / La mallorée</td><td>Chevalier 14</td><td>Aucun sort, ne repousse pas les morts-vivants</td></tr><tr><td>Mémé Ciredutemps</td><td>Livre (série) - Les annales du Disque-monde</td><td>Sorcière 22</td><td class="sceptre-table-empty">—</td></tr><tr><td>Murtagh</td><td>Livre (série) - L'Héritage</td><td>Guerrier 15</td><td>Immunité aux attaques mentales</td></tr><tr><td>Nynaeve al'Meara</td><td>Livre (série) - La Roue du Temps</td><td>Sorcière guérisseuse élémentaliste 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Pip</td><td>Livre (série) - LDVELH Quête du graal, 8 livres</td><td>Guerrier 13</td><td class="sceptre-table-empty">—</td></tr><tr><td>Thulsa Doom</td><td>Livre (série) - Kull puis Conan</td><td>Nécromancien 18</td><td>Liche, 1x Animation des morts</td></tr><tr><td>Tristelune d'Elwher</td><td>Livre (série) - Elric</td><td>Guerrier 14</td><td class="sceptre-table-empty">—</td></tr><tr><td>Umbre Tombétoile</td><td>Livre (série) - L'Assassin royal</td><td>Assassin 20</td><td class="sceptre-table-empty">—</td></tr><tr><td>Yyrkoon</td><td>Livre (série) - Elric</td><td>Guerrier 17</td><td>Protection contre les démons, 1x Portail</td></tr><tr><td>Zagor</td><td>Livre (série) - LDVELH Défis fantastiques (tomes 1, 50 et 54) Magicien élémentaliste 20</td><td>Liche ½ démon</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Bandes dessinées
            </h4>
-<ul>
-<li>
-             Davey Trauma - Bande dessinée : Tokyo Ghost - Hackeur 3 - Contrôle mental de tout ennemi visible, sans jds ni RM. Donne la capacité "suicide".
-            </li>
-<li>
-             Debbie Jacobs - Bande dessinée : Tokyo Ghost - Kensai 16 - 1x Horde sauvage (1D10+8 animaux), 3x Guérison par apposition des mains (pas sur elle-même)
-            </li>
-<li>
-             Gana Gomar - Bande dessinée : Ab irato - Moine 11 - Régénération, 1x Guérison (personnelle), 3x télékinésie : répulsion des ennemis.
-            </li>
-<li>
-             Falgant - Bande dessinée : Anachron - Barde 27 - Androïde, violon incinérateur
-            </li>
-<li>
-             Hornitos - Bande dessinée : Arvendor - Bretteur 15
-            </li>
-<li>
-             B. - Bande dessinée : Brzrkr - Berserker 25 - Invulnérable, rage de ½ dieu (30% de chance de tuer directement en mettant en charpie)
-            </li>
-<li>
-             Calvin et Hobbes - Bande dessinée : Calvin et Hobbes - Petit garçon - Inséparables
-            </li>
-<li>
-             Mara - Bande dessinée : Chevalier dragon (tome 3) - Chevalier 16 - Aucun bonus contre les démons, double bonus contre les dragons
-            </li>
-<li>
-             Haazheel Thorn - Bande dessinée : Chroniques de Lune Noire - Prêtre 28 - ½ démon, temps d'incantation -4, 1x transformation en démon bestial.
-            </li>
-<li>
-             Pile-ou-Face - Bande dessinée : Chroniques de Lune Noire - Guerrier 8 / Bretteur 10 - Spécialisé vol à la tire, pose au sol chaque round un des objets volés.
-            </li>
-<li>
-             Sioban - Bande dessinée : Complainte des landes perdues - Guerrière 6
-            </li>
-<li>
-             Le Guinea Lord - Bande dessinée : Complainte des landes perdues - Guerrière 18 - Invulnérable aux dégâts, accompagné de 3 mastiffs de guerre
-            </li>
-<li>
-             Anjalbert de Ganfalon - Bande dessinée : Garulfo, livre premier - Chevalier 21 - Capacités physiques surhumaines (sauf la vue ^^)
-            </li>
-<li>
-             Dame Gorge - Bande dessinée : Gorn - Guerrière 13 - Naine, 3x Grand cri
-            </li>
-<li>
-             Griffe Blanche - Bande dessinée : Griffe Blanche - Guerrière 16
-            </li>
-<li>
-             Mokla - Bande dessinée : L'Épée de Cristal - Guerrière 7 - Halfelin
-            </li>
-<li>
-             Jean de Séverac - Bande dessinée : La brigade chimérique - Scientifique 11 - S'il voit un ennemi, il se transforme en la Brigade Chimérique
-            </li>
-<li>
-             Sixte Averroës - Bande dessinée : Lanfeust de Troy - Guerrier 17 - Si pv -15%, se téléporte et retourne dans son monde (sans son équipement, qui tombe au sol)
-            </li>
-<li>
-             Bulrog - Bande dessinée : La quête de l'Oiseau du temps - Guerrier 10 - ½ orque
-            </li>
-<li>
-             Barr-Find Main Noire - Bande dessinée : Le grand pouvoir du Chninkel - Guerrier 18
-            </li>
-<li>
-             Tristan de Halsbourg - Bande dessinée : Légende - Guerrier 15 - 1x Convocation de loups
-            </li>
-<li>
-             Morkaï - Bande dessinée : Légendes des contrées oubliées Barbare 10 - ½ orque
-            </li>
-<li>
-             Brumaire Courte-dague - Bande dessinée : Les feux d'Askell - Voleur 9 - Spécialisé en dague de lancer
-            </li>
-<li>
-             Tara - Bande dessinée : Les forêts d'Opale - Guerrière 16
-            </li>
-<li>
-             Sasmaël - Bande dessinée : Les Maîtres Inquisiteurs - Guerrier 17 - 3x Chaîne d’éclairs, 1x foudre sur tous les ennemis (20D8), accompagné de Lotweën, Kensaï 18
-            </li>
-<li>
-             Gargamel - Bande dessinée : Les Schtroumpfs - Magicien 1 - 3x Alchimie (potion posée au sol)
-            </li>
-<li>
-             Homnibus - Bande dessinée : Les Schtroumpfs / Johan &amp; Pirlouit Magicien 11
-            </li>
-<li>
-             Bragal - Bande dessinée : Marlysa - Guerrier 15
-            </li>
-<li>
-             Terkio (oBG2) - Bande dessinée : Moréa - Guerrier 18 - S'il meurt, régénère et se relève après 6 rounds
-            </li>
-<li>
-             Redwin de la forge - Bande dessinée : Nains (tomes 1, 6, 11 et 21) - Guerrier 19 - Rage de dément qui lui permet de réaliser l'impensable
-            </li>
-<li>
-             Okko - Bande dessinée : Okko - Kensaï Tueur de mvs &amp; de démons 16
-            </li>
-<li>
-             Féra - Bande dessinée : Pandora - Guerrière bagarreuse 15
-            </li>
-<li>
-             Rénakhin - Bande dessinée : Pandora - Sorcier 17 - Sorts infinis
-            </li>
-<li>
-             Ralph Azham - Bande dessinée : Ralph Azham - Bouseux 3 - Tous les ennemis visibles sont mis en charpie en sa présence
-            </li>
-<li>
-             Requiem - Bande dessinée : Requiem, chevalier vampire - Guerrier 16 - Vampire
-            </li>
-<li>
-             Torquemada - Bande dessinée : Requiem, chevalier vampire - Berserker 16 - Loup-garou
-            </li>
-<li>
-             Steven T. Learoyd - Bande dessinée : The Autumnlands - Guerrier 20 - Immunisé à la magie, 5x Vision véritable
-            </li>
-<li>
-             Michonne - Bande dessinée : The Walking Dead - Guerrière 15
-            </li>
-<li>
-             Negan - Bande dessinée : The Walking Dead - Guerrier 15
-            </li>
-<li>
-             Kriss de Valnor - Bande dessinée : Thorgal - Guerrière (archère) 12
-            </li>
-<li>
-             Monsieur Thin - Bande dessinée : Universal War I - Maître du monde - Incapable de bouger, dépendant, aveugle.
-            </li>
-<li>
-             Haffanen - Bande dessinée : Wollodrïn - Guerrier 17 - Elfe, 2x Exaltation, 2x Soins des blessures critiques, 1x Résurrection
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Anjalbert de Ganfalon</td><td>Bande dessinée (série) - Garulfo, livre premier</td><td>Chevalier 21</td><td>Capacités physiques surhumaines (sauf la vue ^^)</td></tr><tr><td>B.</td><td>Bande dessinée (série) - Brzrkr</td><td>Berserker 25</td><td>Invulnérable, rage de ½ dieu (30% de chance de tuer directement en mettant en charpie)</td></tr><tr><td>Barr-Find Main Noire</td><td>Bande dessinée (série) - Le grand pouvoir du Chninkel</td><td>Guerrier 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Bragal</td><td>Bande dessinée (série) - Marlysa</td><td>Guerrier 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Brumaire Courte-dague</td><td>Bande dessinée (série) - Les feux d'Askell</td><td>Voleur 9</td><td>Spécialisé en dague de lancer</td></tr><tr><td>Bulrog</td><td>Bande dessinée (série) - La quête de l'Oiseau du temps</td><td>Guerrier 10</td><td>½ orque</td></tr><tr><td>Calvin et Hobbes</td><td>Bande dessinée (série) - Calvin et Hobbes</td><td>Petit garçon</td><td>Inséparables</td></tr><tr><td>Dame Gorge</td><td>Bande dessinée (série) - Gorn</td><td>Guerrière 13</td><td>Naine, 3x Grand cri</td></tr><tr><td>Davey Trauma</td><td>Bande dessinée - Tokyo Ghost</td><td>Hackeur 3</td><td>Contrôle mental de tout ennemi visible, sans jds ni RM. Donne la capacité "suicide".</td></tr><tr><td>Debbie Jacobs</td><td>Bande dessinée - Tokyo Ghost</td><td>Kensai 16</td><td>1x Horde sauvage (1D10+8 animaux), 3x Guérison par apposition des mains (pas sur elle-même)</td></tr><tr><td>Falgant</td><td>Bande dessinée (série) - Anachron</td><td>Barde 27</td><td>Androïde, violon incinérateur</td></tr><tr><td>Féra</td><td>Bande dessinée (série) - Pandora</td><td>Guerrière bagarreuse 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Gana Gomar</td><td>Bande dessinée (série) - Ab irato</td><td>Moine 11</td><td>Régénération, 1x Guérison (personnelle), 3x télékinésie : répulsion des ennemis.</td></tr><tr><td>Gargamel</td><td>Bande dessinée (série) - Les Schtroumpfs</td><td>Magicien 1</td><td>3x Alchimie (potion posée au sol)</td></tr><tr><td>Griffe Blanche</td><td>Bande dessinée (série) - Griffe Blanche</td><td>Guerrière 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Haazheel Thorn</td><td>Bande dessinée (série) - Chroniques de Lune Noire</td><td>Prêtre 28</td><td>½ démon, temps d'incantation -4, 1x transformation en démon bestial.</td></tr><tr><td>Haffanen</td><td>Bande dessinée (série) - Wollodrïn</td><td>Guerrier 17</td><td>Elfe, 2x Exaltation, 2x Soins des blessures critiques, 1x Résurrection</td></tr><tr><td>Homnibus</td><td>Bande dessinée (série) - Les Schtroumpfs / Johan &amp; Pirlouit</td><td>Magicien 11</td><td class="sceptre-table-empty">—</td></tr><tr><td>Hornitos</td><td>Bande dessinée (série) - Arvendor</td><td>Bretteur 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Jean de Séverac</td><td>Bande dessinée (série) - La brigade chimérique</td><td>Scientifique 11</td><td>S'il voit un ennemi, il se transforme en la Brigade Chimérique</td></tr><tr><td>Kriss de Valnor</td><td>Bande dessinée (série) - Thorgal</td><td>Guerrière (archère) 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Le Guinea Lord</td><td>Bande dessinée (série) - Complainte des landes perdues</td><td>Guerrière 18</td><td>Invulnérable aux dégâts, accompagné de 3 mastiffs de guerre</td></tr><tr><td>Mara</td><td>Bande dessinée (série) - Chevalier dragon (tome 3)</td><td>Chevalier 16</td><td>Aucun bonus contre les démons, double bonus contre les dragons</td></tr><tr><td>Michonne</td><td>Bande dessinée (série) - The Walking Dead</td><td>Guerrière 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mokla</td><td>Bande dessinée (série) - L'Épée de Cristal</td><td>Guerrière 7</td><td>Halfelin</td></tr><tr><td>Monsieur Thin</td><td>Bande dessinée (série) - Universal War I</td><td>Maître du monde</td><td>Incapable de bouger, dépendant, aveugle.</td></tr><tr><td>Morkaï</td><td>Bande dessinée (série) - Légendes des contrées oubliées  Barbare 10</td><td>½ orque</td><td class="sceptre-table-empty">—</td></tr><tr><td>Negan</td><td>Bande dessinée (série) - The Walking Dead</td><td>Guerrier 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Okko</td><td>Bande dessinée (série) - Okko</td><td>Kensaï Tueur de mvs &amp; de démons 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Pile-ou-Face</td><td>Bande dessinée (série) - Chroniques de Lune Noire</td><td>Guerrier 8 / Bretteur 10</td><td>Spécialisé vol à la tire, pose au sol chaque round un des objets volés.</td></tr><tr><td>Ralph Azham</td><td>Bande dessinée (série) - Ralph Azham</td><td>Bouseux 3</td><td>Tous les ennemis visibles sont mis en charpie en sa présence</td></tr><tr><td>Redwin de la forge</td><td>Bande dessinée (série) - Nains (tomes 1, 6, 11 et 21)</td><td>Guerrier 19</td><td>Rage de dément qui lui permet de réaliser l'impensable</td></tr><tr><td>Rénakhin</td><td>Bande dessinée (série) - Pandora</td><td>Sorcier 17</td><td>Sorts infinis</td></tr><tr><td>Requiem</td><td>Bande dessinée (série) - Requiem, chevalier vampire</td><td>Guerrier 16</td><td>Vampire</td></tr><tr><td>Sasmaël</td><td>Bande dessinée (série) - Les Maîtres Inquisiteurs</td><td>Guerrier 17</td><td>3x Chaîne d’éclairs, 1x foudre sur tous les ennemis (20D8), accompagné de Lotweën, Kensaï 18</td></tr><tr><td>Sioban</td><td>Bande dessinée (série) - Complainte des landes perdues</td><td>Guerrière 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Sixte Averroës</td><td>Bande dessinée (série) - Lanfeust de Troy</td><td>Guerrier 17</td><td>Si pv -15%, se téléporte et retourne dans son monde (sans son équipement, qui tombe au sol)</td></tr><tr><td>Steven T. Learoyd</td><td>Bande dessinée (série) - The Autumnlands</td><td>Guerrier 20</td><td>Immunisé à la magie, 5x Vision véritable</td></tr><tr><td>Tara</td><td>Bande dessinée (série) - Les forêts d'Opale</td><td>Guerrière 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Torquemada</td><td>Bande dessinée (série) - Requiem, chevalier vampire</td><td>Berserker 16</td><td>Loup-garou</td></tr><tr><td>Tristan de Halsbourg</td><td>Bande dessinée (série) - Légende</td><td>Guerrier 15</td><td>1x Convocation de loups</td></tr></tbody></table></div>
 <h4>
             Mangas
            </h4>
-<ul>
-<li>
-             Zaraki Kenpachi - Manga : Bleach - Kensaï 30 - Très résistant, régénération rapide
-            </li>
-<li>
-             Eto - Manga : Chroniques de la Guerre de Lodoss - Prêtre 8
-            </li>
-<li>
-             Fuam (EE - rose) - Manga : Fly/Dragon Quest - Moine 14 - 2x plusieurs sorts de guérison, 4x Coup de Poing éclair
-            </li>
-<li>
-             Eikichi Onizuka - Manga : GTO - Bagarreur 17
-            </li>
-<li>
-             Alexander Anderson - Manga : Hellsing - Tueur de morts-vivants 16 - Capacités physiques surhumaines, régénération, 3x Porte dimensionnelle
-            </li>
-<li>
-             Kenshirô - Manga : Ken le survivant - Moine 18 - Frappe mortelle (jds à -8) après 2 secondes (sur vivant, non golem, élémentaire, limon), 6x Tornade d'acier
-            </li>
-<li>
-             Argol de Persée - Manga : Les Chevaliers du Zodiaque - Guerrier 11 - Pétrification quand attaqué, 2x Pétrification sur zone conique, 3x Enchevêtrement sur zone
-            </li>
-<li>
-             Hinata Hyûga - Manga : Naruto - Moine 15 - 2x 64 Poings du Hakke (Tornade d'acier et +4 à la CA 2 rounds)
-            </li>
-<li>
-             Shino Aburame - Manga : Naruto - Ninja druide 10 - Spécialisé dans les insectes, toucher imposant 20% de miscast
-            </li>
-<li>
-             Boa Hancock - Manga : One Piece - Impératrice pirate 15 - 25 x Pétrification, 25x Dé-pétrification, Pétrifie les ennemis sur zone, sans jds ni RM
-            </li>
-<li>
-             Garoh - Manga : One-Punch Man - Monstre 20 - 5x Tornade d'acier, 5x Esquive majeure
-            </li>
-<li>
-             King - Manga : One-Punch Man - Civil - Aucune réputation sur Féérune..... problème.
-            </li>
-<li>
-             Akame - Manga : Red eye sword - Voleur 10 → Kensaï 18 - Frappe empoisonnée mortelle sans jds, capacités de voleur : uniquement dissimulation
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Akame</td><td>Manga (série) - Red eye sword</td><td>Voleur 10 → Kensaï 18</td><td>Frappe empoisonnée mortelle sans jds, capacités de voleur : uniquement dissimulation</td></tr><tr><td>Alexander Anderson</td><td>Manga (série) - Hellsing</td><td>Tueur de morts-vivants 16</td><td>Capacités physiques surhumaines, régénération, 3x Porte dimensionnelle</td></tr><tr><td>Argol de Persée</td><td>Manga (série) - Les Chevaliers du Zodiaque</td><td>Guerrier 11</td><td>Pétrification quand attaqué, 2x Pétrification sur zone conique, 3x Enchevêtrement sur zone</td></tr><tr><td>Boa Hancock</td><td>Manga (série) - One Piece</td><td>Impératrice pirate 15</td><td>25 x Pétrification, 25x Dé-pétrification, Pétrifie les ennemis sur zone, sans jds ni RM</td></tr><tr><td>Eikichi Onizuka</td><td>Manga (série) - GTO</td><td>Bagarreur 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Eto</td><td>Manga (série) - Chroniques de la Guerre de Lodoss</td><td>Prêtre 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Fuam</td><td>Manga (série) - Fly/Dragon Quest</td><td>Moine 14</td><td>2x plusieurs sorts de guérison, 4x Coup de Poing éclair</td></tr><tr><td>Garoh</td><td>Manga (série) - One-Punch Man</td><td>Monstre 20</td><td>5x Tornade d'acier, 5x Esquive majeure</td></tr><tr><td>Hinata Hyûga</td><td>Manga (série) - Naruto</td><td>Moine 15</td><td>2x 64 Poings du Hakke (Tornade d'acier et +4 à la CA 2 rounds)</td></tr><tr><td>Kenshirô</td><td>Manga (série) - Ken le survivant</td><td>Moine 18</td><td>Frappe mortelle (jds à -8) après 2 secondes (sur vivant, non golem, élémentaire, limon), 6x Tornade d'acier</td></tr><tr><td>King</td><td>Manga (série) - One-Punch Man</td><td>Civil</td><td>Aucune réputation sur Féérune..... problème.</td></tr><tr><td>Shino Aburame</td><td>Manga (série) - Naruto</td><td>Ninja druide 10</td><td>Spécialisé dans les insectes, toucher imposant 20% de miscast</td></tr><tr><td>Zaraki Kenpachi</td><td>Manga (série) - Bleach</td><td>Kensaï 30</td><td>Très résistant, régénération rapide</td></tr></tbody></table></div>
 <h4>
             Comics
            </h4>
-<ul>
-<li>
-             Knolan - Comics : Battle Chasers - Sorcier guérisseur 17
-            </li>
-<li>
-             Lady Shiva - Comics : Batman - Moine combattante assassin 21 - 5x "Arracher le cœur" (activez, attaquez) : uniquement sur humanoïde vivant, si touche : mort sans jds ni rm
-            </li>
-<li>
-             Dupli-Kate - Comics : Invincible - Moine 6 - Peut se dupliquer à volonté
-            </li>
-<li>
-             Les jumeaux Mauler - Comics : Invincible - Guerriers 13 - Ogres bleus, inséparables
-            </li>
-<li>
-             Black Canary - Comics : Justice League of America - Karatéka 18 - 3x Grand cri
-            </li>
-<li>
-             Kick-Ass - Comics : Kick-Ass - Guerrier 5
-            </li>
-<li>
-             Gamora Zen Whoberi Ben Titan - Comics : Les Gardiens de la Galaxie - Guerrière moine assassin 21 - Entraînement poussé, capacités physiques cybernétiquement boostées, régénération
-            </li>
-<li>
-             Luke Cage - Comics : Power Man - Moine 17 - Force surhumaine, quasi invulnérabilité, régénération
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Black Canary</td><td>Comics (série) - Justice League of America</td><td>Karatéka 18</td><td>3x Grand cri</td></tr><tr><td>Dupli-Kate</td><td>Comics (série) - Invincible</td><td>Moine 6</td><td>Peut se dupliquer à volonté</td></tr><tr><td>Gamora Zen Whoberi Ben Titan</td><td>Comics (série) - Les Gardiens de la Galaxie</td><td>Guerrière moine assassin 21</td><td>Entraînement poussé, capacités physiques cybernétiquement boostées, régénération</td></tr><tr><td>Kick-Ass</td><td>Comics (série) - Kick-Ass</td><td>Guerrier 5</td><td class="sceptre-table-empty">—</td></tr><tr><td>Knolan</td><td>Comics (série) - Battle Chasers</td><td>Sorcier guérisseur 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Lady Shiva</td><td>Comics (série) - Batman</td><td>Moine combattante assassin 21</td><td>5x "Arracher le cœur" (activez, attaquez) : uniquement sur humanoïde vivant, si touche : mort sans jds ni rm</td></tr><tr><td>Les jumeaux Mauler</td><td>Comics (série) - Invincible</td><td>Guerriers 13</td><td>Ogres bleus, inséparables</td></tr><tr><td>Luke Cage</td><td>Comics (série) - Power Man</td><td>Moine 17</td><td>Force surhumaine, quasi invulnérabilité, régénération</td></tr></tbody></table></div>
 <h4>
             Jeux de rôles
            </h4>
-<ul>
-<li>
-             Shiba Tsukune - Jeu de rôle : Légende des 5 anneaux - Guerrière 13 / Wu jen 13
-            </li>
-<li>
-             Reine Geleeda la blanche - Jeu de rôle : Les Terres balafrées - Sorcière 18 - ½ guenaude, bardée d'objets magiques, invisibilité à volonté pendant les heures de nuit
-            </li>
-<li>
-             Sunulael - Jeu de rôle : Midnight - Prêtre 21 - Liche nécrophage
-            </li>
-<li>
-             Ardherin - Jeu de rôle : Midnight - Ensorceleur 21 - Immunisé contre toutes les armes
-            </li>
-<li>
-             Imrijka - Jeu de rôle : Pathfinder - Inquisitrice 10 - ½ orque
-            </li>
-<li>
-             Shigmaa Urasta - Jeu de rôle : Ptolus - Prêtresse 16 - Tieffelin. 1x Toucher de la goule, 1x Toucher drainant (2 niveaux), 1x Mise à mort, immunités diverses.
-            </li>
-<li>
-             Nitouche - Jeu de rôle : Rêve de dragon - Barde 5
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Ardherin</td><td>Jeu de rôle - Midnight</td><td>Ensorceleur 21</td><td>Immunisé contre toutes les armes</td></tr><tr><td>Imrijka</td><td>Jeu de rôle - Pathfinder</td><td>Inquisitrice 10</td><td>½ orque</td></tr><tr><td>Nitouche</td><td>Jeu de rôle - Rêve de dragon</td><td>Barde 5</td><td class="sceptre-table-empty">—</td></tr><tr><td>Reine Geleeda la blanche</td><td>Jeu de rôle - Les Terres balafrées</td><td>Sorcière 18</td><td>½ guenaude, bardée d'objets magiques, invisibilité à volonté pendant les heures de nuit</td></tr><tr><td>Shiba Tsukune</td><td>Jeu de rôle - Légende des 5 anneaux</td><td>Guerrière 13 / Wu jen 13</td><td class="sceptre-table-empty">—</td></tr><tr><td>Shigmaa Urasta</td><td>Jeu de rôle - Ptolus</td><td>Prêtresse 16</td><td>Tieffelin. 1x Toucher de la goule, 1x Toucher drainant (2 niveaux), 1x Mise à mort, immunités diverses.</td></tr><tr><td>Sunulael</td><td>Jeu de rôle - Midnight</td><td>Prêtre 21</td><td>Liche nécrophage</td></tr></tbody></table></div>
 <h4>
             Jeux de société
            </h4>
-<ul>
-<li>
-             Magus Gondè Kyal - Jeu de société : Allegiance: A Realm Divided (vo) - Élémentaliste 12
-            </li>
-<li>
-             Ansatsu, la Lame Silencieuse - Jeu de société : Allegiance: A Realm Divided (vo) - Ninja Assassin 12
-            </li>
-<li>
-             Ashrian - Jeu de société : Descent 2e édition - Disciple 5 - Elfe. Chaque round Lenteur sur tous les ennemis de moins de 9 DV adjacents, 1x Lenteur sans jds, 5x prière de soin++
-            </li>
-<li>
-             Baron Zachareth - Jeu de société : Descent 2e édition - Guerrier 18 - CA énorme, 3x "Immobilise si jds raté", 3x "Éclair d'ombre", arme avec 30 % de chance d'un effet aléatoire
-            </li>
-<li>
-             Gerrard Capashen - Jeu de société : Magic The Gathering - Maître d'armes 17
-            </li>
-<li>
-             Jeanne d'orque - Jeu de société : Munchkin - Guerrière 2 - Orque
-            </li>
-<li>
-             Tut-Tuuut-Ankh-Ammon - Jeu de société : Munchkin - Prêtre 18 - Momie royale
-            </li>
-<li>
-             Vlad von Carstein - Jeu de société : Warhammer - Guerrier 12 / Nécromancien 13 - Vampire, immortel, épée vampirique
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>Ansatsu, la Lame Silencieuse</td><td>Jeu de société - Allegiance: A Realm Divided (vo)</td><td>Ninja Assassin 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Ashrian</td><td>Jeu de société - Descent 2e édition</td><td>Disciple 5</td><td>Elfe. Chaque round Lenteur sur tous les ennemis de moins de 9 DV adjacents, 1x Lenteur sans jds, 5x prière de soin++</td></tr><tr><td>Baron Zachareth</td><td>Jeu de société - Descent 2e édition</td><td>Guerrier 18</td><td>CA énorme, 3x "Immobilise si jds raté", 3x "Éclair d'ombre", arme avec 30 % de chance d'un effet aléatoire</td></tr><tr><td>Gerrard Capashen</td><td>Jeu de société - Magic The Gathering</td><td>Maître d'armes 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Jeanne d'orque</td><td>Jeu de société - Munchkin</td><td>Guerrière 2</td><td>Orque</td></tr><tr><td>Magus Gondè Kyal</td><td>Jeu de société - Allegiance: A Realm Divided (vo)</td><td>Élémentaliste 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Tut-Tuuut-Ankh-Ammon</td><td>Jeu de société - Munchkin</td><td>Prêtre 18</td><td>Momie royale</td></tr><tr><td>Vlad von Carstein</td><td>Jeu de société - Warhammer</td><td>Guerrier 12 / Nécromancien 13</td><td>Vampire, immortel, épée vampirique</td></tr></tbody></table></div>
 <h4>
             Autres
            </h4>
-<ul>
-<li>
-             Patrick Sabatier - Monde réel - Barde 4 - Pas de sorts, pas de vol à la tire. Son champ fait fuir tous ceux qui ratent un jds contre les sorts, alliés compris
-            </li>
-<li>
-             Xavier Dupont de Ligonnès - Monde réel : Mystère français - Civil - Souhaite ne pas être vu
-            </li>
-<li>
-             Le ranger du Chaos - Monde imaginaire : Naheulbeuk - Pourfendeur de poulets 1
-            </li>
-<li>
-             Crôm - Monde imaginaire : Naheulbeuk - Barbare 40/Guerrier 25 - Dieu Barbare de la baston
-            </li>
-<li>
-             André le géant - Monde réel : Catcheur de la WWE - Catcheur 7
-            </li>
-<li>
-             Till l'Espiègle - Monde réel : Folklore allemand - Bouffon 7
-            </li>
-<li>
-             Beowulf - Monde réel : Folklore anglo-saxon - Guerrier 17
-            </li>
-<li>
-             Grendel - Monde réel : Folklore anglo-saxon - Guerrier 15 - ½ ogre
-            </li>
-<li>
-             Koschei - Monde réel : Folklore russe - Ensorceleur 16 - Immortel
-            </li>
-<li>
-             Jean Chuck Van Damrris - Monde réel : Fusion de 2 personnages - Karateka / Psioniste 50/50 - Quasi-dieu, regard mortel sans jds ni rm
-            </li>
-<li>
-             William Wallace - Monde réel : Histoire écossaise - Chevalier 16 - Aucun sort, ne repousse pas les morts-vivants
-            </li>
-<li>
-             Spartacus - Monde réel : Histoire gréco-romaine - Guerrier 17
-            </li>
-<li>
-             Miyamoto Musashi - Monde réel : Histoire japonaise - Guerrier 19
-            </li>
-<li>
-             Bragi Boddason - Monde réel : Histoire norvégienne - Skalde 22 - Chant de barde amélioré
-            </li>
-<li>
-             Urssaf, Camcras et Carbalas - Monde réel : Les inconnus, chanson Rap-tout - Vampires - Inséparables, vampires.
-            </li>
-<li>
-             Santal Gaïa - Monde réel : Les inconnus, le hit des hits - Barde 8 - Aucun sort, quand chante : invoque scarabées et araignées
-            </li>
-<li>
-             Galaad - Monde réel : Légende arthurienne - Paladin 18
-            </li>
-<li>
-             Hua Mulan - Monde réel : Légende chinoise - Guerrière 17
-            </li>
-<li>
-             La bête du Gévaudan - Monde réel : Légende française - Guerrier 8 - Worg
-            </li>
-<li>
-             Zamnà - Monde réel : Légende maya - Chaman 16
-            </li>
-<li>
-             Ilya Mouromets - Monde réel : Légende russe - Chevalier 17 - Aucun sort, ne repousse pas les morts-vivants
-            </li>
-<li>
-             Ragnar Lodbrok - Monde réel : Légende scandinave / Série TV - Guerrier 14
-            </li>
-<li>
-             Jerry Li Lewiss - Monde réel : Légère déformation de la réalité - Barde 10 - Pas de vol à la tire, un seul sort : "Great Balls of Fire" à volonté.
-            </li>
-<li>
-             Mickaël Klaxon - Monde réel : Légère déformation de la réalité - Barde 19 - Aucun sort, quand chante : crée des zombis. 1x métamorphe en loup-garou durée 1 tour
-            </li>
-<li>
-             Mamoushka Maïtécoffe - Monde réel : Légère déformation de la réalité et fusion - Cuisinière 2 - À volonté : Invocation d'animal à cuisiner
-            </li>
-<li>
-             Gilgamesh - Monde réel : Mythologie mésopotamienne - Guerrier 16
-            </li>
-<li>
-             Skieur anonyme - Monde réel : Publicité - Skieur - Explose 8 secondes après son arrivée
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Personnage</th><th>Support / œuvre</th><th>Classe / niveau</th><th>Particularités</th></tr></thead><tbody><tr><td>André le géant</td><td>Monde réel - Catcheur de la WWE</td><td>Catcheur 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Beowulf</td><td>Monde réel - Folklore anglo-saxon</td><td>Guerrier 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Bragi Boddason</td><td>Monde réel - Histoire norvégienne</td><td>Skalde 22</td><td>Chant de barde amélioré</td></tr><tr><td>Crôm</td><td>Monde imaginaire - Naheulbeuk</td><td>Barbare 40/Guerrier 25</td><td>Dieu Barbare de la baston</td></tr><tr><td>Galaad</td><td>Monde réel - Légende arthurienne</td><td>Paladin 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Gilgamesh</td><td>Monde réel - Mythologie mésopotamienne</td><td>Guerrier 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Grendel</td><td>Monde réel - Folklore anglo-saxon</td><td>Guerrier 15</td><td>½ ogre</td></tr><tr><td>Hua Mulan</td><td>Monde réel - Légende chinoise</td><td>Guerrière 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Ilya Mouromets</td><td>Monde réel - Légende russe</td><td>Chevalier 17</td><td>Aucun sort, ne repousse pas les morts-vivants</td></tr><tr><td>Jean Chuck Van Damrris</td><td>Monde réel - Fusion de 2 personnages</td><td>Karateka / Psioniste 50/50</td><td>Quasi-dieu, regard mortel sans jds ni rm</td></tr><tr><td>Jerry Li Lewiss</td><td>Monde réel - Légère déformation de la réalité</td><td>Barde 10</td><td>Pas de vol à la tire, un seul sort : "Great Balls of Fire" à volonté.</td></tr><tr><td>Koschei</td><td>Monde réel - Folklore russe</td><td>Ensorceleur 16</td><td>Immortel</td></tr><tr><td>La bête du Gévaudan</td><td>Monde réel - Légende française</td><td>Guerrier 8</td><td>Worg</td></tr><tr><td>Le ranger du Chaos</td><td>Monde imaginaire - Naheulbeuk</td><td>Pourfendeur de poulets 1</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mamoushka Maïtécoffe</td><td>Monde réel - Légère déformation de la réalité et fusion</td><td>Cuisinière 2</td><td>À volonté : Invocation d'animal à cuisiner</td></tr><tr><td>Mickaël Klaxon</td><td>Monde réel - Légère déformation de la réalité</td><td>Barde 19</td><td>Aucun sort, quand chante : crée des zombis. 1x métamorphe en loup-garou durée 1 tour</td></tr><tr><td>Miyamoto Musashi</td><td>Monde réel - Histoire japonaise</td><td>Guerrier 19</td><td class="sceptre-table-empty">—</td></tr><tr><td>Patrick Sabatier</td><td>Monde réel</td><td>Barde 4</td><td>Pas de sorts, pas de vol à la tire. Son champ fait fuir tous ceux qui ratent un jds contre les sorts, alliés compris</td></tr><tr><td>Ragnar Lodbrok</td><td>Monde réel - Légende scandinave / Série TV</td><td>Guerrier 14</td><td class="sceptre-table-empty">—</td></tr><tr><td>Santal Gaïa</td><td>Monde réel - Les inconnus, le hit des hits</td><td>Barde 8</td><td>Aucun sort, quand chante : invoque scarabées et araignées</td></tr><tr><td>Skieur anonyme</td><td>Monde réel - Publicité</td><td>Skieur</td><td>anonyme - Monde réel : Publicité - Skieur - Explose 8 secondes après son arrivée</td></tr><tr><td>Spartacus</td><td>Monde réel - Histoire gréco-romaine</td><td>Guerrier 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Till l'Espiègle</td><td>Monde réel - Folklore allemand</td><td>Bouffon 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Urssaf, Camcras et Carbalas</td><td>Monde réel - Les inconnus, chanson Rap-tout</td><td>Vampires</td><td>Inséparables, vampires.</td></tr><tr><td>William Wallace</td><td>Monde réel - Histoire écossaise</td><td>Chevalier 16</td><td>Aucun sort, ne repousse pas les morts-vivants</td></tr><tr><td>Zamnà</td><td>Monde réel - Légende maya</td><td>Chaman 16</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Notes
            </h4>
@@ -5943,7 +5350,7 @@ details.spell-level > summary{
          Invocation urgente de Lobini
         </div>
 <p class="spell-desc">
-         Invoque 1D3 monstres aléatoires. Temps d'incantation très court.
+         Invoque 1D3 monstres aléatoires (même liste de monstres que la <a href="#larme-monstre-lorlovein">Larme à Monstre</a>). Temps d'incantation très court.
         </p>
 </div>
 <div class="spell-entry">
@@ -6642,7 +6049,7 @@ details.spell-level > summary{
 </div>
 <div class="item-entry">
 <div class="item-head">
-<span class="item-name">
+<span class="item-name" id="larme-monstre-lorlovein">
           Larme à Monstre de Lorlovein
          </span>
 </div>
@@ -7422,34 +6829,33 @@ details.spell-level > summary{
       Remerciements
      </h2>
 <br/>
-
 <p>
       • À Andrew Bridges pour son logiciel <a href="https://sorcerers.net/Games/IEmodding/index.php" rel="noopener" target="_blank">Bam Workshop 2</a>
-     </p>
+</p>
 <p>
       • À Igi pour sa base de connaissances <a href="https://gibberlings3.github.io/iesdp/" rel="noopener" target="_blank">IESDP</a>
-     </p>
+</p>
 <p>
       • À Avenger pour son logiciel <a href="https://sourceforge.net/projects/gemrb/files/DLTCEP/" rel="noopener" target="_blank">DLTC Editor Pro (DLTCEP)</a>
-     </p>
+</p>
 <p>
       • À Jon Olav Hauglid pour son logiciel <a href="https://github.com/Argent77/NearInfinity" rel="noopener" target="_blank">Near Infinity</a>, et à Argent77 pour en assurer la continuité
      </p>
 <p>
       • À Aaron O'Neil pour ses logiciels <a href="https://sorcerers.net/Games/BG2/index_editors.php" rel="noopener" target="_blank">ShadowKeeper</a> et <a href="https://sorcerers.net/Games/IWD2/index_editors.php" rel="noopener" target="_blank">DaleKeeper II</a>
-     </p>
+</p>
 <p>
       • À Troodon80 pour sa mise à jour de ShadowKeeper / DaleKeeper : <a href="https://sourceforge.net/projects/eekeeper/files/" rel="noopener" target="_blank">EEKeeper</a>
-     </p>
+</p>
 <p>
       • À Wes Weimer pour son système d'installation <a href="https://github.com/WeiDUorg/weidu" rel="noopener" target="_blank">WeiDU</a>
-     </p>
+</p>
 <p>
       • À The_Bigg et Wisp pour assurer la continuité du système d'installation <a href="https://github.com/WeiDUorg/weidu" rel="noopener" target="_blank">WeiDU</a>
-     </p>
+</p>
 <p>
       • À Sloan Roy pour son logiciel <a href="https://fileplanet.download.it/p-39276/Diablo-2-Dr-Tester-v0-02f" rel="noopener" target="_blank">Dr. Tester pour Diablo II</a>
-     </p>
+</p>
 <p>
       • À Blacky pour son logiciel <a href="https://terra-arcanum.com/downloads.handler/index.php?section=modding" rel="noopener" target="_blank">ArtView pour Arcanum</a>.
      </p>
@@ -7504,7 +6910,6 @@ details.spell-level > summary{
 <p>
       • Et il en manque un, qui est passé un jour sur la Couronne de cuivre et dont malheureusement j'ai oublié le pseudo, que je remercie chaleureusement pour m'avoir fourni 350 icônes en B sans lesquelles la majorité des sorts de ce module n'existeraient pas.
      </p>
-
 <div class="backtop">
 <a href="#top">
        Retour en haut
@@ -7513,5 +6918,25 @@ details.spell-level > summary{
 </section>
 </div>
 </div>
+<script>
+(function(){
+  function openHashTarget(){
+    if (!location.hash) return;
+    var id = decodeURIComponent(location.hash.slice(1));
+    var target = document.getElementById(id);
+    if (!target) return;
+    var node = target.parentElement;
+    while (node) {
+      if (node.tagName === "DETAILS") node.open = true;
+      node = node.parentElement;
+    }
+    window.setTimeout(function(){
+      target.scrollIntoView({block:"center"});
+    }, 0);
+  }
+  window.addEventListener("hashchange", openHashTarget);
+  window.addEventListener("DOMContentLoaded", openHashTarget);
+})();
+</script>
 </body>
 </html>

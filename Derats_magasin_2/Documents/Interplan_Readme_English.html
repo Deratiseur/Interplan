@@ -357,7 +357,16 @@ details.spell-level > summary{
   margin-top:2px;
   color:var(--text);
 }
-  </style>
+  
+/* Table layout for Nustill's Unconventional Summoning Scepter */
+.sceptre-table-wrap{width:96%;margin:8px auto 20px;overflow-x:auto;}
+.sceptre-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:95%;line-height:145%;background:rgba(0,0,0,.08);}
+.sceptre-table col:nth-child(1){width:19%;}.sceptre-table col:nth-child(2){width:29%;}.sceptre-table col:nth-child(3){width:18%;}.sceptre-table col:nth-child(4){width:34%;}
+.sceptre-table th{padding:7px 9px;text-align:left;color:var(--gold);background:rgba(0,0,0,.22);border-bottom:2px solid #796b58;font-size:95%;}
+.sceptre-table td{padding:7px 9px;vertical-align:top;border-bottom:1px solid #62584b;overflow-wrap:anywhere;}
+.sceptre-table tbody tr:last-child td{border-bottom:0;}.sceptre-table td:first-child{font-weight:bold;color:#eee;}.sceptre-table td:nth-child(3){color:#eee;}.sceptre-table-empty{color:var(--muted);}
+@media(max-width:900px){.sceptre-table{min-width:900px;}}
+</style>
 </head>
 <body>
 <div id="cartouche">
@@ -365,13 +374,7 @@ details.spell-level > summary{
 </a>
 <div id="header">
 <h1>
-<span id="title-anchor-left">
-      T
-     </span>
-     he Interpla
-     <span id="title-anchor-right">
-      n
-     </span>
+<span id="title-anchor-left">T</span>he Interpla<span id="title-anchor-right">n</span>
 </h1>
 <div class="subtitle">
      A mod for Baldur's Gate II Enhanced Edition / EET / Icewind Dale Enhanced Edition
@@ -485,7 +488,7 @@ details.spell-level > summary{
       • "Unlimited potion stock": lets you buy as many potions and charms from the shop as you like, with no limit.
      </p>
 <p>
-      • "Unlimited scroll stock": lets you buy as many scrolls from the shop as you like, with no limit. Overpowered when combined with Oops the Mage.
+      • "Unlimited scroll stock": lets you buy as many scrolls from the shop as you like, with no limit. Overpowered when combined with <a href="https://github.com/Deratiseur/Oops" rel="noopener" target="_blank">Oops the Mage</a>.
      </p>
 <p>
       • (EET installations only) "A smuggler sells Interplan items in Beregost": the smuggler appears only at night, behind the Thunderhammer Smithy. Installing this component removes the low-level items from the BG2 shop and makes them available from the smuggler instead. He also sells other items specific to BG1, almost all level 1–4 scrolls, and potions (in limited quantities).
@@ -1934,649 +1937,47 @@ Once per day: summons a being from another reality.
 <h4>
             Films
            </h4>
-<ul>
-<li>
-             The Landlady - Film: Kung Fu Hustle - Kung Fu Grandmaster 19 - 3x Lion's Roar
-            </li>
-<li>
-             Maximus Decimus Meridius - Film: Gladiator - Fighter 18
-            </li>
-<li>
-             The Kurgan - Film: Highlander - Fighter 18 - oBG2: if killed, regenerates and rises again after 6 rounds
-            </li>
-<li>
-             Rufio - Film: Hook - Fighter 10
-            </li>
-<li>
-             David Dunn - Film: Unbreakable / Glass - Brawler 12 - Invulnerable (except to drowning and magic)
-            </li>
-<li>
-             Mother Russia - Film: Kick-Ass 2 - Fighter 18 - Brutality incarnate
-            </li>
-<li>
-             Beatrix Kiddo - Film: Kill Bill - Kensai 16 - 3x Harm
-            </li>
-<li>
-             Godefroy de Montmirail - Film: Les Visiteurs - Fighter 8
-            </li>
-<li>
-             Oh Dae-Soo - Film: Oldboy - Fighter 8
-            </li>
-<li>
-             Nux - Film: Mad Max: Fury Road - War Boy 9 - If, in combat, he has less than 10% HP or sees a monster with over 180 HP, he becomes a kamikaze and blows himself up.
-            </li>
-<li>
-             Kevin McCallister - Film: Home Alone - Child - 8x Set Trap, untouchable (never injured)
-            </li>
-<li>
-             Griff Tannen - Film: Back to the Future Part II - Fighter 3
-            </li>
-<li>
-             Yu Shu Lien - Film: Crouching Tiger, Hidden Dragon - Fighter 12
-            </li>
-<li>
-             Madmartigan - Film: Willow - Fighter 16
-            </li>
-<li>
-             Wolfhound - Film: Wolfhound - Fighter 16
-            </li>
-<li>
-             Imhotep - Film: The Mummy - Priest 18 - Royal mummy, various additional druid spells
-            </li>
-<li>
-             Jason Voorhees - Film: Friday the 13th - Fighter 8 - Undead, almost invulnerable. oBG2: if killed, regenerates and rises again after 6 rounds
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Beatrix Kiddo</td><td>Film: Kill Bill</td><td>Kensai 16</td><td>3x Harm</td></tr><tr><td>David Dunn</td><td>Film: Unbreakable / Glass</td><td>Brawler 12</td><td>Invulnerable (except to drowning and magic)</td></tr><tr><td>Godefroy de Montmirail</td><td>Film: Les Visiteurs</td><td>Fighter 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Griff Tannen</td><td>Film: Back to the Future Part II</td><td>Fighter 3</td><td class="sceptre-table-empty">—</td></tr><tr><td>Imhotep</td><td>Film: The Mummy</td><td>Priest 18</td><td>Royal mummy, various additional druid spells</td></tr><tr><td>Jason Voorhees</td><td>Film: Friday the 13th</td><td>Fighter 8</td><td>Undead, almost invulnerable. oBG2: if killed, regenerates and rises again after 6 rounds</td></tr><tr><td>Kevin McCallister</td><td>Film: Home Alone</td><td>Child</td><td>8x Set Trap, untouchable (never injured)</td></tr><tr><td>Madmartigan</td><td>Film: Willow</td><td>Fighter 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Maximus Decimus Meridius</td><td>Film: Gladiator</td><td>Fighter 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mother Russia</td><td>Film: Kick-Ass 2</td><td>Fighter 18</td><td>Brutality incarnate</td></tr><tr><td>Nux</td><td>Film: Mad Max: Fury Road</td><td>War Boy 9</td><td>If, in combat, he has less than 10% HP or sees a monster with over 180 HP, he becomes a kamikaze and blows himself up.</td></tr><tr><td>Oh Dae-Soo</td><td>Film: Oldboy</td><td>Fighter 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Rufio</td><td>Film: Hook</td><td>Fighter 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>The Landlady</td><td>Film: Kung Fu Hustle</td><td>Kung Fu Grandmaster 19</td><td>3x Lion's Roar</td></tr><tr><td>Wolfhound</td><td>Film: Wolfhound</td><td>Fighter 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Yu Shu Lien</td><td>Film: Crouching Tiger, Hidden Dragon</td><td>Fighter 12</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             TV Series
            </h4>
-<ul>
-<li>
-             Buffy Summers - TV series: Buffy the Vampire Slayer - Undead &amp; Demon Slayer 17
-            </li>
-<li>
-             Sir Galaway - TV series: The Twilight Zone - Actor
-            </li>
-<li>
-             Reese - TV series: Malcolm in the Middle - Idiot
-            </li>
-<li>
-             No. 218 - TV series: Squid Game - Loser
-            </li>
-<li>
-             Kimiko Miyashiro - TV series: The Boys - Brawler 16 - Super strength, super regeneration
-            </li>
-<li>
-             Thierry de Janville - TV series: Thierry la Fronde - Fighter 12
-            </li>
-<li>
-             Morticia Addams - Cartoon / TV series: The Addams Family - Witch 17 - 3x Alchemy (potion placed on the ground)
-            </li>
-<li>
-             Didier l'Embrouille - TV show: Nulle Part Ailleurs - Brawler 4
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Buffy Summers</td><td>TV series: Buffy the Vampire Slayer</td><td>Undead &amp; Demon Slayer 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Didier l'Embrouille</td><td>TV show: Nulle Part Ailleurs</td><td>Brawler 4</td><td class="sceptre-table-empty">—</td></tr><tr><td>Kimiko Miyashiro</td><td>TV series: The Boys</td><td>Brawler 16</td><td>Super strength, super regeneration</td></tr><tr><td>Morticia Addams</td><td>Cartoon / TV series: The Addams Family</td><td>Witch 17</td><td>3x Alchemy (potion placed on the ground)</td></tr><tr><td>Player 218</td><td>TV series: Squid Game</td><td>Loser</td><td class="sceptre-table-empty">—</td></tr><tr><td>Reese</td><td>TV series: Malcolm in the Middle</td><td>Idiot</td><td class="sceptre-table-empty">—</td></tr><tr><td>Sir Galaway</td><td>TV series: The Twilight Zone</td><td>Actor</td><td class="sceptre-table-empty">—</td></tr><tr><td>Thierry de Janville</td><td>TV series: Thierry la Fronde</td><td>Fighter 12</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Children's Films / Series
            </h4>
-<ul>
-<li>
-             Mor'du - Animated film: Brave - Fighter 13 - Black bear
-            </li>
-<li>
-             Gilbert Gunderson - Animated TV series: The Simpsons - Actor
-            </li>
-<li>
-             Speedy Gonzales - Animated TV series: Looney Tunes - Mouse - Very fast
-            </li>
-<li>
-             Pinky and the Brain - Animated TV series: Pinky and the Brain - Laboratory mice - Inseparable
-            </li>
-<li>
-             Rick WTM-72 - Animated TV series: Rick and Morty - Kensai 15
-            </li>
-<li>
-             Léguman - TV series: Téléchat - Monk 2
-            </li>
-<li>
-             Rito Revolto - TV series: Power Rangers - Fighter 17 - Skeleton. 2x Flamethrower (Agannazar's Scorcher), 2x Lightning Bolt, 4x Dimension Door
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Gilbert Gunderson</td><td>Animated TV series: The Simpsons</td><td>Actor</td><td class="sceptre-table-empty">—</td></tr><tr><td>Léguman</td><td>TV series: Téléchat</td><td>Monk 2</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mor'du</td><td>Animated film: Brave</td><td>Fighter 13</td><td>Black bear</td></tr><tr><td>Pinky and the Brain</td><td>Animated TV series: Pinky and the Brain</td><td>Laboratory mice</td><td>Inseparable</td></tr><tr><td>Rick WTM-72</td><td>Animated TV series: Rick and Morty</td><td>Kensai 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Rito Revolto</td><td>TV series: Power Rangers</td><td>Fighter 17</td><td>Skeleton. 2x Flamethrower (Agannazar's Scorcher), 2x Lightning Bolt, 4x Dimension Door</td></tr><tr><td>Speedy Gonzales</td><td>Animated TV series: Looney Tunes</td><td>Mouse</td><td>Very fast</td></tr></tbody></table></div>
 <h4>
             Video Games
            </h4>
-<ul>
-<li>
-             Dog - Video game: Arcanum - Fighter 12 - War dog
-            </li>
-<li>
-             Virgil - Video game: Arcanum - Fighter 12 / Priest 12 - Overpowered equipment and spells from Arcanum
-            </li>
-<li>
-             Solaire of Astora - Video game: Dark Souls - Fighter 15 - 2x Lightning Bolt, 2x Cure Critical Wounds, 2x Sunray
-            </li>
-<li>
-             Tyrael - Video game: Diablo II: Lord of Destruction - Paladin 23 - Archangel
-            </li>
-<li>
-             Jahan - Video game: Divinity: Original Sin - Cryomancer/Electromancer 12
-            </li>
-<li>
-             Shale - Video game: Dragon Age: Origins - Fighter 12 - Stone golem; bard song immobilizes Shale and improves a little of everything.
-            </li>
-<li>
-             Lenny - Video game: Fallout II - Priest 8 - Ghoul, healing spells only
-            </li>
-<li>
-             Arantir - Video game: Heroes of Might and Magic V - Necromancer 14 - 1x Summon Avatar of Death. If the Avatar dies, Arantir can no longer cast spells; 1x Wail of the Banshee
-            </li>
-<li>
-             Spinal - Video game: Killer Instinct - Fighter 11 - Skeleton, 3x Teleportation, 3x Flying Skull, 3x Spell Deflection (instant, 2 rounds)
-            </li>
-<li>
-             Deno Fevil - Video game: Knights of Pen and Paper 2 - Fighter 6
-            </li>
-<li>
-             Steve - Video game: Minecraft - Fighter 5 - Full diamond equipment with Depth Strider, Feather Falling, Mending, Sharpness, Looting and Flame enchantments
-            </li>
-<li>
-             Creeper - Video game: Morrowind - Merchant - Buys/sells everything at full price
-            </li>
-<li>
-             Hecubah - Video game: Nox - Necromancer 17
-            </li>
-<li>
-             Hillock - Video game: Path of Exile - Fighter 3 - After losing 50% of his health, draws his sword (or, in 2% of cases, Oni-Goroshi) and recovers all his health.
-            </li>
-<li>
-             Amiri - Video game: Pathfinder: Kingmaker - Barbarian 7
-            </li>
-<li>
-             Hiravias - Video game: Pillars of Eternity - Druidic Sorcerer 11 - 3x Greater Werewolf Transformation, lasting 6 rounds
-            </li>
-<li>
-             Sargon - Video game: Severance: Blade of Darkness - Fighter 14 - Scimitar +3 = +2 attacks/round; Mace +4 = critical hit chance +3
-            </li>
-<li>
-             Erritis - Video game: Torment: Tides of Numenera - Fighter 10
-            </li>
-<li>
-             Lantry - Video game: Tyranny - Sorcerer 13 - Improved ranged THAC0, healing/druid spells, 2x Haste++, 2x Whirlwind Attack, 2x Raise Dead++
-            </li>
-<li>
-             Christof Romuald - Video game: Vampire: The Masquerade – Redemption - Knight 4
-            </li>
-<li>
-             The Firehawk - Video game: Borderlands - Siren 15 - 25x Explosive Teleportation and 25x Instant Displacement
-            </li>
-<li>
-             Deckard Cain - Video game: Diablo - Scholar - Identifies everything for free
-            </li>
-<li>
-             Zandalor - Video game: Divinity - Battlemage 20
-            </li>
-<li>
-             Abobo - Video game: Double Dragon - Brawler 10
-            </li>
-<li>
-             Forgrimm - Video game: Drakensang - Fighter 6
-            </li>
-<li>
-             M'aiq the Liar (IWD) - Video game: The Elder Scrolls - Storyteller - Has plenty of silly things to say
-            </li>
-<li>
-             Dogmeat - Video game: Fallout - Fighter 9 - Dog
-            </li>
-<li>
-             Biggs &amp; Wedge - Video game: Final Fantasy - Fighters 9 &amp; 8 - Inseparable
-            </li>
-<li>
-             Guy - Video game: Final Fight / Street Fighter - Karate Fighter 9 - After losing 80% of his health, gains Greater Whirlwind Attack
-            </li>
-<li>
-             Gilius Thunderhead - Video game: Golden Axe - Fighter 11 - 2x Lightning on all enemies present
-            </li>
-<li>
-             Xylaz - Video game: Ishar - Fighter 9 - Lizardman, D12 hit dice
-            </li>
-<li>
-             Sheltem - Video game: Might and Magic - Fighter 13 / Pyromancer 13 - Android
-            </li>
-<li>
-             Concelhaut - Video game: Pillars of Eternity - Sorcerer 23 - Lich
-            </li>
-<li>
-             Galford D. Weller - Video game: Samurai Shodown - Fighter 8 - 3x Lightning Bolt, 2x Mirror Image, 2x Charged Weapon, 1x Improved Haste, 1x Whirlwind Attack + Major Reflected Image
-            </li>
-<li>
-             Iolo FitzOwen - Video game: Ultima - Bard Archer 17 - No spells, various bard songs
-            </li>
-<li>
-             Valna Asou - Video game: Valis - Healing Sorceress 12 - Unlimited Wand of Magic Missiles
-            </li>
-<li>
-             Link - Video game: Zelda - Fighter 8
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Abobo</td><td>Video game: Double Dragon</td><td>Brawler 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>Amiri</td><td>Video game: Pathfinder: Kingmaker</td><td>Barbarian 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Arantir</td><td>Video game: Heroes of Might and Magic V</td><td>Necromancer 14</td><td>1x Summon Avatar of Death. If the Avatar dies, Arantir can no longer cast spells; 1x Wail of the Banshee</td></tr><tr><td>Biggs &amp; Wedge</td><td>Video game: Final Fantasy</td><td>Fighters 9 &amp; 8</td><td>Inseparable</td></tr><tr><td>Christof Romuald</td><td>Video game: Vampire: The Masquerade – Redemption</td><td>Knight 4</td><td class="sceptre-table-empty">—</td></tr><tr><td>Concelhaut</td><td>Video game: Pillars of Eternity</td><td>Sorcerer 23</td><td>Lich</td></tr><tr><td>Creeper</td><td>Video game: Morrowind</td><td>Merchant</td><td>Buys/sells everything at full price</td></tr><tr><td>Deckard Cain</td><td>Video game: Diablo</td><td>Scholar</td><td>Identifies everything for free</td></tr><tr><td>Deno Fevil</td><td>Video game: Knights of Pen and Paper 2</td><td>Fighter 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Dog</td><td>Video game: Arcanum</td><td>Fighter 12</td><td>War dog</td></tr><tr><td>Dogmeat</td><td>Video game: Fallout</td><td>Fighter 9</td><td>Dog</td></tr><tr><td>Erritis</td><td>Video game: Torment: Tides of Numenera</td><td>Fighter 10</td><td class="sceptre-table-empty">—</td></tr><tr><td>Forgrimm</td><td>Video game: Drakensang</td><td>Fighter 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Galford D. Weller</td><td>Video game: Samurai Shodown</td><td>Fighter 8</td><td>3x Lightning Bolt, 2x Mirror Image, 2x Charged Weapon, 1x Improved Haste, 1x Whirlwind Attack + Major Reflected Image</td></tr><tr><td>Gilius Thunderhead</td><td>Video game: Golden Axe</td><td>Fighter 11</td><td>2x Lightning on all enemies present</td></tr><tr><td>Guy</td><td>Video game: Final Fight / Street Fighter</td><td>Karate Fighter 9</td><td>After losing 80% of his health, gains Greater Whirlwind Attack</td></tr><tr><td>Hecubah</td><td>Video game: Nox</td><td>Necromancer 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Hillock</td><td>Video game: Path of Exile</td><td>Fighter 3</td><td>After losing 50% of his health, draws his sword (or, in 2% of cases, Oni-Goroshi) and recovers all his health.</td></tr><tr><td>Hiravias</td><td>Video game: Pillars of Eternity</td><td>Druidic Sorcerer 11</td><td>3x Greater Werewolf Transformation, lasting 6 rounds</td></tr><tr><td>Iolo FitzOwen</td><td>Video game: Ultima</td><td>Bard Archer 17</td><td>No spells, various bard songs</td></tr><tr><td>Jahan</td><td>Video game: Divinity: Original Sin</td><td>Cryomancer/Electromancer 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Lantry</td><td>Video game: Tyranny</td><td>Sorcerer 13</td><td>Improved ranged THAC0, healing/druid spells, 2x Haste++, 2x Whirlwind Attack, 2x Raise Dead++</td></tr><tr><td>Lenny</td><td>Video game: Fallout II</td><td>Priest 8</td><td>Ghoul, healing spells only</td></tr><tr><td>Link</td><td>Video game: Zelda</td><td>Fighter 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>M'aiq the Liar</td><td>Video game: The Elder Scrolls</td><td>Storyteller</td><td>Has plenty of silly things to say</td></tr><tr><td>Sargon</td><td>Video game: Severance: Blade of Darkness</td><td>Fighter 14</td><td>Scimitar +3 = +2 attacks/round; Mace +4 = critical hit chance +3</td></tr><tr><td>Shale</td><td>Video game: Dragon Age: Origins</td><td>Fighter 12</td><td>Stone golem; bard song immobilizes Shale and improves a little of everything.</td></tr><tr><td>Sheltem</td><td>Video game: Might and Magic</td><td>Fighter 13 / Pyromancer 13</td><td>Android</td></tr><tr><td>Solaire of Astora</td><td>Video game: Dark Souls</td><td>Fighter 15</td><td>2x Lightning Bolt, 2x Cure Critical Wounds, 2x Sunray</td></tr><tr><td>Spinal</td><td>Video game: Killer Instinct</td><td>Fighter 11</td><td>Skeleton, 3x Teleportation, 3x Flying Skull, 3x Spell Deflection (instant, 2 rounds)</td></tr><tr><td>Steve</td><td>Video game: Minecraft</td><td>Fighter 5</td><td>Full diamond equipment with Depth Strider, Feather Falling, Mending, Sharpness, Looting and Flame enchantments</td></tr><tr><td>The Firehawk</td><td>Video game: Borderlands</td><td>Siren 15</td><td>25x Explosive Teleportation and 25x Instant Displacement</td></tr><tr><td>Tyrael</td><td>Video game: Diablo II: Lord of Destruction</td><td>Paladin 23</td><td>Archangel</td></tr><tr><td>Valna Asou</td><td>Video game: Valis</td><td>Healing Sorceress 12</td><td>Unlimited Wand of Magic Missiles</td></tr><tr><td>Virgil</td><td>Video game: Arcanum</td><td>Fighter 12 / Priest 12</td><td>Overpowered equipment and spells from Arcanum</td></tr><tr><td>Xylaz</td><td>Video game: Ishar</td><td>Fighter 9</td><td>Lizardman, D12 hit dice</td></tr><tr><td>Zandalor</td><td>Video game: Divinity</td><td>Battlemage 20</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Books
            </h4>
-<ul>
-<li>
-             Bagheera - Book: The Jungle Book - Fighter 6 - Panther
-            </li>
-<li>
-             Fflewddur Fflam - Book: The Chronicles of Prydain - Bard 9 - No spells, various bard songs
-            </li>
-<li>
-             Moonglum of Elwher - Book: Elric - Fighter 14
-            </li>
-<li>
-             Yyrkoon - Book: Elric - Fighter 17 - Protection from demons, 1x Gate
-            </li>
-<li>
-             Katniss Everdeen - Book: The Hunger Games - Archer 15 - No spells
-            </li>
-<li>
-             Mandorallen - Book: The Belgariad / The Malloreon - Knight 14 - No spells, cannot turn undead
-            </li>
-<li>
-             Nynaeve al'Meara - Book: The Wheel of Time - Healing Elementalist Sorceress 17
-            </li>
-<li>
-             Zagor - Book: Fighting Fantasy gamebooks (volumes 1, 50 and 54) - Elementalist Mage 20 - Half-demon lich
-            </li>
-<li>
-             Pip - Book: GrailQuest, 8 gamebooks - Fighter 13
-            </li>
-<li>
-             Fafhrd - Book: Fafhrd and the Gray Mouser - Ranger 15
-            </li>
-<li>
-             Benedict of Amber - Book: The Chronicles of Amber - Fighter 22 - Superhuman physical abilities, regeneration
-            </li>
-<li>
-             Legolas Greenleaf - Book: The Lord of the Rings - Fighter (Archer) 17
-            </li>
-<li>
-             Éowyn - Book: The Lord of the Rings - Knight 14 - No spells, cannot turn undead
-            </li>
-<li>
-             Arya Stark - Book: A Song of Ice and Fire - Assassin 15 - Valyrian steel undead-slaying dagger, no magic resistance or saving throw
-            </li>
-<li>
-             Brienne of Tarth - Book: A Song of Ice and Fire - Paladin 15 - No spells, cannot turn undead
-            </li>
-<li>
-             Cohen the Barbarian - Book: Discworld - Barbarian 18
-            </li>
-<li>
-             Granny Weatherwax - Book: Discworld - Witch 22
-            </li>
-<li>
-             FitzChivalry - Book: The Farseer Trilogy - Fighter 4 / Assassin 14 - Accompanied by Nighteyes, 1x Minsc-style Berserk, 4x Animal Charm
-            </li>
-<li>
-             Chade Fallstar - Book: The Farseer Trilogy - Assassin 20
-            </li>
-<li>
-             Murtagh - Book: The Inheritance Cycle - Fighter 15 - Immunity to mental attacks
-            </li>
-<li>
-             Albus Dumbledore - Book: Harry Potter - Mage 22 - Protective spells of all kinds
-            </li>
-<li>
-             Thulsa Doom - Book: Kull, then Conan - Necromancer 18 - Lich, 1x Animate Dead
-            </li>
-<li>
-             Dandelion - Book: The Witcher - Bard 7 - No spells, various bard songs
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Albus Dumbledore</td><td>Book: Harry Potter</td><td>Mage 22</td><td>Protective spells of all kinds</td></tr><tr><td>Arya Stark</td><td>Book: A Song of Ice and Fire</td><td>Assassin 15</td><td>Valyrian steel undead-slaying dagger, no magic resistance or saving throw</td></tr><tr><td>Bagheera</td><td>Book: The Jungle Book</td><td>Fighter 6</td><td>Panther</td></tr><tr><td>Benedict of Amber</td><td>Book: The Chronicles of Amber</td><td>Fighter 22</td><td>Superhuman physical abilities, regeneration</td></tr><tr><td>Brienne of Tarth</td><td>Book: A Song of Ice and Fire</td><td>Paladin 15</td><td>No spells, cannot turn undead</td></tr><tr><td>Chade Fallstar</td><td>Book: The Farseer Trilogy</td><td>Assassin 20</td><td class="sceptre-table-empty">—</td></tr><tr><td>Cohen the Barbarian</td><td>Book: Discworld</td><td>Barbarian 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Dandelion</td><td>Book: The Witcher</td><td>Bard 7</td><td>No spells, various bard songs</td></tr><tr><td>Éowyn</td><td>Book: The Lord of the Rings</td><td>Knight 14</td><td>No spells, cannot turn undead</td></tr><tr><td>Fafhrd</td><td>Book: Fafhrd and the Gray Mouser</td><td>Ranger 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Fflewddur Fflam</td><td>Book: The Chronicles of Prydain</td><td>Bard 9</td><td>No spells, various bard songs</td></tr><tr><td>FitzChivalry</td><td>Book: The Farseer Trilogy</td><td>Fighter 4 / Assassin 14</td><td>Accompanied by Nighteyes, 1x Minsc-style Berserk, 4x Animal Charm</td></tr><tr><td>Granny Weatherwax</td><td>Book: Discworld</td><td>Witch 22</td><td class="sceptre-table-empty">—</td></tr><tr><td>Katniss Everdeen</td><td>Book: The Hunger Games</td><td>Archer 15</td><td>No spells</td></tr><tr><td>Legolas Greenleaf</td><td>Book: The Lord of the Rings</td><td>Fighter (Archer) 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mandorallen</td><td>Book: The Belgariad / The Malloreon</td><td>Knight 14</td><td>No spells, cannot turn undead</td></tr><tr><td>Moonglum of Elwher</td><td>Book: Elric</td><td>Fighter 14</td><td class="sceptre-table-empty">—</td></tr><tr><td>Murtagh</td><td>Book: The Inheritance Cycle</td><td>Fighter 15</td><td>Immunity to mental attacks</td></tr><tr><td>Nynaeve al'Meara</td><td>Book: The Wheel of Time</td><td>Healing Elementalist Sorceress 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Pip</td><td>Book: GrailQuest, 8 gamebooks</td><td>Fighter 13</td><td class="sceptre-table-empty">—</td></tr><tr><td>Thulsa Doom</td><td>Book: Kull, then Conan</td><td>Necromancer 18</td><td>Lich, 1x Animate Dead</td></tr><tr><td>Yyrkoon</td><td>Book: Elric</td><td>Fighter 17</td><td>Protection from demons, 1x Gate</td></tr><tr><td>Zagor</td><td>Book: Fighting Fantasy gamebooks (volumes 1, 50 and 54)</td><td>Elementalist Mage 20</td><td>Half-demon lich</td></tr></tbody></table></div>
 <h4>
             Comics and Graphic Novels
            </h4>
-<ul>
-<li>
-             Davey Trauma - Comic: Tokyo Ghost - Hacker 3 - Mind control over any visible enemy, no saving throw or magic resistance. Grants the "Suicide" ability.
-            </li>
-<li>
-             Debbie Jacobs - Comic: Tokyo Ghost - Kensai 16 - 1x Wild Horde (1D10+8 animals), 3x Lay on Hands (cannot target herself)
-            </li>
-<li>
-             Gana Gomar - Comic: Ab Irato - Monk 11 - Regeneration, 1x Heal (self), 3x Telekinesis: repels enemies.
-            </li>
-<li>
-             Falgant - Comic: Anachron - Bard 27 - Android, incinerating violin
-            </li>
-<li>
-             Hornitos - Comic: Arvendor - Swashbuckler 15
-            </li>
-<li>
-             B. - Comic: BRZRKR - Berserker 25 - Invulnerable, demigod rage (30% chance to kill outright by tearing the target apart)
-            </li>
-<li>
-             Calvin and Hobbes - Comic: Calvin and Hobbes - Little boy - Inseparable
-            </li>
-<li>
-             Mara - Comic: Chevalier Dragon (volume 3) - Knight 16 - No bonus against demons, double bonus against dragons
-            </li>
-<li>
-             Haazheel Thorn - Comic: Black Moon Chronicles - Priest 28 - Half-demon, casting time -4, 1x Bestial Demon Transformation
-            </li>
-<li>
-             Heads-or-Tails - Comic: Black Moon Chronicles - Fighter 8 / Swashbuckler 10 - Specializes in pickpocketing, drops one stolen item on the ground each round.
-            </li>
-<li>
-             Sioban - Comic: Lament of the Lost Moors - Fighter 6
-            </li>
-<li>
-             The Guinea Lord - Comic: Lament of the Lost Moors - Fighter 18 - Invulnerable to damage, accompanied by 3 war mastiffs
-            </li>
-<li>
-             Anjalbert de Ganfalon - Comic: Garulfo, book one - Knight 21 - Superhuman physical abilities (except eyesight ^^)
-            </li>
-<li>
-             Dame Gorge - Comic: Gorn - Fighter 13 - Dwarf, 3x Great Shout
-            </li>
-<li>
-             White Claw - Comic: White Claw - Fighter 16
-            </li>
-<li>
-             Mokla - Comic: The Crystal Sword - Fighter 7 - Halfling
-            </li>
-<li>
-             Jean de Séverac - Comic: The Chimera Brigade - Scientist 11 - Transforms into the Chimera Brigade when he sees an enemy
-            </li>
-<li>
-             Sixte Averroës - Comic: Lanfeust of Troy - Fighter 17 - If HP fall below 15%, teleports back to his own world (leaving his equipment on the ground)
-            </li>
-<li>
-             Bulrog - Comic: The Quest for the Time Bird - Fighter 10 - Half-orc
-            </li>
-<li>
-             Barr-Find Blackhand - Comic: The Great Power of the Chninkel - Fighter 18
-            </li>
-<li>
-             Tristan de Halsbourg - Comic: Legend - Fighter 15 - 1x Summon Wolves
-            </li>
-<li>
-             Morkaï - Comic: Legends of the Forgotten Realms - Barbarian 10 - Half-orc
-            </li>
-<li>
-             Brumaire Shortdagger - Comic: The Fires of Askell - Thief 9 - Specializes in throwing daggers
-            </li>
-<li>
-             Tara - Comic: The Forests of Opal - Fighter 16
-            </li>
-<li>
-             Sasmaël - Comic: The Master Inquisitors - Fighter 17 - 3x Chain Lightning, 1x Lightning on all enemies (20D8), accompanied by Lotweën, Kensai 18
-            </li>
-<li>
-             Gargamel - Comic: The Smurfs - Mage 1 - 3x Alchemy (potion placed on the ground)
-            </li>
-<li>
-             Homnibus - Comic: The Smurfs / Johan and Peewit - Mage 11
-            </li>
-<li>
-             Bragal - Comic: Marlysa - Fighter 15
-            </li>
-<li>
-             Terkio (oBG2) - Comic: Moréa - Fighter 18 - If killed, regenerates and rises again after 6 rounds
-            </li>
-<li>
-             Redwin of the Forge - Comic: Dwarves (volumes 1, 6, 11 and 21) - Fighter 19 - Frenzied rage allows him to achieve the unthinkable
-            </li>
-<li>
-             Okko - Comic: Okko - Kensai Undead &amp; Demon Slayer 16
-            </li>
-<li>
-             Féra - Comic: Pandora - Brawler Fighter 15
-            </li>
-<li>
-             Rénakhin - Comic: Pandora - Sorcerer 17 - Unlimited spells
-            </li>
-<li>
-             Ralph Azham - Comic: Ralph Azham - Peasant 3 - All visible enemies are torn apart in his presence
-            </li>
-<li>
-             Requiem - Comic: Requiem: Vampire Knight - Fighter 16 - Vampire
-            </li>
-<li>
-             Torquemada - Comic: Requiem: Vampire Knight - Berserker 16 - Werewolf
-            </li>
-<li>
-             Steven T. Learoyd - Comic: The Autumnlands - Fighter 20 - Immune to magic, 5x True Sight
-            </li>
-<li>
-             Michonne - Comic: The Walking Dead - Fighter 15
-            </li>
-<li>
-             Negan - Comic: The Walking Dead - Fighter 15
-            </li>
-<li>
-             Kriss of Valnor - Comic: Thorgal - Fighter (Archer) 12
-            </li>
-<li>
-             Mr. Thin - Comic: Universal War I - Master of the World - Unable to move, dependent on others, blind.
-            </li>
-<li>
-             Haffanen - Comic: Wollodrïn - Fighter 17 - Elf, 2x Exaltation, 2x Cure Critical Wounds, 1x Resurrection
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Anjalbert de Ganfalon</td><td>Comic: Garulfo, book one</td><td>Knight 21</td><td>Superhuman physical abilities (except eyesight ^^)</td></tr><tr><td>B.</td><td>Comic: BRZRKR</td><td>Berserker 25</td><td>Invulnerable, demigod rage (30% chance to kill outright by tearing the target apart)</td></tr><tr><td>Barr-Find Blackhand</td><td>Comic: The Great Power of the Chninkel</td><td>Fighter 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Bragal</td><td>Comic: Marlysa</td><td>Fighter 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Brumaire Shortdagger</td><td>Comic: The Fires of Askell</td><td>Thief 9</td><td>Specializes in throwing daggers</td></tr><tr><td>Bulrog</td><td>Comic: The Quest for the Time Bird</td><td>Fighter 10</td><td>Half-orc</td></tr><tr><td>Calvin and Hobbes</td><td>Comic: Calvin and Hobbes</td><td>Little boy</td><td>Inseparable</td></tr><tr><td>Dame Gorge</td><td>Comic: Gorn</td><td>Fighter 13</td><td>Dwarf, 3x Great Shout</td></tr><tr><td>Davey Trauma</td><td>Comic: Tokyo Ghost</td><td>Hacker 3</td><td>Mind control over any visible enemy, no saving throw or magic resistance. Grants the "Suicide" ability.</td></tr><tr><td>Debbie Jacobs</td><td>Comic: Tokyo Ghost</td><td>Kensai 16</td><td>1x Wild Horde (1D10+8 animals), 3x Lay on Hands (cannot target herself)</td></tr><tr><td>Falgant</td><td>Comic: Anachron</td><td>Bard 27</td><td>Android, incinerating violin</td></tr><tr><td>Féra</td><td>Comic: Pandora</td><td>Brawler Fighter 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Gana Gomar</td><td>Comic: Ab Irato</td><td>Monk 11</td><td>Regeneration, 1x Heal (self), 3x Telekinesis: repels enemies.</td></tr><tr><td>Gargamel</td><td>Comic: The Smurfs</td><td>Mage 1</td><td>3x Alchemy (potion placed on the ground)</td></tr><tr><td>Haazheel Thorn</td><td>Comic: Black Moon Chronicles</td><td>Priest 28</td><td>Half-demon, casting time -4, 1x Bestial Demon Transformation</td></tr><tr><td>Haffanen</td><td>Comic: Wollodrïn</td><td>Fighter 17</td><td>Elf, 2x Exaltation, 2x Cure Critical Wounds, 1x Resurrection</td></tr><tr><td>Heads-or-Tails</td><td>Comic: Black Moon Chronicles</td><td>Fighter 8 / Swashbuckler 10</td><td>Specializes in pickpocketing, drops one stolen item on the ground each round.</td></tr><tr><td>Homnibus</td><td>Comic: The Smurfs / Johan and Peewit</td><td>Mage 11</td><td class="sceptre-table-empty">—</td></tr><tr><td>Hornitos</td><td>Comic: Arvendor</td><td>Swashbuckler 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Jean de Séverac</td><td>Comic: The Chimera Brigade</td><td>Scientist 11</td><td>Transforms into the Chimera Brigade when he sees an enemy</td></tr><tr><td>Kriss of Valnor</td><td>Comic: Thorgal</td><td>Fighter (Archer) 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mara</td><td>Comic: Chevalier Dragon (volume 3)</td><td>Knight 16</td><td>No bonus against demons, double bonus against dragons</td></tr><tr><td>Michonne</td><td>Comic: The Walking Dead</td><td>Fighter 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Mokla</td><td>Comic: The Crystal Sword</td><td>Fighter 7</td><td>Halfling</td></tr><tr><td>Morkaï</td><td>Comic: Legends of the Forgotten Realms</td><td>Barbarian 10</td><td>Half-orc</td></tr><tr><td>Mr. Thin</td><td>Comic: Universal War I</td><td>Master of the World</td><td>Unable to move, dependent on others, blind.</td></tr><tr><td>Negan</td><td>Comic: The Walking Dead</td><td>Fighter 15</td><td class="sceptre-table-empty">—</td></tr><tr><td>Okko</td><td>Comic: Okko</td><td>Kensai Undead &amp; Demon Slayer 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Ralph Azham</td><td>Comic: Ralph Azham</td><td>Peasant 3</td><td>All visible enemies are torn apart in his presence</td></tr><tr><td>Redwin of the Forge</td><td>Comic: Dwarves (volumes 1, 6, 11 and 21)</td><td>Fighter 19</td><td>Frenzied rage allows him to achieve the unthinkable</td></tr><tr><td>Rénakhin</td><td>Comic: Pandora</td><td>Sorcerer 17</td><td>Unlimited spells</td></tr><tr><td>Requiem</td><td>Comic: Requiem: Vampire Knight</td><td>Fighter 16</td><td>Vampire</td></tr><tr><td>Sasmaël</td><td>Comic: The Master Inquisitors</td><td>Fighter 17</td><td>3x Chain Lightning, 1x Lightning on all enemies (20D8), accompanied by Lotweën, Kensai 18</td></tr><tr><td>Sioban</td><td>Comic: Lament of the Lost Moors</td><td>Fighter 6</td><td class="sceptre-table-empty">—</td></tr><tr><td>Sixte Averroës</td><td>Comic: Lanfeust of Troy</td><td>Fighter 17</td><td>If HP fall below 15%, teleports back to his own world (leaving his equipment on the ground)</td></tr><tr><td>Steven T. Learoyd</td><td>Comic: The Autumnlands</td><td>Fighter 20</td><td>Immune to magic, 5x True Sight</td></tr><tr><td>Tara</td><td>Comic: The Forests of Opal</td><td>Fighter 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>The Guinea Lord</td><td>Comic: Lament of the Lost Moors</td><td>Fighter 18</td><td>Invulnerable to damage, accompanied by 3 war mastiffs</td></tr><tr><td>Torquemada</td><td>Comic: Requiem: Vampire Knight</td><td>Berserker 16</td><td>Werewolf</td></tr><tr><td>Tristan de Halsbourg</td><td>Comic: Legend</td><td>Fighter 15</td><td>1x Summon Wolves</td></tr><tr><td>White Claw</td><td>Comic: White Claw</td><td>Fighter 16</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Manga
            </h4>
-<ul>
-<li>
-             Zaraki Kenpachi - Manga: Bleach - Kensai 30 - Very resilient, rapid regeneration
-            </li>
-<li>
-             Eto - Manga: Record of Lodoss War - Priest 8
-            </li>
-<li>
-             Maam (EE - pink) - Manga: Dragon Quest: The Adventure of Dai - Monk 14 - 2x several healing spells, 4x Lightning Fist
-            </li>
-<li>
-             Eikichi Onizuka - Manga: GTO - Brawler 17
-            </li>
-<li>
-             Alexander Anderson - Manga: Hellsing - Undead Slayer 16 - Superhuman physical abilities, regeneration, 3x Dimension Door
-            </li>
-<li>
-             Kenshiro - Manga: Fist of the North Star - Monk 18 - Deathblow (save at -8) after 2 seconds (living targets only, excluding golems, elementals and slimes), 6x Greater Whirlwind Attack
-            </li>
-<li>
-             Perseus Algol - Manga: Saint Seiya - Fighter 11 - Petrifies attackers, 2x Petrification in a cone, 3x Area Entangle
-            </li>
-<li>
-             Hinata Hyuga - Manga: Naruto - Monk 15 - 2x Eight Trigrams Sixty-Four Palms (Greater Whirlwind Attack and AC +4 for 2 rounds)
-            </li>
-<li>
-             Shino Aburame - Manga: Naruto - Druid Ninja 10 - Specializes in insects, hits impose 20% spell failure
-            </li>
-<li>
-             Boa Hancock - Manga: One Piece - Pirate Empress 15 - 25x Petrification, 25x Stone to Flesh, petrifies enemies in an area with no saving throw or magic resistance
-            </li>
-<li>
-             Garou - Manga: One-Punch Man - Monster 20 - 5x Greater Whirlwind Attack, 5x Greater Evasion
-            </li>
-<li>
-             King - Manga: One-Punch Man - Civilian - Has no reputation in Faerûn... a problem.
-            </li>
-<li>
-             Akame - Manga: Akame ga Kill! - Thief 10 → Kensai 18 - Lethal poisoned strike with no saving throw; thief skills: Hide in Shadows only
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Akame</td><td>Manga: Akame ga Kill!</td><td>Thief 10 → Kensai 18</td><td>Lethal poisoned strike with no saving throw; thief skills: Hide in Shadows only</td></tr><tr><td>Alexander Anderson</td><td>Manga: Hellsing</td><td>Undead Slayer 16</td><td>Superhuman physical abilities, regeneration, 3x Dimension Door</td></tr><tr><td>Boa Hancock</td><td>Manga: One Piece</td><td>Pirate Empress 15</td><td>25x Petrification, 25x Stone to Flesh, petrifies enemies in an area with no saving throw or magic resistance</td></tr><tr><td>Eikichi Onizuka</td><td>Manga: GTO</td><td>Brawler 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Eto</td><td>Manga: Record of Lodoss War</td><td>Priest 8</td><td class="sceptre-table-empty">—</td></tr><tr><td>Garou</td><td>Manga: One-Punch Man</td><td>Monster 20</td><td>5x Greater Whirlwind Attack, 5x Greater Evasion</td></tr><tr><td>Hinata Hyuga</td><td>Manga: Naruto</td><td>Monk 15</td><td>2x Eight Trigrams Sixty-Four Palms (Greater Whirlwind Attack and AC +4 for 2 rounds)</td></tr><tr><td>Kenshiro</td><td>Manga: Fist of the North Star</td><td>Monk 18</td><td>Deathblow (save at -8) after 2 seconds (living targets only, excluding golems, elementals and slimes), 6x Greater Whirlwind Attack</td></tr><tr><td>King</td><td>Manga: One-Punch Man</td><td>Civilian</td><td>Has no reputation in Faerûn... a problem.</td></tr><tr><td>Maam</td><td>Manga: Dragon Quest: The Adventure of Dai</td><td>Monk 14</td><td>2x several healing spells, 4x Lightning Fist</td></tr><tr><td>Perseus Algol</td><td>Manga: Saint Seiya</td><td>Fighter 11</td><td>Petrifies attackers, 2x Petrification in a cone, 3x Area Entangle</td></tr><tr><td>Shino Aburame</td><td>Manga: Naruto</td><td>Druid Ninja 10</td><td>Specializes in insects, hits impose 20% spell failure</td></tr><tr><td>Zaraki Kenpachi</td><td>Manga: Bleach</td><td>Kensai 30</td><td>Very resilient, rapid regeneration</td></tr></tbody></table></div>
 <h4>
             Comics
            </h4>
-<ul>
-<li>
-             Knolan - Comic: Battle Chasers - Healing Sorcerer 17
-            </li>
-<li>
-             Lady Shiva - Comic: Batman - Fighter/Assassin Monk 21 - 5x "Rip Out the Heart" (activate, then attack): living humanoids only; on hit, death with no saving throw or magic resistance
-            </li>
-<li>
-             Dupli-Kate - Comic: Invincible - Monk 6 - Can duplicate herself at will
-            </li>
-<li>
-             The Mauler Twins - Comic: Invincible - Fighters 13 - Blue ogres, inseparable
-            </li>
-<li>
-             Black Canary - Comic: Justice League of America - Karate Fighter 18 - 3x Great Shout
-            </li>
-<li>
-             Kick-Ass - Comic: Kick-Ass - Fighter 5
-            </li>
-<li>
-             Gamora Zen Whoberi Ben Titan - Comic: Guardians of the Galaxy - Fighter/Monk/Assassin 21 - Extensive training, cybernetically enhanced physical abilities, regeneration
-            </li>
-<li>
-             Luke Cage - Comic: Power Man - Monk 17 - Superhuman strength, near invulnerability, regeneration
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Black Canary</td><td>Comic: Justice League of America</td><td>Karate Fighter 18</td><td>3x Great Shout</td></tr><tr><td>Dupli-Kate</td><td>Comic: Invincible</td><td>Monk 6</td><td>Can duplicate herself at will</td></tr><tr><td>Gamora Zen Whoberi Ben Titan</td><td>Comic: Guardians of the Galaxy</td><td>Fighter/Monk/Assassin 21</td><td>Extensive training, cybernetically enhanced physical abilities, regeneration</td></tr><tr><td>Kick-Ass</td><td>Comic: Kick-Ass</td><td>Fighter 5</td><td class="sceptre-table-empty">—</td></tr><tr><td>Knolan</td><td>Comic: Battle Chasers</td><td>Healing Sorcerer 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Lady Shiva</td><td>Comic: Batman</td><td>Fighter/Assassin Monk 21</td><td>5x "Rip Out the Heart" (activate, then attack): living humanoids only; on hit, death with no saving throw or magic resistance</td></tr><tr><td>Luke Cage</td><td>Comic: Power Man</td><td>Monk 17</td><td>Superhuman strength, near invulnerability, regeneration</td></tr><tr><td>The Mauler Twins</td><td>Comic: Invincible</td><td>Fighters 13</td><td>Blue ogres, inseparable</td></tr></tbody></table></div>
 <h4>
             Role-Playing Games
            </h4>
-<ul>
-<li>
-             Shiba Tsukune - RPG: Legend of the Five Rings - Fighter 13 / Wu Jen 13
-            </li>
-<li>
-             Queen Geleeda the White - RPG: Scarred Lands - Sorceress 18 - Half-hag, laden with magic items, invisibility at will during nighttime hours
-            </li>
-<li>
-             Sunulael - RPG: Midnight - Priest 21 - Ghoul lich
-            </li>
-<li>
-             Ardherin - RPG: Midnight - Sorcerer 21 - Immune to all weapons
-            </li>
-<li>
-             Imrijka - RPG: Pathfinder - Inquisitor 10 - Half-orc
-            </li>
-<li>
-             Shigmaa Urasta - RPG: Ptolus - Priest 16 - Tiefling. 1x Ghoul Touch, 1x Draining Touch (2 levels), 1x Slay Living, various immunities.
-            </li>
-<li>
-             Nitouche - RPG: Rêve de Dragon - Bard 5
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Ardherin</td><td>RPG: Midnight</td><td>Sorcerer 21</td><td>Immune to all weapons</td></tr><tr><td>Imrijka</td><td>RPG: Pathfinder</td><td>Inquisitor 10</td><td>Half-orc</td></tr><tr><td>Nitouche</td><td>RPG: Rêve de Dragon</td><td>Bard 5</td><td class="sceptre-table-empty">—</td></tr><tr><td>Queen Geleeda the Fair</td><td>RPG: Scarred Lands</td><td>Sorceress 18</td><td>Half-hag, laden with magic items, invisibility at will during nighttime hours</td></tr><tr><td>Shiba Tsukune</td><td>RPG: Legend of the Five Rings</td><td>Fighter 13 / Wu Jen 13</td><td class="sceptre-table-empty">—</td></tr><tr><td>Shigmaa Urasta</td><td>RPG: Ptolus</td><td>Priest 16</td><td>Tiefling. 1x Ghoul Touch, 1x Draining Touch (2 levels), 1x Slay Living, various immunities.</td></tr><tr><td>Sunulael</td><td>RPG: Midnight</td><td>Priest 21</td><td>Ghoul lich</td></tr></tbody></table></div>
 <h4>
             Board Games
            </h4>
-<ul>
-<li>
-             Magus Gondè Kyal - Board game: Allegiance: A Realm Divided (English) - Elementalist 12
-            </li>
-<li>
-             Ansatsu, the Silent Blade - Board game: Allegiance: A Realm Divided (English) - Ninja Assassin 12
-            </li>
-<li>
-             Ashrian - Board game: Descent: Second Edition - Disciple 5 - Elf. Each round, slows all adjacent enemies with fewer than 9 HD; 1x Slow with no saving throw, 5x Healing Prayer++
-            </li>
-<li>
-             Baron Zachareth - Board game: Descent: Second Edition - Fighter 18 - Huge AC bonus, 3x "Hold on failed save", 3x "Shadow Bolt", weapon with a 30% chance of a random effect
-            </li>
-<li>
-             Gerrard Capashen - Board game: Magic: The Gathering - Weapon Master 17
-            </li>
-<li>
-             Joan of Orc - Board game: Munchkin - Fighter 2 - Orc
-            </li>
-<li>
-             Tut-Tuuut-Ankh-Ammon - Board game: Munchkin - Priest 18 - Royal mummy
-            </li>
-<li>
-             Vlad von Carstein - Board game: Warhammer - Fighter 12 / Necromancer 13 - Vampire, immortal, vampiric sword
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>Ansatsu, the Silent Blade</td><td>Board game: Allegiance: A Realm Divided (English)</td><td>Ninja Assassin 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Ashrian</td><td>Board game: Descent: Second Edition</td><td>Disciple 5</td><td>Elf. Each round, slows all adjacent enemies with fewer than 9 HD; 1x Slow with no saving throw, 5x Healing Prayer++</td></tr><tr><td>Baron Zachareth</td><td>Board game: Descent: Second Edition</td><td>Fighter 18</td><td>Huge AC bonus, 3x "Hold on failed save", 3x "Shadow Bolt", weapon with a 30% chance of a random effect</td></tr><tr><td>Gerrard Capashen</td><td>Board game: Magic: The Gathering</td><td>Weapon Master 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Joan of Orc</td><td>Board game: Munchkin</td><td>Fighter 2</td><td>Orc</td></tr><tr><td>Magus Gondè Kyal</td><td>Board game: Allegiance: A Realm Divided (English)</td><td>Elementalist 12</td><td class="sceptre-table-empty">—</td></tr><tr><td>Tut-Tuuut-Ankh-Ammon</td><td>Board game: Munchkin</td><td>Priest 18</td><td>Royal mummy</td></tr><tr><td>Vlad von Carstein</td><td>Board game: Warhammer</td><td>Fighter 12 / Necromancer 13</td><td>Vampire, immortal, vampiric sword</td></tr></tbody></table></div>
 <h4>
             Other Sources
            </h4>
-<ul>
-<li>
-             Patrick Sabatier - Real world - Bard 4 - No spells, no pickpocketing. His song makes everyone who fails a save vs. spells flee, including allies
-            </li>
-<li>
-             Xavier Dupont de Ligonnès - Real world: French mystery - Civilian - Wishes not to be seen
-            </li>
-<li>
-             The Chaos Ranger - Imaginary world: Naheulbeuk - Chicken Slayer 1
-            </li>
-<li>
-             Crôm - Imaginary world: Naheulbeuk - Barbarian 40 / Fighter 25 - Barbarian god of brawling
-            </li>
-<li>
-             André the Giant - Real world: WWE wrestler - Wrestler 7
-            </li>
-<li>
-             Till Eulenspiegel - Real world: German folklore - Jester 7
-            </li>
-<li>
-             Beowulf - Real world: Anglo-Saxon folklore - Fighter 17
-            </li>
-<li>
-             Grendel - Real world: Anglo-Saxon folklore - Fighter 15 - Half-ogre
-            </li>
-<li>
-             Koschei - Real world: Russian folklore - Sorcerer 16 - Immortal
-            </li>
-<li>
-             Jean Chuck Van Damrris - Real world: Fusion of 2 characters - Karate Fighter / Psionicist 50/50 - Quasi-deity, death gaze with no saving throw or magic resistance
-            </li>
-<li>
-             William Wallace - Real world: Scottish history - Knight 16 - No spells, cannot turn undead
-            </li>
-<li>
-             Spartacus - Real world: Greco-Roman history - Fighter 17
-            </li>
-<li>
-             Miyamoto Musashi - Real world: Japanese history - Fighter 19
-            </li>
-<li>
-             Bragi Boddason - Real world: Norwegian history - Skald 22 - Enhanced bard song
-            </li>
-<li>
-             Urssaf, Camcras and Carbalas - Real world: Les Inconnus, the song Rap-tout - Vampires - Inseparable vampires.
-            </li>
-<li>
-             Santal Gaïa - Real world: Les Inconnus, Le Hit des Hits - Bard 8 - No spells; summons beetles and spiders when singing
-            </li>
-<li>
-             Galahad - Real world: Arthurian legend - Paladin 18
-            </li>
-<li>
-             Hua Mulan - Real world: Chinese legend - Fighter 17
-            </li>
-<li>
-             The Beast of Gévaudan - Real world: French legend - Fighter 8 - Worg
-            </li>
-<li>
-             Zamnà - Real world: Mayan legend - Shaman 16
-            </li>
-<li>
-             Ilya Muromets - Real world: Russian legend - Knight 17 - No spells, cannot turn undead
-            </li>
-<li>
-             Ragnar Lodbrok - Real world: Scandinavian legend / TV series - Fighter 14
-            </li>
-<li>
-             Jerry Li Lewiss - Real world: Slight distortion of reality - Bard 10 - No pickpocketing, only one spell: "Great Balls of Fire" at will.
-            </li>
-<li>
-             Mickaël Klaxon - Real world: Slight distortion of reality - Bard 19 - No spells; creates zombies when singing. 1x Werewolf Transformation, lasting 1 turn
-            </li>
-<li>
-             Mamoushka Maïtécoffe - Real world: Slight distortion and fusion of reality - Cook 2 - At will: Summon Animal to Cook
-            </li>
-<li>
-             Gilgamesh - Real world: Mesopotamian mythology - Fighter 16
-            </li>
-<li>
-             Anonymous Skier - Real world: Advertisement - Skier - Explodes 8 seconds after arriving
-            </li>
-</ul>
+<div class="sceptre-table-wrap"><table class="sceptre-table"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Character</th><th>Medium / work</th><th>Class / level</th><th>Special features</th></tr></thead><tbody><tr><td>André the Giant</td><td>Real world: WWE wrestler</td><td>Wrestler 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Anonymous Skier</td><td>Real world: Advertisement</td><td>Skier</td><td>Explodes 8 seconds after arriving</td></tr><tr><td>Beowulf</td><td>Real world: Anglo-Saxon folklore</td><td>Fighter 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Bragi Boddason</td><td>Real world: Norwegian history</td><td>Skald 22</td><td>Enhanced bard song</td></tr><tr><td>Crôm</td><td>Imaginary world: Naheulbeuk</td><td>Barbarian 40 / Fighter 25</td><td>Barbarian god of brawling</td></tr><tr><td>Galahad</td><td>Real world: Arthurian legend</td><td>Paladin 18</td><td class="sceptre-table-empty">—</td></tr><tr><td>Gilgamesh</td><td>Real world: Mesopotamian mythology</td><td>Fighter 16</td><td class="sceptre-table-empty">—</td></tr><tr><td>Grendel</td><td>Real world: Anglo-Saxon folklore</td><td>Fighter 15</td><td>Half-ogre</td></tr><tr><td>Hua Mulan</td><td>Real world: Chinese legend</td><td>Fighter 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>Ilya Muromets</td><td>Real world: Russian legend</td><td>Knight 17</td><td>No spells, cannot turn undead</td></tr><tr><td>Jean Chuck Van Damrris</td><td>Real world: Fusion of 2 characters</td><td>Karate Fighter / Psionicist 50/50</td><td>Quasi-deity, death gaze with no saving throw or magic resistance</td></tr><tr><td>Jerry Li Lewiss</td><td>Real world: Slight distortion of reality</td><td>Bard 10</td><td>No pickpocketing, only one spell: "Great Balls of Fire" at will.</td></tr><tr><td>Koschei</td><td>Real world: Russian folklore</td><td>Sorcerer 16</td><td>Immortal</td></tr><tr><td>Mamoushka Maïtécoffe</td><td>Real world: Slight distortion and fusion of reality</td><td>Cook 2</td><td>At will: Summon Animal to Cook</td></tr><tr><td>Mickaël Klaxon</td><td>Real world: Slight distortion of reality</td><td>Bard 19</td><td>No spells; creates zombies when singing. 1x Werewolf Transformation, lasting 1 turn</td></tr><tr><td>Miyamoto Musashi</td><td>Real world: Japanese history</td><td>Fighter 19</td><td class="sceptre-table-empty">—</td></tr><tr><td>Patrick Sabatier</td><td>Real world</td><td>Bard 4</td><td>No spells, no pickpocketing. His song makes everyone who fails a save vs. spells flee, including allies</td></tr><tr><td>Ragnar Lodbrok</td><td>Real world: Scandinavian legend / TV series</td><td>Fighter 14</td><td class="sceptre-table-empty">—</td></tr><tr><td>Santal Gaïa</td><td>Real world: Les Inconnus, Le Hit des Hits</td><td>Bard 8</td><td>No spells; summons beetles and spiders when singing</td></tr><tr><td>Spartacus</td><td>Real world: Greco-Roman history</td><td>Fighter 17</td><td class="sceptre-table-empty">—</td></tr><tr><td>The Beast of Gévaudan</td><td>Real world: French legend</td><td>Fighter 8</td><td>Worg</td></tr><tr><td>The Chaos Ranger</td><td>Imaginary world: Naheulbeuk</td><td>Chicken Slayer 1</td><td class="sceptre-table-empty">—</td></tr><tr><td>Till Eulenspiegel</td><td>Real world: German folklore</td><td>Jester 7</td><td class="sceptre-table-empty">—</td></tr><tr><td>Urssaf, Camcras and Carbalas</td><td>Real world: Les Inconnus, the song Rap-tout</td><td>Vampires</td><td>Inseparable vampires.</td></tr><tr><td>William Wallace</td><td>Real world: Scottish history</td><td>Knight 16</td><td>No spells, cannot turn undead</td></tr><tr><td>Zamnà</td><td>Real world: Mayan legend</td><td>Shaman 16</td><td class="sceptre-table-empty">—</td></tr></tbody></table></div>
 <h4>
             Notes
            </h4>
@@ -5820,7 +5221,7 @@ Rainbow Projectile
 <p class="spell-desc">
 Target: 1D8 damage/level, max 20D8, of a random element. 12% chance to deal quadruple damage from all four elements in a small area. Saving throw for ½.
 </p>
-</div><div class="spell-entry"><div class="spell-name">Lobini's Urgent Summoning</div><p class="spell-desc">Summons 1D3 random monsters. Very short casting time.</p></div>
+</div><div class="spell-entry"><div class="spell-name">Lobini's Urgent Summoning</div><p class="spell-desc">Summons 1D3 random monsters (same monster list as the <a href="#lorlovein-monster-tear">Monster Tear</a>). Very short casting time.</p></div>
 <div class="spell-entry">
 <div class="spell-name">
 Spider Web
@@ -6517,7 +5918,7 @@ Target, golem only: permanently becomes an ally and can follow the caster into o
 </div>
 <div class="item-entry">
 <div class="item-head">
-<span class="item-name">
+<span class="item-name" id="lorlovein-monster-tear">
           Lorlovein's Monster Tear
          </span>
 </div>
@@ -6932,38 +6333,38 @@ Target, golem only: permanently becomes an ally and can follow the caster into o
 <br/>
 <ul class="credits-list">
 <li>
-       To Andrew Bridges for Bam Workshop 2.
+       To Andrew Bridges for <a href="https://sorcerers.net/Games/IEmodding/index.php" rel="noopener" target="_blank">Bam Workshop 2</a>.
       </li>
 <li>
-       To Igi for the IESDP knowledge base.
+       To Igi for the <a href="https://gibberlings3.github.io/iesdp/" rel="noopener" target="_blank">IESDP</a> knowledge base.
       </li>
 <li>
-       To Avenger for DLTC Editor Pro.
+       To Avenger for <a href="https://sourceforge.net/projects/gemrb/files/DLTCEP/" rel="noopener" target="_blank">DLTC Editor Pro (DLTCEP)</a>.
       </li>
-<li>To Jon Olav Hauglid for Near Infinity, and to Argent77 for maintaining it.</li>
+<li>To Jon Olav Hauglid for <a href="https://github.com/Argent77/NearInfinity" rel="noopener" target="_blank">Near Infinity</a>, and to Argent77 for maintaining it.</li>
 <li>
-       To Aaron O'Neil for ShadowKeeper and DaleKeeper II.
-      </li>
-<li>
-       To Troodon80 for updating ShadowKeeper / DaleKeeper as EEKeeper.
+       To Aaron O'Neil for <a href="https://sorcerers.net/Games/BG2/index_editors.php" rel="noopener" target="_blank">ShadowKeeper</a> and <a href="https://sorcerers.net/Games/IWD2/index_editors.php" rel="noopener" target="_blank">DaleKeeper II</a>.
       </li>
 <li>
-       To Wes Weimer for the WeiDU installation system.
+       To Troodon80 for updating ShadowKeeper / DaleKeeper as <a href="https://sourceforge.net/projects/eekeeper/files/" rel="noopener" target="_blank">EEKeeper</a>.
       </li>
 <li>
-       To The_Bigg and Wisp for maintaining the WeiDU installation system.
+       To Wes Weimer for the <a href="https://github.com/WeiDUorg/weidu" rel="noopener" target="_blank">WeiDU</a> installation system.
       </li>
 <li>
-       To Sloan Roy for Dr. Tester for Diablo II.
-      </li><li>To Blacky for ArtView for Arcanum.</li>
-<li>
-       To the La Couronne de Cuivre team for providing me with a forum section after the "death" of the Légendes website.
+       To The_Bigg and Wisp for maintaining the <a href="https://github.com/WeiDUorg/weidu" rel="noopener" target="_blank">WeiDU</a> installation system.
       </li>
 <li>
-       To Selphira for AutoDescription, the many bug reports it helped generate, and her countless answers to my questions.
+       To Sloan Roy for <a href="https://fileplanet.download.it/p-39276/Diablo-2-Dr-Tester-v0-02f" rel="noopener" target="_blank">Dr. Tester for Diablo II</a>.
+      </li><li>To Blacky for <a href="https://terra-arcanum.com/downloads.handler/index.php?section=modding" rel="noopener" target="_blank">ArtView for Arcanum</a>.</li>
+<li>
+       To the <a href="https://weiducommando.forumgaming.fr/" rel="noopener" target="_blank">La Couronne de Cuivre</a> team for providing me with a forum section after the "death" of the <a href="https://weiducommando.forumgaming.fr/" rel="noopener" target="_blank">Légendes</a> website.
       </li>
 <li>
-       To the many people on G3 who answered my numerous questions on the forum.
+       To Selphira for <a href="https://github.com/Selphira/AutoDescription" rel="noopener" target="_blank">AutoDescription</a>, the many bug reports it helped generate, and her countless answers to my questions.
+      </li>
+<li>
+       To the many people on <a href="https://www.gibberlings3.net/" rel="noopener" target="_blank">G3</a> who answered my numerous questions on the forum.
       </li>
 <li>
        To Isaya for providing so much help and information.
@@ -6981,13 +6382,13 @@ Target, golem only: permanently becomes an ally and can follow the caster into o
        To Salomon Kane and Galactygon for converting most of TOEE's spell animations to BG2 format.
       </li>
 <li>
-       To Kwiat_W for allowing me to use spell animations from his "Psionics Unleashed" mod.
+       To Kwiat_W for allowing me to use spell animations from his <a href="https://www.shsforums.net/forum/634-psionics-unleashed/" rel="noopener" target="_blank">"Psionics Unleashed"</a> mod.
       </li>
 <li>
-       To Erasmus for his "Scrolls+Potions" mod for Morrowind.
+       To Erasmus for his <a href="https://morromods.wiwiland.net/plus-graphiques/monde-de-vvardenfell/scrolls-potions/index.html" rel="noopener" target="_blank">"Scrolls+Potions"</a> mod for Morrowind.
       </li>
 <li>
-       To Shohy for allowing me to integrate "Bard Song Switching" for the Scepter's bards.
+       To Shohy for allowing me to integrate <a href="https://github.com/shohysie/Bardsong_Switching" rel="noopener" target="_blank">"Bard Song Switching"</a> for the Scepter's bards.
       </li>
 <li>
        To Akadis and Machiavélique for solving my dialogue problems.
@@ -7016,5 +6417,25 @@ Target, golem only: permanently becomes an ally and can follow the caster into o
 </section>
 </div>
 </div>
+<script>
+(function(){
+  function openHashTarget(){
+    if (!location.hash) return;
+    var id = decodeURIComponent(location.hash.slice(1));
+    var target = document.getElementById(id);
+    if (!target) return;
+    var node = target.parentElement;
+    while (node) {
+      if (node.tagName === "DETAILS") node.open = true;
+      node = node.parentElement;
+    }
+    window.setTimeout(function(){
+      target.scrollIntoView({block:"center"});
+    }, 0);
+  }
+  window.addEventListener("hashchange", openHashTarget);
+  window.addEventListener("DOMContentLoaded", openHashTarget);
+})();
+</script>
 </body>
 </html>
