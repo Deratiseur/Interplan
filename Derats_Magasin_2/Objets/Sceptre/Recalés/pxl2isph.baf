@@ -1,8 +1,0 @@
-IF
-	OnCreation()
-THEN
-	RESPONSE #100
-		ReallyForceSpellRes("pxl2ash3",Myself)
-		Wait(2)
-		DisplayStringHead(Myself,@30919)
-END
