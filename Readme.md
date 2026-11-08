@@ -23,9 +23,9 @@
 
 A triple module:
 
-- Store: 100+ items, the majority of them original and guaranteed to surprise.
+- Store: 105+ items, the majority of them original and guaranteed to surprise.
 
-- Spells: 150+ new spells.
+- Spells: 155+ new spells.
 
 - Potions: 25+ potions and charms.
 
@@ -49,9 +49,9 @@ Note 2: If this mod is installed after the "Icewind Dale Spells" and "Add 9 Arca
 
 Un triple module :
 
-- Magasin : 100+ objets dont la majorité originaux et destinés à vous surprendre.
+- Magasin : 105+ objets dont la majorité originaux et destinés à vous surprendre.
 
-- Sorts : 150+ nouveaux sorts.
+- Sorts : 155+ nouveaux sorts.
 
 - Potions : 25+ potions et charmes.
 
