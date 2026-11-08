@@ -35,7 +35,9 @@ A triple module:
 
 - Plus encounters and surprises. (not in IWDEE)
 
-Note: this mod is "green": it doesn't modify any files that might disturb other modules. 100% compatibility, despite its enormous content.
+Note 1: this mod is "green": it doesn't modify any files that might disturb other modules. 100% compatibility, despite its enormous content.  
+ 
+Note 2: If this mod is installed after the "Icewind Dale Spells" and "Add 9 Arcane Spells" components of [SCS](https://github.com/Gibberlings3/SwordCoastStratagems), the 157 Interplan spells will not count toward the limit of 50 spells per level. Without these two components, all 157 spells are installed normally and occupy almost all remaining available spell slots.
 
 </td>
 
