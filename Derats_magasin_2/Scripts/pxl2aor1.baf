@@ -1,5 +1,4 @@
 IF
-	OnCreation()
 	Global("pxl2aors","LOCALS",0)
 THEN
 	RESPONSE #100

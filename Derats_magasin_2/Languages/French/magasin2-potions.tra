@@ -1,270 +1,298 @@
 @701 = ~Amplificateur~ //prix250
-@702 = ~Ce composé chimique sert à améliorer une autre potion lorsqu'il est mélangé à celle-ci dans le chaudron magique.
-Il n'a pas d'autre utilité et il est déconseillé de l’ingérer tel quel.~
+@702 = ~Ce composÃ© chimique sert Ã  amÃ©liorer une autre potion lorsqu'il est mÃ©langÃ© Ã  celle-ci dans le chaudron magique.
+Il n'a pas d'autre utilitÃ© et il est dÃ©conseillÃ© de lâ€™ingÃ©rer tel quel.~
 
 @703 = ~Amplificateur puissant ~ //Pas en vente
-@704 = ~Ce composé chimique à été amélioré par un mélange spécial. Il permet de transcender une potion lorsqu'il est mélangé à celle-ci dans le chaudron magique.
-Il n'a pas d'autre utilité et il est vivement déconseillé de l’ingérer tel quel.~
+@704 = ~Ce composÃ© chimique a Ã©tÃ© amÃ©liorÃ© par un mÃ©lange spÃ©cial. Il permet de transcender une potion lorsqu'il est mÃ©langÃ© Ã  celle-ci dans le chaudron magique.
+Il n'a pas d'autre utilitÃ© et il est vivement dÃ©conseillÃ© de lâ€™ingÃ©rer tel quel.~
 
 @705 = ~Potion de bonne fortune~ // prix 1000
-@706 = ~Cette potion rend le buveur particulièrement chanceux. 
+@706 = ~Cette potion rend le buveur particuliÃ¨rement chanceux. 
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Chance +2
-Durée : 4 tours
-Spécial : 20% de chance de conférer chance +4 pendant 2 tours à la place.
+DurÃ©e : 4 tours
+SpÃ©cial : 20% de chance de confÃ©rer chance +4 pendant 2 tours Ã  la place.
 
 Poids : 1~
 @7069 = ~Chance prodigieuse~
 
 @707 = ~Eau positive~ // prix 1500
-@708 = ~Cette bouteille renferme de l'eau pure qui a transité par le  Plan d'Énergie Positive.
+@708 = ~Cette bouteille renferme de l'eau pure qui a transitÃ© par le Plan d'Ã‰nergie Positive.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Restauration
 Soin de 50 points de vie
 Maximum de points de vie : +10
-Protection contre le plan négatif et la mort
-Durée : 10 tours
+Protection contre le plan nÃ©gatif et la mort
+DurÃ©e : 10 tours
 
 Poids : 1~
 @709 = ~Tord-boyaux du sage~ // prix 800
-@7010 = ~Cet alcool fort préparé avec des épices et céréales originaires de contrées lointaines éveille les sens et permet de viser des points précis.
+@7010 = ~Cet alcool fort prÃ©parÃ© avec des Ã©pices et cÃ©rÃ©ales originaires de contrÃ©es lointaines Ã©veille les sens et permet de viser des points prÃ©cis.
 
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Toucher : +3
 Chances de coup critique : +3
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 
-@7011 = ~Pyramide sacrée~ // prix 800
-@7012 = ~Ce puissant charme, fabriqué principalement à Principalité, concentre assez de puissance pour contenir 3 sorts. Pour l'utiliser, il faut le faire fondre entre les 2 mains (il s'effrite rapidement)
+@7011 = ~Pyramide sacrÃ©e~ // prix 800
+@7012 = ~Ce puissant charme, fabriquÃ© principalement Ã  PrincipalitÃ©, concentre assez de puissance pour contenir 3 sorts. Pour l'utiliser, il faut le faire fondre entre les 2 mains (il s'effrite rapidement).
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Faveur divine
 Armure de la foi
-Puissance sacrée
-Durée : 2 tours
+Puissance sacrÃ©e
+DurÃ©e : 2 tours
 
 Poids : 1~
-@7013 = ~Bois enchanté~ // prix 600
-@7014 = ~Ce charme permet de faire appel à la puissance de la nature. Pour activer son pouvoir il faut le casser en deux
+@7013 = ~Bois enchantÃ©~ // prix 600
+@7014 = ~Ce charme permet de faire appel Ã  la puissance de la nature. Pour activer son pouvoir, il faut le casser en deux.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Convocation au choix : insectes, animaux ou dryade
-Durée : 2 tours
+DurÃ©e : 2 tours
 
 Poids : 1~
 
-@7015 = ~Potion de désenchantement~ // prix 650
-@7016 = ~Cette potion contient une langue de désenchanteur. Quiconque la boit voit tous les effets magiques et malédictions l'affectant dissipés
+@7015 = ~Potion de dÃ©senchantement~ // prix 650
+@7016 = ~Cette potion contient une langue de dÃ©senchanteur. Quiconque la boit voit tous les effets magiques et malÃ©dictions l'affectant dissipÃ©s.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Dissipation (100%)
-Délivrance de la malédiction
+DÃ©livrance de la malÃ©diction
 
 Poids : 1~
 
-@7017 = ~Potion d'invisibilité majeure~ //prix 600
-@7018 = ~Cette potion confère une invisibilité similaire au sort de mage de quatrième niveau. 
+@7017 = ~Potion d'invisibilitÃ© majeure~ //prix 600
+@7018 = ~Cette potion confÃ¨re une invisibilitÃ© similaire au sort de mage de quatriÃ¨me niveau. 
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Invisibilité majeure
+InvisibilitÃ© majeure
 
-Durée : 6 tours
+DurÃ©e : 6 tours
 
 Poids : 1~
-@7019 = ~Mémoire en bouteille~ //prix 500
-@7020 = ~Cet élixir magique permet au consommateur s'il est mage de se remémorer des sorts mineurs. Il n'a aucun effet sur un non-initié aux arcanes.
+@7019 = ~MÃ©moire en bouteille~ //prix 500
+@7020 = ~Cet Ã©lixir magique permet au consommateur s'il est mage de se remÃ©morer des sorts mineurs. Il n'a aucun effet sur un non-initiÃ© aux arcanes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Re-mémorisation d'un sort de chaque niveau 1 à 5
+RemÃ©morisation d'un sort de chaque niveau 1 Ã  5
 
 Poids : 1~
 @7021 = ~Mousse verte~ //prix 1200
-@7022 = ~Cette mousse toxique (à utiliser avec des gants) peut être appliquée sur une arme de mêlée pour qu'elle empoisonne la cible frappée.
-Le pot contient assez de mousse pour être appliquée 10 fois.
+@7022 = ~Cette mousse toxique (Ã  utiliser avec des gants) peut Ãªtre appliquÃ©e sur une arme de mÃªlÃ©e pour qu'elle empoisonne la cible frappÃ©e.
+Le pot contient assez de mousse pour Ãªtre appliquÃ©e 10 fois.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Poison sur l'arme tenue en main (1 point de dégât infligé par seconde pendant 1 round, étendu jusqu’à 4 rounds en cas de jet de sauvegarde raté contre la mort)
-Durée : 5 rounds
+Poison sur l'arme tenue en main (1 point de dÃ©gÃ¢t infligÃ© par seconde pendant 1 round, Ã©tendu jusquâ€™Ã  4 rounds en cas de jet de sauvegarde ratÃ© contre la mort)
+DurÃ©e : 5 rounds
 
 Poids : 1~
 @7023 = ~Miroir de duplication~ //prix 1000
 @7024 = ~Ce petit charme contient un puissant enchantement capable de dupliquer l'utilisateur. Pour l'utiliser, il faut le casser en deux.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Simulacre
-Durée : 2 tours
+DurÃ©e : 2 tours
 
 Poids : 1~
 
 @7025 = ~Potion de vision totale~ // prix 800
-@7026 = ~Cette potion améliore grandement la vue du buveur, en lui permettant de voir toutes les choses cachées ou fictives.
+@7026 = ~Cette potion amÃ©liore grandement la vue du buveur, en lui permettant de voir toutes les choses cachÃ©es ou fictives.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Vision véritable
-Durée : 6 tours
-
-Poids : 1~
-@7027 = ~Mémoire concentrée~ //prix 2000
-@7028 = ~Cet élixir magique permet au consommateur s'il est mage de se remémorer des sorts majeurs. Il n'a aucun effet sur un non-initié aux arcanes.
-
-PARAMÈTRES :
-
-Re-mémorisation d'un sort de chaque niveau 6 à 9
+Vision vÃ©ritable
+DurÃ©e : 6 tours
 
 Poids : 1~
-@7029 = ~Huile féerique~ //prix 1000
-@7030 = ~Appliquer cette huile miroitante sur le corps de l'utilisateur prend un round entier, après quoi il est puissamment protégé.
+@7027 = ~MÃ©moire concentrÃ©e~ //prix 2000
+@7028 = ~Cet Ã©lixir magique permet au consommateur s'il est mage de se remÃ©morer des sorts majeurs. Il n'a aucun effet sur un non-initiÃ© aux arcanes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
+
+RemÃ©morisation d'un sort de chaque niveau 6 Ã  9
+
+Poids : 1~
+@7029 = ~Huile fÃ©erique~ //prix 1000
+@7030 = ~Appliquer cette huile miroitante sur le corps de l'utilisateur prend un round entier, aprÃ¨s quoi il est puissamment protÃ©gÃ©.
+
+PARAMÃˆTRES :
 
 Protection contre les armes non-magiques
 Jets de sauvegarde et Classe d'Armure : +2
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@7031 = ~Huile pyrophoricite~ //prix 700
-@7032 = ~Cette huile s'enflamme peu de temps après avoir été appliquée. Utilisé sur une arme de corps-à-corps, elle permet de rajouter des dégâts de feu à ses dégâts de base. Sur une arme à projectile, l'effet ne dure que quelques secondes, l'huile filant avec le projectile lancé.
+@7031 = ~Huile pyrophoricitÃ©~ //prix 700
+@7032 = ~Cette huile s'enflamme peu de temps aprÃ¨s avoir Ã©tÃ© appliquÃ©e. UtilisÃ©e sur une arme de corps-Ã -corps, elle permet de rajouter des dÃ©gÃ¢ts de feu Ã  ses dÃ©gÃ¢ts de base. Sur une arme Ã  projectile, l'effet ne dure que quelques secondes, l'huile filant avec le projectile lancÃ©.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Dégâts au corps-à-corps : +1D6
-Spécial : durée 3 secondes quand utilisée sur une arme à distance.
-Durée : 2 tours
+DÃ©gÃ¢ts au corps-Ã -corps : +1D6
+SpÃ©cial : durÃ©e 3 secondes quand utilisÃ©e sur une arme Ã  distance.
+DurÃ©e : 2 tours
 
 Poids : 1~
 
-@7033 = ~Nectar de Pierre concentrée~
-@7034 = ~Ce flacon contient de la pierre liquide concentrée, qui une fois pulvérisée sur quelqu'un se solidifie et le protège comme un sort de peau de pierre. Le flacon contient assez de liquide pour cinq pulvérisations.
+@7033 = ~Nectar de Pierre concentrÃ©e~
+@7034 = ~Ce flacon contient de la pierre liquide concentrÃ©e, qui, une fois pulvÃ©risÃ©e sur quelqu'un, se solidifie et le protÃ¨ge comme un sort de peau de pierre. Le flacon contient assez de liquide pour cinq pulvÃ©risations.
 
-PARAMETRES :
+PARAMÃˆTRES :
 
-Peau de pierre sur la personne aspergée (1D4+2 peaux)
-Durée : 2 heures
+Peau de pierre sur la personne aspergÃ©e (1D4+2 peaux)
+DurÃ©e : 2 heures
 
 Poids : 2~
 
-@7035 = ~Baume de réflexion~ //prix 1500
-@7036 = ~Ce baume permet à la personne qui s'en recouvre de renvoyer à l'expéditeur tous les sorts qui le ciblerait.
+@7035 = ~Baume de rÃ©flexion~ //prix 1500
+@7036 = ~Ce baume permet Ã  la personne qui s'en recouvre de renvoyer Ã  l'expÃ©diteur tous les sorts qui le cibleraient.
 
-PARAMETRES :
+PARAMÃˆTRES :
 
 Renvoi 10 niveaux de sorts
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
 
 @7037 = ~Rat du malheur~ //prix 500
-@7038 = ~Ce rongeur séché et enchanté permet de maudire une créature. Pour l'utiliser il faut l'écraser pour l'émietter en désignant une créature.
+@7038 = ~Ce rongeur sÃ©chÃ© et enchantÃ© permet de maudire une crÃ©ature. Pour l'utiliser, il faut l'Ã©craser pour l'Ã©mietter en dÃ©signant une crÃ©ature.
 
-PARAMETRES :
+PARAMÃˆTRES :
 
-Lance Fatalité sur une cible
-Durée : 1 tour
-
-Poids : 1~
-
-@7039 = ~Mouche du fléau~ //prix 1200
-@7040 = ~Cette petite mouche momifiée permet de recréer un des sept fléaux. Pour l'utiliser il faut l'avaler, après quoi le mangeur peut cracher une nuée d'insectes.
-
-PARAMETRES :
-
-Lance Fléau d'insectes
-Durée : 1 tour
+Lance FatalitÃ© sur une cible
+DurÃ©e : 1 tour
 
 Poids : 1~
 
-@7041 = ~Asticot fourré~ //prix 800
-@7042 = ~L'Asticot fourré est une des friandises les plus populaires sur Dothion. Celle-ci est une spécialité de Mamy Boulot, avec son ingrédient secret si savoureux et si utile.
+@7039 = ~Mouche du flÃ©au~ //prix 1200
+@7040 = ~Cette petite mouche momifiÃ©e permet de recrÃ©er un des sept flÃ©aux. Pour l'utiliser, il faut l'avaler, aprÃ¨s quoi le mangeur peut cracher une nuÃ©e d'insectes.
 
-PARAMETRES :
+PARAMÃˆTRES :
 
-Après 3 round, le croqueur lâche un nuage de gaz, puis un autre après 5 rounds, puis un autre après 7 rounds.
-Durée des nuages : 1 tour
-
-Poids : 1~
-
-@7043 = ~Infinitérium~
-@7044 = ~L'origine de cet étrange breuvage se perd dans les circonvolutions du temps. La divination ne permet que de savoir qu'il n'est pas originaire d'Abel-Toril et que, plus qu'un simple objet planaire, il n'a pas sa place dans "cette" réalité. Un papier est collé sur le fond de la bouteille et malgré tous vos efforts vous ne parvenez pas à le décoller. Il est écrit dessus : Dfjtrugmp Svqjev, DM, 43/04/12096.
-
-Cet alcool fort redonne 15 points de vie à celui qui le boit. La bouteille se ré-rempli après chaque usage.~
-
-@7045 = ~Oeil magique~ //prix 800
-@7046 = ~Ce œil est solide et froid au touché, comme gelé. Pour l'utiliser il faut le faire fondre dans la main, après quoi un œil magique se manifeste.
-
-PARAMÈTRES :
-
-Oeil de magicien
-Durée : 2 tours
+Lance FlÃ©au d'insectes
+DurÃ©e : 1 tour
 
 Poids : 1~
 
-@7047 = ~Potion de déplacement~ //prix 1200
-@7048 = ~Cette potion permet à qui la boit de se déplacer instantanément sur de courtes distances à volonté une fois par round.
+@7041 = ~Asticot fourrÃ©~ //prix 800
+@7042 = ~L'Asticot fourrÃ© est une des friandises les plus populaires sur Dothion. Celle-ci est une spÃ©cialitÃ© de Mamy Boulot, avec son ingrÃ©dient secret si savoureux et si utile.
 
-PARAMETRES :
+PARAMÃˆTRES :
 
-Porte dimensionnelle à volonté une fois par round .
-Durée : 5 tours
-
-Poids : 1~
-
-@7049 = ~Potion de métamorphose~
-@7050 = ~Cette potion confère à quiconque la boit la capacité de se métamorphoser, comme avec le sort de mage du même nom.
-
-PARAMÈTRES :
-
-Métamorphose à volonté une fois par round.
-Durée : 3 tours
+AprÃ¨s 3 rounds, le croqueur lÃ¢che un nuage de gaz, puis un autre aprÃ¨s 5 rounds, puis un autre aprÃ¨s 7 rounds.
+DurÃ©e des nuagesÂ : 1 tour
 
 Poids : 1~
 
-@7051 = ~Air comprimé~
-@7052 = ~Cette bouteille peut être lancée pour crée à l'endroit où elle se brise une Zone d'air pur.~
+@7043 = ~InfinitÃ©rium~
+@7044 = ~L'origine de cet Ã©trange breuvage se perd dans les circonvolutions du temps. La divination ne permet que de savoir qu'il n'est pas originaire d'Abel-Toril et que, plus qu'un simple objet planaire, il n'a pas sa place dans "cette" rÃ©alitÃ©. Un papier est collÃ© sur le fond de la bouteille et malgrÃ© tous vos efforts vous ne parvenez pas Ã  le dÃ©coller. Il est Ã©crit dessusÂ : Dfjtrugmp Svqjev, DM, 43/04/12096.
 
-@7053 = ~Filtre de vorpalité~
-@7054 = ~À manipuler avec précaution ! Cette huile est à appliquer sur une arme de mêlée, après quoi celle-ci gagne l'attribut "vorpal".
+Cet alcool fort redonne 15 points de vie Ã  celui qui le boit. La bouteille se reremplit aprÃ¨s chaque usage.~
 
-PARAMÈTRES :
+@7045 = ~Å’il magique~ //prix 800
+@7046 = ~Cet Å“il est solide et froid au toucher, comme gelÃ©. Pour l'utiliser, il faut le faire fondre dans la main, aprÃ¨s quoi un Å“il magique se manifeste.
 
-Chaque frappe avec cette arme à 5% de chance de tuer la cible (jet de sauvegarde contre la mort pour éviter).
+PARAMÃˆTRES :
 
-Durée : 3 tours
+Å’il de magicien
+DurÃ©e : 2 tours
+
+Poids : 1~
+
+@7047 = ~Potion de dÃ©placement~ //prix 1200
+@7048 = ~Cette potion permet Ã  qui la boit de se dÃ©placer instantanÃ©ment sur de courtes distances Ã  volontÃ© une fois par round.
+
+PARAMÃˆTRES :
+
+Porte dimensionnelle Ã  volontÃ© une fois par round.
+DurÃ©e : 5 tours
 
 Poids : 1~
 
-@7055 = ~Huile de résonance magique~
-@7056 = ~Cette huile à appliquer sur une arme de mêlée lui confère un niveau d'enchantement.
+@7049 = ~Potion de mÃ©tamorphose~
+@7050 = ~Cette potion confÃ¨re Ã  quiconque la boit la capacitÃ© de se mÃ©tamorphoser, comme avec le sort de mage du mÃªme nom.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-L'arme portée devient +3.
-
-Durée : 5 tours
+MÃ©tamorphose Ã  volontÃ© une fois par round.
+DurÃ©e : 3 tours
 
 Poids : 1~
-@70561 = ~Huile de résonance magique majeure~
-@70562 = ~Cette huile à appliquer sur une arme de mêlée lui confère un niveau d'enchantement.
 
-PARAMÈTRES :
+@7051 = ~Air comprimÃ©~
+@7052 = ~Cette bouteille peut Ãªtre lancÃ©e pour crÃ©er Ã  l'endroit oÃ¹ elle se brise une Zone d'air pur.
 
-L'arme portée devient +5.
+PARAMÃˆTRES :
 
-Durée : 5 tours
+Zone d'air pur
+
+Poids : 1~
+
+@7053 = ~Filtre de vorpalitÃ©~
+@7054 = ~Ã€ manipuler avec prÃ©caution ! Cette huile est Ã  appliquer sur une arme de mÃªlÃ©e, aprÃ¨s quoi celle-ci gagne l'attribut "vorpal".
+
+PARAMÃˆTRES :
+
+Chaque frappe avec cette arme a 5% de chance de tuer la cible (jet de sauvegarde contre la mort pour Ã©viter).
+
+DurÃ©e : 3 tours
+
+Poids : 1~
+
+@7055 = ~Huile de rÃ©sonance magique~
+@7056 = ~Cette huile Ã  appliquer sur une arme de mÃªlÃ©e lui confÃ¨re un niveau d'enchantement.
+
+PARAMÃˆTRES :
+
+L'arme portÃ©e devient +3.
+
+DurÃ©e : 5 tours
+
+Poids : 1~
+@70561 = ~Huile de rÃ©sonance magique majeure~
+@70562 = ~Cette huile Ã  appliquer sur une arme de mÃªlÃ©e lui confÃ¨re un niveau d'enchantement.
+
+PARAMÃˆTRES :
+
+L'arme portÃ©e devient +5.
+
+DurÃ©e : 5 tours
+
+Poids : 1~
+
+@7057 = ~Larme Ã  Monstre de Lorlovein~
+@7058 = ~Ce charme est la prison d'un monstre. Casser le charme libÃ¨re le monstre, qui servira fidÃ¨lement l'utilisateur pendant 4 tours avant dâ€™Ãªtre renvoyÃ© chez lui. Il n'existe aucun moyen de savoir ce qui a Ã©tÃ© enfermÃ© dans le charme, et surtout, comment.
+
+PARAMÃˆTRES :
+
+Invocation d'un monstre alÃ©atoire
+
+DurÃ©e : 4 tours
+
+Poids : 1~
+
+@7059 = ~Huile de bouclier ardent~
+@7060 = ~Il faut rÃ©pandre cette huile en cercle autour de l'utilisateur, aprÃ¨s quoi elle s'enflamme et suit l'utilisateur dans ses mouvements.
+
+PARAMÃˆTRES :
+
+Bouclier de feu (Rouge)
+
+DurÃ©e : 4 tours
 
 Poids : 1~

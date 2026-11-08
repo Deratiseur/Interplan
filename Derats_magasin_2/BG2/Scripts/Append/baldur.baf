@@ -1,4 +1,13 @@
 IF
+	Global("pxl2save","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SaveGame(1)
+		DisplayString(Myself,@802141)
+		SetGlobal("pxl2save","GLOBAL",0)
+END
+
+IF
 	AreaCheck("AR4500")
 	GlobalGT("pxinshop","GLOBAL",0)
 THEN

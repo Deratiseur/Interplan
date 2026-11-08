@@ -19,7 +19,7 @@ IF
 	Global("pxl2goyachant","LOCALS",1)
 THEN
 	RESPONSE #100
-		DisplayStringHead(Myself,@30181)
+		DisplayStringHead(Myself,@301819)
 END
 
 IF
@@ -28,7 +28,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30182)
+		DisplayStringHead(Myself,@301829)
 END
 
 IF
@@ -37,7 +37,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30183)
+		DisplayStringHead(Myself,@301839)
 END
 
 IF
@@ -46,7 +46,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30184)
+		DisplayStringHead(Myself,@301849)
 END
 
 IF
@@ -55,7 +55,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30185)
+		DisplayStringHead(Myself,@301859)
 END
 
 IF
@@ -64,7 +64,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30186)
+		DisplayStringHead(Myself,@301869)
 END
 
 IF
@@ -73,7 +73,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30187)
+		DisplayStringHead(Myself,@301879)
 END
 
 IF
@@ -82,7 +82,7 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30188)
+		DisplayStringHead(Myself,@301889)
 END
 
 IF
@@ -91,5 +91,5 @@ IF
 THEN
 	RESPONSE #100
 			Wait(4)
-		DisplayStringHead(Myself,@30189)
+		DisplayStringHead(Myself,@301899)
 END

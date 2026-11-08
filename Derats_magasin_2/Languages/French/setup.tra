@@ -1,70 +1,78 @@
 @9001 = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
-@71 = ~Poudre de fée~
-@72 = ~Cette fiole de terre cuite contient de la fine poudre de fée.
-Ce précieux composant doit pouvoir être utilisé pour de nombreuses manipulations magiques.
-Il est aussi possible de le lancer, auquel cas en se fracassant il provoquera sur la zone l'effet du sort "poussière féerique".~
-@73 = ~Le métal qui n'existe pas~
-@74 = ~Cet anneau de forme hexagonale à un trou trop petit pour être passé à un doigt. Et n'importe quel nain pourrait vous le dire : le métal dont il est constitué ne correspond à rien de connu sur Toril.~
+@9003 = ~Ce module nÃ©cessite un jeu utilisant l'Infinity Engine. ~
+@9004 = ~Ce composant nÃ©cessite EET. ~
+@71 = ~Poudre de fÃ©e~
+@72 = ~Cette fiole de terre cuite contient de la fine poudre de fÃ©e.
+Ce prÃ©cieux composant doit pouvoir Ãªtre utilisÃ© pour de nombreuses manipulations magiques.
+Il est aussi possible de le lancer, auquel cas en se fracassant il provoquera sur la zone l'effet du sort "poussiÃ¨re fÃ©erique".~
+@73 = ~Le mÃ©tal qui n'existe pas~
+@74 = ~Cet anneau de forme hexagonale a un trou trop petit pour Ãªtre passÃ© Ã  un doigt. Et n'importe quel nain pourrait vous le dire : le mÃ©tal dont il est constituÃ© ne correspond Ã  rien de connu sur Toril.~
 @33 = ~L'interplan, Articles magiques~
 @34 = ~Agenor Parcilofann~
 @35 = ~L'interplan~
 @36 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
 @37 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
-@38 = ~Dupliquer certains sorts de l'Interaplan en version clericales/druidiques~
-@39 = ~Ce composant necessite L'interplan~
+@38 = ~Dupliquer certains sorts de l'Interplan en versions clÃ©ricales/druidiques~
+@39 = ~Ce composant nÃ©cessite L'interplan~
 @40 = ~Vashir al'Maedissir~
-@41 = ~Bouteille du génie~
-@42 = ~Cette bouteille est la maison (ou la prison ?) d'un génie. Qui sait ce que cette créature de grande puissance peut vous offrir si vous ouvrez le bouchon qui la retient ?
+@41 = ~Bouteille du gÃ©nie~
+@42 = ~Cette bouteille est la maison (ou la prison ?) d'un gÃ©nie. Qui sait ce que cette crÃ©ature de grande puissance peut vous offrir si vous ouvrez le bouchon qui la retient ?
 
-Capacité spéciale : Invoque le génie de la bouteille une fois par jour.~
+CapacitÃ© spÃ©ciale : Invoque le gÃ©nie de la bouteille deux fois par jour.~
 @43 = ~Kriol~
 @44 = ~Stock douteux de Kriol~
-@45 = ~L'interplan : Objets~
-@46 = ~L'interplan : Parchemins~
-@47 = ~L'interplan : Potions~
+@45 = ~L'interplanÂ : Objets~
+@46 = ~L'interplanÂ : Parchemins~
+@47 = ~L'interplanÂ : Potions~
 @48 = ~Gemme portail vers L'interplan~
-@49 = ~Enchantée par un fidèle client du magasin l'Interplan à Athkatla, cette gemme chargée d’énergie magique permet une fois par jour de s'y téléporter et de revenir par la porte magique.
+@49 = ~EnchantÃ©e par un fidÃ¨le client du magasin L'Interplan Ã  Athkatla, cette gemme chargÃ©e dâ€™Ã©nergie magique permet une fois par jour de s'y tÃ©lÃ©porter et de revenir par la porte magique.
 
-CARACTÉRISTIQUE
+CARACTÃ‰RISTIQUE
 
-Capacités de charge :
+CapacitÃ©s de charge :
  Une fois par jour permet de lancer "Porte vers l'Interplan".~
+@50 = ~Rendre illimitÃ© le stock de potions du magasin~
 @51 = ~Elfomorphose~
-@52 = ~Elfomorphose (Altération)
+@52 = ~Elfomorphose (AltÃ©ration)
 Niveau : 10
-Portée : 0
-Durée : permanent
-Zone d’effet : un humanoïde non-monstrueux
-Temps d’incantation : 10
+PortÃ©e : 0
+DurÃ©e : permanente
+Zone dâ€™effet : un humanoÃ¯de non-monstrueux
+Temps dâ€™incantation : 10
 Jet de sauvegarde : annule
 
-Ce sort change la cible en elfe si cette dernière rate un jet de sauvegarde contre les sorts à -6.
-La cible métamorphosée par ce sort devient physiquement un elfe. Ses caractéristiques physiques peuvent être légèrement modifiés, mais pas de plus ou moins un. Le nouvel elfe connaît "intuitivement" le langage de plusieurs communauté d'elfes, mais il ne gagne aucune connaissance de l'histoire ou de la culture elfique, de même que son esprit reste celui qu’il était avant la métamorphose, il ne peut pas ce comporter naturellement en elfe. Il lui incombe donc de tout apprendre s'il ne l’avait pas fait avant le lancement du sort.
-La métamorphose provoquée par ce sort est permanente, et ne peut être contrée que par un sort de Souhait ou de Miracle.~
+Ce sort change la cible en elfe si cette derniÃ¨re rate un jet de sauvegarde contre les sorts Ã  -6.
+La cible mÃ©tamorphosÃ©e par ce sort devient physiquement un elfe. Ses caractÃ©ristiques physiques peuvent Ãªtre lÃ©gÃ¨rement modifiÃ©es, mais pas de plus ou moins un. Le nouvel elfe connaÃ®t "intuitivement" le langage de plusieurs communautÃ©s d'elfes, mais il ne gagne aucune connaissance de l'histoire ou de la culture elfique, de mÃªme que son esprit reste celui quâ€™il Ã©tait avant la mÃ©tamorphose ; il ne peut pas se comporter naturellement en elfe. Il lui incombe donc de tout apprendre s'il ne lâ€™avait pas fait avant le lancement du sort.
+La mÃ©tamorphose provoquÃ©e par ce sort est permanente, et ne peut Ãªtre contrÃ©e que par un sort de Souhait ou de Miracle.~
 @53 = ~Filtre elfisateur~
-@54 = ~Si on se réfère à l'étiquette accolée à ce flacon, ce liquide aurait propriété de métamorphoser le buveur en elfe. Comment un sorcier peu expérimenté a-t-il pu concevoir une potion aussi puissante et surtout pour quoi faire, cela reste un mystère.~
+@54 = ~Si on se rÃ©fÃ¨re Ã  l'Ã©tiquette accolÃ©e Ã  ce flacon, ce liquide aurait la propriÃ©tÃ© de mÃ©tamorphoser le buveur en elfe. Comment un sorcier peu expÃ©rimentÃ© a-t-il pu concevoir une potion aussi puissante et surtout pour quoi faire : cela reste un mystÃ¨re.~
 @55 = ~Anneau de pouvoir~
-@56 = ~Myserill Bolperdu était un puissant prêtre de Malar qui participa à de nombreuses batailles sanglantes et à moult combats. Mais il regrettait que ces combat se terminaient trop vite. En étudiant les capacités de régénération des trolls, il fut convaincu qu'il serait beaucoup plus amusant d'affronter sur le champ de bataille des guerriers dotés du pouvoir de régénération. Il commanda donc plusieurs anneaux très puissants, et quand ils furent terminés il les distribua a des guerriers particulièrement malfaisants qui étaient généralement dans le camp adverse lors des affrontements.
+@56 = ~Myserill Bolperdu Ã©tait un puissant prÃªtre de Malar qui participa Ã  de nombreuses batailles sanglantes et Ã  moult combats. Mais il regrettait que ces combats se terminent trop vite. En Ã©tudiant les capacitÃ©s de rÃ©gÃ©nÃ©ration des trolls, il fut convaincu qu'il serait beaucoup plus amusant d'affronter sur le champ de bataille des guerriers dotÃ©s du pouvoir de rÃ©gÃ©nÃ©ration. Il commanda donc plusieurs anneaux trÃ¨s puissants, et quand ils furent terminÃ©s, il les distribua Ã  des guerriers particuliÃ¨rement malfaisants qui Ã©taient gÃ©nÃ©ralement dans le camp adverse lors des affrontements.
 
-CARACTÉRISTIQUES : 
+CARACTÃ‰RISTIQUES : 
 
 Action libre
-Régénération d'un point de vie par round
-Résistances élémentaires : +20%~
+RÃ©gÃ©nÃ©ration d'un point de vie par round
+RÃ©sistances Ã©lÃ©mentaires : +20%~
 @57 = ~Kri'Binn~
-@61 = ~Le désespoir du nain magicien
-Nous avons rencontré Agenor, un elfe transformé en nain et qui aimerait bien redevenir un elfe. Il nous a demandé de trouver un moyen pour lui rendre sa forme initiale.
-Il dit qu'il a cherché sur tout Toril et même sur de nombreux plans sans succès, alors si lui n'a rien trouvé, comment le pourrions nous ?~
-@62 = ~Le désespoir du nain magicien
-Nous avons rencontré Agenor, un elfe transformé en nain et qui aimerait bien redevenir un elfe. Il nous a demandé de trouver un moyen pour lui rendre sa forme initiale.
-Nous avons donné à Agenor un parchemin d'Elfomorphose. Ne pouvant pas apprendre le sort, il a utilisé le parchemin.~
-@63 = ~Le désespoir du nain magicien
-Nous avons rencontré Agenor, un elfe transformé en nain et qui aimerait bien redevenir un elfe. Il nous a demandé de trouver un moyen pour lui rendre sa forme initiale.
-Nous avons donné à Agenor un Filtre Elfisateur, qu’il a bu d'une traite.~
-@64 = ~Le désespoir du nain magicien
-Nous avons rencontré Agenor, un elfe transformé en nain et qui aimerait bien redevenir un elfe. Il nous a demandé de trouver un moyen pour lui rendre sa forme initiale.
-Notre magicien a lancé sur Agenor un sort d'Elfomorphe qui a fonctionné.~
-@65 = ~Le désespoir du nain magicien
-Nous avons rencontré Agenor, un elfe transformé en nain et qui aimerait bien redevenir un elfe. Il nous a demandé de trouver un moyen pour lui rendre sa forme initiale.
-Agenor est redevenu un nain et pour notre aide il nous a grassement récompensé.~
+@61 = ~Le dÃ©sespoir du nain magicien
+Nous avons rencontrÃ© Agenor, un elfe transformÃ© en nain et qui aimerait bien redevenir un elfe. Il nous a demandÃ© de trouver un moyen pour lui rendre sa forme initiale.
+Il dit qu'il a cherchÃ© sur tout Toril et mÃªme sur de nombreux plans sans succÃ¨s, alors si lui n'a rien trouvÃ©, comment le pourrions-nous ?~
+@62 = ~Le dÃ©sespoir du nain magicien
+Nous avons rencontrÃ© Agenor, un elfe transformÃ© en nain et qui aimerait bien redevenir un elfe. Il nous a demandÃ© de trouver un moyen pour lui rendre sa forme initiale.
+Nous avons donnÃ© Ã  Agenor un parchemin d'Elfomorphose. Ne pouvant pas apprendre le sort, il a utilisÃ© le parchemin.~
+@63 = ~Le dÃ©sespoir du nain magicien
+Nous avons rencontrÃ© Agenor, un elfe transformÃ© en nain et qui aimerait bien redevenir un elfe. Il nous a demandÃ© de trouver un moyen pour lui rendre sa forme initiale.
+Nous avons donnÃ© Ã  Agenor un Filtre Elfisateur, quâ€™il a bu d'une traite.~
+@64 = ~Le dÃ©sespoir du nain magicien
+Nous avons rencontrÃ© Agenor, un elfe transformÃ© en nain et qui aimerait bien redevenir un elfe. Il nous a demandÃ© de trouver un moyen pour lui rendre sa forme initiale.
+Notre magicien a lancÃ© sur Agenor un sort d'Elfomorphose qui a fonctionnÃ©.~
+@65 = ~Le dÃ©sespoir du nain magicien
+Nous avons rencontrÃ© Agenor, un elfe transformÃ© en nain et qui aimerait bien redevenir un elfe. Il nous a demandÃ© de trouver un moyen pour lui rendre sa forme initiale.
+Agenor est redevenu un elfe et pour notre aide il nous a grassement rÃ©compensÃ©.~
+@66 = ~Un contrebandier vend certains objets de l'Interplan Ã  Beregost~
+@67 = ~Contrebandier~
+@68 = ~Contrebande de produits magiques~
+@69 = ~Rendre illimitÃ© le stock de parchemins du magasin~
+@70 = ~Compilation d'un fichier 2DA hyper long~

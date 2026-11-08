@@ -619,7 +619,7 @@ Weight: 1~
 PARAMETERS:
 
 Damage: 10D6 acid damage (save vs. breath for half)
-Area: 80° cone and 4 meters long in front of the user.
+Area: 80Â° cone and 4 meters long in front of the user.
 
 Duration: 2 turns
 
@@ -691,6 +691,39 @@ Immunity to spells.
 Immunity to weapons.
 Physical, magical and elemental damage resistances set to 100%.
 
-Duration: 1 turn
+Duration: 5 rounds
+
+Weight: 1~
+
+@50135 = ~Fire Aura Filter~
+@50136 = ~This filter surrounds the drinker with a circle of crackling flames.
+
+PARAMETERS:
+
+Fire Resistance: +100%
+Armor Class: +4
+Immunity to non-magical weapons
+Melee retaliation: 2D10+2 fire damage
+Melee weapons deal an additional 1D10 fire damage
+
+Duration: 10 turns
+
+Weight: 1~
+
+@50137 = ~Concentrated Experience Potion~
+@50138 = ~This potion normally serves as a reserve for memory eaters.
+
+PARAMETERS:
+
+The drinker gains 15,000 XP.
+
+Weight: 1~
+
+@50139 = ~Ultra-Concentrated Experience Potion~
+@50140 = ~This potion normally serves as a reserve for memory eaters. It has been tampered with to make it even more powerful.
+
+PARAMETERS:
+
+The drinker gains 35,000 XP.
 
 Weight: 1~

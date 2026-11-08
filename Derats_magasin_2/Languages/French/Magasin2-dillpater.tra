@@ -1,290 +1,290 @@
 @13041 = ~Rage fatale~
-@13042 = ~Rage fatale (Nécromancie)
+@13042 = ~Rage fatale (NÃ©cromancie)
 
 Niveau : 4
-Portée : champ de vision
-Durée : 15 rounds.
+PortÃ©e : champ de vision
+DurÃ©e : 15 rounds.
 Temps d'incantation : 5
-Zone d'effet : un créature alliée
+Zone d'effet : une crÃ©ature alliÃ©e
 Jet de sauvegarde : aucun
 
-Ce sort ne peut affecter qu'une créature alliée ou invoquée. Elle subit une explosion de son énergie vitale qui lui permet de devenir enragée, berserk et hâtée et de passer à 10 attaques par round. Mais son énergie vitale s'épuise vite et elle perd deux points de constitution par round (note : la rage lui confère +4 en constitution). Si la mort par constitution nulle intervient avant la fin des 15 rounds le sort prend fin immédiatement.~
+Ce sort ne peut affecter qu'une crÃ©ature alliÃ©e ou invoquÃ©e. Elle subit une explosion de son Ã©nergie vitale qui lui permet de devenir enragÃ©e, berserk et hÃ¢tÃ©e et de passer Ã  10 attaques par round. Mais son Ã©nergie vitale s'Ã©puise vite et elle perd deux points de constitution par round (noteÂ : la rage lui confÃ¨re +4 en constitution). Si la mort par constitution nulle intervient avant la fin des 15 rounds, le sort prend fin immÃ©diatement.~
 
 @13061 = ~Marque du feu~
 @13062 = ~Marque du feu (Abjuration)
 Niveau : 6
-Portée : champ de vision
-Durée : 5 rounds + 1 round / niveau
+PortÃ©e : champ de vision
+DurÃ©e : 5 rounds + 1 round / niveau
 Temps d'incantation : 6
-Zone d'effet : 1 créature
+Zone d'effet : 1 crÃ©ature
 Jet de sauvegarde : aucun
 
-Ce sort réduit de 100% la résistance au feu d'une créature. Aucune jet de sauvegarde n'est autorisé et la résistance à la magie de la cible est considérée comme réduite de 30% pour résister à ce sort. Si la créature à de base moins de 100% de résistance au feu, l’excédant supprimé devient une vulnérabilité. Par exemple une créature avec 70% de résistance au feu affectée par ce sort passera à -30% de résistance au feu.~
+Ce sort rÃ©duit de 100% la rÃ©sistance au feu d'une crÃ©ature. Aucun jet de sauvegarde n'est autorisÃ© et la rÃ©sistance Ã  la magie de la cible est considÃ©rÃ©e comme rÃ©duite de 30% pour rÃ©sister Ã  ce sort. Si la crÃ©ature a de base moins de 100% de rÃ©sistance au feu, lâ€™excÃ©dent supprimÃ© devient une vulnÃ©rabilitÃ©. Par exemple une crÃ©ature avec 70% de rÃ©sistance au feu affectÃ©e par ce sort passera Ã  -30% de rÃ©sistance au feu.~
 
 @13071 = ~Atroce tranchoir de Dillpater~
 @13072 = ~Atroce tranchoir de Dillpater (Conjuration, enchantement)
 
 Niveau : 7
-Portée : champ de vision
-Durée : instantanée
+PortÃ©e : champ de vision
+DurÃ©e : instantanÃ©e
 Temps d'incantation : 7
-Zone d'effet : une créature
+Zone d'effet : une crÃ©ature
 Jet de sauvegarde : annule
 
-Un gros tranchoir constitué de pure énergie psychique apparaît au dessus de la créature ciblée et s’abat pour la couper en deux. Si la créature rate un jet de sauvegarde contre les sorts, elle est tuée sur le coup. Sinon, le choc psychologique est tel qu'elle perd la moitié de ses points de vie actuels, arrondie au supérieur.~
+Un gros tranchoir constituÃ© de pure Ã©nergie psychique apparaÃ®t au-dessus de la crÃ©ature ciblÃ©e et sâ€™abat pour la couper en deux. Si la crÃ©ature rate un jet de sauvegarde contre les sorts, elle est tuÃ©e sur le coup. Sinon, le choc psychologique est tel qu'elle perd la moitiÃ© de ses points de vie actuels, arrondie au supÃ©rieur.~
 
-@13073 = ~Sujétion de l'Araignée~
-@13074 = ~Sujétion de l'Araignée (Enchantement)
+@13073 = ~SujÃ©tion de l'AraignÃ©e~
+@13074 = ~SujÃ©tion de l'AraignÃ©e (Enchantement)
 
 Niveau : 7
-Portée : champ de vision
-Durée : permanente
+PortÃ©e : champ de vision
+DurÃ©e : permanente
 Temps d'incantation : 7
-Zone d'effet : 1 araignée
+Zone d'effet : 1 araignÃ©e
 Jet de sauvegarde : Annule
 
-Ce sort n'est efficace que sur une araignée. Si cette dernière rate un jet de sauvegarde contre les sorts à -4 elles devient le fidèle compagnon du mage et se comporte comme un familier. Elle peut suivre le mage dans d'autres zones et ne le quitte que si elle meurt ou si le mage ou un de ses amis tente de lui faire du mal; dans ce cas le sort cesserait aussitôt de faire effet et l’araignée deviendrait agressive.
-Note : ce sort ne marche pas sur les araignées convoquées par un objet ou un sort~
+Ce sort n'est efficace que sur une araignÃ©e. Si cette derniÃ¨re rate un jet de sauvegarde contre les sorts Ã  -4, elle devient le fidÃ¨le compagnon du mage et se comporte comme un familier. Elle peut suivre le mage dans d'autres zones et ne le quitte que si elle meurt ou si le mage ou un de ses amis tente de lui faire du mal ; dans ce cas, le sort cesse aussitÃ´t de faire effet et lâ€™araignÃ©e devient agressive.
+Note : ce sort ne marche pas sur les araignÃ©es convoquÃ©es par un objet ou un sort~
 
 @13081 = ~Convocation de tyrannoeil~
 @13082 = ~Convocation de tyrannoeil (Convocation)
 
 Niveau : 8
-Portée : champ de vision
-Durée : 2 tours
+PortÃ©e : champ de vision
+DurÃ©e : 2 tours
 Temps d'incantation : 9
-Zone d'effet : une créature
+Zone d'effet : une crÃ©ature
 Jet de sauvegarde : non
 
-Ce sort invoque un tyrranoeil  allié qui se servira de tous ses pouvoirs pour aider le lanceur de sorts. Quand le sort est lancé, il y a 15% de chance qu'un deuxième tyrranoeil allié apparaisse.~
+Ce sort invoque un tyrannoeil alliÃ© qui se servira de tous ses pouvoirs pour aider le lanceur de sorts. Quand le sort est lancÃ©, il y a 15% de chance qu'un deuxiÃ¨me tyrannoeil alliÃ© apparaisse.~
 
-@13083 = ~Malédiction de la mort qui tue~
-@13084 = ~Malédiction de la mort qui tue (Enchantement)
+@13083 = ~MalÃ©diction de la mort qui tue~
+@13084 = ~MalÃ©diction de la mort qui tue (Enchantement)
 
 Niveau : 8
-Portée : champ de vision
-Durée : 2 tours
+PortÃ©e : champ de vision
+DurÃ©e : 2 tours
 Temps d'incantation : 9
-Zone d'effet : 10 mètres de rayon
-Jet de sauvegarde : spécial
+Zone d'effet : 10 mÃ¨tres de rayon
+Jet de sauvegarde : spÃ©cial
 
-Vous subissez l'incident fâcheux du dernier monstre de la pile de défausse. Heu non... en fait ….
-Tous les ennemis dans la zone d'effet subissent -4 aux jets de sauvegarde pendant la durée du sort, puis doivent tenter deux jets de sauvegarde : un contre les sorts : s'il est raté ils subissent un malus supplémentaire de -4 aux jets de sauvegarde, et un jet de sauvegarde contre la mort : s'il est raté il subissent un malus supplémentaire de -4 au jet de sauvegarde contre la mort (pour un total de -12 au jet de sauvegarde contre la mort si les deux jets de sauvegarde sont ratés).~
-@130841 = ~Jet de sauvegarde contre la mort réduit~
+Vous subissez l'incident fÃ¢cheux du dernier monstre de la pile de dÃ©fausse. Heu non... en fait...
+Tous les ennemis dans la zone d'effet subissent -4 aux jets de sauvegarde pendant la durÃ©e du sort, puis doivent tenter deux jets de sauvegarde : un contre les sorts : s'il est ratÃ©, ils subissent un malus supplÃ©mentaire de -4 aux jets de sauvegarde, et un jet de sauvegarde contre la mort : s'il est ratÃ©, ils subissent un malus supplÃ©mentaire de -4 au jet de sauvegarde contre la mort (pour un total de -12 au jet de sauvegarde contre la mort si les deux jets de sauvegarde sont ratÃ©s).~
+@130841 = ~Jet de sauvegarde contre la mort rÃ©duit~
 
-@13085 = ~Armée de squelettes Vaal~
-@13086 = ~Armée de squelettes Vaal (Nécromancie)
+@13085 = ~Invocation de Squelettes vaal~
+@13086 = ~Invocation de Squelettes vaal (NÃ©cromancie)
 
 Niveau : 8
-Portée : champ de vision
-Durée : 5 rounds
+PortÃ©e : champ de vision
+DurÃ©e : 5 rounds
 Temps d'incantation : 5
-Zone d'effet : spéciale
+Zone d'effet : spÃ©cialee
 Jet de sauvegarde : Aucun
 
-Ce sort crée une armée de 55 squelettes incluant :
-- Un général squelette lourdement armée qui diffuse une aura qui fait que tous les alliés dans 9 mètres de rayon bénéficient de la hâte 
+Ce sort crÃ©e une armÃ©e de 55 squelettes incluant :
+- Un gÃ©nÃ©ral squelette lourdement armÃ© qui diffuse une aura qui fait que tous les alliÃ©s dans 9 mÃ¨tres de rayon bÃ©nÃ©ficient de la hÃ¢te 
 - 5 archers squelettes
 - 4 mages squelettes
 - 17 soldats squelettes 
 - 28 squelettes~
 @130861 = ~Soldat squelette~
-@130862 = ~Général squelette~
+@130862 = ~GÃ©nÃ©ral squelette~
 
 @13087 = ~Dweomers supernaturels~
-@13088 = ~Dweomers supernaturels (Altération)
+@13088 = ~Dweomers supernaturels (AltÃ©ration)
 
 Niveau : 8
-Portée : 0
-Durée : 4 rounds
+PortÃ©e : 0
+DurÃ©e : 4 rounds
 Temps d'incantation : 8
 Zone d'effet : lanceur de sorts
 Jet de sauvegarde : Aucun
 
-Sous l'effet de ce sort, le lanceur de sorts lance ses sorts comme si c’étaient des capacités spéciales, avec un temps d'incantation de 1.~
+Sous l'effet de ce sort, le lanceur de sorts lance ses sorts comme si câ€™Ã©taient des capacitÃ©s spÃ©ciales, avec un temps d'incantation de 1.~
 
 @13091 = ~Repos magique~
-@13092 = ~Repos magique (Altération)
+@13092 = ~Repos magique (AltÃ©ration)
 
 Niveau : 9
-Portée : 0
-Durée : instantanée
+PortÃ©e : 0
+DurÃ©e : instantanÃ©e
 Temps d'incantation : 3
 Zone d'effet : lanceur de sorts
 Jet de sauvegarde : non
 
-Ce sort donne au mage tous les bonus d'une bonne nuit de repos. Sa fatigue est annulé, il regagne 2D6 points de vie et il se remémore tous ses sorts. Par contre les autre effets ou afflictions qui l'affectent ne sont pas dissipés.~
+Ce sort donne au mage tous les bonus d'une bonne nuit de repos. Sa fatigue est annulÃ©e, il regagne 2D6 points de vie et il se remÃ©more tous ses sorts. Par contre les autres effets ou afflictions qui l'affectent ne sont pas dissipÃ©s.~
 
-@13093 = ~Oeil de Méduse~
-@13094 = ~Oeil de Méduse (Altération)
+@13093 = ~Oeil de MÃ©duse~
+@13094 = ~Oeil de MÃ©duse (AltÃ©ration)
 
 Niveau : 9
-Portée : 0
-Durée : 2 tours
+PortÃ©e : 0
+DurÃ©e : 2 tours
 Temps d'incantation : 1 round
 Zone d'effet : lanceur de sorts
 Jet de sauvegarde : non
 
-Ce sort permet au mage de pétrifier ses ennemis simplement en les regardant, une fois par round et à volonté pendant toute la durée du sort. Un jet de sauvegarde contre la métamorphose permet au victime ciblée d’éviter la pétrification.~
+Ce sort permet au mage de pÃ©trifier ses ennemis simplement en les regardant, une fois par round et Ã  volontÃ© pendant toute la durÃ©e du sort. Un jet de sauvegarde contre la mÃ©tamorphose permet Ã  la victime ciblÃ©e dâ€™Ã©viter la pÃ©trification.~
 
-@13095 = ~Images en chaîne~ //Pas oBG2, réutilisable et "protection contre" ne marche pas.
-@13096 = ~Images en chaîne (Illusion/Fantasme)
+@13095 = ~Images en chaÃ®ne~ //Pas oBG2, rÃ©utilisable et "protection contre" ne marche pas.
+@13096 = ~Images en chaÃ®ne (Illusion/Fantasme)
 
 Niveau : 9
-Portée : 0
-Durée : 1 tour
+PortÃ©e : 0
+DurÃ©e : 1 tour
 Temps d'incantation : 9
 Zone d'effet : lanceur
 Jet de sauvegarde : Non
 
-Ce sorts est semblable au sort de niveau 7 "Image renforce" : il crée une copie du magicien qui peut se déplacer, elle a le même nombre de points de vie que lui et peut lancer les mêmes sorts, mais ne peut pas participer à un combat physique.
-Mais à la différence du sort de niveau 7, Images en chaîne crée une nouvelle image tous les 2 rounds suivants, jusqu'à une 5ème image au 9eme round (toutes les images disparaissant après 10 rounds, la dernière ne "dure" donc que 2 rounds).
-Chaque coup que le magicien subit fait disparaître une image mais n’interrompt pas la chaîne, qui continuera à crée des images jusqu'à la fin du sort.~
+Ce sort est semblable au sort de niveau 7 "Image renforcÃ©e" : il crÃ©e une copie du magicien qui peut se dÃ©placer, elle a le mÃªme nombre de points de vie que lui et peut lancer les mÃªmes sorts, mais ne peut pas participer Ã  un combat physique.
+Mais Ã  la diffÃ©rence du sort de niveau 7, Images en chaÃ®ne crÃ©e une nouvelle image tous les 2 rounds suivants, jusqu'Ã  une 5e image au 9e round (toutes les images disparaissant aprÃ¨s 10 rounds, la derniÃ¨re ne "dure" donc que 2 rounds).
+Chaque coup que le magicien subit fait disparaÃ®tre une image mais nâ€™interrompt pas la chaÃ®ne, qui continuera Ã  crÃ©er des images jusqu'Ã  la fin du sort.~
 
 @13097 = ~Camouflage~
 @13098 = ~Camouflage (Illusion)
 
 Niveau : 9
-Portée : 0
-Durée : 2 tours
+PortÃ©e : 0
+DurÃ©e : 2 tours
 Temps d'incantation : 9
 Zone d'effet : le lanceur de sorts
 Jet de sauvegarde : non
 
-Comme le sort de niveau 4 Invisibilité majeure, ce sort rend le magicine indécelable par la vision et lui offre des bonus à la défense et aux jets de sauvegarde. Mais le sort camouflage offre en plus une couverture parfaite, en annulant tous ce qui pourrait trahir sa présence. Ainsi ses bruits de pas, sa chaleur corporelle, sa respiration, etc, tout est artificiellement caché. Il peut cependant laisser entendre sa voix s'il désire parler. Le camouflage protège également contre la scrutation, la divination et les visions augmentées.~
+Comme le sort de niveau 4 InvisibilitÃ© majeure, ce sort rend le magicien indÃ©celable par la vision et lui offre des bonus Ã  la dÃ©fense et aux jets de sauvegarde. Mais le sort camouflage offre en plus une couverture parfaite, en annulant tout ce qui pourrait trahir sa prÃ©sence. Ainsi ses bruits de pas, sa chaleur corporelle, sa respiration, etc, tout est artificiellement cachÃ©. Il peut cependant laisser entendre sa voix s'il dÃ©sire parler. Le camouflage protÃ¨ge Ã©galement contre la scrutation, la divination et les visions augmentÃ©es.~
 
 @13099 = ~Orbe prismatique~
 @130910 = ~Orbe prismatique (Convocation/Conjuration)
 
 Niveau : 9
-Portée : 20 m  
-Durée : instantanée
+PortÃ©e : 20 m  
+DurÃ©e : instantanÃ©e
 Temps d'incantation : 9
-Zone d'effet : 1 créature
-Jet de sauvegarde : spéciale
+Zone d'effet : 1 crÃ©ature
+Jet de sauvegarde : spÃ©cial
 
 Ce sort reproduit les effets du sort de niveau sept Vaporisation prismatique mais en condensant les sept rayons en un orbe capable de toucher une cible unique. La cible subit de plein fouet les effets des sept rayons originaux : 
-120 points de dégâts, jet de sauvegarde contre les sorts pour la moitié
-Jet de sauvegarde contre les sorts ou désintégration
-Jet de sauvegarde contre les poisons pour 20 points de dégâts, sinon, mort
-Jet de sauvegarde contre la pétrification ou transformation en pierre
-Jet de sauvegarde contre les baguettes ou débilité mentale
+120 points de dÃ©gÃ¢ts, jet de sauvegarde contre les sorts pour la moitiÃ©
+Jet de sauvegarde contre les sorts ou dÃ©sintÃ©gration
+Jet de sauvegarde contre les poisons pour 20 points de dÃ©gÃ¢ts, sinon, mort
+Jet de sauvegarde contre la pÃ©trification ou transformation en pierre
+Jet de sauvegarde contre les baguettes ou dÃ©bilitÃ© mentale
 Aveuglement si elle est de niveau 7 ou moins.~
 
-@130911 = ~Invulnérabilité~
-@130912 = ~Invulnérabilité (Abjuration, Nécromancie)
+@130911 = ~InvulnÃ©rabilitÃ©~
+@130912 = ~InvulnÃ©rabilitÃ© (Abjuration, NÃ©cromancie)
 
 Niveau : 9
-Portée : 0
-Durée : 5 rounds
+PortÃ©e : 0
+DurÃ©e : 5 rounds
 Temps d'incantation : 4
 Zone d'effet : le lanceur de sorts
 Jet de sauvegarde : non
 
-Sort de protection ultime, l'invulnérabilité a pour but de rendre le lanceur de sorts véritablement immortel. Pendant les 5 rounds que dure le sort, le magicien est immunisé à toutes les formes de dégâts, à tous les effets de mort, de désintégration, de pétrification, et de manière générale, à tout ce qui pourrait mettre fin à son existence. De plus, il réussit automatiquement tous les jets de sauvegarde.
-Note : si le magicien est déjà affecté par quelque chose de dangereux au moment de lancer le sort, cette plaie ne peut le tuer pendant les 5 rounds mais pour autant elle n'est pas annulée, et continuera son effet néfaste après la fin du sort. La puissance du sort est telle qu'il est impossible de le maintenir très longtemps.~
+Sort de protection ultime, l'invulnÃ©rabilitÃ© a pour but de rendre le lanceur de sorts vÃ©ritablement immortel. Pendant les 5 rounds que dure le sort, le magicien est immunisÃ© Ã  toutes les formes de dÃ©gÃ¢ts, Ã  tous les effets de mort, de dÃ©sintÃ©gration, de pÃ©trification, et de maniÃ¨re gÃ©nÃ©rale, Ã  tout ce qui pourrait mettre fin Ã  son existence. De plus, il rÃ©ussit automatiquement tous les jets de sauvegarde.
+Note : si le magicien est dÃ©jÃ  affectÃ© par quelque chose de dangereux au moment de lancer le sort, cette plaie ne peut le tuer pendant les 5 rounds mais pour autant elle n'est pas annulÃ©e, et continuera son effet nÃ©faste aprÃ¨s la fin du sort. La puissance du sort est telle qu'il est impossible de le maintenir trÃ¨s longtemps.~
 
 @130913 = ~Faiblesses de nourrisson~
 @130914 = ~Faiblesses de nourrisson (Abjuration)
 
 Niveau : 9
-Portée : champ de vision
-Durée : permanente
+PortÃ©e : champ de vision
+DurÃ©e : permanente
 Temps d'incantation : 1 round
-Zone d'effet : spécial
+Zone d'effet : spÃ©ciale
 Jet de Sauvegarde : annule
 
-Si la cible de ce sort rate un jet de sauvegarde contre les sorts à -4, elle devient aussi vulnérable qu'un nouveau né : elle peut être touchée par toutes les armes (y compris non-magiques) et tous les sorts (y compris de niveau 1), et toutes ses résistances physiques, magiques et élémentales, même naturelles, sont réduites à zéro. Par exemple, un élémental de feu affecté par ce sort pourra être impacté par une boule de feu et des armes non-magiques.~
+Si la cible de ce sort rate un jet de sauvegarde contre les sorts Ã  -4, elle devient aussi vulnÃ©rable qu'un nouveau-nÃ© : elle peut Ãªtre touchÃ©e par toutes les armes (y compris non-magiques) et tous les sorts (y compris de niveau 1), et toutes ses rÃ©sistances physiques, magiques et Ã©lÃ©mentales, mÃªme naturelles, sont rÃ©duites Ã  zÃ©ro. Par exemple, un Ã©lÃ©mental de feu affectÃ© par ce sort pourra Ãªtre impactÃ© par une boule de feu et des armes non-magiques.~
 
 @130915 = ~Brume de Sombremort~
-@130916 = ~Brume de Sombremort (Nécromancie)
+@130916 = ~Brume de Sombremort (NÃ©cromancie)
 
 Niveau : 9
-Portée : champ de vision
-Durée : 1 tour
+PortÃ©e : champ de vision
+DurÃ©e : 1 tour
 Temps d'incantation : 9
-Zone d'effet : rayon de 4,5 mètres
-Jet de sauvegarde : spécial
+Zone d'effet : rayon de 4,5 mÃ¨tres
+Jet de sauvegarde : spÃ©cial
 
-Ce sort fait apparaître à l'endroit désignée une brume hantée dans laquelle les créatures qui évoluent sont chaque round attaquées par l'équivalent de 1D3 assassins imaginaires (pour chaque assassin jet de sauvegarde contre les sorts pour éviter d'être agressé, ensuite si agression jet de sauvegarde contre la mort ou mort sinon 3D6 points de dégâts).~
+Ce sort fait apparaÃ®tre Ã  l'endroit dÃ©signÃ© une brume hantÃ©e dans laquelle les crÃ©atures qui Ã©voluent sont chaque round attaquÃ©es par l'Ã©quivalent de 1D3 assassins imaginaires (pour chaque assassin jet de sauvegarde contre les sorts pour Ã©viter d'Ãªtre agressÃ©, ensuite si agression jet de sauvegarde contre la mort ou mort sinon 3D6 points de dÃ©gÃ¢ts).~
 
-@130917 = ~Création de clone~
-@130918 = ~Création de clone (Nécromancie)
+@130917 = ~CrÃ©ation de clone~
+@130918 = ~CrÃ©ation de clone (NÃ©cromancie)
 
 Niveau : 9
-Portée : 0
-Durée : 3 tours
+PortÃ©e : 0
+DurÃ©e : 3 tours
 Temps d'incantation : 10
 Zone d'effet : le lanceur de sorts
 Jet de sauvegarde : aucun
 
-Ce sort crée un clone du mage, réplique parfaite qui possède les mêmes capacités que lui. Par contre il faut un petit temps de repos au clone nouvellement crée pour supporter le choc psychique de sa nouvelle "vie complète", ce qu'il ne peut pas faire s'il est directement impliqué dans un combat.
+Ce sort crÃ©e un clone du mage, rÃ©plique parfaite qui possÃ¨de les mÃªmes capacitÃ©s que lui. Par contre il faut un petit temps de repos au clone nouvellement crÃ©Ã© pour supporter le choc psychique de sa nouvelle "vie complÃ¨te", ce qu'il ne peut pas faire s'il est directement impliquÃ© dans un combat.
 
-Note : après avoir crée le clone il n'est pas sous votre contrôle. Pour en gagner le contrôle vous devez sauvegarder et recharger.~
+Note : aprÃ¨s avoir crÃ©Ã© le clone, il n'est pas sous votre contrÃ´le. Pour en gagner le contrÃ´le vous devez sauvegarder et recharger.~
 
 @130919 = ~Manteau d'annulation de Nazzer~
 @130920 = ~Manteau d'annulation de Nazzer (Abjuration)
 
 Niveau : 9
-Portée : 0
-Durée : 1 tour
+PortÃ©e : 0
+DurÃ©e : 1 tour
 Temps d'incantation : 10
-Zone d'effet : 4,5 mètres de rayon
+Zone d'effet : 4,5 mÃ¨tres de rayon
 Jet de sauvegarde : aucun
 
-Ce sort entoure le lanceur de sorts d'un manteau qui annule toute magie dans la zone qui l'entoure. Pendant la durée du sort, chaque seconde tous les sorts actifs dans la zone sont dissipés, et aucun sort ne peut fonctionner dans la zone (ce qui inclut les sorts lancés par le lanceur de sorts). Les capacités spéciales des monstres peuvent toujours être utilisées.~
+Ce sort entoure le lanceur de sorts d'un manteau qui annule toute magie dans la zone qui l'entoure. Pendant la durÃ©e du sort, chaque seconde tous les sorts actifs dans la zone sont dissipÃ©s, et aucun sort ne peut fonctionner dans la zone (ce qui inclut les sorts lancÃ©s par le lanceur de sorts). Les capacitÃ©s spÃ©ciales des monstres peuvent toujours Ãªtre utilisÃ©es.~
 
 @130921 = ~Groupe illusoire~
 @130922 = ~Groupe illusoire  (Illusion/Fantasme)
 
 Niveau : 9
-Portée : 0
-Durée : 2 tours
-Zone d’effet : rayon de 4,5 mètres
-Temps d’incantation : 9
+PortÃ©e : 0
+DurÃ©e : 2 tours
+Zone dâ€™effet : rayon de 4,5 mÃ¨tres
+Temps dâ€™incantation : 9
 Jet de sauvegarde : aucun
 
-Une réplique illusoire de chaque membres du groupe dans un rayon de 10 mètres autour du lanceur est crée. Chaque réplique à la même nombre de point de vie que l’original qu'elle copie et peut  bouger et servir de leurre, mais pas entreprendre une action telle que combattre ou incanter. Chaque membre du groupe, tant que sa copie n’est pas détruite ou dissipée, bénéficie de l'invisibilité améliorée.~
+Une rÃ©plique illusoire de chaque membre du groupe dans un rayon de 10 mÃ¨tres autour du lanceur est crÃ©Ã©e. Chaque rÃ©plique a le mÃªme nombre de points de vie que lâ€™original qu'elle copie et peut bouger et servir de leurre, mais pas entreprendre une action telle que combattre ou incanter. Chaque membre du groupe, tant que sa copie nâ€™est pas dÃ©truite ou dissipÃ©e, bÃ©nÃ©ficie de l'invisibilitÃ© amÃ©liorÃ©e.~
 
 @130925 = ~Effacement~
 @130926 = ~Effacement (Enchantement)
 
 Niveau : 9
-Portée : champ de vision
-Durée : instantanée
+PortÃ©e : champ de vision
+DurÃ©e : instantanÃ©e
 Temps d'incantation : 9
-Zone d'effet : un lanceur de sort
+Zone d'effet : un lanceur de sorts
 Jet de sauvegarde : annule
 
-Ce sort est efficace sur tout lanceur de sort qui doit garder ses sorts en mémoire (inefficace sur le magefeu). Si la cible de ce sort rate un jet de sauvegarde contre les sorts à -2, elle oubli tous les sorts qu'elle a mémoire.~
+Ce sort est efficace sur tout lanceur de sorts qui doit garder ses sorts en mÃ©moire (inefficace sur le magefeu). Si la cible de ce sort rate un jet de sauvegarde contre les sorts Ã  -2, elle oublie tous les sorts qu'elle a en mÃ©moire.~
 
 @130927 = ~Transformation de Dillpater~
-@130928 = ~Transformation de Dillpater (Altération)
+@130928 = ~Transformation de Dillpater (AltÃ©ration)
 Niveau : 9
-Portée : 0
-Durée : 2 tours
+PortÃ©e : 0
+DurÃ©e : 2 tours
 Temps d'incantation : 9
 Zone d'effet : Lanceur du sort
 Jet de sauvegarde : Aucun
 
-Ce sort est une amélioration par l'archimage Dillpater du plus célèbre sort de Tenser. Comme le sort original, ce sort donne au magicien les bonus suivants :
-- Points de vie doublés
+Ce sort est une amÃ©lioration par l'archimage Dillpater du plus cÃ©lÃ¨bre sort de Tenser. Comme le sort original, ce sort donne au magicien les bonus suivants :
+- Points de vie doublÃ©s
 - CA +4
-- TAC0 fixé à 1
-- +2 au toucher et aux dégâts
+- TAC0 fixÃ© Ã  1
+- +2 au toucher et aux dÃ©gÃ¢ts
 En y ajoutant les bonus suivants :
 - +1 attaque par round
-- Force fixée à 19
+- Force fixÃ©e Ã  19
 - Pas d'interdiction de lancer des sorts.~
 
 @130929 = ~Nova de destruction absolue~
-@130930 = ~Nova de destruction absolue (Évocation)
+@130930 = ~Nova de destruction absolue (Ã‰vocation)
 
 Niveau : 9
-Portée : champ de vision
-Durée : instantanée
+PortÃ©e : champ de vision
+DurÃ©e : instantanÃ©e
 Temps d'incantation : 1 round
-Zone d'effet : rayon de 3,5 mètres
-Jet de sauvegarde : spécial
+Zone d'effet : rayon de 3,5 mÃ¨tres
+Jet de sauvegarde : spÃ©cial
 
-Une colonne de pure énergie tombe à l’endroit désigné par le mage. Les créatures sous la colonne subissent 8D6 points de dégâts de feu, 8D6 points de dégâts de froid et 8D6 point de dégâts magiques. Celles qui réussissent un jet de sauvegarde contre les sorts ne subissent que la moitié des dégâts. Celles qui ratent le jet de sauvegarde doivent en plus tenter un jet de sauvegarde contre la mort et sont désintégrées si elles le ratent.~
+Une colonne de pure Ã©nergie tombe Ã  lâ€™endroit dÃ©signÃ© par le mage. Les crÃ©atures sous la colonne subissent 8D6 points de dÃ©gÃ¢ts de feu, 8D6 points de dÃ©gÃ¢ts de froid et 8D6 points de dÃ©gÃ¢ts magiques. Celles qui rÃ©ussissent un jet de sauvegarde contre les sorts ne subissent que la moitiÃ© des dÃ©gÃ¢ts. Celles qui ratent le jet de sauvegarde doivent en plus tenter un jet de sauvegarde contre la mort et sont dÃ©sintÃ©grÃ©es si elles le ratent.~

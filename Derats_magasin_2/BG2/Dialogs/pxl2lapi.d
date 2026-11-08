@@ -4,7 +4,7 @@ IF ~Global("pxl2quest1","GLOBAL",1)~ THEN BEGIN bonjour SAY @1000
 	IF ~~ THEN REPLY @10013 GOTO vraib
 END
 
-IF ~Global("pxl2quest1","GLOBAL",0)~ THEN BEGIN bonjour SAY @1000
+IF ~Global("pxl2quest1","GLOBAL",0)~ THEN BEGIN bonjour2 SAY @1000
 	IF ~~ THEN REPLY @1001 GOTO familier
 	IF ~~ THEN REPLY @1002 GOTO lapine
 END

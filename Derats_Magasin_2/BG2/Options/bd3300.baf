@@ -1,0 +1,8 @@
+IF
+	Global("Px_Inter_BG1","GLOBAL",0)
+	AreaCheck("BG3300")
+THEN
+	RESPONSE #100
+		SetGlobal("Px_Inter_BG1","GLOBAL",1)
+		CreateCreature("pxl2ctbd",[4131.2270],NEE)
+END

@@ -59,8 +59,8 @@ Saving Throw: None
 
 This spell summons a friendly beholder that uses all of its powers to aid the spellcaster. Each time the spell is cast, there is a 15% chance that a second friendly beholder will also appear.~
 
-@13083 = ~Curse of Certain Death~
-@13084 = ~Curse of Certain Death (Enchantment)
+@13083 = ~Dying curse~
+@13084 = ~Dying curse (Enchantment)
 
 Level: 8
 Range: Sight of Caster
@@ -69,13 +69,13 @@ Casting Time: 9
 Area of Effect: 30-ft. radius
 Saving Throw: Special
 
-You suffer the unfortunate mishap of drawing the last monster from the discard pile. Er... no, not quite...
+You suffer the Bad Stuff from the topmost monster in the discards. Er… no, actually...
 All enemies within the area of effect suffer a -4 penalty to all saving throws for the duration of the spell. They must then attempt two additional saving throws. First, a save vs. spell; if failed, they suffer an additional -4 penalty to all saving throws. Second, a save vs. death; if failed, they suffer a further -4 penalty to saves vs. death (for a total penalty of -12 to saves vs. death if both saving throws are failed).~
 
 @130841 = ~Save vs. Death Reduced~
 
-@13085 = ~Vaal Skeleton Army~
-@13086 = ~Vaal Skeleton Army (Necromancy)
+@13085 = ~Vaal Summon Skeletons~
+@13086 = ~Vaal Summon Skeletons (Necromancy)
 
 Level: 8
 Range: Sight of Caster

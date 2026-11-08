@@ -2,5 +2,5 @@ IF
 	Die()
 THEN
 	RESPONSE #100
-		ReallyForceSpellDeadRES("pxl2ast1",Myself)
+		ReallyForceSpellDeadRES("spin979",Myself)
 END

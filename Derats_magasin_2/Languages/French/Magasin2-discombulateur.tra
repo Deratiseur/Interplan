@@ -1,658 +1,703 @@
 @501 = ~Potion de soins importants~
-@502 = ~Entièrement bue, cette potion restaure 18 points de vie. L'effet est instantané et la potion est détruite dans le processus.~
-@503 = ~Potion de soins suprême~
-@504 = ~Entièrement bue, cette potion restaure 60 points de vie. L'effet est instantané et la potion est détruite dans le processus.~
-@505 = ~Potion de  force de géant des collines*~
-@506 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@502 = ~EntiÃ¨rement bue, cette potion restaure 18 points de vie. L'effet est instantanÃ© et la potion est dÃ©truite dans le processus.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
+
+SpÃ©cialÂ : Restaure 18Â points de vie.
+
+PoidsÂ : 1~
+@503 = ~Potion de soins suprÃªme~
+@504 = ~EntiÃ¨rement bue, cette potion restaure 60 points de vie. L'effet est instantanÃ© et la potion est dÃ©truite dans le processus.
+
+PARAMÃˆTRES :
+
+SpÃ©cialÂ : Restaure 60Â points de vie.
+
+PoidsÂ : 1~
+@505 = ~Potion de  force de gÃ©ant des collines*~
+@506 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÃˆTRES :
 
 Force : 19
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@507 = ~Potion de  force de géant de pierre*~
-@508 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@507 = ~Potion de  force de gÃ©ant de pierre*~
+@508 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 20
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@509 = ~Potion de  force de géant du froid*~
-@5010 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@509 = ~Potion de  force de gÃ©ant du froid*~
+@5010 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 21
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5011 = ~Potion de  force de géant de feu*~
-@5012 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@5011 = ~Potion de  force de gÃ©ant de feu*~
+@5012 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 22
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5013 = ~Potion de  force de géant des nuages*~
-@5014 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@5013 = ~Potion de  force de gÃ©ant des nuages*~
+@5014 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 23
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5015 = ~Potion de  force de géant des tempêtes*~
-@5016 = ~Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@5015 = ~Potion de  force de gÃ©ant des tempÃªtes*~
+@5016 = ~Quiconque boit une potion de force de gÃ©ant acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 24
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
 @5017 = ~Potion de force de titan*~
-@5018 = ~Quiconque boit une potion de force de titan acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+@5018 = ~Quiconque boit une potion de force de titan acquiert une force surhumaine et des bonus de toucher et de dÃ©gÃ¢ts quand il utilise une arme de mÃªlÃ©e ou de jet. L'effet de la potion dure 10 tours.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : 25
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
 @5019 = ~Potion de transfert de force~
-@5020 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur adresse au prix de leur musculature.
+@5020 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur adresse au prix de leur musculature.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Dextérité : +1
+DextÃ©ritÃ© : +1
 Force : -1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5021 = ~Potion de transfert d'action~
-@5022 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur autorité au prix de leur adresse.
+@5022 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur autoritÃ© au prix de leur adresse.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Charisme  et Intelligence : +1
-Dextérité : -1
-Durée : permanente
+DextÃ©ritÃ© : -1
+DurÃ©e : permanente
 
 Poids : 1~
-@5023 = ~Potion de transfert sacré~
-@5024 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur sagacité au prix de leur adresse.
+@5023 = ~Potion de transfert sacrÃ©~
+@5024 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur sagacitÃ© au prix de leur adresse.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Sagesse : +2
-Dextérité : -1
-Durée : permanente
+DextÃ©ritÃ© : -1
+DurÃ©e : permanente
 
 Poids : 1~
-@5025 = ~Potion de transfert d'énergie vitale~
-@5026 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur musculature au prix de leur vigueur.
+@5025 = ~Potion de transfert d'Ã©nergie vitale~
+@5026 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur musculature au prix de leur vigueur.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Force : +1
 Constitution : -1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5027 = ~Potion de certitude~
-@5028 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur sagacité au prix de leur vigueur.
+@5028 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur sagacitÃ© au prix de leur vigueur.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Sagesse : +1
 Constitution : -1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
-@5029 = ~Potion de bestialité~
-@5030 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leurs capacités physiques au dépend de leur capacité à réfléchir.
+@5029 = ~Potion de bestialitÃ©~
+@5030 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leurs capacitÃ©s physiques au dÃ©pend de leur capacitÃ© Ã  rÃ©flÃ©chir.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Force et Dextérité : +1
+Force et DextÃ©ritÃ© : +1
 Intelligence : -2
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
-@5031 = ~Potion de solidité~
-@5032 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur solidité.
+@5031 = ~Potion de soliditÃ©~
+@5032 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur soliditÃ©.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Jets de sauvegarde : +1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
-@5033 = ~Potion d’endurcissement~
-@5034 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance.
+@5033 = ~Potion dâ€™endurcissement~
+@5034 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Classe d'armure : +1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5035 = ~Potion de robustesse~
-@5036 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur robustesse.
+@5036 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur robustesse.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Constitution : +1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5037 = ~Potion d'isolation~
-@5038 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur réistance.
+@5038 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résistance au feu et au froid : +5%
-Durée : permanente
+RÃ©sistance au feu et au froid : +5%
+DurÃ©e : permanente
 
 Poids : 1~
 
-@5039 = ~Potion de vitalité~
-@5040 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur vitalité.
+@5039 = ~Potion de vitalitÃ©~
+@5040 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur vitalitÃ©.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Guerriers/paladins/rôdeurs : +8 points de vie maximum
-Prêtres/druide/moine : +6 points de vie maximum
+Guerriers/paladins/rÃ´deurs : +8 points de vie maximum
+PrÃªtres/druide/moine : +6 points de vie maximum
 Voleur/barde : +4 points de vie maximum
 Magicien/ensorceleur : +2 points de vie maximum
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5041 = ~Potion de fortification~
-@5042 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance.
+@5042 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résistance aux attaques contondantes : +10%
-Durée : permanente
+RÃ©sistance aux attaques contondantes : +10%
+DurÃ©e : permanente
 
 Poids : 1~
-@5043 = ~Potion de résistance supérieure~
-@5044 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance.
+@5043 = ~Potion de rÃ©sistance supÃ©rieure~
+@5044 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résistance aux attaques tranchantes et perforantes : +5%
-Durée : permanente
+RÃ©sistance aux attaques tranchantes et perforantes : +5%
+DurÃ©e : permanente
 
 Poids : 1~
 @5045 = ~Potion de thaumaturgie~
-@5046 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les arcanistes, elles leur permettaient de renforcer leur lien avec la toile.
+@5046 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les arcanistes, elles leur permettaient de renforcer leur lien avec la toile.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Mages et ensorceleurs : +1 emplacement de sort de niveau aléatoire 1 à 5
-Durée : permanente
+Mages et ensorceleurs : +1 emplacement de sort de niveau alÃ©atoire 1 Ã  5
+DurÃ©e : permanente
 
 Poids : 1~
 @5047 = ~Potion d'augmentation d'aura~
-@5048 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance et leur intellect.
+@5048 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance et leur intellect.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Intelligence : +1
-+5% de résistance à la magie
-Durée : permanente
++5% de rÃ©sistance Ã  la magie
+DurÃ©e : permanente
 
 Poids : 1~
 @5049 = ~Potion d'absorption de magie~
-@5050 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance.
+@5050 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-+10% de résistance à la magie
-Durée : permanente
++10% de rÃ©sistance Ã  la magie
+DurÃ©e : permanente
 
 Poids : 1~
 @5051 = ~Potion de dissipation~
-@5052 = ~Peu de potions de ce type ont été préparées et leur recette a été perdue. Conçues à l'époque de l'empire de Néthéril pour les prélats des Églises, elles augmentaient leur résistance.
+@5052 = ~Peu de potions de ce type ont Ã©tÃ© prÃ©parÃ©es et leur recette a Ã©tÃ© perdue. ConÃ§ues Ã  l'Ã©poque de l'empire de NÃ©thÃ©ril pour les prÃ©lats des Ã‰glises, elles augmentaient leur rÃ©sistance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-+15% de résistance à la magie
-Durée : permanente
++15% de rÃ©sistance Ã  la magie
+DurÃ©e : permanente
 
 Poids : 1~
-@5053 = ~Stimulant cérébral~
-@5054 = ~Ce savant mélange de produits inconnus possède le pouvoir de transcender l'esprit du buveur au détriment de ses caractéristiques physiques.
+@5053 = ~Stimulant cÃ©rÃ©bral~
+@5054 = ~Ce savant mÃ©lange de produits inconnus possÃ¨de le pouvoir de transcender l'esprit du buveur au dÃ©triment de ses caractÃ©ristiques physiques.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Intelligence, Sagesse et Charisme : +1
-Force, Dextérité et Constitution : -1
-Durée : permanente
+Force, DextÃ©ritÃ© et Constitution : -1
+DurÃ©e : permanente
 
 Poids : 1~
 @5055 = ~Stimulant musculaire~
-@5056 = ~Cet étonnant mélange permet de transcender les caractéristiques physiques du buveur en occultant ses facultés cérébrales.
+@5056 = ~Cet Ã©tonnant mÃ©lange permet de transcender les caractÃ©ristiques physiques du buveur en occultant ses facultÃ©s cÃ©rÃ©brales.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Force, Dextérité et Constitution : +1
+Force, DextÃ©ritÃ© et Constitution : +1
 Intelligence, Sagesse et Charisme : -1
-Durée : permanente
+DurÃ©e : permanente
 
 Poids : 1~
 @5057 = ~Vivifiant~
-@5058 = ~Ce mélange malodorant, summum de l'ingéniosité des autochtones d'un autre univers, améliore celui qui le consomme.
+@5058 = ~Ce mÃ©lange malodorant, summum de l'ingÃ©niositÃ© des autochtones d'un autre univers, amÃ©liore celui qui le consomme.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Toutes les caractéristiques : +1
-Durée : permanente
+Toutes les caractÃ©ristiques : +1
+DurÃ©e : permanente
 
 Poids : 1~
 @5059 = ~Potion de contrevue~
-@5060 = ~Cette potion protège celui qui la boit contre toutes les attaques de regard pendant 10 tours ou jusqu'à dissipation.
+@5060 = ~Cette potion protÃ¨ge celui qui la boit contre toutes les attaques de regard pendant 10 tours ou jusqu'Ã  dissipation.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Spécial : Immunité contre les effets des regards tels que celui des basiliques, gorgones, spectateurs, bodak, babau, ombres des roches, vampires, etc... 
-Durée : 10 tours
+SpÃ©cial : ImmunitÃ© contre les effets des regards tels que celui des basiliques, gorgones, spectateurs, bodak, babau, ombres des roches, vampires, etc... 
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5061 = ~Potion d'invulnérabilité*~
-@5062 = ~Cette potion confère une très grande résistance à toutes les attaques et donne un bonus à tous les jets de sauvegarde.
+@5061 = ~Potion d'invulnÃ©rabilitÃ©*~
+@5062 = ~Cette potion confÃ¨re une trÃ¨s grande rÃ©sistance Ã  toutes les attaques et donne un bonus Ã  tous les jets de sauvegarde.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Classe d'armure : fixée à 0
+Classe d'armure : fixÃ©e Ã  0
 Jets de sauvegarde : bonus de +5
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 @5063 = ~Potion de feu continuel~
-@5064 = ~Boire cette potion permet au consommateur de créer régulièrement des anneaux de feu autour de lui.
+@5064 = ~Boire cette potion permet au consommateur de crÃ©er rÃ©guliÃ¨rement des anneaux de feu autour de lui.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Pulsation de flammes
-Durée : 2 tours
+DurÃ©e : 2 tours
 
 Poids : 1~
 @5065 = ~Potion de changement de forme~
-@5066 = ~Cette potion confère à quiconque la boit la capacité de changer de forme, comme avec le sort de mage du même nom.
+@5066 = ~Cette potion confÃ¨re Ã  quiconque la boit la capacitÃ© de changer de forme, comme avec le sort de mage du mÃªme nom.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Changement de forme à volonté une fois par round
-Durée : 5 tours
+Changement de forme Ã  volontÃ© une fois par round
+DurÃ©e : 5 tours
 
 Poids : 1~
-@5067 = ~Liqueur féerique~
-@5068 = ~Cet alcool magique permet au consommateur d'être protégé contre toutes les magies. La puissance de ce breuvage est telle qu'il ne dure que quelques secondes, aussi convient-il de l'utiliser au bon moment.
+@5067 = ~Liqueur fÃ©erique~
+@5068 = ~Cet alcool magique permet au consommateur d'Ãªtre protÃ©gÃ© contre toutes les magies. La puissance de ce breuvage est telle qu'il ne dure que quelques secondes, aussi convient-il de l'utiliser au bon moment.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Immunité contre la magie
-Durée : 3 rounds~
+ImmunitÃ© contre la magie
+DurÃ©e : 3 rounds~
 
-@5069 = ~Potion de vitalité supérieure~
-@5070 = ~Ce breuvage augmente la vitalité du buveur.
+@5069 = ~Potion de vitalitÃ© supÃ©rieure~
+@5070 = ~Ce breuvage augmente la vitalitÃ© du buveur.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Maximum de points de vie : +200%
 Jet de sauvegarde contre la mort : +4
-Durée : 5 tours
+DurÃ©e : 5 tours
 
-Spécial : 1% de chance à la fin de l'effet de la potion d'avoir gagné 2 points de vie maximum de manière permanente.
+SpÃ©cialÂ : 1% de chance Ã  la fin de l'effet de la potion d'avoir gagnÃ© 2 points de vie maximum de maniÃ¨re permanente.
 
 Poids : 1~
 
-@5071 = ~Potion d'accélération~
-@5072 = ~Cette potion permet d’attaquer et de prononcer les incantation plus vite.
+@5071 = ~Potion d'accÃ©lÃ©ration~
+@5072 = ~Cette potion permet dâ€™attaquer et de prononcer les incantation plus vite.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Hâte améliorée
+HÃ¢te amÃ©liorÃ©e
 Temps d'incantation : -2
-Durée : 3 tours
+DurÃ©e : 3 tours
 
 Poids : 1~
-@5073 = ~Breuvage noir de Tokkètel~
-@5074 = ~Ce breuvage âcre et à l'odeur infâme recèle un étrange pouvoir : quiconque le boit est couvert par un bouclier d’énergie négative. 
+@5073 = ~Breuvage noir de TokkÃ¨tel~
+@5074 = ~Ce breuvage Ã¢cre et Ã  l'odeur infÃ¢me recÃ¨le un Ã©trange pouvoir : quiconque le boit est couvert par un bouclier dâ€™Ã©nergie nÃ©gative. 
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Camouflage : +30 en discrétion et +2 à la CA
-Toute créature qui frappe le buveur et est située dans la portée doit réussir un jet de sauvegarde contre les sorts ou perdre un niveau.
-Protection contre le plan négatif
+Camouflage : +30 en discrÃ©tion et +2 Ã  la CA
+Toute crÃ©ature qui frappe le buveur et est situÃ©e dans la portÃ©e doit rÃ©ussir un jet de sauvegarde contre les sorts ou perdre un niveau.
+Protection contre le plan nÃ©gatif
 
-Durée : 5 tours.
+DurÃ©e : 5 tours.
 
 Poids : 1~
 @5075 = ~Potion de Rajeunissement total~
-@5076 = ~Bue entièrement , cette potion guéri le buveur de tous ses maux et le recharge en magie.
+@5076 = ~Bue entiÃ¨rement , cette potion guÃ©ri le buveur de tous ses maux et le recharge en magie.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Guérison
+GuÃ©rison
 Repos Magique
 
 Poids : 1~
 @5077 = ~Nectar divin~
-@5078 = ~Cet alcool donne à celui qui le boit la puissance d'un demi-dieu.
+@5078 = ~Cet alcool donne Ã  celui qui le boit la puissance d'un demi-dieu.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Statistiques, Classe d'armure et Aide : +4
-Résistances physiques, élémentaires, magique et à la magie : + 50%
-Durée : 10 tours
+RÃ©sistances physiques, Ã©lÃ©mentaires, magique et Ã  la magie : + 50%
+DurÃ©e : 10 tours
 
 Poids : 1~
 @5079 = ~Potion de duplication~
-@5080 = ~Celui qui boit cette potion devient protégé par plusieurs images miroirs.
+@5080 = ~Celui qui boit cette potion devient protÃ©gÃ© par plusieurs images miroirs.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Images miroirs (7 images)
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
-@5081 = ~Potion de dualité~
-@5082 = ~Celui qui boit cette potion devient protégé par une image miroir rémanente.
+@5081 = ~Potion de dualitÃ©~
+@5082 = ~Celui qui boit cette potion devient protÃ©gÃ© par une image miroir rÃ©manente.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Image miroir majeure
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 @5083 = ~Fiole de poison tenace~
-@5084 = ~Ce poison rance et condensé peut être lancé pour créer à l'endroit de son impact une brume mortelle.
+@5084 = ~Ce poison rance et condensÃ© peut Ãªtre lancÃ© pour crÃ©er Ã  l'endroit de son impact une brume mortelle.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Portée : 12 mètres
-Dégâts : 8 par round
-Spécial : tue toutes les créatures convoquées
-Zone d'effet : rayon de 10 mètres
-Durée : 1 tour
+PortÃ©e : 12 mÃ¨tres
+DÃ©gÃ¢ts : 8 par round
+SpÃ©cial : tue toutes les crÃ©atures convoquÃ©es
+Zone d'effet : rayon de 10 mÃ¨tres
+DurÃ©e : 1 tour
 
 Poids : 1~
 @5085 = ~Potion de non-existence~
-@5086 = ~Cette potion n'existe que pour annihiler toute vie avec qui elle entre en contact. Plutôt que de la boire, il vaut mieux la lancer.
+@5086 = ~Cette potion n'existe que pour annihiler toute vie avec qui elle entre en contact. PlutÃ´t que de la boire, il vaut mieux la lancer.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Portée : 12 mètres
-Désintégration, annulée par un jet de sauvegarde contre les sorts à +2
-Zone d'effet : rayon de 10 mètres
+PortÃ©e : 12 mÃ¨tres
+DÃ©sintÃ©gration, annulÃ©e par un jet de sauvegarde contre les sorts Ã  +2
+Zone d'effet : rayon de 10 mÃ¨tres
 
 Poids : 1~
 @5087 = ~Fortifiant~
-@5088 = ~Quiconque ingurgite cet étrange composé voit sa chair se durcir et prendre une teinte bronzée.
+@5088 = ~Quiconque ingurgite cet Ã©trange composÃ© voit sa chair se durcir et prendre une teinte bronzÃ©e.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résistances physiques : +30%
-Durée : 10 tours
+RÃ©sistances physiques : +30%
+DurÃ©e : 10 tours
 
 Poids : 1~
 @5089 = ~Larmes de Morgana~
 @5090 = ~Cette puissante potion purifie et restaure le corps de celui qui la boit.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Spécial : Soigne le poison et la maladie, annule la fatigue et guérit 65 points de vie
+SpÃ©cial : Soigne le poison et la maladie, annule la fatigue et guÃ©rit 65 points de vie
 
 Poids : 1~
 @5091 = ~Soin miracle~
-@5092 = ~Ce puissant Élixir guéri toutes les blessures et afflictions de celui qui le boit.
+@5092 = ~Ce puissant Ã‰lixir guÃ©ri toutes les blessures et afflictions de celui qui le boit.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Guérison
+GuÃ©rison
 
 Poids : 1~
 
 @5093 = ~Revitalisant~
-@5094 = ~Le liquide visqueux contenu dans cette fiole à le pouvoir d'améliorer celui qui l’ingurgite
+@5094 = ~Le liquide visqueux contenu dans cette fiole Ã  le pouvoir d'amÃ©liorer celui qui lâ€™ingurgite
 
-Toutes les caractéristiques : +2
-Durée : 10 tours
+Toutes les caractÃ©ristiques : +2
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5095 = ~Potion d’héroïsme~
-@5096 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+@5095 = ~Potion dâ€™hÃ©roÃ¯sme~
+@5096 = ~Les potions se trouvent gÃ©nÃ©ralement dans des flasques ou des fioles en cÃ©ramique, cristal, verre ou mÃ©tal. Ces flasques ou autres rÃ©cipients contiennent gÃ©nÃ©ralement suffisamment de liquide pour fournir Ã  une personne une dose complÃ¨te et ainsi obtenir les effets dÃ©sirÃ©s.
 
 Celle-ci viendrait d'un autre "univers".
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Points de vie maximum +25
-Régénération de cinq point de vie par round
+RÃ©gÃ©nÃ©ration de cinq point de vie par round
 TAC0 : +6
 Classe d'armure +3
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
-@5097 = ~Élixir de L'Imparfait~
-@5098 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+@5097 = ~Ã‰lixir de L'Imparfait~
+@5098 = ~Les potions se trouvent gÃ©nÃ©ralement dans des flasques ou des fioles en cÃ©ramique, cristal, verre ou mÃ©tal. Ces flasques ou autres rÃ©cipients contiennent gÃ©nÃ©ralement suffisamment de liquide pour fournir Ã  une personne une dose complÃ¨te et ainsi obtenir les effets dÃ©sirÃ©s.
 
 Celle-ci viendrait d'un autre "univers".
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Régénération de dix points de vie par secondes
-Souvenir d'un sort de niveau 1 (arcanique et divin) la première seconde, puis un sort de niveau 2 la 3eme seconde, puis un sort de niveau 3 la 5eme seconde, et ainsi de suite jusqu'à un sort de niveau 8 à la 15eme seconde.
-Durée : 15 secondes
+RÃ©gÃ©nÃ©ration de dix points de vie par secondes
+Souvenir d'un sort de niveau 1 (arcanique et divin) la premiÃ¨re seconde, puis un sort de niveau 2 la 3eme seconde, puis un sort de niveau 3 la 5eme seconde, et ainsi de suite jusqu'Ã  un sort de niveau 8 Ã  la 15eme seconde.
+DurÃ©e : 15 secondes
 
 Poids : 1~
 
 @5099 = ~Potion de Nettoyage d'aura~
-@50100 = ~Cette potion empêche les résidus magiques de stagner autour du buveur. En résulte qu'il peut enchaîner les sort sans perturbations.
+@50100 = ~Cette potion empÃªche les rÃ©sidus magiques de stagner autour du buveur. En rÃ©sulte qu'il peut enchaÃ®ner les sort sans perturbations.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Enchaînement
-Durée : 1 tour
-
-Poids : 1~
-
-@50101 = ~Potion de puissance extrême~ //EE seulement
-@50102 = ~Cette mélange malodorant altère exagérément les probabilités en faveur du buveur.
-
-PARAMÈTRES :
-
-Dégâts : +150%
-Durée : 5 tours
+EnchaÃ®nement
+DurÃ©e : 1 tour
 
 Poids : 1~
 
-@50103 = ~Élixir de Magica Incarna~
-@50104 = ~A l'intérieur de sa bouteille, ce breuvage est continuellement en mouvement. Ceci est perceptible grâce aux nombreuse particules magiques qui s'agitent dans le mélange. Quiconque boit cet élixir fusionne avec la toile et devient un élémental de magie.
+@50101 = ~Potion de puissance extrÃªme~ //EE seulement
+@50102 = ~Cette mÃ©lange malodorant altÃ¨re exagÃ©rÃ©ment les probabilitÃ©s en faveur du buveur.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Immunité contre les armes magiques
-Immunité contre les sorts
+DÃ©gÃ¢ts : +150%
+DurÃ©e : 5 tours
+
+Poids : 1~
+
+@50103 = ~Ã‰lixir de Magica Incarna~
+@50104 = ~A l'intÃ©rieur de sa bouteille, ce breuvage est continuellement en mouvement. Ceci est perceptible grÃ¢ce aux nombreuse particules magiques qui s'agitent dans le mÃ©lange. Quiconque boit cet Ã©lixir fusionne avec la toile et devient un Ã©lÃ©mental de magie.
+
+PARAMÃˆTRES :
+
+ImmunitÃ© contre les armes magiques
+ImmunitÃ© contre les sorts
 Sort infinis
-Durée : 1 tour
+DurÃ©e : 1 tour
 
 Poids : 1~
 
 @50105 = ~Potion de vitesse absolue~
-@50106 = ~Cette potion d'un bleu nuit permet à celui qui la boit d’acquérir une vitesse bien supérieure à celle des limites connues. En fait le buveur est si rapide que le monde autour de lui semble figé et, fait plus étrange encore, dénué de couleur, comme si ce qui compose les couleurs ne pouvait pas l’atteindre.
+@50106 = ~Cette potion d'un bleu nuit permet Ã  celui qui la boit dâ€™acquÃ©rir une vitesse bien supÃ©rieure Ã  celle des limites connues. En fait le buveur est si rapide que le monde autour de lui semble figÃ© et, fait plus Ã©trange encore, dÃ©nuÃ© de couleur, comme si ce qui compose les couleurs ne pouvait pas lâ€™atteindre.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Arrêt du temps
-Durée : 5 rounds
+ArrÃªt du temps
+DurÃ©e : 5 rounds
 
 Poids : 1~
 
 @50107 = ~Potion de Vie~
-@50108 = ~Cette potion a l’effet du sort Résurrection si on la répand en pluie sur le corps d’un défunt. 
+@50108 = ~Cette potion a lâ€™effet du sort RÃ©surrection si on la rÃ©pand en pluie sur le corps dâ€™un dÃ©funt. 
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résurrection
+RÃ©surrection
 Zone d'effet : un personnage mort
 
 Poids : 1~
 
 @50109 = ~Brouet anti-magique~
-@50110 = ~Cette flasque doit être lancée. Elle crée à l'endroit où elle impacte le sol une zone ou toute magie est dissipée, avec 100% de chance de réussite, et laisse sur les créatures impactées des résidus anti-magiques qui perturbent les chances de lancer des sorts pendant 4 rounds (100% d’échouer à l'incantation d'un sort le premier round, 75% le deuxième round, 50% le troisième et 25% le quatrième).
+@50110 = ~Cette flasque doit Ãªtre lancÃ©e. Elle crÃ©e Ã  l'endroit oÃ¹ elle impacte le sol une zone ou toute magie est dissipÃ©e, avec 100% de chance de rÃ©ussite, et laisse sur les crÃ©atures impactÃ©es des rÃ©sidus anti-magiques qui perturbent les chances de lancer des sorts pendant 4 rounds (100% dâ€™Ã©chouer Ã  l'incantation d'un sort le premier round, 75% le deuxiÃ¨me round, 50% le troisiÃ¨me et 25% le quatriÃ¨me).
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Portée : 12 mètres
+PortÃ©e : 12 mÃ¨tres
 Purge de la magie
-Zone d'effet : rayon de 10 mètres
+Zone d'effet : rayon de 10 mÃ¨tres
 
 Poids : 1~
 
-@50111 = ~Filtre de chance sublimée~
-@50112 = ~Cette potion filtrée pour en tirer le meilleur modifie le destin en faveur du buveur
+@50111 = ~Filtre de chance sublimÃ©e~
+@50112 = ~Cette potion filtrÃ©e pour en tirer le meilleur modifie le destin en faveur du buveur
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Chance +5
-Durée : 4 tours
+DurÃ©e : 4 tours
 
 Poids : 1~
 
-@50113 = ~Réflecteur de Sanset~
-@50114 = ~Ce concentrée de puissance donne au buveur la capacité de renvoyer vers l'incantateur tous les sorts qui le cible. Il n'y a aucune limite au nombre de sort ainsi renvoyés.
+@50113 = ~RÃ©flecteur de Sanset~
+@50114 = ~Ce concentrÃ©e de puissance donne au buveur la capacitÃ© de renvoyer vers l'incantateur tous les sorts qui le cible. Il n'y a aucune limite au nombre de sort ainsi renvoyÃ©s.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Renvoi des sorts infini
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 
 @50115 = ~Potion de Disparition~
-@50116 = ~Cette potion fait disparaître le buveur. Il devient invisible, inodore, silencieux et indétectable. Il gagne +4 à la CA et aux jet de sauvegarde et peut librement attaquer ou lancer des sorts tous en restant invisible. La potion de Disparition protège également contre la scrutation, la divination et les visions augmentées.
+@50116 = ~Cette potion fait disparaÃ®tre le buveur. Il devient invisible, inodore, silencieux et indÃ©tectable. Il gagne +4 Ã  la CA et aux jet de sauvegarde et peut librement attaquer ou lancer des sorts tous en restant invisible. La potion de Disparition protÃ¨ge Ã©galement contre la scrutation, la divination et les visions augmentÃ©es.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 Camouflage
-Durée : 2 tours
+DurÃ©e : 2 tours
 
 Poids : 1~
 
-@50117 = ~Cœur de glace~
-@50118 = ~Cette potion est très froide au toucher, si froide que la boire ne semble pas être une bonne idée. Pourtant....
+@50117 = ~CÅ“ur de glace~
+@50118 = ~Cette potion est trÃ¨s froide au toucher, si froide que la boire ne semble pas Ãªtre une bonne idÃ©e. Pourtant....
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Résistance au froid +125%
+RÃ©sistance au froid +125%
 Bouclier de feu bleu
 Aura de froid
-Attaques de mêlée froides
-Durée : 2 tours
+Attaques de mÃªlÃ©e froides
+DurÃ©e : 2 tours
 
 Poids : 1~
 
-@50119 = ~Potion de combattant suprême~
-@50120 = ~Cette potion permet à celui qui la boit d’acquérir une connaissance instinctive du combat comme s'il était un guerrier expérimenté.
+@50119 = ~Potion de combattant suprÃªme~
+@50120 = ~Cette potion permet Ã  celui qui la boit dâ€™acquÃ©rir une connaissance instinctive du combat comme s'il Ã©tait un guerrier expÃ©rimentÃ©.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 +1 attaque par round
 TAC0 +10
 Chance de coup critique +1
-Dégâts +2
-Durée : 10 tours
+DÃ©gÃ¢ts +2
+DurÃ©e : 10 tours
 
 Poids : 1~
 @50121 = ~Potion de Souffle caustique~
-@50122 = ~Cette potion dont le cœur ne cesse jamais de brûler permet à son buveur de souffler de l'acide sur une zone conique devant lui  à volonté chaque round.
+@50122 = ~Cette potion dont le cÅ“ur ne cesse jamais de brÃ»ler permet Ã  son buveur de souffler de l'acide sur une zone conique devant lui  Ã  volontÃ© chaque round.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Dégâts : 10D6 points de dégâts d'acide (jet de sauvegarde contre les souffles pour ½)
-Zone : cône de 80Â° et 4 mètres de long devant lui.
+DÃ©gÃ¢ts : 10D6 points de dÃ©gÃ¢ts d'acide (jet de sauvegarde contre les souffles pour Â½)
+Zone : cÃ´ne de 80Ã‚Â° et 4 mÃ¨tres de long devant lui.
 
-Durée : 2 tours
+DurÃ©e : 2 tours
 
 Poids : 1~
 
 @50123 = ~Potion de psychomagie~
-@50124 = ~Cette potion permet à n'importe quel lanceur de sort de lancer des sorts par la seule force de son esprit.
+@50124 = ~Cette potion permet Ã  n'importe quel lanceur de sort de lancer des sorts par la seule force de son esprit.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Temps d'incantation fixés à 1
-Durée : 5 tours
+Temps d'incantation fixÃ©s Ã  1
+DurÃ©e : 5 tours
 
 Poids : 1~
 
-@50125 = ~Filtre de visée sublimée~
+@50125 = ~Filtre de visÃ©e sublimÃ©e~
 @50126 = ~Cette potion permet au buveur de cibler instinctivement tous les points faibles de ses adversaires.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
 TAC0 : +10
 Toutes les attaques sont des coups critiques
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 
 @50127 = ~Filtre de corps d'obsidienne~
 @50128= ~Cette potion transforme la chair du buveur en obsidienne vivante.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Classe d'armure fixée à 0
-Immunité aux armes non magiques et magique jusqu'à +2
-Résistances aux dégâts physiques +50%
+Classe d'armure fixÃ©e Ã  0
+ImmunitÃ© aux armes non magiques et magique jusqu'Ã  +2
+RÃ©sistances aux dÃ©gÃ¢ts physiques +50%
 
-Durée : 10 tours
+DurÃ©e : 10 tours
 
 Poids : 1~
 
 @50129 = ~Essence de mort~
-@50130 = ~Cette huile à appliquer sur une arme de mêlée la rend mortelle.
+@50130 = ~Cette huile Ã  appliquer sur une arme de mÃªlÃ©e la rend mortelle.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Les frappes de mêlée tuent la cible si elle a 10 dés de vie ou moins. Si elle a plus de 10 DV, elle meurt si elle rate un jet de sauvegarde contre la mort.
+Les frappes de mÃªlÃ©e tuent la cible si elle a 10 dÃ©s de vie ou moins. Si elle a plus de 10 DV, elle meurt si elle rate un jet de sauvegarde contre la mort.
 
-Durée : 3 tours
+DurÃ©e : 3 tours
 
 Poids : 1~
 
 @50131 = ~Potion de blocage de magie antinomique~
-@50132 = ~Cette potion potion protège la cible contre les sorts les plus puissants. Elle n'est d'aucun effet contre les sorts de moindre importance.
+@50132 = ~Cette potion potion protÃ¨ge la cible contre les sorts les plus puissants. Elle n'est d'aucun effet contre les sorts de moindre importance.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Immunité contre les sorts de niveau 7 à 9.
-Immunité contre l'arrêt du temps.
+ImmunitÃ© contre les sorts de niveau 7 Ã  9.
+ImmunitÃ© contre l'arrÃªt du temps.
 
-Durée : 5 tours
+DurÃ©e : 5 tours
 
 Poids : 1~
 
 @50133 = ~Potion de protection totale~
-@50134 = ~Cette potion potion protège la cible contre tous ce qui pourrait la blesser.
+@50134 = ~Cette potion potion protÃ¨ge la cible contre tout ce qui pourrait la blesser.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Immunité contre les sorts.
-Immunité contre les armes.
-Résistances aux dégâts physiques, magiques et élémentaires fixées à 100%
+ImmunitÃ© contre les sorts.
+ImmunitÃ© contre les armes.
+RÃ©sistances aux dÃ©gÃ¢ts physiques, magiques et Ã©lÃ©mentaires fixÃ©es Ã  100%
 
-Durée : 1 tour
+DurÃ©e : 5 rounds
+
+Poids : 1~
+
+@50135 = ~Filtre d'aura de feu~
+@50136 = ~Ce filtre crÃ©e autour du buveur un cercle de flamme crÃ©pitantes.
+
+PARAMÃˆTRES :
+
+RÃ©sistance au feu + 100%
+Classe d'armure : +4
+ImmunitÃ© aux armes non magiques
+Contrecoup de mÃªlÃ©e : 2D10+2 points de dÃ©gÃ¢ts de feu
+Les armes de mÃªlÃ©e rajoutent 1D10 points de dÃ©gÃ¢ts de feu
+
+DurÃ©e : 10 tours
+
+Poids : 1~
+
+@50137 = ~Potion d'expÃ©rience concentrÃ©e~
+@50138 = ~Cette potion sert normalement de rÃ©serve aux mangeurs de souvenirs.
+
+PARAMÃˆTRES :
+
+Le buveur gagne 15000 xp.
+
+Poids : 1~
+
+@50139 = ~Potion d'expÃ©rience ultra concentrÃ©e~
+@50140 = ~Cette potion sert normalement de rÃ©serve aux mangeurs de souvenirs. Elle a Ã©tÃ© trafiquÃ©e pour devenir encore plus puissante.
+
+PARAMÃˆTRES :
+
+Le buveur gagne 35000 xp.
 
 Poids : 1~

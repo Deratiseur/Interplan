@@ -1905,6 +1905,58 @@ THEN
 END
 
 IF
+	NumItems("pxl2amp2",Myself,1)  // Amplificateur puissant
+	NumItems("pxl2xp15",Myself,1)  // Potion d'expérience concentrée
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2xp15")  // Potion d'expérience concentrée
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2xp35",1,0,0)  // Potion d'expérience ultra concentrée
+END
+
+IF
+	NumItems("pxl2amp2",Myself,5)  // Amplificateur puissant
+	NumItems("pxl2xp15",Myself,5)  // Potion d'expérience concentrée
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2amp2")  // Amplificateur puissant
+		DestroyItem("pxl2xp15")  // Potion d'expérience concentrée
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2xp35",5,0,0)  // Potion d'expérience ultra concentrée
+END
+
+IF
+	NumItems("pxl2ampl",Myself,1)  // Amplificateur
+	NumItems("pxl2bcrd",Myself,1)  //Huile de bouclier ardent
+	PartyGoldGT(99)
+THEN
+	RESPONSE #100
+		TakePartyGold(100)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2bcrd") //Huile de bouclier ardent
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2daur",1,0,0)  //Filtre d'aura de feu
+END
+
+IF
+	NumItems("pxl2ampl",Myself,5)  // Amplificateur
+	NumItems("pxl2bcrd",Myself,5)  //Huile de bouclier ardent
+	PartyGoldGT(499)
+THEN
+	RESPONSE #100
+		TakePartyGold(500)
+		DestroyItem("pxl2ampl")  // Amplificateur
+		DestroyItem("pxl2bcrd") //Huile de bouclier ardent
+		CreateVisualEffectObject("pxl2chav",Myself)
+		CreateItem("pxl2daur",5,0,0)  //Filtre d'aura de feu
+END
+
+IF
 	Global("pxl2chaudron","GLOBAL",1)
 	SpellCastOnMe([ANYONE],WIZARD_MELF_ACID_ARROW)  // SPWI211.SPL (Flèche acide de Melf)
 THEN

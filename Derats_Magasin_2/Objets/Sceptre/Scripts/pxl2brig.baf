@@ -1,0 +1,16 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+    See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        ReallyForceSpellRES("pxl2brig",Myself)
+        Wait(1)
+        DestroySelf()
+END

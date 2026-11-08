@@ -1,0 +1,22 @@
+IF
+  HPLT(Myself,10)
+THEN
+  RESPONSE #50
+    ReallyForceSpellRES("pxl2bst2",Myself)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  !Range(Nearestenemyof(Myself),2)
+THEN
+  RESPONSE #100
+    MoveToObject(Nearestenemyof(Myself))
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Range(Nearestenemyof(Myself),2)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("pxl2bst2",Myself)
+END
