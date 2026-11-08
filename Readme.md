@@ -10,6 +10,9 @@
 [Lien vers le forum en français](https://www.baldursgateworld.fr/viewtopic.php?t=31563)  
 [Link to the English forum](https://forums.beamdog.com/discussion/90779/linterplan-v9-5-is-now-in-english#p1)
 
+[Lien vers les descriptions complètes.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Interplan/blob/main/Derats_Magasin_2/Documents/Interplan_Readme_French.html)  
+[Link to complete descriptions.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Interplan/blob/main/Derats_Magasin_2/Documents/Interplan_English.html)   
+
 <table>
 <tr>
 <td width="50%" valign="top">
