@@ -7,8 +7,8 @@
 
 **Author** : **Deratiseur**
 
-[Lien vers les descriptions complètes (objets, sorts, recettes, etc...)](https://www.baldursgateworld.fr/viewtopic.php?t=31563)  
-[Link to the Beamdog Topic](https://forums.beamdog.com/discussion/90779/linterplan-v9-5-is-now-in-english#latest)
+[Lien vers le forum en français](https://www.baldursgateworld.fr/viewtopic.php?t=31563)  
+[Link to the English forum](https://forums.beamdog.com/discussion/90779/linterplan-v9-5-is-now-in-english#p1)
 
 <table>
 <tr>
@@ -22,13 +22,13 @@ A triple module:
 
 - Store: 100+ items, the majority of them original and guaranteed to surprise.
 
-- Spells: 130+ new spells.
+- Spells: 150+ new spells.
 
 - Potions: 25+ potions and charms.
 
-- 150+ additional "hidden" items/potions/spells.
+- 180+ additional "hidden" items/potions/spells.
 
-- Blacksmith: 50 recipes for combining potions. (not in IWDEE)
+- Blacksmith: 50+ recipes for combining potions. (not in IWDEE)
 
 - Plus encounters and surprises. (not in IWDEE)
 
@@ -46,11 +46,11 @@ Un triple module :
 
 - Magasin : 100+ objets dont la majorité originaux et destinés à vous surprendre.
 
-- Sorts : 130+ nouveaux sorts.
+- Sorts : 150+ nouveaux sorts.
 
 - Potions : 25+ potions et charmes.
 
-- 150+ objets/potions/sorts supplémentaires "cachés".
+- 180+ objets/potions/sorts supplémentaires "cachés".
 
 - Forgeron : 50+ recettes pour combiner des potions. (pas dans IWDEE)
 
