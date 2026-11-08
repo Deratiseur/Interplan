@@ -59,7 +59,9 @@ Un triple module :
 
 - Plus des rencontres et des surprises. (pas dans IWDEE)
 
-Note : ce mod est "green" : il ne modifie aucun fichier qui pourrait déranger d'autres modules. Compatibilité 100%, malgré son énorme contenu.
+Note 1 : ce mod est "green" : il ne modifie aucun fichier qui pourrait déranger d'autres modules. Compatibilité 100%, malgré son énorme contenu.  
+
+Note 2 : si ce mod est installé après les composants "Sorts de Icewind Dale" et "Ajouter 9 sorts arcaniques" de [SCS](https://github.com/Gibberlings3/SwordCoastStratagems), les 157 sorts de l'Interplan ne compteront pas dans le limite des 50 sorts par niveau. Sans ses deux composants, les 157 sont installés normalement et occupent presque tous les slots libres pour les sorts.
 
 </td>
 </tr>
