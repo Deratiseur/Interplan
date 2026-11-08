@@ -1,8 +1,0 @@
-IF
-	OnCreation()
-	TimeOfDay(DAY)
-THEN
-	RESPONSE #100
-		RemoveSpellRES("pxl2gel1")
-		ReallyForceSpellRes("pxl2gel2",Myself)
-END

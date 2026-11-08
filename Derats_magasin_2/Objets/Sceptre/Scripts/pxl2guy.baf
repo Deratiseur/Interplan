@@ -1,8 +1,0 @@
-IF
-	HPPercentLT(Myself,20)
-	Global("pxl2guy","LOCALS",0)
-THEN
-	RESPONSE #100
-		AddSpecialAbility("spcl901")
-		SetGlobal("pxl2guy","LOCALS",1)
-END

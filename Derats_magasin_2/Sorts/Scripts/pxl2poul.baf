@@ -1,6 +1,0 @@
-IF
-	Die()
-THEN
-	RESPONSE #100
-		ReallyForceSpellDeadRES("spin979",Myself)
-END

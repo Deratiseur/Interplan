@@ -1,7 +1,0 @@
-IF
-	Die()
-	CheckStatGT(Myself,0,CON)
-THEN
-	RESPONSE #100
-		ReallyForceSpellDeadRES("pxl2sex1",Myself)
-END
