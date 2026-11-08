@@ -1,0 +1,206 @@
+// Tyrannoeil invoque - script pour BG2EE / WeiDU
+// Les cibles sont exclusivement choisies via des selecteurs d ennemis.
+// IMPORTANT : le CRE invoque doit avoir une allegiance ALLY/CONTROLLED, pas ENEMY.
+// Sort de mort reserve aux invocations hostiles, une fois par tyrannoeil.
+// Les rayons ne visent que les ennemis et evitent les tyrannoeils allies.
+// Chaque phase utilise plusieurs yeux via Continue(), puis passe a l'autre.
+
+// ANTI-INVOCATION : recherche une invocation ENNEMIE, jamais un allie invoque.
+// Une utilisation par tyrannoeil pour eviter les lancers en boucle.
+// Le sort lui-meme a des effets de zone : verifier en jeu avec SCS.
+IF
+ Global("PXL2AntiSummon","LOCALS",0)
+ See(NearestEnemyOfType([0.0.0.0.0.SUMMONED]))
+THEN
+ RESPONSE #100
+  ReallyForceSpell(NearestEnemyOfType([0.0.0.0.0.SUMMONED]),WIZARD_DEATH_SPELL)
+  SetGlobal("PXL2AntiSummon","LOCALS",1)
+  Continue()
+END
+
+// PHASE 0 : rayon de mort prioritaire, puis controle et oeil central
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_DEATH_RAY)
+  Continue()
+END
+
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_PARALYZATION)
+  Continue()
+END
+
+// Peur : eviter de viser quelqu'un deja panique ; viser le second ennemi
+// lorsqu'il existe, pour repartir les rayons.
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(SecondNearestEnemyOf(Myself))
+ !General(SecondNearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(SecondNearestEnemyOf(Myself),STATE_PANIC)
+THEN
+ RESPONSE #100
+  ForceSpell(SecondNearestEnemyOf(Myself),BEHOLDER_FEAR)
+  Continue()
+END
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ !See(SecondNearestEnemyOf(Myself))
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_FEAR)
+  Continue()
+END
+
+// Rayon offensif applicable aussi contre les morts-vivants.
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_CAUSE_SERIOUS_WOUNDS)
+  Continue()
+END
+
+// Petrification : deuxieme ennemi de preference, sinon premier.
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(SecondNearestEnemyOf(Myself))
+ !General(SecondNearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(SecondNearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+ RESPONSE #100
+  ForceSpell(SecondNearestEnemyOf(Myself),BEHOLDER_FLESH_TO_STONE)
+  Continue()
+END
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ !See(SecondNearestEnemyOf(Myself))
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_FLESH_TO_STONE)
+  Continue()
+END
+
+// Oeil central : mage hostile en priorite, puis barde hostile, puis autre ennemi.
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOfType([0.0.0.MAGE_ALL]),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",1)
+END
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ !See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+ See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOfType([0.0.0.BARD_ALL]),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",1)
+END
+IF
+ Global("PXL2Eyes","LOCALS",0)
+ !See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+ !See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",1)
+END
+
+// PHASE 1 : rayon de mort prioritaire, puis domination et ralentissement
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_DEATH_RAY)
+  Continue()
+END
+
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ See(NearestEnemyOf(Myself))
+ !General(NearestEnemyOf(Myself),UNDEAD)
+ !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_DOMINATION)
+  Continue()
+END
+
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ See(SecondNearestEnemyOf(Myself))
+ !StateCheck(SecondNearestEnemyOf(Myself),STATE_SLOWED)
+THEN
+ RESPONSE #100
+  ForceSpell(SecondNearestEnemyOf(Myself),BEHOLDER_SLOW)
+  Continue()
+END
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ !See(SecondNearestEnemyOf(Myself))
+ See(NearestEnemyOf(Myself))
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLOWED)
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_SLOW)
+  Continue()
+END
+
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_CAUSE_SERIOUS_WOUNDS)
+  Continue()
+END
+
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOfType([0.0.0.MAGE_ALL]),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",0)
+END
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ !See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+ See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOfType([0.0.0.BARD_ALL]),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",0)
+END
+IF
+ Global("PXL2Eyes","LOCALS",1)
+ !See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+ !See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+  ForceSpell(NearestEnemyOf(Myself),BEHOLDER_ANTIMAGIC_RAY)
+  SetGlobal("PXL2Eyes","LOCALS",0)
+END

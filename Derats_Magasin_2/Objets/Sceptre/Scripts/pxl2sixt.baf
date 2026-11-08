@@ -1,0 +1,11 @@
+IF
+	HPPercentLT(Myself,15)
+	Global("pxl2sixt","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("pxl2sixt","LOCALS",1)
+		ReallyForceSpellRes("pxl2sixt",Myself)
+		Wait(1)
+		DropInventory()
+		DestroySelf()	
+END

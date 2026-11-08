@@ -1,0 +1,8 @@
+IF
+	Global("pxl2iwd","GLOBAL",0)
+	!PartyHasItem("pxl2iwd")
+THEN
+	RESPONSE #100
+	ActionOverride("Box 1",CreateItem("pxl2iwd",0,0,0))
+	SetGlobal("pxl2iwd","GLOBAL",1)
+  END

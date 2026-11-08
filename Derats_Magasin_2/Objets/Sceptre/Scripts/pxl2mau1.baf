@@ -1,0 +1,7 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Wait(3)
+		DisplayStringHead(Myself,@301622)
+END

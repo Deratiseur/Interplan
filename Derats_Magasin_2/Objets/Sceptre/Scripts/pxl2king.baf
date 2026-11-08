@@ -1,0 +1,38 @@
+IF
+	Global("pxl2king","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),10)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30571)
+		SetGlobal("pxl2king","LOCALS",1)
+END
+
+IF
+	Global("pxl2king","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30572)
+		Wait(2)
+		SetGlobal("pxl2king","LOCALS",2)
+END
+
+IF
+	Global("pxl2king","LOCALS",2)
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30573)
+		ReallyForceSpellRES("pxl2king",Myself)
+END
+
+IF
+	GlobalGT("pxl2king","LOCALS",0)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("pxl2king","LOCALS",0)
+END

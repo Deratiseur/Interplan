@@ -1,0 +1,80 @@
+@1000 = ~Hello.~
+@1001 = ~A talking rabbit? I've seen everything now.~
+@1002 = ~Hello to you, little rabbit.~
+@1003 = ~I'm not a rabbit, I'm a female rabbit. And I can speak because I am Aegenor's familiar.~
+@1004 = ~A familiar? That's impossible, Aegenor cannot be a mage.~
+@1005 = ~And why could he not be, if I may ask?~
+@1006 = ~It is common knowledge that dwarves cannot be wizards....~
+@1007 = ~How narrow-minded you are... We live in a world of magic, where anything is possible. Aegenor is a mage, I am his familiar, it is strange and exceptional, but certainly not impossible. Bah, I have no desire to speak with such stubborn people. Go and speak with my master about this, I am sure he will be delighted to tell you his story.~
+
+@10011 = ~*Whispering* I tried t'sell potions to Aegenor, but he didn't want any. Maybe you want some?~
+@10012 = ~*whispering* Yeah, let me see what you have.~
+@10013 = ~Why not. Show me what you've got.~
+@10014 = ~*Whispering* Here ya go.~ //Store
+@10015 = ~Whisper! There, I'm busted for smuggling!~ //Spell
+
+@10021 = ~*This man seems worried. He is frantically rummaging through Aegenor's belongings.*~
+@10022 = ~Hello~
+@10023 = ~Hello! *turning around and noticing your outfit*. Hey, you're an adventurer, aren't you?~~Hello! *turning around and noticing your outfit*. Hey, you're an adventuress, aren't you?~
+@10024 = ~Yes, that's what I am. Who's asking?~
+@10025 = ~No, I'm just a civil guard.~
+@10026 = ~Oh? Too bad then. I could have sworn...~ //EXIT
+@10027 = ~Ah, I almost forgot. My name is Jean-Michel Rondubout. I am currently on a photo safari in your world.~
+@10028 = ~Photo safari?~
+@10029 = ~Our world?~
+@100210 = ~Yes. I will explain, whether you believe me or not. I come from another world, called "Earth", in a future that is very distant from your own. We have mastered many technologies, including time and space travel, and can therefore visit all known worlds. I came to this world because I have heard so much about it, to take photographs with my Instamatic Reality.~
+@100211 = ~Photographs?~
+@100212 = ~You're right, I don't believe you.~
+@100213 = ~Photographs are.... Ah, never mind. The truth is, I have a problem, and that is why I need you.~
+@100214 = ~I suspected as much. It doesn't matter, what I have to offer you will surely interest you anyway.~
+@100215 = ~I'm listening.~
+@100216 = ~What makes you think I will help you?~
+@100217 = ~I lost my Teletransponder. The device that allows me to visit worlds and choose the era. I cannot return home. And if I stay here too long, the Chronospatial Travel Control Patrol will come after me to ask questions, that's for sure. And as they say, my photographs are illegal; the Instamatic Reality is a prohibited object. I need you to use your knowledge of this world, surely greater than mine, to find my Teletransponder or send me home.~
+@100218 = ~And what do I get out of it?~
+@100219 = ~How am I supposed to do that?~
+@100220 = ~I could give you the entire collection of photographs I took during my stay. In any case, my Instamatic Reality will be able to reprint them once I am home. I guarantee that their function will not disappoint you.~
+@100221 = ~Very well. How could I send you back home?~
+@100222 = ~I don't know, that's exactly why I am asking you to find a way.~
+@100223 = ~All right, I will search. Where should I meet you once I have found something?~
+@100224 = ~Come find me at the Midrest Inn. I will wait for you there, but no longer than a week. I need to keep moving, otherwise the patrol will find me too easily.~
+@100225 = ~All right, we'll meet there.~
+
+
+@10031 = ~Hmm, so-so. I prefer Lumens' wonders. At least his sweets are cheap and useful, and he has 11th-level spells!~
+@10032 = ~Lumens? Wonders?~
+@10033 = ~Yeah, he's the gnome at the other end of the promenade. Well, if he's there.~
+
+@10041 = ~*Grumbling* This shop is terrible, there's nothing here for me.~
+@10042 = ~Are you kidding? There is equipment for every purpose and everyone!~
+@10043 = ~Yeah, well there isn't a single two-handed axe. And that armor for barbarians? Only weaklings wear that stuff. Not me. I'm going back to see Todd, at least he has proper gear!~
+
+@10051 = ~*This boy seems nervous* Damn it, what is he waiting for?~
+@10052 = ~Who is waiting for what?~
+@10053 = ~Agenor. What is he waiting for before restocking Charisma potions?~
+@10054 = ~Charisma potions? Is that what is making you so nervous?~
+@10055 = ~Yes. I need them. How else am I supposed to get girls?~
+@10056 = ~I don't know... perhaps try kindness and actually listening?~
+
+@10061 = ~Hello sir.~~Hello madam.~
+@10062 = ~What brings you here, little one?~
+@10063 = ~I'm looking for a remedy for my mommy. She is very sick and she can't get out of bed anymore. She told me not to go outside, but I went anyway, because I love my mommy, and I don't want her to die.~
+@10064 = ~Where is your mother? Perhaps I can do something for her.~
+@10065 = ~I can't tell you. Mommy always told me never to let a stranger in.~
+@10066 = ~But I'm not a stranger! I'm <charname>.~
+@10067 = ~I don't know you. So no, I won't tell you where my mommy is.~
+@10068 = ~Very well then, what kind of remedy are you looking for?~
+@10069 = ~I need something "powerful". The priest went to see my mommy, and he said she was too sick, that she needed a very "powerful" spell that he couldn't cast.~
+@100611 = ~I see. Then wait here, I'll see what I can find. All right?~
+@100612 = ~Okay, I'll wait here. But please hurry, my mommy is very sick.~
+@100613 = ~And did you find what you were looking for here?~
+@100614 = ~No. And everything here is expensive anyway. I need to find something that can cure everything, and for cheap, because I only have a few coins.*She pulls about ten bronze coins from her pocket.*~
+@100615 = ~Take her coins~
+@100616 = ~But... what... Mean! Give me back my coins!*She starts crying.*~
+@100617 = ~Listen, I'll see if I can find something, all right?~
+@100618 = ~Okay, I'll wait here. But please hurry, my mommy is very sick.~
+@100619 = ~I think I have what you need. Here, this potion should be able to cure anything. Do you want it?~
+@100620 = ~Well, you won't find a remedy here. There is a temple right next door, that's where you should go.~
+@100621 = ~I already went to the temple. The priest went to see my mommy, and he said she was too sick, that she needed a very powerful spell that he couldn't cast.~
+@100622 = ~Ah, I see. All right, I'll see if I can find something, okay?~
+@100623 = ~Okay, I'll wait here. But please hurry, my mommy is very sick.~
+@100624 = ~In that case, I think I have what you need. Here, this potion should be able to cure anything. Do you want it?~

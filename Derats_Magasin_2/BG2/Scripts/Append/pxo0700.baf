@@ -1,0 +1,17 @@
+IF
+	GlobalTimerExpired("pxl2quallo","GLOBAL")
+	Global("pxl2quallo","GLOBAL",0)
+	OR (6)
+		HasItemEquiped("pxl2gele",Player1)
+		HasItemEquiped("pxl2gele",Player2)
+		HasItemEquiped("pxl2gele",Player3)
+		HasItemEquiped("pxl2gele",Player4)
+		HasItemEquiped("pxl2gele",Player5)
+		HasItemEquiped("pxl2gele",Player6)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("pxl2quallo","GLOBAL",1)
+		CreateCreatureObjectOffScreen("pxl2frg5",0,0,0)
+END

@@ -1,0 +1,9 @@
+IF
+	Global("pxl2duplik","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+	ReallyForceSpellRes("pxl2dkat",Myself)
+	ReallyForceSpellRes("pxl2dkat",Myself)
+	SetGlobal("pxl2duplik","LOCALS",1)
+END

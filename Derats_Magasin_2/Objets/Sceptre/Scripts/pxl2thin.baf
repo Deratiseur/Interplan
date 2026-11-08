@@ -1,0 +1,26 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,@301921)
+		Wait(3)
+		DisplayStringHead(Myself,@301922)
+		Wait(3)
+		DisplayStringHead(Myself,@301923)
+		Wait(3)
+		DisplayStringHead(Myself,@301924)
+		Wait(3)
+		DisplayStringHead(Myself,@301925)
+		Wait(3)
+		DisplayStringHead(Myself,@301926)
+		Wait(3)
+		DisplayStringHead(Myself,@301927)
+		Wait(3)
+		DisplayStringHead(Myself,@301928)
+		Wait(3)
+		DisplayStringHead(Myself,@301929)
+		Wait(3)
+		DisplayStringHead(Myself,@3019210)
+		Kill(Myself)
+END

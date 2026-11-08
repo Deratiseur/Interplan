@@ -1,0 +1,18 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,@301511)
+		SetGlobalTimer("pxl2skie","GLOBAL",8)
+END
+
+IF
+	GlobalTimerExpired("pxl2skie","GLOBAL")
+	Global("pxl2ski2","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("pxl2ski2","LOCALS",1)
+		ReallyForceSpellRES("pxl2tel2",Myself)
+		ApplyDamage(Myself,30,FIRE)
+END

@@ -1,0 +1,8 @@
+IF
+  See([0])
+  Global("hostile","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("hostile","LOCALS",1)
+    Enemy()
+END

@@ -1,0 +1,8 @@
+IF
+	PartyHasItem("Pxl2vrid")
+	Global("pxl2rvndcreated","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("pxl2revn",[2209.153],3)
+		SetGlobal("pxl2rvndcreated","GLOBAL",1)
+END

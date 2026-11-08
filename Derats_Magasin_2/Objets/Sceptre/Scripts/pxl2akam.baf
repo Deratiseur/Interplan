@@ -1,0 +1,18 @@
+IF
+	!ModalState(STEALTH)
+	Global("pxl2akam","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30831)
+		SetGlobal("pxl2akam","LOCALS",1)
+END
+
+IF
+	Global("pxl2akam","LOCALS",1)
+	!See(NearestEnemyOf(Myself))
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("pxl2akam","LOCALS",0)
+END

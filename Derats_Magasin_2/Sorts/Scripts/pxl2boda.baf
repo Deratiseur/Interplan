@@ -1,0 +1,35 @@
+IF
+	AreaType(OUTDOOR)
+	AreaType(DAYNIGHT)
+	!TimeOfDay(NIGHT)
+	!GlobalTimerNotExpired("burn","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("burn","LOCALS",6)
+		ApplyDamage(Myself,1,MAGIC)
+END
+
+IF
+	See([0])
+	!General(LastSeenBy(Myself),UNDEAD)
+THEN
+	RESPONSE #100
+		SelectWeaponAbility(SLOT_WEAPON1,0)
+		RunAwayFrom(LastSeenBy(Myself),15)
+		AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+	See([0])
+	General(LastSeenBy(Myself),UNDEAD)
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+IF
+	!See([0])
+THEN
+	RESPONSE #100
+	RandomWalk()
+END

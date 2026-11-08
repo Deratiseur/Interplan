@@ -1,0 +1,18 @@
+IF
+	Global("pxl2kens","LOCALS",0)
+	CheckStatGT(Myself,5,NUMBEROFATTACKS)
+	!HPPercentLT(NearestEnemyOf(Myself),30)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@30841)
+		SetGlobal("pxl2kens","LOCALS",1)
+END
+
+IF
+	Global("pxl2kens","LOCALS",1)
+	!See(NearestEnemyOf(Myself))
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("pxl2kens","LOCALS",0)
+END

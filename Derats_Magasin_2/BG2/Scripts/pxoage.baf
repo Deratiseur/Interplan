@@ -1,0 +1,17 @@
+IF
+	Global("pxl2clientkriol","GLOBAL",0)
+	Global("Littleman","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("pxl2clientkriol","GLOBAL",1)
+	CreateCreature("pxl2ckri",[187.297],3)
+END
+
+IF
+	Global("pxl2quetelapin","GLOBAL",0)
+	Global("MaeVarExposed","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("pxl2quetelapin","GLOBAL",1)
+	CreateCreature("pxl2lapi",[389.274],3)
+END

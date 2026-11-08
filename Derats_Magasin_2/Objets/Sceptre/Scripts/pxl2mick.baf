@@ -1,0 +1,15 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	ActionListEmpty()
+	!ModalState(BATTLESONG)
+THEN
+	RESPONSE #100
+		BattleSong()
+END

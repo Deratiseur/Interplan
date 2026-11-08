@@ -1,0 +1,9 @@
+IF
+	Global("pxl2aors","LOCALS",0)
+THEN
+	RESPONSE #100
+		MakeGlobal()
+		ChangeEnemyAlly(Myself,FAMILIAR)
+		AddFamiliar()
+		SetGlobal("pxl2aors","LOCALS",1)
+END
