@@ -132,7 +132,6 @@ ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	READ_LONG 0x6a effects_off
 	READ_SHORT 0x90 num_effects
 	FOR (i = 0; i < num_effects; i += 1) BEGIN	WRITE_BYTE  (effects_off + 0x30*i + 0x024) 0 END
-	COPY_EXISTING	~pxl2elf1.spl~		~override/pxl2elf4.spl~	WRITE_ASCII 0x3a ~pxl2pelb~ #8	WRITE_ASCII 0x76 ~pxl2pelb~ #8
 END
 
 ////////// MARCHAND POUR LES FOSSES NOIRES II //////////
@@ -142,16 +141,6 @@ ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY ~Derats_Magasin_2/BG2/pxagenoc.sto~		~override~	SAY 0xc @47
 	EXTEND_TOP ~OHBHUB.BCS~   ~Derats_Magasin_2/BG2/Scripts/Append/pxo8100.baf~
 END
-
-////////// MARCHAND POUR LES PSTEE //////////
-ACTION_IF GAME_IS ~PSTEE~ THEN BEGIN
-	COPY ~Derats_Magasin_2/BG2/pxagenoa.sto~		~override~	SAY 0xc @45
-	COPY ~Derats_Magasin_2/BG2/pxagenob.sto~		~override~	SAY 0xc @46
-	COPY ~Derats_Magasin_2/BG2/pxagenoc.sto~		~override~	SAY 0xc @47
-	EXTEND_TOP ~AR0504.BCS~   ~Derats_Magasin_2/BG2/Scripts/Append/pxo0504.baf~
-	COPY ~Derats_Magasin_2/BG2/pxoagen.cre~			~override~	SAY NAME1 @34	SAY NAME2 @34
-	WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~Merchant~))
-END	
 
 ////////// MARCHAND POUR IWDEE //////////
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -207,7 +196,7 @@ COPY ~Derats_Magasin_2/Objets/Bams~					~override~
 //Étoile de Kahor
 COPY ~Derats_Magasin_2/Objets/pxl2etoi.itm~			~override~	SAY NAME2 @801	SAY DESC @802
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2etoi~ GW_tooltips = ~15527 15529~ END
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY_EXISTING	~pxl2etoi.itm~		~override/pxl2eto2.itm~	SAY NAME2 @801999	SAY DESC @802999	WRITE_LONG 0x34 6500 WRITE_BYTE 0x60 4
 	WRITE_BYTE 0x86 4	WRITE_BYTE 0x8c 4	WRITE_BYTE 0xbe 4	WRITE_BYTE 0xc4 4	WRITE_BYTE 0x1c2 8	WRITE_BYTE 0x2e2 8
 	COPY ~Derats_Magasin_2/BG2/Extras/pxl2meto.itm~	~override~	SAY NAME2 @73	SAY DESC @74
@@ -373,7 +362,7 @@ COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2kris.cre~	~override~	SAY NAME1 @3
 COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2virg.cre~	~override~	SAY NAME1 @3038	SAY NAME2 @3038 //Virgile
 COPY ~Derats_Magasin_2/Objets/Sceptre/itms/pxl2vir1.itm~	~override~	SAY NAME2 @30381
 COPY ~Derats_Magasin_2/Objets/Sceptre/itms/pxl2vir2.itm~	~override~
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2vir2~ GW_tooltips = ~64945 @5089~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -477,7 +466,7 @@ COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2nux.cre~		~override~	SAY NAME1 @3
 COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2sabt.cre~	~override~	SAY NAME1 @3087	SAY NAME2 @3087 //Patrick Sabatier
 COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2mick.cre~	~override~	SAY NAME1 @3088	SAY NAME2 @3088 //Mickaël Klaxon
 COPY_EXISTING	~spandl15.eff~					~override/pxl2mick.eff~	WRITE_ASCII 0x30 ~pxl2mic1~ #8
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN COPY_EXISTING	~zombie01.cre~	~override/pxl2mic1.cre~	WRITE_ASCII 0x248 ~pxl2sumo~ #8 END
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN COPY_EXISTING	~zombie01.cre~	~override/pxl2mic1.cre~	WRITE_ASCII 0x248 ~pxl2sumo~ #8 END
 COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2ashr.cre~	~override~	SAY NAME1 @3089	SAY NAME2 @3089 //Ashrian
 COPY_EXISTING	~sareveff.eff~					~override/pxl2ashr.eff~	WRITE_ASCII 0x30 ~pxl2ash1~ #8 // cast spell at target
 COPY ~Derats_Magasin_2/Objets/Sceptre/itms/pxl2ash1.itm~	~override~	SAY NAME2 @30892
@@ -652,7 +641,7 @@ COPY_EXISTING	~pxl2mor9.spl~					~override/pxl2grg1.spl~
 WRITE_ASCII 0xae ~POTN30~ #8	WRITE_ASCII 0xde ~POTN13~ #8	WRITE_ASCII 0x10e ~POTN23~ #8	WRITE_ASCII 0x13e ~POTN25~ #8
 WRITE_ASCII 0x16e ~POTN32~ #8	WRITE_ASCII 0x19e ~POTN40~ #8	WRITE_ASCII 0x1ce ~POTN16~ #8	WRITE_ASCII 0x1fe ~POTN08~ #8
 WRITE_ASCII 0x22e ~pxl2dpoi~ #8	WRITE_ASCII 0x25e ~POTN25~ #8	WRITE_ASCII 0x2be ~SPCONTIN~ #8
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY_EXISTING	~pxl2grg1.spl~							~override~	WRITE_ASCII 0x25e ~pxl2elf2~
 END
 COPY ~Derats_Magasin_2/Objets/Sceptre/Cres/pxl2andr.cre~	~override~	SAY NAME1 @30168	SAY NAME2 @30168 //André le géant
@@ -757,7 +746,7 @@ END
 //Dague de Kaarlac
 COPY ~Derats_Magasin_2/Objets/pxl2kaar.itm~			~override~	SAY NAME2 @807	SAY DESC @808
 //Catalyseur du marteau Johrünbrumd //Pas dans IWDEE parce qu'il n'y a pas les ingrédients secondaires nécessaires.
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY ~Derats_Magasin_2/Objets/pxl2cata.itm~		~override~	SAY NAME2 @809	SAY DESC @8010
 	COPY ~Derats_Magasin_2/Objets/pxl2johr.itm~		~override~	SAY NAME2 @8010996	SAY DESC @8010997
 	COPY ~Derats_Magasin_2/Objets/pxl2joh2.itm~		~override~	SAY NAME2 @8010996	SAY DESC @8010998
@@ -771,7 +760,7 @@ ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
 END
 //Dent affamée de Kessek
 COPY ~Derats_Magasin_2/Objets/pxl2dent.itm~			~override~	SAY NAME2 @8011	SAY DESC @8012
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY_EXISTING	~pxl2dent.itm~		~override/pxl2det2.itm~	SAY NAME2 @801199	SAY DESC @801299	WRITE_LONG 0x34 15000	WRITE_BYTE 0xae 4	WRITE_BYTE 0x8a 3	WRITE_BYTE 0x86 4	WRITE_BYTE 0x8c 4	WRITE_BYTE 0x60 4
 END
 //Anneau d'Aeldïir
@@ -864,7 +853,7 @@ COPY ~Derats_Magasin_2/Objets/Tome/pxl2po25.spl~	~override~	SAY NAME1 @8036812
 COPY ~Derats_Magasin_2/Objets/pxl2hera.itm~			~override~	SAY NAME2 @8037	SAY DESC @8038
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2hera~ GW_tooltips = ~12090 3925~ END
 //La chandelle du monstre
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 END
 OUTER_FOR ( i=6 ; i<29 ; i +=1) BEGIN //Pour chaque effet à créer nommé de 6 à 28
 	COPY_EXISTING	~pxl2qu5.eff~	~override/pxl2qu%i%.eff~	WRITE_ASCIIE 0x30 ~pxl2qu%i%~ #8
@@ -1326,7 +1315,7 @@ COPY ~Derats_Magasin_2/Objets/pxl2bris.itm~			~override~	SAY NAME2 @8077	SAY DES
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2bris~ GW_tooltips = ~12123 10871~ END
 //Sceptre du poing de fer
 COPY ~Derats_Magasin_2/Objets/pxl2poin.itm~			~override~	SAY NAME2 @8079	SAY DESC @8080
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2poin~ GW_tooltips = ~15529 63097 63153~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1433,7 +1422,7 @@ COPY ~Derats_Magasin_2/Objets/Discombulateur/pxl2xp15.itm~	~override~	SAY NAME2 
 COPY ~Derats_Magasin_2/Objets/Discombulateur/pxl2xp35.itm~	~override~	SAY NAME2 @50139	SAY DESC @50140 //Potion d’expérience ultra concentrée
 
 //Purificateur nain //Pas dans IWDEE
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY ~Derats_Magasin_2/Objets/pxl2puri.itm~		~override~	SAY NAME2 @8087	SAY DESC @8088
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2puri~ GW_tooltips = ~@80882 7011 @80883~ END
 END
@@ -1530,7 +1519,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2gese~ GW_tooltips = ~16465 12060 12034~ END
 	//Baguette des Hautes Arcanes
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2ahaa.itm~	~override~	SAY NAME2 @4039	SAY DESC @4040
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2ahaa~ GW_tooltips = ~26314 63217 73940~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1541,7 +1530,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2immo~ GW_tooltips = ~10996~ END
 	//Anneau de fer
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2afer.itm~	~override~	SAY NAME2 @4043	SAY	DESC @4044
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2afer~ GW_tooltips = ~44941 63953~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1559,7 +1548,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2bayl.itm~	~override~	SAY NAME2 @4051	SAY DESC @4052
 	//Armure en os de dragon
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2ardr.itm~	~override~	SAY NAME2 @4053	SAY DESC @4054
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2ardr~ GW_tooltips = ~6618 39964 7663~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1611,7 +1600,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	ACTION_IF GAME_IS ~BG2 BG2EE EET~ THEN BEGIN
 		APPEND ~pxl2dilp.2da~ ~ELFORMORPHOSE	PXL2ELF4	3~
 	END
-	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2dill~ GW_tooltips = ~@40822 @40821~ END
+	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2dill~ GW_tooltips = ~@40821 @40822~ END
 		//Rage fatale
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2prag.spl~	~override~	SAY NAME1 @13041	SAY UNIDENTIFIED_DESC @13042
 		COPY_EXISTING	~sareveff.eff~				~override/pxl2prag.eff~	WRITE_ASCII 0x30 ~pxl2prg1~ #8
@@ -1623,9 +1612,6 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 		//Atroce tranchoir de Dillpater
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2ptrc.spl~	~override~	SAY NAME1 @13071	SAY UNIDENTIFIED_DESC @13072
 		COPY_EXISTING	~amcall.vvc~				~override/pxl2ptrv.vvc~	WRITE_ASCII 0x8 ~pxl2ptr1~ #8	WRITE_BYTE 0x34 33
-		//Sujétion de l'Araignée
-		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2psuj.spl~	~override~	SAY NAME1 @13073	SAY UNIDENTIFIED_DESC @13074
-		COPY_EXISTING	~sareveff.eff~				~override/pxl2psuj.eff~	WRITE_ASCII 0x30 ~pxl2psj1~ #8
 		//Convocation de tyrannoeil
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2ptyr.spl~	~override~	SAY NAME1 @13081	SAY UNIDENTIFIED_DESC @13082
 		COPY_EXISTING	~spidgisu.eff~				~override/pxl2pty1.eff~	WRITE_ASCII 0x30 ~pxl2pty1~ #8
@@ -1670,6 +1656,8 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 		COPY_EXISTING	~amcall.vvc~				~override/pxl2pmav.vvc~	WRITE_ASCII 0x8 ~pxl2pman~ #8	WRITE_BYTE 0x68 1	WRITE_BYTE 0x6c 2	WRITE_BYTE 0x4c 4	WRITE_BYTE 0x20 (THIS | 1)
 		//Groupe illusoire
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pdou.spl~	~override~	SAY NAME1 @130921	SAY UNIDENTIFIED_DESC @130922
+		//Trio infernal
+		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pinf.spl~	~override~	SAY NAME1 @130923	SAY UNIDENTIFIED_DESC @130924
 		//Effacement
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pefc.spl~	~override~	SAY NAME1 @130925	SAY UNIDENTIFIED_DESC @130926
 		//Transformation de Dillpater
@@ -1787,7 +1775,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2dae2.itm~	~override~	SAY NAME2 @40129	SAY DESC @40130
 	//Gantelets d'assassinat
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2gant.itm~	~override~	SAY NAME2 @40131	SAY DESC @40132
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2gant~ GW_tooltips = ~65438~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1799,7 +1787,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2sprc.itm~	~override~	SAY NAME2 @40137	SAY DESC  @40138
 	//Ceinture de Shu Bhao
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2bhao.itm~	~override~	SAY NAME2 @40139	SAY DESC @40140
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2bhao~ GW_tooltips = ~51848~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1856,7 +1844,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	COPY_EXISTING	~spwi403d.eff~			~override/pxl2coro.eff~	WRITE_ASCII 0x30 ~pxl2coro~ #8
 	//Amulette des milles reflets
 	COPY ~Derats_Magasin_2/Objets/Coffre/pxl2clui.itm~	~override~	SAY NAME2 @40153	SAY DESC  @40154
-	ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2clui~ GW_tooltips = ~34577 34596 34616~ END
 	END
 	ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1899,7 +1887,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	
 //Miracle de Delnar
 COPY ~Derats_Magasin_2/Objets/pxl2mira.itm~			~override~	SAY NAME2 @8093	SAY DESC @8094
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2mira~ GW_tooltips = ~63157~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1911,7 +1899,7 @@ COPY ~Derats_Magasin_2/EE/Objets/pxl2cail.itm~		~override~	SAY NAME2 @8095	SAY D
 COPY ~Derats_Magasin_2/Objets/pxl2ioun.itm~			~override~	SAY NAME2 @8097	SAY DESC @8098
 //Bandeaux de Concentration
 COPY ~Derats_Magasin_2/Objets/pxl2conc.itm~			~override~	SAY NAME2 @8099	SAY DESC @80100
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY_EXISTING	~pxl2conc.itm~		~override/pxl2conm.itm~	SAY NAME2 @8010008	SAY DESC @8010009	WRITE_LONG 0x34 22000	WRITE_ASCII 0x3a ~pxl2conm~ #8	WRITE_BYTE 0x76 2
 	WRITE_BYTE 0xa6 25	WRITE_BYTE 0xd6 25	WRITE_BYTE 0x106 25
 END
@@ -1922,7 +1910,7 @@ COPY ~Derats_Magasin_2/Objets/pxl2louv.itm~			~override~	SAY NAME2 @80103	SAY DE
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2louv~ GW_tooltips = ~@607281~ END
 //Ceinture de Strungbr
 COPY ~Derats_Magasin_2/Objets/pxl2stru.itm~			~override~	SAY NAME2 @80105	SAY DESC @80106
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2stru~ GW_tooltips = ~34654~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -1951,7 +1939,7 @@ COPY ~Derats_Magasin_2/Objets/pxl2diss.itm~			~override~	SAY NAME2 @80123	SAY DE
 COPY ~Derats_Magasin_2/Objets/pxl2ecca.itm~			~override~	SAY NAME2 @80125	SAY DESC @80126
 //Bouclier Toile
 COPY ~Derats_Magasin_2/Objets/pxl2btoi.itm~			~override~	SAY NAME2 @80127	SAY DESC @80128
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN //Parce que pas de forgeron dans IWDEE
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN //Parce que pas de forgeron dans IWDEE
   	COPY ~Derats_Magasin_2/Objets/pxl2bto2.itm~		~override~	SAY NAME2 @8012709	SAY DESC @8012809
   	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2bto2~ GW_tooltips = ~29207 12057~ END
 END
@@ -1973,12 +1961,7 @@ COPY_EXISTING	~PLANEVIL.cre~			~override/pxl2plev.cre~
 //Mailles Sanguines +2
 COPY ~Derats_Magasin_2/Objets/pxl2roug.itm~			~override~	SAY NAME2 @80137	SAY DESC @80138
 COPY_EXISTING	~pxl2rog1.spl~			~override/pxl2rog2.spl~	SAY NAME1 #25937	WRITE_BYTE 0xa2 1	WRITE_BYTE 0x132 110	WRITE_ASCII 0x16e ~spwi613~ #8
-ACTION_IF GAME_IS ~BGT TOB~ THEN BEGIN
-COMPILE ~Derats_Magasin_2/BG2/Rupt/pxl2roug.baf~
-END
-ACTION_IF GAME_IS ~BG2EE IWDEE EET~ THEN BEGIN
 COMPILE ~Derats_Magasin_2/EE/Rupt/pxl2roug.baf~
-END
 //Torche de Lula-Ko
 COPY ~Derats_Magasin_2/Objets/pxl2lula.itm~			~override~	SAY NAME2 @80139	SAY DESC @80140
 //Perle de gelée
@@ -2014,7 +1997,7 @@ COPY_EXISTING	~UI.MENU~	override
 BUT_ONLY
 END
 //Ceinture Gardesorts
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY ~Derats_Magasin_2/Objets/pxl2gsor.itm~		~override~	SAY NAME2 @80153	SAY DESC @80154
 	COPY_EXISTING	~sareveff.eff~		~override/pxl2gsor.eff~	WRITE_ASCII 0x30 ~pxl2gsor~ #8
 	COPY_EXISTING	~pxl2per2.eff~		~override/pxl2gso1.eff~	WRITE_ASCII 0x30 ~pxl2gsor~ #8	WRITE_SHORT 0x1c 600
@@ -2065,7 +2048,7 @@ COPY ~Derats_Magasin_2/Objets/pxl2bfeu.itm~			~override~	SAY NAME2 @80177	SAY DE
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2bfeu~ GW_tooltips = ~15529 6618 12074~ END
 //Pendentif du loup
 COPY ~Derats_Magasin_2/Objets/pxl2wolf.itm~			~override~	SAY NAME2 @80179	SAY DESC @80180
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2wolf~ GW_tooltips = ~52502~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -2076,7 +2059,7 @@ COPY ~Derats_Magasin_2/Objets/pxl2hven.itm~			~override~	SAY NAME2 @80181	SAY DE
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2hven~ GW_tooltips = ~@801821~ END
 //Le Nid
 COPY ~Derats_Magasin_2/Objets/pxl2lnid.itm~			~override~	SAY NAME2 @80183	SAY DESC @80184
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2lnid~ GW_tooltips = ~@801841 45045~ END
 END
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -2260,7 +2243,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0x2ec "%current_spell_res%" #8
   WRITE_ASCIIE 0x584 "%current_spell_res%" #8
   WRITE_ASCIIE 0x590 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x2e0 "%current_spell_res%" #8
   WRITE_ASCIIE 0x5e8 "%current_spell_res%" #8
@@ -2916,7 +2899,7 @@ END ELSE BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2poul.spl~ 2 3 WIZARD_PX_NIXS_APPETIZING_LITTLE_CHICKENS	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @60313	SAY UNIDENTIFIED_DESC @60314
   SET ZF_inc_level = 2	SET ZF_inc_duree = 6	LPF MULTI_LEVELS END
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2pola.itm~	SAY NAME2 @60313	SAY DESC @60314	LPF cd_scroll2 INT_VAR unusable1 = BIT0 target_hdr = 4 price = 300 STR_VAR spell = EVAL ~%current_spell_res%~ END
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x340 "%current_spell_res%" #8
   WRITE_ASCIIE 0x66c "%current_spell_res%" #8
@@ -2971,7 +2954,7 @@ END ELSE BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2aura.spl~ 2 3 WIZARD_PX_DEORIE_MARVELOUS_AURA	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @60319	SAY UNIDENTIFIED_DESC @603209	WRITE_ASCIIE 0xae "%current_spell_res%" #8
   SET ZF_inc_level = 1	SET ZF_inc_duree = 6	LPF MULTI_LEVELS END
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2aura.itm~	SAY NAME2 @60319	SAY DESC @60320	LPF cd_scroll INT_VAR unusable2 = BIT6 price = 300 STR_VAR spell = EVAL ~%current_spell_res%~ END
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x328 "%current_spell_res%" #8
   WRITE_ASCIIE 0x684 "%current_spell_res%" #8
@@ -3063,7 +3046,7 @@ END ELSE BEGIN
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2poba.itm~	SAY NAME2 @60327	SAY DESC @60328	LPF cd_scroll INT_VAR unusable1 = BIT4 price = 300 STR_VAR spell = EVAL ~%current_spell_res%~ END
   COPY_EXISTING	~pxl2drag.2da~							~override~	REPLACE_TEXTUALLY ~PXL2POB~ ~%current_spell_res%~
   COPY ~Derats_Magasin_2/Objets/sorts/pxl2pmb3.spl~		~override~	SAY NAME1 @60327	WRITE_ASCIIE 0x34e "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x34c "%current_spell_res%" #8
   WRITE_ASCIIE 0x690 "%current_spell_res%" #8
@@ -3293,7 +3276,7 @@ COPY_EXISTING	~amcall.vvc~				~override/pxl2couv.vvc~	WRITE_ASCII 0x8 ~pxw4coup~
 
 //Affaiblissement
 ACTION_IF px_interplan_scs THEN BEGIN
-  ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY ~Derats_Magasin_2/Sorts/pxl2afai.spl~ ~override~	SAY NAME1 @6043	SAY UNIDENTIFIED_DESC @6044
   END
   ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -3307,7 +3290,7 @@ dwExtraMageSpells[5]=~
   COPY_EXISTING	~m_dw_sxd.lua~							~override~	REPLACE ~pxl2afaiy~ @6043	REPLACE ~pxl2afaix~ @6044
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2afaa.itm~	SAY NAME2 @6043	SAY DESC @6044	LPF cd_scroll INT_VAR unusable1 = BIT2 target_hdr = 1  price = 500 STR_VAR spell = ~pxl2afai~ END
 END ELSE BEGIN
-  ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2afai.spl~ 2 4 WIZARD_PX_ENERVATION	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @6043	SAY UNIDENTIFIED_DESC @6044
   END
   ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -3405,7 +3388,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0x370 "%current_spell_res%" #8
   WRITE_ASCIIE 0x65c "%current_spell_res%" #8
   WRITE_ASCIIE 0x668 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x37c "%current_spell_res%" #8
   WRITE_ASCIIE 0x6c0 "%current_spell_res%" #8
@@ -3443,7 +3426,7 @@ END ELSE BEGIN
   COPY_EXISTING	~pxl2zago.cre~							~override~
   WRITE_ASCIIE 0x34c "%current_spell_res%" #8
   WRITE_ASCIIE 0x62c "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x364 "%current_spell_res%" #8
   WRITE_ASCIIE 0x6a8 "%current_spell_res%" #8
@@ -4001,7 +3984,7 @@ END ELSE BEGIN
   COPY_EXISTING	~pxl2zago.cre~							~override~
   WRITE_ASCIIE 0x37c "%current_spell_res%" #8
   WRITE_ASCIIE 0x674 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x3ac "%current_spell_res%" #8
   WRITE_ASCIIE 0x6d8 "%current_spell_res%" #8
@@ -4050,7 +4033,7 @@ END ELSE BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2magi.spl~ 2 5 WIZARD_PX_ENSURED_MAGIC	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @60519	SAY UNIDENTIFIED_DESC @60520
   SET ZF_inc_level = 1	SET ZF_inc_duree = 6	LPF MULTI_LEVELS END
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2maga.itm~	SAY NAME2 @60519	SAY DESC @60520	LPF cd_scroll INT_VAR unusable1 = BIT5 price = 1000 STR_VAR spell = EVAL ~%current_spell_res%~ END
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x394 "%current_spell_res%" #8
   WRITE_ASCIIE 0x708 "%current_spell_res%" #8
@@ -4086,7 +4069,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0xb9c "%current_spell_res%" #8
   WRITE_ASCIIE 0xba8 "%current_spell_res%" #8
   WRITE_ASCIIE 0xbb4 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x3b8 "%current_spell_res%" #8
   WRITE_ASCIIE 0x708 "%current_spell_res%" #8
@@ -4149,7 +4132,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0xc0c "%current_spell_res%" #8
   WRITE_ASCIIE 0xc18 "%current_spell_res%" #8
   WRITE_ASCIIE 0xc24 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x3a0 "%current_spell_res%" #8
   WRITE_ASCIIE 0x714 "%current_spell_res%" #8
@@ -4349,7 +4332,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0xbac "%current_spell_res%" #8
   WRITE_ASCIIE 0xbb8 "%current_spell_res%" #8
   WRITE_ASCIIE 0xbc4 "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x3e8 "%current_spell_res%" #8
   WRITE_ASCIIE 0x750 "%current_spell_res%" #8
@@ -4875,7 +4858,7 @@ END ELSE BEGIN
   WRITE_ASCIIE 0x40c "%current_spell_res%" #8
   WRITE_ASCIIE 0x7d0 "%current_spell_res%" #8
   WRITE_ASCIIE 0x7dc "%current_spell_res%" #8
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x40c "%current_spell_res%" #8
   WRITE_ASCIIE 0x780 "%current_spell_res%" #8
@@ -5421,7 +5404,7 @@ dwExtraMageSpells[9]=~
 END ELSE BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2tele.spl~ 2 8 WIZARD_PX_EXPLODING_TELEPORTATIONS	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @60813	SAY UNIDENTIFIED_DESC @60814
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2tela.itm~	SAY NAME2 @60813	SAY DESC @60814	LPF cd_scroll INT_VAR unusable2 = BIT6 price = 5000 STR_VAR spell = EVAL ~%current_spell_res%~ END
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x46c "%current_spell_res%" #8
   WRITE_ASCIIE 0x7f8 "%current_spell_res%" #8
@@ -5546,7 +5529,7 @@ END ELSE BEGIN
   ADD_SPELL ~Derats_Magasin_2/Sorts/pxl2veng.spl~ 2 8 WIZARD_PX_KELEGZES_VENGEFUL_DISCHARGES	SPRINT current_spell_res "%DEST_RES%"	SAY NAME1 @60823	SAY UNIDENTIFIED_DESC @60824
   COPY ~Derats_Magasin_2/Objets/parcho.itm~	~override/pxl2vega.itm~	SAY NAME2 @60823	SAY DESC @60824	LPF cd_scroll INT_VAR unusable1 = BIT1 price = 5000 STR_VAR spell = EVAL ~%current_spell_res%~ END
   COPY_EXISTING	~pxl2scp2.2da~							~override~	REPLACE_TEXTUALLY ~PXL2VENG~ ~%current_spell_res%~
-  ACTION_IF GAME_IS ~TOB BGT BG2EE EET~ THEN BEGIN
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
   COPY_EXISTING	~pxoagen.cre~							~override~
   WRITE_ASCIIE 0x43c "%current_spell_res%" #8
   WRITE_ASCIIE 0x7bc "%current_spell_res%" #8
@@ -6060,7 +6043,7 @@ COPY ~Derats_Magasin_2/Potions/Copy~					~override~
 	 ~Derats_Magasin_2/Potions/Bams~					~override~
 
 
-ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN //Pas dans IWD
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN //Pas dans IWD
 //Amplificateur
 	COPY ~Derats_Magasin_2/Potions/pxl2ampl.itm~		~override~	SAY NAME2 @701	SAY DESC @702
 //Amplificateur puissant
@@ -6138,7 +6121,7 @@ COPY ~Derats_Magasin_2/Potions/pxl2bcrd.itm~			~override~	SAY NAME2 @7059	SAY DE
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 BEGIN @38	DESIGNATED 38	LABEL Px_Interplan_Druid
-REQUIRE_PREDICATE GAME_IS ~BGT TOB IWDEE BG2EE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~IWDEE BG2EE EET~ @0009
 REQUIRE_COMPONENT ~Setup-Derats_magasin_2.tp2~ 33 @39
 
 // Réutiliser les macros et les icônes installées par le composant principal.
