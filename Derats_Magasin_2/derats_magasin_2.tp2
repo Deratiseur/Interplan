@@ -1657,8 +1657,6 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 		//Groupe illusoire
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pdou.spl~	~override~	SAY NAME1 @130921	SAY UNIDENTIFIED_DESC @130922
 		//Trio infernal
-		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pinf.spl~	~override~	SAY NAME1 @130923	SAY UNIDENTIFIED_DESC @130924
-		//Effacement
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2pefc.spl~	~override~	SAY NAME1 @130925	SAY UNIDENTIFIED_DESC @130926
 		//Transformation de Dillpater
 		COPY ~Derats_Magasin_2/Objets/Coffre/Dilp/pxl2ptfo.spl~	~override~	SAY NAME1 @130927	SAY UNIDENTIFIED_DESC @130928
