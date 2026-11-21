@@ -49,7 +49,7 @@ LANGUAGE ~English~	~English~
 	~Derats_Magasin_2/Languages/English/Setup.tra~
 
 BEGIN @33	DESIGNATED 33	LABEL Px_Interplan_Main
-REQUIRE_PREDICATE GAME_IS ~BGT TOB IWDEE BG2EE EET~ @9003
+REQUIRE_PREDICATE GAME_IS ~IWDEE BG2EE EET~ @9003
 
 INCLUDE ~Derats_Magasin_2/Scripts/Tools/Macros.tph~
 INCLUDE ~Derats_Magasin_2/Scripts/Tools/gw_functions.tpa~
