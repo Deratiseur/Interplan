@@ -1597,7 +1597,7 @@ LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2prie~ GW_tooltips = ~@80901 @
 	COPY ~%BASH_FOR_FILESPEC%~ ~override/%new%.bam~
 	END
 	COPY ~Derats_Magasin_2/EE/Objets/pxl2dill.itm~		~override~	SAY NAME2 @4081	SAY DESC @4082
-	ACTION_IF GAME_IS ~BG2 BG2EE EET~ THEN BEGIN
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 		APPEND ~pxl2dilp.2da~ ~ELFORMORPHOSE	PXL2ELF4	3~
 	END
 	LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~pxl2dill~ GW_tooltips = ~@40821 @40822~ END
